@@ -1,0 +1,332 @@
+QualityReport
+10 October 2024 13:19:12
+
+------ Start build(Bootloader Dual Bank, Release) ------
+D:\RL78I1C_Program\Source_code_Full_Metering_DLMS_08_10_24\Source_code_Full_Metering_DLMS_08_10_24\01.Source\00Build\CS+_CCRL>(robocopy "Release" "Release\..\..\..\shared\Bootloader\CCRL" bootloader.fsy bootloader.mot bootloader.abs /IS /NS /NP /NJH /NJS /NDL /NFL )  & IF 0 LSS 8 SET ERRORLEVEL = 0 
+------ Build ended(Error:0, Warning:0)(Bootloader Dual Bank, Release) ------
+
+
+--- SHA1 hash value of output files ---
+D:\RL78I1C_Program\Source_code_Full_Metering_DLMS_08_10_24\Source_code_Full_Metering_DLMS_08_10_24\01.Source\00Build\CS+_CCRL\Release\bootloader.abs: 76602cdcc639edf1e1f3fe1fa12e8bbc5daefb25
+D:\RL78I1C_Program\Source_code_Full_Metering_DLMS_08_10_24\Source_code_Full_Metering_DLMS_08_10_24\01.Source\00Build\CS+_CCRL\Release\bootloader.mot: 0d93116c4c6dba1fbdf40daf5904d7dbb502ee74
+
+
+--- System Information ---
+*OS Version
+ Microsoft Windows 11 Pro (-, 10.0.22631, WOW64)
+*Language
+ English (United States)
+*.NET Framework Version
+ Microsoft .NET Framework 4 [.NET 4.8 or later] (533320)
+
+--- Application Information ---
+*Product Name
+ CS+ for CC
+*Package Version
+ V8.11.00  [30 Nov 2023]
+*Version
+ V9.11.00.04 [30 Oct 2023]
+*Assembly Version
+ 3.12.10.1
+*Product License
+ 
+*Execution Place
+ C:\Program Files (x86)\Renesas Electronics\CS+\CC
+*Memory Usage
+ *Private Working Set
+  554 MB
+ *Number of GDI Objects
+  2444
+ *Number of USER Objects
+  1850
+ *Opened Files
+  16 editors, 16 files, 237 KB
+
+--- Build Tool Plug-in Information ---
+RH850 Build tool CC-RH Plug-in
+ *Version
+  V8.09.00.00 [07 Oct 2022]
+ *Assembly Version
+  1.1.10.12
+ *DLL File Name
+  BuildToolCCRH.dll
+RL78 Build tool CC-RL Plug-in
+ *Version
+  V8.11.00.00 [29 Sep 2023]
+ *Assembly Version
+  1.0.0.0
+ *DLL File Name
+  BuildToolCCRL.dll
+RX Build tool CC-RX Plug-in
+ *Version
+  V8.09.00.00 [07 Oct 2022]
+ *Assembly Version
+  3.12.10.1
+ *DLL File Name
+  BuildToolCCRX.dll
+RH850 Build tool GHS CCRH850 Plug-in
+ *Version
+  V1.08.00.00 [03 Apr 2023]
+ *Assembly Version
+  1.0.0.0
+ *DLL File Name
+  BuildToolGHSCCRH850.dll
+
+--- Debug Tool Plug-in Information ---
+Debugger Collection Plug-in
+ *Version
+  V8.11.00.03 [21 Nov 2023]
+ *Assembly Version
+  2.12.10.1
+ *DLL File Name
+  DebugToolCollection.dll
+
+--- Other Plug-in Information ---
+Code Generator Plug-in for RH850
+ *Version
+  V1.02.02.05 [25 May 2018]
+ *Assembly Version
+  1.0.0.0
+ *DLL File Name
+  CodeGeneratorRH850.dll
+Code Generator Plug-in
+ *Version
+  V4.08.06.01 [28 Oct 2022]
+ *Assembly Version
+  3.0.0.0
+ *DLL File Name
+  CodePart.dll
+Code Generator/PinView Plug-in
+ *Version
+  V2.10.07.02 [08 Nov 2021]
+ *Assembly Version
+  1.0.0.0
+ *DLL File Name
+  CodePart2.dll
+Debug Console Plug-in
+ *Version
+  V8.09.00.03 [24 Nov 2022]
+ *Assembly Version
+  8.9.0.0
+ *DLL File Name
+  DebugConsole.dll
+Quick and Effective tool solution - QE
+ *Version
+  V9.11.00.03 [13 Oct 2023]
+ *Assembly Version
+  1.15.10.16
+ *DLL File Name
+  InCarTools.dll
+Pin Configurator Plug-in
+ *Version
+  V1.54.01.01 [31 Jul 2014]
+ *Assembly Version
+  1.6.10.23
+ *DLL File Name
+  PinConfig.dll
+Program Analyzer Plug-in
+ *Version
+  V4.13.00.03 [24 May 2023]
+ *Assembly Version
+  3.12.11.9
+ *DLL File Name
+  ProgramAnalyzer.dll
+IronPython Console Plug-in
+ *Version
+  V1.47.00.02 [01 Nov 2023]
+ *Assembly Version
+  1.6.10.23
+ *DLL File Name
+  PythonConsole.dll
+Editor plug-in DLL
+ *Version
+  V1.19.00.01 [24 Oct 2022]
+ *Assembly Version
+  1.1.0.0
+ *DLL File Name
+  SEditor.dll
+Stack Usage Tracer
+ *Version
+  V1.05.00.02 [30 Jul 2014]
+ *Assembly Version
+  1.30.11.15
+ *DLL File Name
+  Stk.dll
+Update Manager Plug-in
+ *Version
+  V2.03.00.02 [29 Oct 2018]
+ *Assembly Version
+  1.13.6.20
+ *DLL File Name
+  Update.dll
+
+Debug Tool Common Interface
+ *Version
+  V8.11.00.03 [21 Nov 2023]
+ *Assembly Version
+  3.12.10.1
+ *DLL File Name
+  CommonDebuggerInterface.dll
+Device Information Common Interface
+ *Version
+  V9.11.00.03 [13 Oct 2023]
+ *Assembly Version
+  3.0.0.0
+ *DLL File Name
+  DeviceInformation.dll
+
+--- Main Project Information ---
+D:\RL78I1C_Program\Source_code_Full_Metering_DLMS_08_10_24\Source_code_Full_Metering_DLMS_08_10_24\01.Source\00Build\CS+_CCRL\Smart Meter v1.0 NPL SM 1Ph2W.mtpj
+Microcontroller Information
+ *R5F10NPL
+  *File Name: Version
+   RL78_Productlist.xml: V8.110001
+   R5F10NPL_common.xml: V1.00.00.XX.XX
+   DR5F10NPL.DVF: V1.00
+   -: -
+   -: -
+  
+
+Build Tool Information
+ *CC-RL
+   * Version of plug-in(*.dll)
+     V8.11.00.02 [27 Oct 2023]
+   * The Version of the Compiler Package
+     V1.12.01
+  
+ * The version of SMS Assembler
+   V1.00.00.01 [29 May 2020]
+ * The version of GREEN_DSP Structured Assembler 
+   V1.04.02
+ 
+
+Debug Tool Information
+ *RL78 E2 Lite
+  Debugger Library V8.11.00.03 [21 Nov 2023]
+  E2 Lite 4100 A F/W V07.05
+  
+
+Other Tool Information
+ *None
+
+ *None
+
+ *Code Generator
+ *None
+
+ *Program Analyzer
+  *Version
+   V4.13.00.03 [24 May 2023]
+
+ *None
+
+Other Information
+ *RL78/I1C Code Library
+  *Version
+   V1.01.07.02 [08 Nov 2021]
+  *Description
+   Code library for RL78/I1C code generation plugin.
+
+--- Subproject Information(1/2) ---
+D:\RL78I1C_Program\Source_code_Full_Metering_DLMS_08_10_24\Source_code_Full_Metering_DLMS_08_10_24\01.Source\00Build\CS+_CCRL\Bootloader Dual Bank.mtsp
+Microcontroller Information
+ *R5F10NPL
+  *File Name: Version
+   RL78_Productlist.xml: V8.110001
+   R5F10NPL_common.xml: V1.00.00.XX.XX
+   DR5F10NPL.DVF: V1.00
+   -: -
+   -: -
+  
+
+Build Tool Information
+ *CC-RL
+   * Version of plug-in(*.dll)
+     V8.11.00.02 [27 Oct 2023]
+   * The Version of the Compiler Package
+     V1.12.01
+  
+ * The version of SMS Assembler
+   V1.00.00.01 [29 May 2020]
+ * The version of GREEN_DSP Structured Assembler 
+   V1.04.02
+ 
+
+Debug Tool Information
+ *RL78 E1(Serial)
+  Debugger Library V8.11.00.03 [21 Nov 2023]
+  
+
+Other Tool Information
+ *None
+
+ *None
+
+ *Code Generator
+ *None
+
+ *Program Analyzer
+  *Version
+   V4.13.00.03 [24 May 2023]
+
+ *None
+
+Other Information
+ *RL78/I1C Code Library
+  *Version
+   V1.01.07.02 [08 Nov 2021]
+  *Description
+   Code library for RL78/I1C code generation plugin.
+
+--- Subproject Information(2/2) ---
+D:\RL78I1C_Program\Source_code_Full_Metering_DLMS_08_10_24\Source_code_Full_Metering_DLMS_08_10_24\01.Source\00Build\CS+_CCRL\Metrology Application.mtsp
+Microcontroller Information
+ *R5F10NPL
+  *File Name: Version
+   RL78_Productlist.xml: V8.110001
+   R5F10NPL_common.xml: V1.00.00.XX.XX
+   DR5F10NPL.DVF: V1.00
+   -: -
+   -: -
+  
+
+Build Tool Information
+ *CC-RL
+   * Version of plug-in(*.dll)
+     V8.11.00.02 [27 Oct 2023]
+   * The Version of the Compiler Package
+     V1.12.01
+  
+ * The version of SMS Assembler
+   V1.00.00.01 [29 May 2020]
+ * The version of GREEN_DSP Structured Assembler 
+   V1.04.02
+ 
+
+Debug Tool Information
+ *RL78 E1(Serial)
+  Debugger Library V8.11.00.03 [21 Nov 2023]
+  
+
+Other Tool Information
+ *None
+
+ *None
+
+ *Code Generator
+ *None
+
+ *Program Analyzer
+  *Version
+   V4.13.00.03 [24 May 2023]
+
+ *None
+
+Other Information
+ *RL78/I1C Code Library
+  *Version
+   V1.01.07.02 [08 Nov 2021]
+  *Description
+   Code library for RL78/I1C code generation plugin.
+
+

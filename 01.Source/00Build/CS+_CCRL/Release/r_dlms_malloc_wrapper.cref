@@ -1,0 +1,278 @@
+****..\..\rl78i1c\libwrapper\dlms2\r_dlms_malloc_wrapper.c
+v2 
+:1728543801
+#1
+F "__DI" N I!1 T!2 ?18-2 
+T "void" KBV I!2 0x0 
+F "__EI" N I!3 T!2 ?19-2 
+F "__halt" N I!4 T!2 ?20-2 
+F "__stop" N I!5 T!2 ?21-2 
+F "__brk" N I!6 T!2 ?22-2 
+F "__nop" N I!7 T!2 ?23-2 
+F "__rolb" N I!8 T!9 ?25-2 P!10 P!11 
+T "unsigned char" KBU I!9 0x1 
+V "" N I!10 O!8 T!9 .1 0x1 
+V "" N I!11 O!8 T!9 .1 0x1 
+F "__rorb" N I!12 T!9 ?26-2 P!13 P!14 
+V "" N I!13 O!12 T!9 .1 0x1 
+V "" N I!14 O!12 T!9 .1 0x1 
+F "__rolw" N I!15 T!16 ?27-2 P!17 P!18 
+T "unsigned int" KBU I!16 0x2 
+V "" N I!17 O!15 T!16 .2 0x2 
+V "" N I!18 O!15 T!9 .1 0x1 
+F "__rorw" N I!19 T!16 ?28-2 P!20 P!21 
+V "" N I!20 O!19 T!16 .2 0x2 
+V "" N I!21 O!19 T!9 .1 0x1 
+F "__mulu" N I!22 T!16 ?30-2 P!23 P!24 
+V "" N I!23 O!22 T!9 .1 0x1 
+V "" N I!24 O!22 T!9 .1 0x1 
+F "__mului" N I!25 T!26 ?32-2 P!27 P!28 
+T "unsigned long" KBU I!26 0x4 
+V "" N I!27 O!25 T!16 .2 0x2 
+V "" N I!28 O!25 T!16 .2 0x2 
+F "__mulsi" N I!29 T!30 ?33-2 P!31 P!33 
+T "long" KBS I!30 0x4 
+V "" N I!31 O!29 T!32 .2 0x2 
+T "int" KBS I!32 0x2 
+V "" N I!33 O!29 T!32 .2 0x2 
+F "_COM_mulul" F I!34 T!35 ?42-2 P!36 P!37 
+T "unsigned long long" KBU I!35 0x8 
+V "" N I!36 O!34 T!26 .2 0x4 
+V "" N I!37 O!34 T!26 .2 0x4 
+F "_COM_mulsl" F I!38 T!39 ?43-2 P!40 P!41 
+T "long long" KBS I!39 0x8 
+V "" N I!40 O!38 T!30 .2 0x4 
+V "" N I!41 O!38 T!30 .2 0x4 
+F "_COM_divui" F I!42 T!16 ?48-2 P!43 P!44 
+V "" N I!43 O!42 T!16 .2 0x2 
+V "" N I!44 O!42 T!9 .1 0x1 
+F "_COM_divul" F I!45 T!26 ?49-2 P!46 P!47 
+V "" N I!46 O!45 T!26 .2 0x4 
+V "" N I!47 O!45 T!16 .2 0x2 
+F "_COM_remui" F I!48 T!9 ?53-2 P!49 P!50 
+V "" N I!49 O!48 T!16 .2 0x2 
+V "" N I!50 O!48 T!9 .1 0x1 
+F "_COM_remul" F I!51 T!16 ?54-2 P!52 P!53 
+V "" N I!52 O!51 T!26 .2 0x4 
+V "" N I!53 O!51 T!16 .2 0x2 
+F "_COM_macui" F I!54 T!26 ?58-2 P!55 P!56 P!57 
+V "" N I!55 O!54 T!16 .2 0x2 
+V "" N I!56 O!54 T!16 .2 0x2 
+V "" N I!57 O!54 T!26 .2 0x4 
+F "_COM_macsi" F I!58 T!30 ?59-2 P!59 P!60 P!61 
+V "" N I!59 O!58 T!32 .2 0x2 
+V "" N I!60 O!58 T!32 .2 0x2 
+V "" N I!61 O!58 T!30 .2 0x4 
+F "__get_psw" N I!62 T!9 ?63-2 
+F "__set_psw" N I!63 T!2 ?64-2 P!64 
+V "" N I!64 O!63 T!9 .1 0x1 
+F "__set1" N I!65 T!2 ?66-2 P!66 P!68 
+V "" N I!66 O!65 T!67 .2 0x2 
+T "" KP I!67 T!9 0x2 
+V "" N I!68 O!65 T!9 .1 0x1 
+F "__clr1" N I!69 T!2 ?67-2 P!70 P!71 
+V "" N I!70 O!69 T!67 .2 0x2 
+V "" N I!71 O!69 T!9 .1 0x1 
+F "__not1" N I!72 T!2 ?68-2 P!73 P!74 
+V "" N I!73 O!72 T!67 .2 0x2 
+V "" N I!74 O!72 T!9 .1 0x1 
+T "int8_t" KT I!75 T!76 !26-4 0x1 
+T "signed char" KBS I!76 0x1 
+T "uint8_t" KT I!77 T!9 !27-4 0x1 
+T "int16_t" KT I!78 T!79 !28-4 0x2 
+T "short" KBS I!79 0x2 
+T "uint16_t" KT I!80 T!81 !29-4 0x2 
+T "unsigned short" KBU I!81 0x2 
+T "int32_t" KT I!82 T!30 !30-4 0x4 
+T "uint32_t" KT I!83 T!26 !31-4 0x4 
+T "int64_t" KT I!84 T!39 !36-4 0x8 
+T "uint64_t" KT I!85 T!35 !37-4 0x8 
+T "double64_t" KT I!86 T!35 !42-4 0x8 
+T "float32_t" KT I!87 T!88 !43-4 0x4 
+T "float" KBF I!88 0x4 
+T "" KS I!89 !38-6 0x1 VM!90 VM!91 VM!92 VM!93 VM!94 VM!95 VM!96 VM!97 
+V "no0" - I!90 O!89 T!9 !39-6 .1 0x1 BO0 BIS1 
+V "no1" - I!91 O!89 T!9 !40-6 .1 0x1 BO1 BIS1 
+V "no2" - I!92 O!89 T!9 !41-6 .1 0x1 BO2 BIS1 
+V "no3" - I!93 O!89 T!9 !42-6 .1 0x1 BO3 BIS1 
+V "no4" - I!94 O!89 T!9 !43-6 .1 0x1 BO4 BIS1 
+V "no5" - I!95 O!89 T!9 !44-6 .1 0x1 BO5 BIS1 
+V "no6" - I!96 O!89 T!9 !45-6 .1 0x1 BO6 BIS1 
+V "no7" - I!97 O!89 T!9 !46-6 .1 0x1 BO7 BIS1 
+T "__bitf_T" KT I!98 T!89 !47-6 0x1 
+T "" KS I!99 !50-6 0x2 VM!100 VM!101 VM!102 VM!103 VM!104 VM!105 VM!106 VM!107 VM!108 VM!109 VM!110 VM!111 VM!112 VM!113 VM!114 VM!115 
+V "no0" - I!100 O!99 T!9 !51-6 .1 0x1 BO0 BIS1 
+V "no1" - I!101 O!99 T!9 !52-6 .1 0x1 BO1 BIS1 
+V "no2" - I!102 O!99 T!9 !53-6 .1 0x1 BO2 BIS1 
+V "no3" - I!103 O!99 T!9 !54-6 .1 0x1 BO3 BIS1 
+V "no4" - I!104 O!99 T!9 !55-6 .1 0x1 BO4 BIS1 
+V "no5" - I!105 O!99 T!9 !56-6 .1 0x1 BO5 BIS1 
+V "no6" - I!106 O!99 T!9 !57-6 .1 0x1 BO6 BIS1 
+V "no7" - I!107 O!99 T!9 !58-6 .1 0x1 BO7 BIS1 
+V "no8" - I!108 O!99 T!9 !59-6 .1 0x1 BO8 BIS1 
+V "no9" - I!109 O!99 T!9 !60-6 .1 0x1 BO9 BIS1 
+V "no10" - I!110 O!99 T!9 !61-6 .1 0x1 BO10 BIS1 
+V "no11" - I!111 O!99 T!9 !62-6 .1 0x1 BO11 BIS1 
+V "no12" - I!112 O!99 T!9 !63-6 .1 0x1 BO12 BIS1 
+V "no13" - I!113 O!99 T!9 !64-6 .1 0x1 BO13 BIS1 
+V "no14" - I!114 O!99 T!9 !65-6 .1 0x1 BO14 BIS1 
+V "no15" - I!115 O!99 T!9 !66-6 .1 0x1 BO15 BIS1 
+T "__bitf_T2" KT I!116 T!99 !67-6 0x2 
+F "acos" F I!117 T!88 ?70-7 P!118 
+V "" N I!118 O!117 T!88 .2 0x4 
+F "asin" F I!119 T!88 ?71-7 P!120 
+V "" N I!120 O!119 T!88 .2 0x4 
+F "atan" F I!121 T!88 ?72-7 P!122 
+V "" N I!122 O!121 T!88 .2 0x4 
+F "atan2" F I!123 T!88 ?73-7 P!124 P!125 
+V "" N I!124 O!123 T!88 .2 0x4 
+V "" N I!125 O!123 T!88 .2 0x4 
+F "cos" F I!126 T!88 ?74-7 P!127 
+V "" N I!127 O!126 T!88 .2 0x4 
+F "sin" F I!128 T!88 ?75-7 P!129 
+V "" N I!129 O!128 T!88 .2 0x4 
+F "tan" F I!130 T!88 ?76-7 P!131 
+V "" N I!131 O!130 T!88 .2 0x4 
+F "cosh" F I!132 T!88 ?77-7 P!133 
+V "" N I!133 O!132 T!88 .2 0x4 
+F "sinh" F I!134 T!88 ?78-7 P!135 
+V "" N I!135 O!134 T!88 .2 0x4 
+F "tanh" F I!136 T!88 ?79-7 P!137 
+V "" N I!137 O!136 T!88 .2 0x4 
+F "exp" F I!138 T!88 ?80-7 P!139 
+V "" N I!139 O!138 T!88 .2 0x4 
+F "frexp" F I!140 T!88 ?81-7 P!141 P!142 
+V "" N I!141 O!140 T!88 .2 0x4 
+V "" N I!142 O!140 T!143 .2 0x2 
+T "" KP I!143 T!32 0x2 
+F "ldexp" F I!144 T!88 ?82-7 P!145 P!146 
+V "" N I!145 O!144 T!88 .2 0x4 
+V "" N I!146 O!144 T!32 .2 0x2 
+F "log" F I!147 T!88 ?83-7 P!148 
+V "" N I!148 O!147 T!88 .2 0x4 
+F "log10" F I!149 T!88 ?84-7 P!150 
+V "" N I!150 O!149 T!88 .2 0x4 
+F "modf" F I!151 T!88 ?85-7 P!152 P!153 
+V "" N I!152 O!151 T!88 .2 0x4 
+V "" N I!153 O!151 T!154 .2 0x2 
+T "" KP I!154 T!88 0x2 
+F "pow" F I!155 T!88 ?86-7 P!156 P!157 
+V "" N I!156 O!155 T!88 .2 0x4 
+V "" N I!157 O!155 T!88 .2 0x4 
+F "sqrt" F I!158 T!88 ?87-7 P!159 
+V "" N I!159 O!158 T!88 .2 0x4 
+F "ceil" F I!160 T!88 ?88-7 P!161 
+V "" N I!161 O!160 T!88 .2 0x4 
+F "fabs" F I!162 T!88 ?89-7 P!163 
+V "" N I!163 O!162 T!88 .2 0x4 
+F "floor" F I!164 T!88 ?90-7 P!165 
+V "" N I!165 O!164 T!88 .2 0x4 
+F "fmod" F I!166 T!88 ?91-7 P!167 P!168 
+V "" N I!167 O!166 T!88 .2 0x4 
+V "" N I!168 O!166 T!88 .2 0x4 
+F "acosf" F I!169 T!88 ?114-7 P!170 
+V "" N I!170 O!169 T!88 .2 0x4 
+F "asinf" F I!171 T!88 ?115-7 P!172 
+V "" N I!172 O!171 T!88 .2 0x4 
+F "atanf" F I!173 T!88 ?116-7 P!174 
+V "" N I!174 O!173 T!88 .2 0x4 
+F "atan2f" F I!175 T!88 ?117-7 P!176 P!177 
+V "" N I!176 O!175 T!88 .2 0x4 
+V "" N I!177 O!175 T!88 .2 0x4 
+F "cosf" F I!178 T!88 ?118-7 P!179 
+V "" N I!179 O!178 T!88 .2 0x4 
+F "sinf" F I!180 T!88 ?119-7 P!181 
+V "" N I!181 O!180 T!88 .2 0x4 
+F "tanf" F I!182 T!88 ?120-7 P!183 
+V "" N I!183 O!182 T!88 .2 0x4 
+F "coshf" F I!184 T!88 ?121-7 P!185 
+V "" N I!185 O!184 T!88 .2 0x4 
+F "sinhf" F I!186 T!88 ?122-7 P!187 
+V "" N I!187 O!186 T!88 .2 0x4 
+F "tanhf" F I!188 T!88 ?123-7 P!189 
+V "" N I!189 O!188 T!88 .2 0x4 
+F "expf" F I!190 T!88 ?124-7 P!191 
+V "" N I!191 O!190 T!88 .2 0x4 
+F "frexpf" F I!192 T!88 ?125-7 P!193 P!194 
+V "" N I!193 O!192 T!88 .2 0x4 
+V "" N I!194 O!192 T!143 .2 0x2 
+F "ldexpf" F I!195 T!88 ?126-7 P!196 P!197 
+V "" N I!196 O!195 T!88 .2 0x4 
+V "" N I!197 O!195 T!32 .2 0x2 
+F "logf" F I!198 T!88 ?127-7 P!199 
+V "" N I!199 O!198 T!88 .2 0x4 
+F "log10f" F I!200 T!88 ?128-7 P!201 
+V "" N I!201 O!200 T!88 .2 0x4 
+F "modff" F I!202 T!88 ?129-7 P!203 P!204 
+V "" N I!203 O!202 T!88 .2 0x4 
+V "" N I!204 O!202 T!154 .2 0x2 
+F "powf" F I!205 T!88 ?130-7 P!206 P!207 
+V "" N I!206 O!205 T!88 .2 0x4 
+V "" N I!207 O!205 T!88 .2 0x4 
+F "sqrtf" F I!208 T!88 ?131-7 P!209 
+V "" N I!209 O!208 T!88 .2 0x4 
+F "ceilf" F I!210 T!88 ?132-7 P!211 
+V "" N I!211 O!210 T!88 .2 0x4 
+F "fabsf" F I!212 T!88 ?133-7 P!213 
+V "" N I!213 O!212 T!88 .2 0x4 
+F "floorf" F I!214 T!88 ?134-7 P!215 
+V "" N I!215 O!214 T!88 .2 0x4 
+F "fmodf" F I!216 T!88 ?135-7 P!217 P!218 
+V "" N I!217 O!216 T!88 .2 0x4 
+V "" N I!218 O!216 T!88 .2 0x4 
+T "ptrdiff_t" KT I!219 T!32 !18-8 0x2 
+T "size_t" KT I!220 T!16 !19-8 0x2 
+T "fp_predicate" KT I!221 T!222 !25-3 0x4 
+T "" KP I!222 T!223 0x4 
+T "" KF I!223 T!77 0x0 
+F "WRP_EXT_SoftReset" F I!224 T!2 ?44-3 
+F "WRP_EXT_Bcd2Dec" F I!225 T!77 ?45-3 P!226 
+V "" N I!226 O!225 T!77 .1 0x1 
+F "WRP_EXT_Dec2Bcd" F I!227 T!77 ?46-3 P!228 
+V "" N I!228 O!227 T!77 .1 0x1 
+F "WRP_EXT_HwDelayIsTimerRunning" F I!229 T!77 ?48-3 
+F "WRP_EXT_HwDelay" F I!230 T!77 ?49-3 P!231 P!232 
+V "" N I!231 O!230 T!80 .2 0x2 
+V "" N I!232 O!230 T!221 .2 0x4 
+F "WRP_EXT_HwDelayMillisecondTimerCallback" F I!233 T!2 ?50-3 
+F "WRP_EXT_Heap_Malloc" F I!234 T!235 ?52-3 76-1 P!236 
+T "" KP I!235 T!2 0x2 
+V "" N I!236 O!234 T!220 .2 0x2 
+F "WRP_EXT_Heap_Free" F I!237 T!2 ?53-3 88-1 P!238 
+V "" N I!238 O!237 T!235 .2 0x2 
+F "R_DLMS_Malloc" F I!239 T!235 #74-1 !75,77-1-1 ?36-9 P!244 
+F "R_DLMS_Free" F I!241 T!2 #86-1 !87,89-1-1 ?37-9 P!246 
+V "size" N I!244 O!239 T!80 !74-1 76-1 .2 0x2 
+V "memory" N I!246 O!241 T!235 !86-1 88-1 .2 0x2 
+****%CxSystemPath%\inc\builtin.h
+v2 
+:1728543801
+#2
+****..\..\rl78i1c\appwrapper\wrp_app_ext.h
+v2 
+:1728543801
+#3
+****..\..\shared\Compiler\CCRL\typedef.h
+v2 
+:1728543801
+#4
+****..\..\shared\Compiler\CCRL\compiler.h
+v2 
+:1728543801
+#5
+****..\..\shared\Compiler\CCRL\iodefine.h
+v2 
+:1728543801
+#6
+****%CxSystemPath%\inc\math.h
+v2 
+:1728543801
+#7
+****%CxSystemPath%\inc\stddef.h
+v2 
+:1728543801
+#8
+****..\..\shared\dlms2\dlmslibrary\header\r_dlms_malloc_wrapper.h
+v2 
+:1728543801
+#9

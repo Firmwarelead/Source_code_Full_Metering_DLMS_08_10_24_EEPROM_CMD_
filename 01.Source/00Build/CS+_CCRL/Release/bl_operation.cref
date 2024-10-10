@@ -1,0 +1,280 @@
+****..\..\bootloader\core\bl_operation.c
+v2 
+:1728543769
+#1
+F "__DI" N I!1 T!2 ?18-2 
+T "void" KBV I!2 0x0 
+F "__EI" N I!3 T!2 ?19-2 
+F "__halt" N I!4 T!2 ?20-2 
+F "__stop" N I!5 T!2 ?21-2 
+F "__brk" N I!6 T!2 ?22-2 
+F "__nop" N I!7 T!2 ?23-2 
+F "__rolb" N I!8 T!9 ?25-2 P!10 P!11 
+T "unsigned char" KBU I!9 0x1 
+V "" N I!10 O!8 T!9 .1 0x1 
+V "" N I!11 O!8 T!9 .1 0x1 
+F "__rorb" N I!12 T!9 ?26-2 P!13 P!14 
+V "" N I!13 O!12 T!9 .1 0x1 
+V "" N I!14 O!12 T!9 .1 0x1 
+F "__rolw" N I!15 T!16 ?27-2 P!17 P!18 
+T "unsigned int" KBU I!16 0x2 
+V "" N I!17 O!15 T!16 .2 0x2 
+V "" N I!18 O!15 T!9 .1 0x1 
+F "__rorw" N I!19 T!16 ?28-2 P!20 P!21 
+V "" N I!20 O!19 T!16 .2 0x2 
+V "" N I!21 O!19 T!9 .1 0x1 
+F "__mulu" N I!22 T!16 ?30-2 P!23 P!24 
+V "" N I!23 O!22 T!9 .1 0x1 
+V "" N I!24 O!22 T!9 .1 0x1 
+F "__mului" N I!25 T!26 ?32-2 P!27 P!28 
+T "unsigned long" KBU I!26 0x4 
+V "" N I!27 O!25 T!16 .2 0x2 
+V "" N I!28 O!25 T!16 .2 0x2 
+F "__mulsi" N I!29 T!30 ?33-2 P!31 P!33 
+T "long" KBS I!30 0x4 
+V "" N I!31 O!29 T!32 .2 0x2 
+T "int" KBS I!32 0x2 
+V "" N I!33 O!29 T!32 .2 0x2 
+F "_COM_mulul" F I!34 T!35 ?42-2 P!36 P!37 
+T "unsigned long long" KBU I!35 0x8 
+V "" N I!36 O!34 T!26 .2 0x4 
+V "" N I!37 O!34 T!26 .2 0x4 
+F "_COM_mulsl" F I!38 T!39 ?43-2 P!40 P!41 
+T "long long" KBS I!39 0x8 
+V "" N I!40 O!38 T!30 .2 0x4 
+V "" N I!41 O!38 T!30 .2 0x4 
+F "_COM_divui" F I!42 T!16 ?48-2 P!43 P!44 
+V "" N I!43 O!42 T!16 .2 0x2 
+V "" N I!44 O!42 T!9 .1 0x1 
+F "_COM_divul" F I!45 T!26 ?49-2 P!46 P!47 
+V "" N I!46 O!45 T!26 .2 0x4 
+V "" N I!47 O!45 T!16 .2 0x2 
+F "_COM_remui" F I!48 T!9 ?53-2 P!49 P!50 
+V "" N I!49 O!48 T!16 .2 0x2 
+V "" N I!50 O!48 T!9 .1 0x1 
+F "_COM_remul" F I!51 T!16 ?54-2 P!52 P!53 
+V "" N I!52 O!51 T!26 .2 0x4 
+V "" N I!53 O!51 T!16 .2 0x2 
+F "_COM_macui" F I!54 T!26 ?58-2 P!55 P!56 P!57 
+V "" N I!55 O!54 T!16 .2 0x2 
+V "" N I!56 O!54 T!16 .2 0x2 
+V "" N I!57 O!54 T!26 .2 0x4 
+F "_COM_macsi" F I!58 T!30 ?59-2 P!59 P!60 P!61 
+V "" N I!59 O!58 T!32 .2 0x2 
+V "" N I!60 O!58 T!32 .2 0x2 
+V "" N I!61 O!58 T!30 .2 0x4 
+F "__get_psw" N I!62 T!9 ?63-2 
+F "__set_psw" N I!63 T!2 ?64-2 P!64 
+V "" N I!64 O!63 T!9 .1 0x1 
+F "__set1" N I!65 T!2 ?66-2 P!66 P!68 
+V "" N I!66 O!65 T!67 .2 0x2 
+T "" KP I!67 T!9 0x2 
+V "" N I!68 O!65 T!9 .1 0x1 
+F "__clr1" N I!69 T!2 ?67-2 P!70 P!71 
+V "" N I!70 O!69 T!67 .2 0x2 
+V "" N I!71 O!69 T!9 .1 0x1 
+F "__not1" N I!72 T!2 ?68-2 P!73 P!74 
+V "" N I!73 O!72 T!67 .2 0x2 
+V "" N I!74 O!72 T!9 .1 0x1 
+T "int8_t" KT I!75 T!76 !26-4 0x1 
+T "signed char" KBS I!76 0x1 
+T "uint8_t" KT I!77 T!9 !27-4 0x1 
+T "int16_t" KT I!78 T!79 !28-4 0x2 
+T "short" KBS I!79 0x2 
+T "uint16_t" KT I!80 T!81 !29-4 0x2 
+T "unsigned short" KBU I!81 0x2 
+T "int32_t" KT I!82 T!30 !30-4 0x4 
+T "uint32_t" KT I!83 T!26 !31-4 0x4 
+T "int64_t" KT I!84 T!39 !36-4 0x8 
+T "uint64_t" KT I!85 T!35 !37-4 0x8 
+T "double64_t" KT I!86 T!35 !42-4 0x8 
+T "float32_t" KT I!87 T!88 !43-4 0x4 
+T "float" KBF I!88 0x4 
+T "" KS I!89 !38-6 0x1 VM!90 VM!91 VM!92 VM!93 VM!94 VM!95 VM!96 VM!97 
+V "no0" - I!90 O!89 T!9 !39-6 .1 0x1 BO0 BIS1 
+V "no1" - I!91 O!89 T!9 !40-6 .1 0x1 BO1 BIS1 
+V "no2" - I!92 O!89 T!9 !41-6 .1 0x1 BO2 BIS1 
+V "no3" - I!93 O!89 T!9 !42-6 .1 0x1 BO3 BIS1 
+V "no4" - I!94 O!89 T!9 !43-6 .1 0x1 BO4 BIS1 
+V "no5" - I!95 O!89 T!9 !44-6 .1 0x1 BO5 BIS1 
+V "no6" - I!96 O!89 T!9 !45-6 .1 0x1 BO6 BIS1 
+V "no7" - I!97 O!89 T!9 !46-6 .1 0x1 BO7 BIS1 
+T "__bitf_T" KT I!98 T!89 !47-6 0x1 
+T "" KS I!99 !50-6 0x2 VM!100 VM!101 VM!102 VM!103 VM!104 VM!105 VM!106 VM!107 VM!108 VM!109 VM!110 VM!111 VM!112 VM!113 VM!114 VM!115 
+V "no0" - I!100 O!99 T!9 !51-6 .1 0x1 BO0 BIS1 
+V "no1" - I!101 O!99 T!9 !52-6 .1 0x1 BO1 BIS1 
+V "no2" - I!102 O!99 T!9 !53-6 .1 0x1 BO2 BIS1 
+V "no3" - I!103 O!99 T!9 !54-6 .1 0x1 BO3 BIS1 
+V "no4" - I!104 O!99 T!9 !55-6 .1 0x1 BO4 BIS1 
+V "no5" - I!105 O!99 T!9 !56-6 .1 0x1 BO5 BIS1 
+V "no6" - I!106 O!99 T!9 !57-6 .1 0x1 BO6 BIS1 
+V "no7" - I!107 O!99 T!9 !58-6 .1 0x1 BO7 BIS1 
+V "no8" - I!108 O!99 T!9 !59-6 .1 0x1 BO8 BIS1 
+V "no9" - I!109 O!99 T!9 !60-6 .1 0x1 BO9 BIS1 
+V "no10" - I!110 O!99 T!9 !61-6 .1 0x1 BO10 BIS1 
+V "no11" - I!111 O!99 T!9 !62-6 .1 0x1 BO11 BIS1 
+V "no12" - I!112 O!99 T!9 !63-6 .1 0x1 BO12 BIS1 
+V "no13" - I!113 O!99 T!9 !64-6 .1 0x1 BO13 BIS1 
+V "no14" - I!114 O!99 T!9 !65-6 .1 0x1 BO14 BIS1 
+V "no15" - I!115 O!99 T!9 !66-6 .1 0x1 BO15 BIS1 
+T "__bitf_T2" KT I!116 T!99 !67-6 0x2 
+T "tagBootLoaderProperties" KS I!117 !40-8 0x1c VM!121 VM!127 VM!132 
+T "tagDeviceInfo" KS I!118 !42-8 0x8 VM!119 VM!120 
+V "rom_size" - I!119 O!118 T!83 !44-8 .2 0x4 BO0 BIS32 
+V "bank_size" - I!120 O!118 T!83 !45-8 .2 0x4 BO32 BIS32 
+V "device" - I!121 O!117 T!118 !46-8 .2 0x8 BO0 BIS64 
+T "tagUserAppArea" KS I!122 !47-8 0x10 VM!123 VM!124 VM!125 VM!126 
+V "start_addr" - I!123 O!122 T!83 !49-8 .2 0x4 BO0 BIS32 
+V "branch_addr" - I!124 O!122 T!83 !50-8 .2 0x4 BO32 BIS32 
+V "entry_addr" - I!125 O!122 T!83 !51-8 .2 0x4 BO64 BIS32 
+V "end_addr" - I!126 O!122 T!83 !52-8 .2 0x4 BO96 BIS32 
+V "user_app" - I!127 O!117 T!122 !53-8 .2 0x10 BO64 BIS128 
+T "tagEntryAddress" KS I!128 !55-8 0x4 VM!129 
+V "bl_bswap" - I!129 O!128 T!130 !57-8 .2 0x4 BO0 BIS32 
+T "" KP I!130 T!131 0x4 
+T "" KF I!131 T!2 0x0 
+V "entry_func" - I!132 O!117 T!128 !58-8 .2 0x4 BO192 BIS32 
+T "bl_properties_t" KT I!133 T!117 !60-8 0x1c 
+F "BL_memcpy_nf" F I!134 T!135 #66-1 !71,88-1-1 ?89-8 P!223 P!224 P!225 
+T "" KP I!135 T!2 0x2 
+T "" MOD"C" KP I!138 T!2 0x4 
+F "BL_memcmp_nf" F I!140 T!32 #105-1 !110,125-1-1 ?104-8 P!231 P!232 P!233 
+F "BL_OPERATION_RequestUserReset" F I!144 T!2 #139-1 !140,142-1-1 ?116-8 
+V "g_bl_properties" GOF I!145 T!133 ?53-7 .2 0x1c 
+F "BL_FLASH_Prepare" F I!146 T!80 ?77-11 
+F "BL_FLASH_CleanUp" F I!147 T!2 ?85-11 
+F "BL_FLASH_BankProgramming" F I!148 T!80 ?118-11 P!149 P!150 P!152 
+V "" N I!149 O!148 T!83 .2 0x4 
+V "" N I!150 O!148 T!151 .2 0x2 
+T "" KP I!151 T!77 0x2 
+V "" N I!152 O!148 T!80 .2 0x2 
+F "BL_FLASH_GetBootFlag" F I!153 T!80 ?134-11 P!154 
+V "" N I!154 O!153 T!151 .2 0x2 
+F "BL_FLASH_RAM_SwapBankWithRamIsr" F I!155 T!80 ?153-11 P!156 
+V "" N I!156 O!155 T!157 .2 0x2 
+T "" KP I!157 T!2 0x2 
+F "BL_FLASH_RAM_JumpBankSwapEntry" F I!158 T!2 ?161-11 
+F "BL_HASHING_CalculateOnce" F I!159 T!80 ?64-12 P!160 P!161 P!162 
+V "" N I!160 O!159 T!83 .2 0x4 
+V "" N I!161 O!159 T!83 .2 0x4 
+V "" N I!162 O!159 T!163 .2 0x2 
+T "" KP I!163 T!80 0x2 
+T "" KS I!164 !41-13 0x8 VM!165 VM!166 VM!167 VM!168 VM!169 VM!170 VM!171 
+V "sec" - I!165 O!164 T!77 !42-13 .1 0x1 BO0 BIS8 
+V "min" - I!166 O!164 T!77 !43-13 .1 0x1 BO8 BIS8 
+V "hr" - I!167 O!164 T!77 !44-13 .1 0x1 BO16 BIS8 
+V "day" - I!168 O!164 T!77 !45-13 .1 0x1 BO24 BIS8 
+V "wk" - I!169 O!164 T!77 !46-13 .1 0x1 BO32 BIS8 
+V "mon" - I!170 O!164 T!77 !47-13 .1 0x1 BO40 BIS8 
+V "yr" - I!171 O!164 T!80 !48-13 .2 0x2 BO48 BIS16 
+T "bl_time_stamp" KT I!172 T!164 !49-13 0x8 
+T "" KS I!173 !52-13 0x3c VM!174 VM!176 VM!178 VM!179 VM!180 VM!181 
+V "identifier" - I!174 O!173 T!175 !53-13 .1 0x20 BO0 BIS256 
+T "" KA32 I!175 T!77 0x20 
+V "software_version" - I!176 O!173 T!177 !54-13 .1 0x4 BO256 BIS32 
+T "" KA4 I!177 T!77 0x4 
+V "user_app_size" - I!178 O!173 T!83 !55-13 .2 0x4 BO288 BIS32 
+V "user_app_hash" - I!179 O!173 T!83 !56-13 .2 0x4 BO320 BIS32 
+V "transfer_time" - I!180 O!173 T!172 !57-13 .2 0x8 BO352 BIS64 
+V "activate_time" - I!181 O!173 T!172 !58-13 .2 0x8 BO416 BIS64 
+T "bl_image_header_t" KT I!182 T!173 !59-13 0x3c 
+F "BL_IMAGE_GetBankContent" F I!183 T!80 ?89-13 P!184 P!185 P!186 P!187 
+V "" N I!184 O!183 T!83 .2 0x4 
+V "" N I!185 O!183 T!151 .2 0x2 
+V "" N I!186 O!183 T!80 .2 0x2 
+V "" N I!187 O!183 T!77 .1 0x1 
+F "BL_IMAGE_GetHeaderInfo" F I!188 T!80 ?106-13 P!189 P!191 
+V "" N I!189 O!188 T!190 .2 0x2 
+T "" KP I!190 T!182 0x2 
+V "" N I!191 O!188 T!77 .1 0x1 
+F "BL_IMAGE_SetSoftwareVersion" F I!192 T!80 ?119-13 P!193 
+V "" N I!193 O!192 T!151 .2 0x2 
+F "BL_IMAGE_SetTransferTime" F I!194 T!80 ?129-13 P!195 
+V "" N I!195 O!194 T!196 .2 0x2 
+T "" KP I!196 T!172 0x2 
+F "BL_IMAGE_SetActivationTime" F I!197 T!80 ?139-13 P!198 
+V "" N I!198 O!197 T!196 .2 0x2 
+T "tagImageUpdateStatus" KU I!199 !41-14 0x2 VM!200 VM!206 
+V "value" - I!200 O!199 T!80 !43-14 .2 0x2 BO0 BIS16 
+T "tagImageUpdateDetails" KS I!201 !44-14 0x2 VM!202 VM!203 VM!204 VM!205 
+V "new_update_info" - I!202 O!201 T!80 !46-14 .2 0x2 BO0 BIS1 
+V "update_sucess" - I!203 O!201 T!80 !47-14 .2 0x2 BO1 BIS1 
+V "update_failed_new_image_not_work" - I!204 O!201 T!80 !48-14 .2 0x2 BO2 BIS1 
+V "reserved" - I!205 O!201 T!80 !49-14 .2 0x2 BO3 BIS13 
+V "details" - I!206 O!199 T!201 !51-14 .2 0x2 BO0 BIS16 
+T "bl_image_update_status_t" KT I!207 T!199 !52-14 0x2 
+T "tagBLInformation" KS I!208 !54-14 0x4 VM!209 VM!210 VM!211 
+V "reset_count" - I!209 O!208 T!77 !56-14 .1 0x1 BO0 BIS8 
+V "is_user_reset" - I!210 O!208 T!77 !57-14 #141-1 .1 0x1 BO8 BIS8 
+V "image_update" - I!211 O!208 T!207 !58-14 .2 0x2 BO16 BIS16 
+T "BL_INFORMATION" KT I!212 T!208 !59-14 0x4 
+V "g_bl_resf" GN I!213 T!77 ?72-14 .1 0x1 
+V "g_bl_porsr" GN I!214 T!77 ?73-14 .1 0x1 
+V "g_bl_info" GN I!215 T!212 ?77-14 #141-1 .2 0x4 
+F "BL_IncreaseSoftwareVersion" F I!216 T!2 ?88-14 P!217 
+V "" N I!217 O!216 T!151 .2 0x2 
+F "BL_AcknowledgeImageUpdateStatus" F I!218 T!2 ?96-14 
+F "BL_GetImageUpdateStatus" F I!219 T!207 ?104-14 
+V "dest" N I!223 O!134 T!135 !67-1 72-1 .2 0x2 
+V "src" N I!224 O!134 T!138 !68-1 73-1 .2 0x4 
+V "size" N I!225 O!134 T!80 !69-1 #84-1 81-1 84-1 .2 0x2 
+V "dest_addr" N I!226 O!134 T!80 !72-1 #72-1 #83-1 83-1 87-1 .2 0x2 
+V "src_addr" N I!227 O!134 T!83 !73-1 #73-1 #83-1 83-1 .2 0x4 
+V "lhs" N I!231 O!140 T!135 !106-1 112-1 .2 0x2 
+V "rhs" N I!232 O!140 T!138 !107-1 113-1 .2 0x4 
+V "size" N I!233 O!140 T!80 !108-1 #121-1 115-1 121-1 .2 0x2 
+V "result" N I!234 O!140 T!32 !111-1 #117-1 118-1 124-1 .2 0x2 
+V "dest_addr" N I!235 O!140 T!80 !112-1 #112-1 #117-1 117-1 .2 0x2 
+V "src_addr" N I!236 O!140 T!83 !113-1 #113-1 #117-1 117-1 .2 0x4 
+****%CxSystemPath%\inc\builtin.h
+v2 
+:1728543769
+#2
+****..\..\shared\Bootloader\header\bl_header.h
+v2 
+:1728543769
+#3
+****..\..\shared\Compiler\CCRL\typedef.h
+v2 
+:1728543769
+#4
+****..\..\shared\Compiler\CCRL\compiler.h
+v2 
+:1728543769
+#5
+****..\..\shared\Compiler\CCRL\iodefine.h
+v2 
+:1728543769
+#6
+****..\..\shared\Bootloader\header\bl_wrp_properties.h
+v2 
+:1728543769
+#7
+****..\..\shared\Bootloader\header\bl_operation.h
+v2 
+:1728543769
+#8
+****..\..\shared\Bootloader\header\bl_platform.h
+v2 
+:1728543769
+#9
+****..\..\shared\Bootloader\header\bl_core.h
+v2 
+:1728543769
+#10
+****..\..\shared\Bootloader\header\bl_flash.h
+v2 
+:1728543769
+#11
+****..\..\shared\Bootloader\header\bl_hashing.h
+v2 
+:1728543769
+#12
+****..\..\shared\Bootloader\header\bl_image.h
+v2 
+:1728543769
+#13
+****..\..\shared\Bootloader\header\bl_main.h
+v2 
+:1728543769
+#14

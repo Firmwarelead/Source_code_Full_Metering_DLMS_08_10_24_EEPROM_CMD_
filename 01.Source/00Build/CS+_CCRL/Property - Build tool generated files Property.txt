@@ -1,0 +1,9 @@
+﻿CS+ V8.11.00  [30 Nov 2023] [Property - Build tool generated files Property]
+Thursday, July 25, 2024 4:00:45 PM
+Project Name :Bootloader Dual Bank
+Tool : R5F10NPL, CC-RL, RL78 E1(Serial), Code Generator, Program Analyzer
+------------------------------------------------------------------------------
+ Category              Name           Value                       Active help
+[Category Information]
+ Category Information                                             
+                       Category name  Build tool generated files  This is the name of this category. The category name can be between 1 and 200 characters.Also, the category name colored in gray is fixed.

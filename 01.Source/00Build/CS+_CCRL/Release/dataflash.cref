@@ -1,0 +1,276 @@
+****..\..\rl78i1c\application\dataflash\dataflash.c
+v2 
+:1728543778
+#1
+F "__DI" N I!1 T!2 ?18-2 
+T "void" KBV I!2 0x0 
+F "__EI" N I!3 T!2 ?19-2 
+F "__halt" N I!4 T!2 ?20-2 
+F "__stop" N I!5 T!2 ?21-2 
+F "__brk" N I!6 T!2 ?22-2 
+F "__nop" N I!7 T!2 ?23-2 
+F "__rolb" N I!8 T!9 ?25-2 P!10 P!11 
+T "unsigned char" KBU I!9 0x1 
+V "" N I!10 O!8 T!9 .1 0x1 
+V "" N I!11 O!8 T!9 .1 0x1 
+F "__rorb" N I!12 T!9 ?26-2 P!13 P!14 
+V "" N I!13 O!12 T!9 .1 0x1 
+V "" N I!14 O!12 T!9 .1 0x1 
+F "__rolw" N I!15 T!16 ?27-2 P!17 P!18 
+T "unsigned int" KBU I!16 0x2 
+V "" N I!17 O!15 T!16 .2 0x2 
+V "" N I!18 O!15 T!9 .1 0x1 
+F "__rorw" N I!19 T!16 ?28-2 P!20 P!21 
+V "" N I!20 O!19 T!16 .2 0x2 
+V "" N I!21 O!19 T!9 .1 0x1 
+F "__mulu" N I!22 T!16 ?30-2 P!23 P!24 
+V "" N I!23 O!22 T!9 .1 0x1 
+V "" N I!24 O!22 T!9 .1 0x1 
+F "__mului" N I!25 T!26 ?32-2 P!27 P!28 
+T "unsigned long" KBU I!26 0x4 
+V "" N I!27 O!25 T!16 .2 0x2 
+V "" N I!28 O!25 T!16 .2 0x2 
+F "__mulsi" N I!29 T!30 ?33-2 P!31 P!33 
+T "long" KBS I!30 0x4 
+V "" N I!31 O!29 T!32 .2 0x2 
+T "int" KBS I!32 0x2 
+V "" N I!33 O!29 T!32 .2 0x2 
+F "_COM_mulul" F I!34 T!35 ?42-2 P!36 P!37 
+T "unsigned long long" KBU I!35 0x8 
+V "" N I!36 O!34 T!26 .2 0x4 
+V "" N I!37 O!34 T!26 .2 0x4 
+F "_COM_mulsl" F I!38 T!39 ?43-2 P!40 P!41 
+T "long long" KBS I!39 0x8 
+V "" N I!40 O!38 T!30 .2 0x4 
+V "" N I!41 O!38 T!30 .2 0x4 
+F "_COM_divui" F I!42 T!16 ?48-2 P!43 P!44 
+V "" N I!43 O!42 T!16 .2 0x2 
+V "" N I!44 O!42 T!9 .1 0x1 
+F "_COM_divul" F I!45 T!26 ?49-2 P!46 P!47 
+V "" N I!46 O!45 T!26 .2 0x4 
+V "" N I!47 O!45 T!16 .2 0x2 
+F "_COM_remui" F I!48 T!9 ?53-2 P!49 P!50 
+V "" N I!49 O!48 T!16 .2 0x2 
+V "" N I!50 O!48 T!9 .1 0x1 
+F "_COM_remul" F I!51 T!16 ?54-2 P!52 P!53 
+V "" N I!52 O!51 T!26 .2 0x4 
+V "" N I!53 O!51 T!16 .2 0x2 
+F "_COM_macui" F I!54 T!26 ?58-2 P!55 P!56 P!57 
+V "" N I!55 O!54 T!16 .2 0x2 
+V "" N I!56 O!54 T!16 .2 0x2 
+V "" N I!57 O!54 T!26 .2 0x4 
+F "_COM_macsi" F I!58 T!30 ?59-2 P!59 P!60 P!61 
+V "" N I!59 O!58 T!32 .2 0x2 
+V "" N I!60 O!58 T!32 .2 0x2 
+V "" N I!61 O!58 T!30 .2 0x4 
+F "__get_psw" N I!62 T!9 ?63-2 
+F "__set_psw" N I!63 T!2 ?64-2 P!64 
+V "" N I!64 O!63 T!9 .1 0x1 
+F "__set1" N I!65 T!2 ?66-2 P!66 P!68 
+V "" N I!66 O!65 T!67 .2 0x2 
+T "" KP I!67 T!9 0x2 
+V "" N I!68 O!65 T!9 .1 0x1 
+F "__clr1" N I!69 T!2 ?67-2 P!70 P!71 
+V "" N I!70 O!69 T!67 .2 0x2 
+V "" N I!71 O!69 T!9 .1 0x1 
+F "__not1" N I!72 T!2 ?68-2 P!73 P!74 
+V "" N I!73 O!72 T!67 .2 0x2 
+V "" N I!74 O!72 T!9 .1 0x1 
+T "" KS I!75 !38-5 0x1 VM!76 VM!77 VM!78 VM!79 VM!80 VM!81 VM!82 VM!83 
+V "no0" - I!76 O!75 T!9 !39-5 .1 0x1 BO0 BIS1 
+V "no1" - I!77 O!75 T!9 !40-5 .1 0x1 BO1 BIS1 
+V "no2" - I!78 O!75 T!9 !41-5 .1 0x1 BO2 BIS1 
+V "no3" - I!79 O!75 T!9 !42-5 .1 0x1 BO3 BIS1 
+V "no4" - I!80 O!75 T!9 !43-5 .1 0x1 BO4 BIS1 
+V "no5" - I!81 O!75 T!9 !44-5 .1 0x1 BO5 BIS1 
+V "no6" - I!82 O!75 T!9 !45-5 .1 0x1 BO6 BIS1 
+V "no7" - I!83 O!75 T!9 !46-5 .1 0x1 BO7 BIS1 
+T "__bitf_T" KT I!84 T!75 !47-5 0x1 
+T "" KS I!85 !50-5 0x2 VM!86 VM!87 VM!88 VM!89 VM!90 VM!91 VM!92 VM!93 VM!94 VM!95 VM!96 VM!97 VM!98 VM!99 VM!100 VM!101 
+V "no0" - I!86 O!85 T!9 !51-5 .1 0x1 BO0 BIS1 
+V "no1" - I!87 O!85 T!9 !52-5 .1 0x1 BO1 BIS1 
+V "no2" - I!88 O!85 T!9 !53-5 .1 0x1 BO2 BIS1 
+V "no3" - I!89 O!85 T!9 !54-5 .1 0x1 BO3 BIS1 
+V "no4" - I!90 O!85 T!9 !55-5 .1 0x1 BO4 BIS1 
+V "no5" - I!91 O!85 T!9 !56-5 .1 0x1 BO5 BIS1 
+V "no6" - I!92 O!85 T!9 !57-5 .1 0x1 BO6 BIS1 
+V "no7" - I!93 O!85 T!9 !58-5 .1 0x1 BO7 BIS1 
+V "no8" - I!94 O!85 T!9 !59-5 .1 0x1 BO8 BIS1 
+V "no9" - I!95 O!85 T!9 !60-5 .1 0x1 BO9 BIS1 
+V "no10" - I!96 O!85 T!9 !61-5 .1 0x1 BO10 BIS1 
+V "no11" - I!97 O!85 T!9 !62-5 .1 0x1 BO11 BIS1 
+V "no12" - I!98 O!85 T!9 !63-5 .1 0x1 BO12 BIS1 
+V "no13" - I!99 O!85 T!9 !64-5 .1 0x1 BO13 BIS1 
+V "no14" - I!100 O!85 T!9 !65-5 .1 0x1 BO14 BIS1 
+V "no15" - I!101 O!85 T!9 !66-5 .1 0x1 BO15 BIS1 
+T "__bitf_T2" KT I!102 T!85 !67-5 0x2 
+T "int8_t" KT I!103 T!104 !26-6 0x1 
+T "signed char" KBS I!104 0x1 
+T "uint8_t" KT I!105 T!9 !27-6 0x1 
+T "int16_t" KT I!106 T!107 !28-6 0x2 
+T "short" KBS I!107 0x2 
+T "uint16_t" KT I!108 T!109 !29-6 0x2 
+T "unsigned short" KBU I!109 0x2 
+T "int32_t" KT I!110 T!30 !30-6 0x4 
+T "uint32_t" KT I!111 T!26 !31-6 0x4 
+T "int64_t" KT I!112 T!39 !36-6 0x8 
+T "uint64_t" KT I!113 T!35 !37-6 0x8 
+T "double64_t" KT I!114 T!35 !42-6 0x8 
+T "float32_t" KT I!115 T!116 !43-6 0x4 
+T "float" KBF I!116 0x4 
+T "MD_STATUS" KT I!117 T!109 !67-3 0x2 
+F "R_WDT_Create" F I!118 T!2 ?46-7 
+F "R_WDT_Restart" F I!119 T!2 ?47-7 320-1 757-1 873-1 
+F "R_CRC_Clear" F I!120 T!2 ?47-8 287-1 
+F "R_CRC_GetResult" F I!121 T!108 ?48-8 324-1 
+F "R_CRC_Calculate" F I!122 T!2 ?49-8 315-1 P!123 P!125 
+V "" N I!123 O!122 T!124 .2 0x2 
+T "" KP I!124 T!105 0x2 
+V "" N I!125 O!122 T!108 .2 0x2 
+F "R_CRC_Set" F I!126 T!2 ?52-8 P!127 
+V "" N I!127 O!126 T!108 .2 0x2 
+T "pfdl_u08" KT I!128 T!9 !42-9 0x1 
+T "pfdl_u16" KT I!129 T!16 !43-9 0x2 
+T "pfdl_u32" KT I!130 T!26 !44-9 0x4 
+T "" KE I!131 T!132 0x1 EM0:"PFDL_CMD_READ_BYTES" EM6:"PFDL_CMD_IVERIFY_BYTES" EM8:"PFDL_CMD_BLANKCHECK_BYTES" EM4:"PFDL_CMD_WRITE_BYTES" EM3:"PFDL_CMD_ERASE_BLOCK" 
+T "char" KBCU I!132 0x1 
+T "pfdl_command_t" KT I!133 T!131 !66-9 0x1 
+T "" KE I!134 T!132 0x1 EM48:"PFDL_IDLE" EM0:"PFDL_OK" EM255:"PFDL_BUSY" EM16:"PFDL_ERR_PROTECTION" EM26:"PFDL_ERR_ERASE" EM27:"PFDL_ERR_MARGIN" EM28:"PFDL_ERR_WRITE" EM5:"PFDL_ERR_PARAMETER" 
+T "pfdl_status_t" KT I!135 T!134 !82-9 0x1 
+T "" KS I!136 !87-9 0x8 VM!137 VM!138 VM!140 VM!141 
+V "index_u16" - I!137 O!136 T!129 !88-9 #175-1 #222-1 #303-1 #365-1 #589-1 #735-1 #742-1 #766-1 #780-1 #793-1 #805-1 #862-1 .2 0x2 BO0 BIS16 
+V "data_pu08" - I!138 O!136 T!139 !89-9 #175-1 #222-1 #303-1 #365-1 #589-1 #735-1 #742-1 #766-1 #793-1 #862-1 .2 0x2 BO16 BIS16 
+T "" KP I!139 T!128 0x2 
+V "bytecount_u16" - I!140 O!136 T!129 !90-9 #175-1 #222-1 #303-1 #365-1 #589-1 #735-1 #742-1 #766-1 #780-1 #793-1 #805-1 #862-1 .2 0x2 BO32 BIS16 
+V "command_enu" - I!141 O!136 T!133 !91-9 #175-1 #222-1 #303-1 #365-1 #589-1 #735-1 #742-1 #766-1 #780-1 #793-1 #805-1 #862-1 .1 0x1 BO48 BIS8 
+T "pfdl_request_t" KT I!142 T!136 !92-9 0x8 
+T "" KS I!143 !98-9 0x2 VM!144 VM!145 
+V "fx_MHz_u08" - I!144 O!143 T!128 !99-9 .1 0x1 BO0 BIS8 
+V "wide_voltage_mode_u08" - I!145 O!143 T!128 !100-9 .1 0x1 BO8 BIS8 
+T "pfdl_descriptor_t" KT I!146 T!143 !101-9 0x2 
+T "" KE I!147 T!132 0x1 EM1:"R_PFDLT04_ASSERT_LINE_120" 
+T "" KE I!148 T!132 0x1 EM1:"R_PFDLT04_ASSERT_LINE_121" 
+T "" KE I!149 T!132 0x1 EM1:"R_PFDLT04_ASSERT_LINE_122" 
+T "" KE I!150 T!132 0x1 EM1:"R_PFDLT04_ASSERT_LINE_125" 
+T "" KE I!151 T!132 0x1 EM1:"R_PFDLT04_ASSERT_LINE_126" 
+T "" KE I!152 T!132 0x1 EM1:"R_PFDLT04_ASSERT_LINE_129" 
+T "" KE I!153 T!132 0x1 EM1:"R_PFDLT04_ASSERT_LINE_130" 
+T "" KE I!154 T!132 0x1 EM1:"R_PFDLT04_ASSERT_LINE_131" 
+F "PFDL_Open" F I!155 T!135 ?61-10 161-1 208-1 276-1 354-1 487-1 578-1 672-1 850-1 P!156 
+V "" N I!156 O!155 T!157 .2 0x2 
+T "" KP I!157 T!146 0x2 
+F "PFDL_Close" F I!158 T!2 ?76-10 187-1 234-1 377-1 510-1 601-1 823-1 876-1 
+F "PFDL_Execute" F I!159 T!135 ?98-10 176-1 223-1 304-1 366-1 590-1 744-1 769-1 781-1 794-1 806-1 863-1 P!160 
+V "" N I!160 O!159 T!161 .2 0x2 
+T "" KP I!161 T!142 0x2 
+F "PFDL_Handler" F I!162 T!135 ?114-10 164-1 179-1 211-1 226-1 279-1 307-1 357-1 369-1 490-1 581-1 593-1 675-1 747-1 772-1 784-1 797-1 809-1 853-1 866-1 
+F "PFDL_GetVersionString" F I!163 T!164 ?127-10 
+T "" KP I!164 T!128 0x4 
+F "DATAFLASH_Init" F I!165 T!105 #389-1 !390,402-1-1 ?51-11 
+F "DATAFLASH_Read" F I!166 T!105 #539-1 !540,604-1-1 ?52-11 P!233 P!234 P!235 
+F "DATAFLASH_Write" F I!170 T!105 #617-1 !618,827-1-1 ?53-11 P!241 P!242 P!243 
+F "DATAFLASH_VerifyStatus" F I!174 T!105 #410-1 !411,450-1-1 ?57-11 
+F "DATAFLASH_VerifyCRC" F I!175 T!105 #461-1 !462,526-1-1 ?58-11 P!222 
+T "" KP I!177 T!108 0x2 
+F "DATAFLASH_BankErase" F I!178 T!105 #839-1 !840,879-1-1 ?61-11 698-1 817-1 P!257 
+T "tagDFLBlock" KE I!180 T!132 !59-1 0x1 EM0:"DATAFLASH_BLOCK1" EM1:"DATAFLASH_BLOCK2" 
+V "g_dataflash_crc_block_addr" GOF I!181 T!108 ?103-1 270-1 396-1 .2 0x2 
+V "g_dataflash_crc_block_size" GOF I!182 T!108 ?104-1 273-1 395-1 396-1 .2 0x2 
+V "g_dataflash_descriptor" GN I!183 T!146 !106-1 #106-1 161-1 208-1 276-1 354-1 487-1 578-1 672-1 850-1 .1 0x2 
+V "g_data_flash_req" GN I!184 T!142 !112-1 #175-1 #175-1 #175-1 #175-1 #222-1 #222-1 #222-1 #222-1 #303-1 #303-1 #303-1 #303-1 #365-1 #365-1 #365-1 #365-1 #589-1 #589-1 #589-1 #589-1 #735-1 #735-1 #735-1 #735-1 #742-1 #742-1 #742-1 #742-1 #766-1 #766-1 #766-1 #766-1 #780-1 #780-1 #780-1 #793-1 #793-1 #793-1 #793-1 #805-1 #805-1 #805-1 #862-1 #862-1 #862-1 #862-1 176-1 223-1 304-1 366-1 590-1 744-1 769-1 781-1 794-1 806-1 863-1 .2 0x8 
+F "DATAFLASH_ReadHeaderStatus" SF I!185 T!105 #155-1 !156,190-1-1 423-1 435-1 471-1 561-1 648-1 P!188 P!189 
+V "bank" N I!188 O!185 T!105 !155-1 172-1 .1 0x1 
+V "buf" N I!189 O!185 T!124 !155-1 175-1 .2 0x2 
+V "addr_u16" N I!190 O!185 T!108 !157-1 #172-1 175-1 .2 0x2 
+V "ret" N I!191 O!185 T!135 !158-1 #161-1 #164-1 #176-1 #179-1 162-1 166-1 177-1 181-1 .1 0x1 
+F "DATAFLASH_ReadHeaderCRC" SF I!192 T!105 #202-1 !203,237-1-1 504-1 P!195 P!196 
+V "bank" N I!195 O!192 T!105 !202-1 218-1 .1 0x1 
+V "buf" N I!196 O!192 T!124 !202-1 222-1 .2 0x2 
+V "addr_u16" N I!197 O!192 T!108 !204-1 #218-1 #219-1 219-1 222-1 .2 0x2 
+V "ret" N I!198 O!192 T!135 !205-1 #208-1 #211-1 #223-1 #226-1 209-1 213-1 224-1 228-1 .1 0x1 
+F "DATAFLASH_CalculateCRC" SF I!199 T!105 #252-1 !253,328-1-1 498-1 761-1 P!203 P!204 P!205 
+V "bank" N I!203 O!199 T!105 !252-1 260-1 264-1 .1 0x1 
+V "buffer" N I!204 O!199 T!124 !252-1 303-1 315-1 .2 0x2 
+V "p_crc" N I!205 O!199 T!177 !252-1 324-1 .2 0x2 
+V "start_addr" N I!206 O!199 T!108 !254-1 #260-1 #261-1 #264-1 #267-1 #270-1 #317-1 261-1 267-1 270-1 303-1 317-1 .2 0x2 
+V "size" N I!207 O!199 T!108 !255-1 #273-1 #318-1 290-1 293-1 295-1 318-1 .2 0x2 
+V "page_size" N I!208 O!199 T!108 !256-1 #295-1 #299-1 303-1 315-1 317-1 318-1 .2 0x2 
+V "ret" N I!209 O!199 T!135 !257-1 #276-1 #279-1 #304-1 #307-1 277-1 281-1 305-1 309-1 .1 0x1 
+V "status" N I!210 O!199 T!105 !258-1 .1 0x1 
+F "DATAFLASH_InternalRead" SF I!211 T!105 #346-1 !347,380-1-1 707-1 P!215 P!216 P!217 
+V "addr" N I!215 O!211 T!111 !346-1 365-1 .2 0x4 
+V "buf" N I!216 O!211 T!124 !346-1 365-1 .2 0x2 
+V "size" N I!217 O!211 T!108 !346-1 365-1 .2 0x2 
+V "ret" N I!218 O!211 T!135 !348-1 #354-1 #357-1 #366-1 #369-1 355-1 359-1 367-1 371-1 .1 0x1 
+V "status" N I!219 O!211 T!105 !349-1 .1 0x1 
+V "status" N I!220 O!174 T!105 !412-1 423-1 428-1 435-1 440-1 .1 0x1 
+V "p_crc" N I!222 O!175 T!177 !461-1 519-1 521-1 .2 0x2 
+V "calculated_crc" N I!223 O!175 T!108 !463-1 498-1 513-1 521-1 .2 0x2 
+V "read_crc" N I!224 O!175 T!108 !464-1 504-1 513-1 .2 0x2 
+V "block_buffer" N I!225 O!175 T!226 !465-1 498-1 .1 0x20 
+T "" KA32 I!226 T!105 0x20 
+V "ret" N I!227 O!175 T!135 !466-1 #487-1 #490-1 488-1 492-1 .1 0x1 
+V "status" N I!228 O!175 T!105 !467-1 471-1 477-1 .1 0x1 
+V "verify_bank" N I!229 O!175 T!105 !468-1 #479-1 #483-1 498-1 504-1 .1 0x1 
+V "addr" N I!233 O!166 T!111 !539-1 #558-1 #574-1 552-1 558-1 574-1 589-1 .2 0x4 
+V "buf" N I!234 O!166 T!124 !539-1 545-1 589-1 .2 0x2 
+V "size" N I!235 O!166 T!108 !539-1 551-1 552-1 589-1 .2 0x2 
+V "ret" N I!236 O!166 T!135 !541-1 #578-1 #581-1 #590-1 #593-1 579-1 583-1 591-1 595-1 .1 0x1 
+V "status" N I!237 O!166 T!105 !542-1 561-1 567-1 .1 0x1 
+V "addr" N I!241 O!170 T!111 !617-1 #645-1 #657-1 #719-1 639-1 645-1 657-1 713-1 714-1 716-1 719-1 .2 0x4 
+V "buf" N I!242 O!170 T!124 !617-1 #720-1 632-1 718-1 720-1 .2 0x2 
+V "size" N I!243 O!170 T!108 !617-1 #721-1 638-1 639-1 710-1 721-1 723-1 .2 0x2 
+V "calculated_crc" N I!244 O!170 T!108 !619-1 761-1 766-1 .2 0x2 
+V "write_block_addr" N I!245 O!170 T!108 !620-1 #658-1 #665-1 #754-1 713-1 714-1 716-1 735-1 742-1 754-1 .2 0x2 
+V "read_block_addr" N I!246 O!170 T!108 !621-1 #659-1 #666-1 #755-1 707-1 755-1 .2 0x2 
+V "index" N I!247 O!170 T!111 !622-1 #716-1 #716-1 716-1 716-1 718-1 .2 0x4 
+V "block_buffer" N I!248 O!170 T!249 !623-1 #718-1 707-1 735-1 742-1 761-1 .1 0x20 
+T "" KA32 I!249 T!105 0x20 
+V "ret" N I!250 O!170 T!135 !624-1 #672-1 #675-1 #744-1 #747-1 #769-1 #772-1 #781-1 #784-1 #794-1 #797-1 #806-1 #809-1 673-1 677-1 745-1 749-1 770-1 774-1 782-1 786-1 795-1 799-1 807-1 811-1 .1 0x1 
+V "status" N I!251 O!170 T!105 !625-1 #792-1 648-1 654-1 793-1 .1 0x1 
+V "i" N I!252 O!170 T!105 !626-1 #704-1 #704-1 704-1 704-1 732-1 .1 0x1 
+V "block_size" N I!253 O!170 T!105 !627-1 .1 0x1 
+V "write_bank" N I!254 O!170 T!105 !628-1 #660-1 #667-1 698-1 761-1 766-1 780-1 793-1 805-1 .1 0x1 
+V "read_bank" N I!255 O!170 T!105 !629-1 #661-1 #668-1 817-1 .1 0x1 
+V "bank_no" N I!257 O!178 T!105 !839-1 844-1 862-1 .1 0x1 
+V "ret" N I!258 O!178 T!135 !841-1 #850-1 #853-1 #863-1 #866-1 851-1 856-1 864-1 868-1 .1 0x1 
+****%CxSystemPath%\inc\builtin.h
+v2 
+:1728543778
+#2
+****..\..\rl78i1c\driver\r_cg_macrodriver.h
+v2 
+:1728543778
+#3
+****..\..\shared\Compiler\CCRL\compiler.h
+v2 
+:1728543778
+#4
+****..\..\shared\Compiler\CCRL\iodefine.h
+v2 
+:1728543778
+#5
+****..\..\shared\Compiler\CCRL\typedef.h
+v2 
+:1728543778
+#6
+****..\..\rl78i1c\driver\r_cg_wdt.h
+v2 
+:1728543778
+#7
+****..\..\rl78i1c\driver\r_cg_crc.h
+v2 
+:1728543778
+#8
+****..\..\shared\Flash\fdl\CCRL\incrl78\pfdl_types.h
+v2 
+:1728543778
+#9
+****..\..\shared\Flash\fdl\CCRL\incrl78\pfdl.h
+v2 
+:1728543778
+#10
+****..\..\rl78i1c\application\dataflash\dataflash.h
+v2 
+:1728543778
+#11

@@ -1,0 +1,457 @@
+****..\..\rl78i1c\appwrapper\wrp_app_ext.c
+v2 
+:1728543791
+#1
+F "__DI" N I!1 T!2 ?18-2 
+T "void" KBV I!2 0x0 
+F "__EI" N I!3 T!2 ?19-2 
+F "__halt" N I!4 T!2 ?20-2 
+F "__stop" N I!5 T!2 ?21-2 
+F "__brk" N I!6 T!2 ?22-2 
+F "__nop" N I!7 T!2 ?23-2 100-1 100-1 100-1 
+F "__rolb" N I!8 T!9 ?25-2 P!10 P!11 
+T "unsigned char" KBU I!9 0x1 
+V "" N I!10 O!8 T!9 .1 0x1 
+V "" N I!11 O!8 T!9 .1 0x1 
+F "__rorb" N I!12 T!9 ?26-2 P!13 P!14 
+V "" N I!13 O!12 T!9 .1 0x1 
+V "" N I!14 O!12 T!9 .1 0x1 
+F "__rolw" N I!15 T!16 ?27-2 P!17 P!18 
+T "unsigned int" KBU I!16 0x2 
+V "" N I!17 O!15 T!16 .2 0x2 
+V "" N I!18 O!15 T!9 .1 0x1 
+F "__rorw" N I!19 T!16 ?28-2 P!20 P!21 
+V "" N I!20 O!19 T!16 .2 0x2 
+V "" N I!21 O!19 T!9 .1 0x1 
+F "__mulu" N I!22 T!16 ?30-2 P!23 P!24 
+V "" N I!23 O!22 T!9 .1 0x1 
+V "" N I!24 O!22 T!9 .1 0x1 
+F "__mului" N I!25 T!26 ?32-2 P!27 P!28 
+T "unsigned long" KBU I!26 0x4 
+V "" N I!27 O!25 T!16 .2 0x2 
+V "" N I!28 O!25 T!16 .2 0x2 
+F "__mulsi" N I!29 T!30 ?33-2 P!31 P!33 
+T "long" KBS I!30 0x4 
+V "" N I!31 O!29 T!32 .2 0x2 
+T "int" KBS I!32 0x2 
+V "" N I!33 O!29 T!32 .2 0x2 
+F "_COM_mulul" F I!34 T!35 ?42-2 P!36 P!37 
+T "unsigned long long" KBU I!35 0x8 
+V "" N I!36 O!34 T!26 .2 0x4 
+V "" N I!37 O!34 T!26 .2 0x4 
+F "_COM_mulsl" F I!38 T!39 ?43-2 P!40 P!41 
+T "long long" KBS I!39 0x8 
+V "" N I!40 O!38 T!30 .2 0x4 
+V "" N I!41 O!38 T!30 .2 0x4 
+F "_COM_divui" F I!42 T!16 ?48-2 P!43 P!44 
+V "" N I!43 O!42 T!16 .2 0x2 
+V "" N I!44 O!42 T!9 .1 0x1 
+F "_COM_divul" F I!45 T!26 ?49-2 P!46 P!47 
+V "" N I!46 O!45 T!26 .2 0x4 
+V "" N I!47 O!45 T!16 .2 0x2 
+F "_COM_remui" F I!48 T!9 ?53-2 P!49 P!50 
+V "" N I!49 O!48 T!16 .2 0x2 
+V "" N I!50 O!48 T!9 .1 0x1 
+F "_COM_remul" F I!51 T!16 ?54-2 P!52 P!53 
+V "" N I!52 O!51 T!26 .2 0x4 
+V "" N I!53 O!51 T!16 .2 0x2 
+F "_COM_macui" F I!54 T!26 ?58-2 P!55 P!56 P!57 
+V "" N I!55 O!54 T!16 .2 0x2 
+V "" N I!56 O!54 T!16 .2 0x2 
+V "" N I!57 O!54 T!26 .2 0x4 
+F "_COM_macsi" F I!58 T!30 ?59-2 P!59 P!60 P!61 
+V "" N I!59 O!58 T!32 .2 0x2 
+V "" N I!60 O!58 T!32 .2 0x2 
+V "" N I!61 O!58 T!30 .2 0x4 
+F "__get_psw" N I!62 T!9 ?63-2 
+F "__set_psw" N I!63 T!2 ?64-2 P!64 
+V "" N I!64 O!63 T!9 .1 0x1 
+F "__set1" N I!65 T!2 ?66-2 P!66 P!68 
+V "" N I!66 O!65 T!67 .2 0x2 
+T "" KP I!67 T!9 0x2 
+V "" N I!68 O!65 T!9 .1 0x1 
+F "__clr1" N I!69 T!2 ?67-2 P!70 P!71 
+V "" N I!70 O!69 T!67 .2 0x2 
+V "" N I!71 O!69 T!9 .1 0x1 
+F "__not1" N I!72 T!2 ?68-2 P!73 P!74 
+V "" N I!73 O!72 T!67 .2 0x2 
+V "" N I!74 O!72 T!9 .1 0x1 
+T "" KS I!75 !38-5 0x1 VM!76 VM!77 VM!78 VM!79 VM!80 VM!81 VM!82 VM!83 
+V "no0" - I!76 O!75 T!9 !39-5 .1 0x1 BO0 BIS1 
+V "no1" - I!77 O!75 T!9 !40-5 .1 0x1 BO1 BIS1 
+V "no2" - I!78 O!75 T!9 !41-5 .1 0x1 BO2 BIS1 
+V "no3" - I!79 O!75 T!9 !42-5 .1 0x1 BO3 BIS1 
+V "no4" - I!80 O!75 T!9 !43-5 .1 0x1 BO4 BIS1 
+V "no5" - I!81 O!75 T!9 !44-5 .1 0x1 BO5 BIS1 
+V "no6" - I!82 O!75 T!9 !45-5 .1 0x1 BO6 BIS1 
+V "no7" - I!83 O!75 T!9 !46-5 .1 0x1 BO7 BIS1 
+T "__bitf_T" KT I!84 T!75 !47-5 0x1 
+T "" KS I!85 !50-5 0x2 VM!86 VM!87 VM!88 VM!89 VM!90 VM!91 VM!92 VM!93 VM!94 VM!95 VM!96 VM!97 VM!98 VM!99 VM!100 VM!101 
+V "no0" - I!86 O!85 T!9 !51-5 .1 0x1 BO0 BIS1 
+V "no1" - I!87 O!85 T!9 !52-5 .1 0x1 BO1 BIS1 
+V "no2" - I!88 O!85 T!9 !53-5 .1 0x1 BO2 BIS1 
+V "no3" - I!89 O!85 T!9 !54-5 .1 0x1 BO3 BIS1 
+V "no4" - I!90 O!85 T!9 !55-5 .1 0x1 BO4 BIS1 
+V "no5" - I!91 O!85 T!9 !56-5 .1 0x1 BO5 BIS1 
+V "no6" - I!92 O!85 T!9 !57-5 .1 0x1 BO6 BIS1 
+V "no7" - I!93 O!85 T!9 !58-5 .1 0x1 BO7 BIS1 
+V "no8" - I!94 O!85 T!9 !59-5 .1 0x1 BO8 BIS1 
+V "no9" - I!95 O!85 T!9 !60-5 .1 0x1 BO9 BIS1 
+V "no10" - I!96 O!85 T!9 !61-5 .1 0x1 BO10 BIS1 
+V "no11" - I!97 O!85 T!9 !62-5 .1 0x1 BO11 BIS1 
+V "no12" - I!98 O!85 T!9 !63-5 .1 0x1 BO12 BIS1 
+V "no13" - I!99 O!85 T!9 !64-5 .1 0x1 BO13 BIS1 
+V "no14" - I!100 O!85 T!9 !65-5 .1 0x1 BO14 BIS1 
+V "no15" - I!101 O!85 T!9 !66-5 .1 0x1 BO15 BIS1 
+T "__bitf_T2" KT I!102 T!85 !67-5 0x2 
+T "int8_t" KT I!103 T!104 !26-6 0x1 
+T "signed char" KBS I!104 0x1 
+T "uint8_t" KT I!105 T!9 !27-6 0x1 
+T "int16_t" KT I!106 T!107 !28-6 0x2 
+T "short" KBS I!107 0x2 
+T "uint16_t" KT I!108 T!109 !29-6 0x2 
+T "unsigned short" KBU I!109 0x2 
+T "int32_t" KT I!110 T!30 !30-6 0x4 
+T "uint32_t" KT I!111 T!26 !31-6 0x4 
+T "int64_t" KT I!112 T!39 !36-6 0x8 
+T "uint64_t" KT I!113 T!35 !37-6 0x8 
+T "double64_t" KT I!114 T!35 !42-6 0x8 
+T "float32_t" KT I!115 T!116 !43-6 0x4 
+T "float" KBF I!116 0x4 
+T "MD_STATUS" KT I!117 T!109 !67-3 0x2 
+F "R_WDT_Create" F I!118 T!2 ?46-7 
+F "R_WDT_Restart" F I!119 T!2 ?47-7 163-1 
+T "tagTauChannel" KE I!120 T!121 !369-8 0x1 EM0:"TAU_CHANNEL0" EM1:"TAU_CHANNEL1" EM2:"TAU_CHANNEL2" EM3:"TAU_CHANNEL3" EM4:"TAU_CHANNEL4" EM5:"TAU_CHANNEL5" EM6:"TAU_CHANNEL6" EM7:"TAU_CHANNEL7" 
+T "char" KBCS I!121 0x1 
+T "TAU_CHANNEL_T" KT I!122 T!120 !379-8 0x1 
+F "R_TAU0_Create" F I!123 T!2 ?384-8 
+F "R_TAU0_Channel0_Start" F I!124 T!2 ?385-8 
+F "R_TAU0_Channel0_Stop" F I!125 T!2 ?386-8 
+F "R_TAU0_Channel2_Start" F I!126 T!2 ?387-8 
+F "R_TAU0_Channel2_Stop" F I!127 T!2 ?388-8 
+F "R_TAU0_IsChannelRunning" F I!128 T!105 ?390-8 138-1 P!129 
+V "" N I!129 O!128 T!122 .1 0x1 
+T "ptrdiff_t" KT I!130 T!32 !18-10 0x2 
+T "size_t" KT I!131 T!16 !19-10 0x2 
+T "" KS I!132 !23-9 0x4 VM!133 VM!134 
+V "quot" - I!133 O!132 T!32 !24-9 .2 0x2 BO0 BIS16 
+V "rem" - I!134 O!132 T!32 !25-9 .2 0x2 BO16 BIS16 
+T "div_t" KT I!135 T!132 !26-9 0x4 
+T "" KS I!136 !28-9 0x8 VM!137 VM!138 
+V "quot" - I!137 O!136 T!30 !29-9 .2 0x4 BO0 BIS32 
+V "rem" - I!138 O!136 T!30 !30-9 .2 0x4 BO32 BIS32 
+T "ldiv_t" KT I!139 T!136 !31-9 0x8 
+F "atof" F I!140 T!116 ?40-9 P!141 
+V "" N I!141 O!140 T!142 .2 0x2 
+T "" MOD"C" KP I!142 T!121 0x2 
+F "_COM_atof_f" F I!143 T!116 ?41-9 P!144 
+V "" N I!144 O!143 T!145 .2 0x4 
+T "" MOD"C" KP I!145 T!121 0x4 
+F "atoff" F I!146 T!116 ?43-9 P!147 
+V "" N I!147 O!146 T!142 .2 0x2 
+F "_COM_atoff_f" F I!148 T!116 ?44-9 P!149 
+V "" N I!149 O!148 T!145 .2 0x4 
+F "atoi" F I!150 T!32 ?46-9 P!151 
+V "" N I!151 O!150 T!142 .2 0x2 
+F "_COM_atoi_f" F I!152 T!32 ?47-9 P!153 
+V "" N I!153 O!152 T!145 .2 0x4 
+F "atol" F I!154 T!30 ?49-9 P!155 
+V "" N I!155 O!154 T!142 .2 0x2 
+F "_COM_atol_f" F I!156 T!30 ?50-9 P!157 
+V "" N I!157 O!156 T!145 .2 0x4 
+F "strtod" F I!158 T!116 ?77-9 P!159 P!160 
+V "" N I!159 O!158 T!142 .2 0x2 
+V "" N I!160 O!158 T!161 .2 0x2 
+T "" KP I!161 T!162 0x2 
+T "" KP I!162 T!121 0x2 
+F "_COM_strtod_ff" F I!163 T!116 ?78-9 P!164 P!165 
+V "" N I!164 O!163 T!145 .2 0x4 
+V "" N I!165 O!163 T!166 .2 0x4 
+T "" KP I!166 T!167 0x4 
+T "" KP I!167 T!121 0x4 
+F "strtof" F I!168 T!116 ?80-9 P!169 P!170 
+V "" N I!169 O!168 T!142 .2 0x2 
+V "" N I!170 O!168 T!161 .2 0x2 
+F "_COM_strtof_ff" F I!171 T!116 ?81-9 P!172 P!173 
+V "" N I!172 O!171 T!145 .2 0x4 
+V "" N I!173 O!171 T!166 .2 0x4 
+F "strtol" F I!174 T!30 ?83-9 P!175 P!176 P!177 
+V "" N I!175 O!174 T!142 .2 0x2 
+V "" N I!176 O!174 T!161 .2 0x2 
+V "" N I!177 O!174 T!32 .2 0x2 
+F "_COM_strtol_ff" F I!178 T!30 ?84-9 P!179 P!180 P!181 
+V "" N I!179 O!178 T!145 .2 0x4 
+V "" N I!180 O!178 T!166 .2 0x4 
+V "" N I!181 O!178 T!32 .2 0x2 
+F "strtoul" F I!182 T!26 ?86-9 P!183 P!184 P!185 
+V "" N I!183 O!182 T!142 .2 0x2 
+V "" N I!184 O!182 T!161 .2 0x2 
+V "" N I!185 O!182 T!32 .2 0x2 
+F "_COM_strtoul_ff" F I!186 T!26 ?87-9 P!187 P!188 P!189 
+V "" N I!187 O!186 T!145 .2 0x4 
+V "" N I!188 O!186 T!166 .2 0x4 
+V "" N I!189 O!186 T!32 .2 0x2 
+F "rand" F I!190 T!32 ?90-9 
+F "srand" F I!191 T!2 ?91-9 P!192 
+V "" N I!192 O!191 T!16 .2 0x2 
+F "calloc" F I!193 T!194 ?93-9 P!195 P!196 
+T "" KP I!194 T!2 0x2 
+V "" N I!195 O!193 T!131 .2 0x2 
+V "" N I!196 O!193 T!131 .2 0x2 
+F "free" F I!197 T!2 ?94-9 227-1 P!198 
+V "" N I!198 O!197 T!194 .2 0x2 
+F "malloc" F I!199 T!194 ?95-9 213-1 P!200 
+V "" N I!200 O!199 T!131 .2 0x2 
+F "realloc" F I!201 T!194 ?96-9 P!202 P!203 
+V "" N I!202 O!201 T!194 .2 0x2 
+V "" N I!203 O!201 T!131 .2 0x2 
+F "abort" F I!204 T!2 ?98-9 
+F "bsearch" F I!205 T!194 ?100-9 P!206 P!208 P!209 P!210 P!211 
+V "" N I!206 O!205 T!207 .2 0x2 
+T "" MOD"C" KP I!207 T!2 0x2 
+V "" N I!208 O!205 T!207 .2 0x2 
+V "" N I!209 O!205 T!131 .2 0x2 
+V "" N I!210 O!205 T!131 .2 0x2 
+V "" N I!211 O!205 T!212 .2 0x4 
+T "" KP I!212 T!213 0x4 
+T "" KF I!213 T!32 0x0 P!214 P!215 
+V "" N I!214 O!213 T!207 .2 0x2 
+V "" N I!215 O!213 T!207 .2 0x2 
+F "_COM_bsearch_f" F I!216 T!217 ?101-9 P!218 P!220 P!221 P!222 P!223 
+T "" KP I!217 T!2 0x4 
+V "" N I!218 O!216 T!219 .2 0x4 
+T "" MOD"C" KP I!219 T!2 0x4 
+V "" N I!220 O!216 T!219 .2 0x4 
+V "" N I!221 O!216 T!131 .2 0x2 
+V "" N I!222 O!216 T!131 .2 0x2 
+V "" N I!223 O!216 T!224 .2 0x4 
+T "" KP I!224 T!225 0x4 
+T "" KF I!225 T!32 0x0 P!226 P!227 
+V "" N I!226 O!225 T!219 .2 0x4 
+V "" N I!227 O!225 T!219 .2 0x4 
+F "qsort" F I!228 T!2 ?103-9 P!229 P!230 P!231 P!232 
+V "" N I!229 O!228 T!194 .2 0x2 
+V "" N I!230 O!228 T!131 .2 0x2 
+V "" N I!231 O!228 T!131 .2 0x2 
+V "" N I!232 O!228 T!233 .2 0x4 
+T "" KP I!233 T!234 0x4 
+T "" KF I!234 T!32 0x0 P!235 P!236 
+V "" N I!235 O!234 T!207 .2 0x2 
+V "" N I!236 O!234 T!207 .2 0x2 
+F "_COM_qsort_f" F I!237 T!2 ?104-9 P!238 P!239 P!240 P!241 
+V "" N I!238 O!237 T!217 .2 0x4 
+V "" N I!239 O!237 T!131 .2 0x2 
+V "" N I!240 O!237 T!131 .2 0x2 
+V "" N I!241 O!237 T!242 .2 0x4 
+T "" KP I!242 T!243 0x4 
+T "" KF I!243 T!32 0x0 P!244 P!245 
+V "" N I!244 O!243 T!219 .2 0x4 
+V "" N I!245 O!243 T!219 .2 0x4 
+F "abs" F I!246 T!32 ?114-9 P!247 
+V "" N I!247 O!246 T!32 .2 0x2 
+F "div" F I!248 T!135 ?115-9 P!249 P!250 
+V "" N I!249 O!248 T!32 .2 0x2 
+V "" N I!250 O!248 T!32 .2 0x2 
+F "labs" F I!251 T!30 ?116-9 P!252 
+V "" N I!252 O!251 T!30 .2 0x4 
+F "ldiv" F I!253 T!139 ?117-9 P!254 P!255 
+V "" N I!254 O!253 T!30 .2 0x4 
+V "" N I!255 O!253 T!30 .2 0x4 
+F "acos" F I!256 T!116 ?70-12 P!257 
+V "" N I!257 O!256 T!116 .2 0x4 
+F "asin" F I!258 T!116 ?71-12 P!259 
+V "" N I!259 O!258 T!116 .2 0x4 
+F "atan" F I!260 T!116 ?72-12 P!261 
+V "" N I!261 O!260 T!116 .2 0x4 
+F "atan2" F I!262 T!116 ?73-12 P!263 P!264 
+V "" N I!263 O!262 T!116 .2 0x4 
+V "" N I!264 O!262 T!116 .2 0x4 
+F "cos" F I!265 T!116 ?74-12 P!266 
+V "" N I!266 O!265 T!116 .2 0x4 
+F "sin" F I!267 T!116 ?75-12 P!268 
+V "" N I!268 O!267 T!116 .2 0x4 
+F "tan" F I!269 T!116 ?76-12 P!270 
+V "" N I!270 O!269 T!116 .2 0x4 
+F "cosh" F I!271 T!116 ?77-12 P!272 
+V "" N I!272 O!271 T!116 .2 0x4 
+F "sinh" F I!273 T!116 ?78-12 P!274 
+V "" N I!274 O!273 T!116 .2 0x4 
+F "tanh" F I!275 T!116 ?79-12 P!276 
+V "" N I!276 O!275 T!116 .2 0x4 
+F "exp" F I!277 T!116 ?80-12 P!278 
+V "" N I!278 O!277 T!116 .2 0x4 
+F "frexp" F I!279 T!116 ?81-12 P!280 P!281 
+V "" N I!280 O!279 T!116 .2 0x4 
+V "" N I!281 O!279 T!282 .2 0x2 
+T "" KP I!282 T!32 0x2 
+F "ldexp" F I!283 T!116 ?82-12 P!284 P!285 
+V "" N I!284 O!283 T!116 .2 0x4 
+V "" N I!285 O!283 T!32 .2 0x2 
+F "log" F I!286 T!116 ?83-12 P!287 
+V "" N I!287 O!286 T!116 .2 0x4 
+F "log10" F I!288 T!116 ?84-12 P!289 
+V "" N I!289 O!288 T!116 .2 0x4 
+F "modf" F I!290 T!116 ?85-12 P!291 P!292 
+V "" N I!291 O!290 T!116 .2 0x4 
+V "" N I!292 O!290 T!293 .2 0x2 
+T "" KP I!293 T!116 0x2 
+F "pow" F I!294 T!116 ?86-12 P!295 P!296 
+V "" N I!295 O!294 T!116 .2 0x4 
+V "" N I!296 O!294 T!116 .2 0x4 
+F "sqrt" F I!297 T!116 ?87-12 P!298 
+V "" N I!298 O!297 T!116 .2 0x4 
+F "ceil" F I!299 T!116 ?88-12 P!300 
+V "" N I!300 O!299 T!116 .2 0x4 
+F "fabs" F I!301 T!116 ?89-12 P!302 
+V "" N I!302 O!301 T!116 .2 0x4 
+F "floor" F I!303 T!116 ?90-12 P!304 
+V "" N I!304 O!303 T!116 .2 0x4 
+F "fmod" F I!305 T!116 ?91-12 P!306 P!307 
+V "" N I!306 O!305 T!116 .2 0x4 
+V "" N I!307 O!305 T!116 .2 0x4 
+F "acosf" F I!308 T!116 ?114-12 P!309 
+V "" N I!309 O!308 T!116 .2 0x4 
+F "asinf" F I!310 T!116 ?115-12 P!311 
+V "" N I!311 O!310 T!116 .2 0x4 
+F "atanf" F I!312 T!116 ?116-12 P!313 
+V "" N I!313 O!312 T!116 .2 0x4 
+F "atan2f" F I!314 T!116 ?117-12 P!315 P!316 
+V "" N I!315 O!314 T!116 .2 0x4 
+V "" N I!316 O!314 T!116 .2 0x4 
+F "cosf" F I!317 T!116 ?118-12 P!318 
+V "" N I!318 O!317 T!116 .2 0x4 
+F "sinf" F I!319 T!116 ?119-12 P!320 
+V "" N I!320 O!319 T!116 .2 0x4 
+F "tanf" F I!321 T!116 ?120-12 P!322 
+V "" N I!322 O!321 T!116 .2 0x4 
+F "coshf" F I!323 T!116 ?121-12 P!324 
+V "" N I!324 O!323 T!116 .2 0x4 
+F "sinhf" F I!325 T!116 ?122-12 P!326 
+V "" N I!326 O!325 T!116 .2 0x4 
+F "tanhf" F I!327 T!116 ?123-12 P!328 
+V "" N I!328 O!327 T!116 .2 0x4 
+F "expf" F I!329 T!116 ?124-12 P!330 
+V "" N I!330 O!329 T!116 .2 0x4 
+F "frexpf" F I!331 T!116 ?125-12 P!332 P!333 
+V "" N I!332 O!331 T!116 .2 0x4 
+V "" N I!333 O!331 T!282 .2 0x2 
+F "ldexpf" F I!334 T!116 ?126-12 P!335 P!336 
+V "" N I!335 O!334 T!116 .2 0x4 
+V "" N I!336 O!334 T!32 .2 0x2 
+F "logf" F I!337 T!116 ?127-12 P!338 
+V "" N I!338 O!337 T!116 .2 0x4 
+F "log10f" F I!339 T!116 ?128-12 P!340 
+V "" N I!340 O!339 T!116 .2 0x4 
+F "modff" F I!341 T!116 ?129-12 P!342 P!343 
+V "" N I!342 O!341 T!116 .2 0x4 
+V "" N I!343 O!341 T!293 .2 0x2 
+F "powf" F I!344 T!116 ?130-12 P!345 P!346 
+V "" N I!345 O!344 T!116 .2 0x4 
+V "" N I!346 O!344 T!116 .2 0x4 
+F "sqrtf" F I!347 T!116 ?131-12 P!348 
+V "" N I!348 O!347 T!116 .2 0x4 
+F "ceilf" F I!349 T!116 ?132-12 P!350 
+V "" N I!350 O!349 T!116 .2 0x4 
+F "fabsf" F I!351 T!116 ?133-12 P!352 
+V "" N I!352 O!351 T!116 .2 0x4 
+F "floorf" F I!353 T!116 ?134-12 P!354 
+V "" N I!354 O!353 T!116 .2 0x4 
+F "fmodf" F I!355 T!116 ?135-12 P!356 P!357 
+V "" N I!356 O!355 T!116 .2 0x4 
+V "" N I!357 O!355 T!116 .2 0x4 
+T "fp_predicate" KT I!358 T!359 !25-11 0x4 
+T "" KP I!359 T!360 0x4 
+T "" KF I!360 T!105 0x0 
+F "WRP_EXT_SoftReset" F I!361 T!2 #88-1 !89,101-1-1 ?44-11 
+F "WRP_EXT_Bcd2Dec" F I!362 T!105 #109-1 !110,114-1-1 ?45-11 P!404 
+F "WRP_EXT_Dec2Bcd" F I!364 T!105 #122-1 !123,127-1-1 ?46-11 P!406 
+F "WRP_EXT_HwDelayIsTimerRunning" F I!366 T!105 #136-1 !137,139-1-1 ?48-11 166-1 
+F "WRP_EXT_HwDelay" F I!367 T!105 #150-1 !151,191-1-1 ?49-11 P!409 P!410 
+F "WRP_EXT_HwDelayMillisecondTimerCallback" F I!370 T!2 #199-1 !200,202-1-1 ?50-11 
+F "WRP_EXT_Heap_Malloc" F I!371 T!372 #211-1 !212,216-1-1 ?52-11 P!414 
+T "" KP I!372 T!2 0x2 
+F "WRP_EXT_Heap_Free" F I!374 T!2 #225-1 !226,228-1-1 ?53-11 P!417 
+T "tagBootLoaderProperties" KS I!376 !40-13 0x1c VM!380 VM!386 VM!391 
+T "tagDeviceInfo" KS I!377 !42-13 0x8 VM!378 VM!379 
+V "rom_size" - I!378 O!377 T!111 !44-13 .2 0x4 BO0 BIS32 
+V "bank_size" - I!379 O!377 T!111 !45-13 .2 0x4 BO32 BIS32 
+V "device" - I!380 O!376 T!377 !46-13 .2 0x8 BO0 BIS64 
+T "tagUserAppArea" KS I!381 !47-13 0x10 VM!382 VM!383 VM!384 VM!385 
+V "start_addr" - I!382 O!381 T!111 !49-13 .2 0x4 BO0 BIS32 
+V "branch_addr" - I!383 O!381 T!111 !50-13 .2 0x4 BO32 BIS32 
+V "entry_addr" - I!384 O!381 T!111 !51-13 .2 0x4 BO64 BIS32 
+V "end_addr" - I!385 O!381 T!111 !52-13 .2 0x4 BO96 BIS32 
+V "user_app" - I!386 O!376 T!381 !53-13 .2 0x10 BO64 BIS128 
+T "tagEntryAddress" KS I!387 !55-13 0x4 VM!388 
+V "bl_bswap" - I!388 O!387 T!389 !57-13 .2 0x4 BO0 BIS32 
+T "" KP I!389 T!390 0x4 
+T "" KF I!390 T!2 0x0 
+V "entry_func" - I!391 O!376 T!387 !58-13 .2 0x4 BO192 BIS32 
+T "bl_properties_t" KT I!392 T!376 !60-13 0x1c 
+F "BL_memcpy_nf" F I!393 T!194 ?89-13 P!394 P!395 P!396 
+V "" N I!394 O!393 T!194 .2 0x2 
+V "" N I!395 O!393 T!219 .2 0x4 
+V "" N I!396 O!393 T!108 .2 0x2 
+F "BL_memcmp_nf" F I!397 T!32 ?104-13 P!398 P!399 P!400 
+V "" N I!398 O!397 T!194 .2 0x2 
+V "" N I!399 O!397 T!219 .2 0x4 
+V "" N I!400 O!397 T!108 .2 0x2 
+F "BL_OPERATION_RequestUserReset" F I!401 T!2 ?116-13 91-1 
+V "g_wrp_ext_sys_time" GSVN I!402 T!108 !80-1 #80-1 #201-1 160-1 172-1 173-1 176-1 201-1 .2 0x2 
+V "x" N I!404 O!362 T!105 !109-1 #111-1 111-1 111-1 113-1 .1 0x1 
+V "x" N I!406 O!364 T!105 !122-1 #124-1 124-1 124-1 126-1 .1 0x1 
+V "ms" N I!409 O!367 T!108 !150-1 155-1 155-1 178-1 .2 0x2 
+V "p" N I!410 O!367 T!358 !150-1 183-1 184-1 .2 0x4 
+V "begin" N I!411 O!367 T!108 !152-1 #160-1 172-1 173-1 176-1 .2 0x2 
+V "duration" N I!412 O!367 T!108 !152-1 #173-1 #176-1 178-1 .2 0x2 
+V "size" N I!414 O!371 T!131 !211-1 213-1 .2 0x2 
+V "ptr" N I!415 O!371 T!372 !213-1 #213-1 215-1 .2 0x2 
+V "ptr" N I!417 O!374 T!372 !225-1 227-1 .2 0x2 
+****%CxSystemPath%\inc\builtin.h
+v2 
+:1728543791
+#2
+****..\..\rl78i1c\driver\r_cg_macrodriver.h
+v2 
+:1728543791
+#3
+****..\..\shared\Compiler\CCRL\compiler.h
+v2 
+:1728543791
+#4
+****..\..\shared\Compiler\CCRL\iodefine.h
+v2 
+:1728543791
+#5
+****..\..\shared\Compiler\CCRL\typedef.h
+v2 
+:1728543791
+#6
+****..\..\rl78i1c\driver\r_cg_wdt.h
+v2 
+:1728543791
+#7
+****..\..\rl78i1c\driver\r_cg_tau.h
+v2 
+:1728543791
+#8
+****%CxSystemPath%\inc\stdlib.h
+v2 
+:1728543791
+#9
+****%CxSystemPath%\inc\stddef.h
+v2 
+:1728543791
+#10
+****..\..\rl78i1c\appwrapper\wrp_app_ext.h
+v2 
+:1728543791
+#11
+****%CxSystemPath%\inc\math.h
+v2 
+:1728543791
+#12
+****..\..\shared\Bootloader\header\bl_operation.h
+v2 
+:1728543791
+#13

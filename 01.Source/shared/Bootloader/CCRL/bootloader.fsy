@@ -1,0 +1,140 @@
+;RENESAS OPTIMIZING LINKER GENERATED FILE 2024.10.10
+;fsymbol = .text, .textf, .constf, .data, .bss, BLRamTx_f, FSL_FCD, FSL_BCD, FSL_RCD, FSL_BECD, FSL_FECD
+
+;SECTION NAME = .text
+ .public _bl_start
+_bl_start .equ 0x000001d8
+ .public _bl_bswap_start
+_bl_bswap_start .equ 0x000001f3
+;SECTION NAME = .textf
+ .public _BL_FLASH_Prepare
+_BL_FLASH_Prepare .equ 0x0000061e
+ .public _BL_FLASH_CleanUp
+_BL_FLASH_CleanUp .equ 0x0000068c
+ .public _BL_FLASH_BankProgramming
+_BL_FLASH_BankProgramming .equ 0x000006ef
+ .public _BL_FLASH_GetBootFlag
+_BL_FLASH_GetBootFlag .equ 0x000008b9
+ .public _BL_HASHING_CalculateOnce
+_BL_HASHING_CalculateOnce .equ 0x000008e5
+ .public _BL_IMAGE_GetBankContent
+_BL_IMAGE_GetBankContent .equ 0x00000992
+ .public _BL_IMAGE_GetHeaderInfo
+_BL_IMAGE_GetHeaderInfo .equ 0x00000a00
+ .public _BL_IMAGE_SetSoftwareVersion
+_BL_IMAGE_SetSoftwareVersion .equ 0x00000a4b
+ .public _BL_IMAGE_SetTransferTime
+_BL_IMAGE_SetTransferTime .equ 0x00000a72
+ .public _BL_IMAGE_SetActivationTime
+_BL_IMAGE_SetActivationTime .equ 0x00000a99
+ .public _BL_memcpy_nf
+_BL_memcpy_nf .equ 0x00000ac0
+ .public _BL_memcmp_nf
+_BL_memcmp_nf .equ 0x00000aef
+ .public _BL_OPERATION_RequestUserReset
+_BL_OPERATION_RequestUserReset .equ 0x00000b3b
+ .public _BL_RunOnRam_PrepareFunctions
+_BL_RunOnRam_PrepareFunctions .equ 0x00000b3f
+ .public _BL_StopInterruptAndBankSwap
+_BL_StopInterruptAndBankSwap .equ 0x00000b77
+ .public _BL_ForceLinking
+_BL_ForceLinking .equ 0x00000ba6
+ .public _bl_stkinit
+_bl_stkinit .equ 0x00000bcf
+ .public _bl_startup
+_bl_startup .equ 0x00000c18
+ .public _bl_main
+_bl_main .equ 0x00000c93
+ .public _BL_IncreaseSoftwareVersion
+_BL_IncreaseSoftwareVersion .equ 0x00000d75
+ .public _BL_AcknowledgeImageUpdateStatus
+_BL_AcknowledgeImageUpdateStatus .equ 0x00000ddd
+ .public _BL_GetImageUpdateStatus
+_BL_GetImageUpdateStatus .equ 0x00000de2
+;SECTION NAME = .constf
+ .public _g_bl_properties
+_g_bl_properties .equ 0x00000082
+;SECTION NAME = .data
+;SECTION NAME = .bss
+ .public _g_bl_resf
+_g_bl_resf .equ 0x000f843a
+ .public _g_bl_porsr
+_g_bl_porsr .equ 0x000f843b
+ .public _g_bl_bankswap_startup
+_g_bl_bankswap_startup .equ 0x000f843c
+;SECTION NAME = BLRamTx_f
+ .public _BL_FLASH_RAM_SwapBankWithRamIsr
+_BL_FLASH_RAM_SwapBankWithRamIsr .equ 0x000f83e8
+ .public _BL_FLASH_RAM_JumpBankSwapEntry
+_BL_FLASH_RAM_JumpBankSwapEntry .equ 0x000f8420
+;SECTION NAME = FSL_FCD
+ .public _FSL_Open
+_FSL_Open .equ 0x00000338
+ .public _FSL_Close
+_FSL_Close .equ 0x0000033e
+ .public _FSL_PrepareFunctions
+_FSL_PrepareFunctions .equ 0x00000344
+ .public _FSL_Prepare_common
+_FSL_Prepare_common .equ 0x0000035a
+ .public _FSL_PrepareExtFunctions
+_FSL_PrepareExtFunctions .equ 0x0000036e
+ .public _FSL_Init
+_FSL_Init .equ 0x00000388
+ .public _FSL_ChangeInterruptTable
+_FSL_ChangeInterruptTable .equ 0x000003f0
+ .public _FSL_RestoreInterruptTable
+_FSL_RestoreInterruptTable .equ 0x00000400
+ .public _FSL_GetVersionString
+_FSL_GetVersionString .equ 0x00000406
+;SECTION NAME = FSL_BCD
+ .public _ASM_BCD_Start
+_ASM_BCD_Start .equ 0x0000049e
+ .public _ASM_BCD_End
+_ASM_BCD_End .equ 0x0000059e
+;SECTION NAME = FSL_RCD
+ .public _FSL_ForceReset
+_FSL_ForceReset .equ 0x000f8304
+ .public _FSL_SetFlashShieldWindow
+_FSL_SetFlashShieldWindow .equ 0x000f8306
+ .public _FSL_InvertBootFlag
+_FSL_InvertBootFlag .equ 0x000f834a
+ .public _FSL_SwapActiveBootCluster
+_FSL_SwapActiveBootCluster .equ 0x000f8352
+ .public _ASM_RCD_SI_Swap_Cont
+_ASM_RCD_SI_Swap_Cont .equ 0x000f836f
+ .public _FSL_BlankCheck
+_FSL_BlankCheck .equ 0x000f8388
+ .public _FSL_Erase
+_FSL_Erase .equ 0x000f838d
+ .public _FSL_IVerify
+_FSL_IVerify .equ 0x000f8392
+ .public _FSL_Write
+_FSL_Write .equ 0x000f8397
+ .public _ASM_RCD_Branch_BECD_Entry
+_ASM_RCD_Branch_BECD_Entry .equ 0x000f83a8
+ .public _ASM_RCD_Check_Ext_Flow
+_ASM_RCD_Check_Ext_Flow .equ 0x000f83b6
+ .public _ASM_RCD_Check_Status_Flow
+_ASM_RCD_Check_Status_Flow .equ 0x000f83bd
+ .public _ASM_RCD_Check_StandBy_Flow
+_ASM_RCD_Check_StandBy_Flow .equ 0x000f83c4
+ .public _ASM_RCD_Check_WakeUp_Flow
+_ASM_RCD_Check_WakeUp_Flow .equ 0x000f83cb
+ .public _ASM_RCD_Check_Flow
+_ASM_RCD_Check_Flow .equ 0x000f83d2
+;SECTION NAME = FSL_BECD
+ .public _ASM_BECD_Start
+_ASM_BECD_Start .equ 0x0000059e
+ .public _ASM_BECD_End
+_ASM_BECD_End .equ 0x0000061e
+;SECTION NAME = FSL_FECD
+ .public _FSL_GetFlashShieldWindow
+_FSL_GetFlashShieldWindow .equ 0x00000420
+ .public _FSL_GetBootFlag
+_FSL_GetBootFlag .equ 0x00000436
+ .public _FSL_GetSecurityFlags
+_FSL_GetSecurityFlags .equ 0x0000043b
+ .public _ASM_FECD_GI_Check_Flow
+_ASM_FECD_GI_Check_Flow .equ 0x0000046a
+ .public _ASM_FECD_GI_Execute
+_ASM_FECD_GI_Execute .equ 0x00000476

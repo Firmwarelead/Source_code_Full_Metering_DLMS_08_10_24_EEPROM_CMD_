@@ -1,0 +1,64 @@
+-Input=Release\bl_flash.obj
+-Input=Release\bl_flash_ram.obj
+-Input=Release\bl_hashing.obj
+-Input=Release\bl_image.obj
+-Input=Release\bl_operation.obj
+-Input=Release\bl_run_on_ram.obj
+-Input=Release\bl_call_linking.obj
+-Input=Release\bl_wrp_properties.obj
+-Input=Release\bl_cstart.obj
+-Input=Release\bl_stkinit.obj
+-Input=Release\bl_vtable.obj
+-Input=Release\bl_main.obj
+-Input=Release\bl_far_btable.obj
+-LIBrary=..\..\shared\Flash\fsl\CCRL\librl78\fsl.lib
+-SECURITY_ID=00000000000000000000
+-DEVICE=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F10NPL.DVF
+-DEBug
+-NOCOmpress
+-NOOPtimize
+-OUtput=Release\bootloader.abs
+-LIBrary=C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.01\lib\rl78em4s.lib
+-LIBrary=C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.01\lib\malloc_n.lib
+-LIBrary=C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.01\lib\rl78em4r.lib
+-OCDBG=84
+-DEBUG_MONITOR=3FE00-3FFFF
+-USER_OPT_BYTE=7E3FA2
+-SELF
+-ENTry=_bl_start
+-SPLIT_VECT
+-LISt=Release\bootloader.map
+-SHow=ALL
+-AUTO_SECTION_LAYOUT
+-STARt=BLNoInit_n,FSL_RCDR,Prefetch_FSL,BLRamTxR_n,Prefetch/f8300
+-FSymbol=.text
+-FSymbol=.textf
+-FSymbol=.constf
+-FSymbol=.data
+-FSymbol=.bss
+-FSymbol=BLRamTx_f
+-FSymbol=FSL_FCD
+-FSymbol=FSL_BCD
+-FSymbol=FSL_RCD
+-FSymbol=FSL_BECD
+-FSymbol=FSL_FECD
+-ROm=.data=.dataR
+-ROm=BLRamTx_f=BLRamTxR_n
+-ROm=FSL_RCD=FSL_RCDR
+-CPu=ROM=00000-00fff
+-CPu=ROM=3fe00-3ffff
+-CPu=RAM=f8300-f84ff
+-NOMessage
+-CHange_message=Information
+-STACk
+-Total_size
+-NOLOgo
+-end
+-Input=Release\bootloader.abs
+-DEVICE=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F10NPL.DVF
+-OUtput=Release\bootloader.mot
+-FOrm=Stype
+-NOMessage
+-CHange_message=Information
+-exit
+

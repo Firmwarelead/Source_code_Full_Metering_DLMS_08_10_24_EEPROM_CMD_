@@ -1,0 +1,1236 @@
+Renesas Optimizing Linker (W3.05.00 )             10-Oct-2024 12:32:53
+
+*** Options ***
+
+-MAKEUD=Release\Bootloader Dual Bank.lk.ud
+-subcommand=Release\Bootloader Dual Bank.clnk
+-Input=Release\bl_flash.obj
+-Input=Release\bl_flash_ram.obj
+-Input=Release\bl_hashing.obj
+-Input=Release\bl_image.obj
+-Input=Release\bl_operation.obj
+-Input=Release\bl_run_on_ram.obj
+-Input=Release\bl_call_linking.obj
+-Input=Release\bl_wrp_properties.obj
+-Input=Release\bl_cstart.obj
+-Input=Release\bl_stkinit.obj
+-Input=Release\bl_vtable.obj
+-Input=Release\bl_main.obj
+-Input=Release\bl_far_btable.obj
+-LIBrary=..\..\shared\Flash\fsl\CCRL\librl78\fsl.lib
+-SECURITY_ID=00000000000000000000
+-DEVICE=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F10NPL.DVF
+-DEBug
+-NOCOmpress
+-NOOPtimize
+-OUtput=Release\bootloader.abs
+-LIBrary=C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.01\lib\rl78em4s.lib
+-LIBrary=C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.01\lib\malloc_n.lib
+-LIBrary=C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.01\lib\rl78em4r.lib
+-OCDBG=84
+-DEBUG_MONITOR=3FE00-3FFFF
+-USER_OPT_BYTE=7E3FA2
+-SELF
+-ENTry=_bl_start
+-SPLIT_VECT
+-LISt=Release\bootloader.map
+-SHow=ALL
+-AUTO_SECTION_LAYOUT
+-STARt=BLNoInit_n,FSL_RCDR,Prefetch_FSL,BLRamTxR_n,Prefetch/f8300
+-FSymbol=.text
+-FSymbol=.textf
+-FSymbol=.constf
+-FSymbol=.data
+-FSymbol=.bss
+-FSymbol=BLRamTx_f
+-FSymbol=FSL_FCD
+-FSymbol=FSL_BCD
+-FSymbol=FSL_RCD
+-FSymbol=FSL_BECD
+-FSymbol=FSL_FECD
+-ROm=.data=.dataR
+-ROm=BLRamTx_f=BLRamTxR_n
+-ROm=FSL_RCD=FSL_RCDR
+-CPu=ROM=00000-00fff
+-CPu=ROM=3fe00-3ffff
+-CPu=RAM=f8300-f84ff
+-NOMessage
+-CHange_message=Information
+-STACk
+-Total_size
+-NOLOgo
+-end
+
+*** Error information ***
+
+*** Mapping List ***
+
+SECTION                            START      END         SIZE   ALIGN
+.vtable_AT0
+                                  00000000  00000001         2   1
+.vect2
+                                  00000002  00000003         2   0
+.data
+                                  00000002  00000002         0   2
+.vtable_AT4
+                                  00000004  0000007f        7c   1
+.constf
+                                  00000080  0000009d        1e   2
+.option_byte
+                                  000000c0  000000c3         4   1
+.security_id
+                                  000000c4  000000cd         a   1
+.SLIB
+                                  000000c4  000000c4         0   1
+.monitor1
+                                  000000ce  000000d7         a   1
+.far_vtable_ATD8
+                                  000000d8  000001d7       100   1
+.text
+                                  000001d8  0000025c        85   1
+FSL_RCD
+                                  0000025e  00000337        da   2
+FSL_FCD
+                                  00000338  0000041f        e8   2
+FSL_FECD
+                                  00000420  0000049c        7d   2
+FSL_BCD
+                                  0000049e  0000059d       100   2
+FSL_BECD
+                                  0000059e  0000061d        80   2
+.textf
+                                  0000061e  00000df4       7d7   1
+BLRamTx_f
+                                  00000df5  00000e3b        47   1
+.RLIB
+                                  00000e3c  00000e50        15   1
+.monitor2
+                                  0003fe00  0003ffff       200   1
+BLNoInit_n
+                                  000f8300  000f8303         4   2
+FSL_RCDR
+                                  000f8304  000f83dd        da   2
+Prefetch_FSL
+                                  000f83de  000f83e7         a   1
+BLRamTxR_n
+                                  000f83e8  000f842e        47   1
+Prefetch
+                                  000f842f  000f8438         a   1
+.dataR
+                                  000f8300  000f8300         0   2
+.bss
+                                  000f843a  000f843c         3   2
+
+*** Total Section Size ***
+
+RAMDATA SECTION:  00000128 Byte(s)
+ROMDATA SECTION:  00000238 Byte(s)
+PROGRAM SECTION:  00000e09 Byte(s)
+
+*** Symbol List ***
+
+SECTION=
+FILE=                               START        END    SIZE
+  SYMBOL                            ADDR        SIZE    INFO      COUNTS  OPT
+    STRUCT                                      SIZE
+      MEMBER                        ADDR        SIZE    INFO
+
+SECTION=.vtable_AT0
+FILE=Release\bl_vtable.obj
+                                  00000000  00000001         2
+
+SECTION=.vect2
+FILE=rlink_generates_04
+                                  00000002  00000003         2
+
+SECTION=.vtable_AT4
+FILE=Release\bl_vtable.obj
+                                  00000004  0000007f        7c
+
+SECTION=.constf
+FILE=Release\bl_call_linking.obj
+                                  00000080  00000080         1
+  _g_dummy_enabled@1
+                                  00000080         1   data ,l         2
+FILE=Release\bl_wrp_properties.obj
+                                  00000082  0000009d        1c
+  _g_bl_properties
+                                  00000082        1c   data ,g        21
+    struct tagBootLoaderProperties {
+                                                  1c
+      _g_bl_properties.device
+                                  00000082         8
+    struct tagDeviceInfo {
+                                                   8
+      _g_bl_properties.device.rom_size
+                                  00000082         4   unsigned long
+      _g_bl_properties.device.bank_size
+                                  00000086         4   unsigned long
+    }
+      _g_bl_properties.user_app
+                                  0000008a        10
+    struct tagUserAppArea {
+                                                  10
+      _g_bl_properties.user_app.start_addr
+                                  0000008a         4   unsigned long
+      _g_bl_properties.user_app.branch_addr
+                                  0000008e         4   unsigned long
+      _g_bl_properties.user_app.entry_addr
+                                  00000092         4   unsigned long
+      _g_bl_properties.user_app.end_addr
+                                  00000096         4   unsigned long
+    }
+      _g_bl_properties.entry_func
+                                  0000009a         4
+    struct tagEntryAddress {
+                                                   4
+      _g_bl_properties.entry_func.bl_bswap
+                                  0000009a         4   [far pointer]
+    }
+    }
+
+SECTION=.option_byte
+FILE=rlink_generates_01
+                                  000000c0  000000c3         4
+
+SECTION=.security_id
+FILE=rlink_generates_03
+                                  000000c4  000000cd         a
+
+SECTION=.monitor1
+FILE=rlink_generates_02
+                                  000000ce  000000d7         a
+
+SECTION=.far_vtable_ATD8
+FILE=Release\bl_far_btable.obj
+                                  000000d8  000001d7       100
+
+SECTION=.text
+FILE=Release\bl_cstart.obj
+                                  000001d8  0000025c        85
+  _bl_start
+                                  000001d8         0   entry,g         1
+  _bl_bswap_start
+                                  000001f3         0   none ,g         2
+  _bl_stack_init
+                                  000001fe         0   none ,l         1
+  _bl_section_init
+                                  00000209         0   none ,l         1
+  _app_run
+                                  0000024e         0   none ,l         2
+  _exit
+                                  0000025b         0   none ,l         1
+
+SECTION=FSL_RCD
+FILE=fsl_r_reset
+                                  0000025e  0000025e         1
+FILE=fsl_r_si_fsw
+                                  00000260  000002a3        44
+FILE=fsl_r_ss_ibf
+                                  000002a4  000002ab         8
+FILE=fsl_r_ss_swap
+                                  000002ac  000002e1        36
+FILE=fsl_r_std_cmd
+                                  000002e2  00000300        1f
+FILE=fsl_r_br_becd
+                                  00000302  0000030e         d
+FILE=fsl_r_check_flow
+                                  00000310  00000337        28
+
+SECTION=FSL_FCD
+FILE=fsl_f_open
+                                  00000338  0000033c         5
+  _FSL_Open
+                                  00000338         0   none ,g         1
+FILE=fsl_f_close
+                                  0000033e  00000342         5
+  _FSL_Close
+                                  0000033e         0   none ,g         1
+FILE=fsl_f_pfunc
+                                  00000344  0000036c        29
+  _FSL_PrepareFunctions
+                                  00000344         0   none ,g         1
+  _FSL_Prepare_common
+                                  0000035a         0   none ,g         2
+FILE=fsl_f_pefunc
+                                  0000036e  00000386        19
+  _FSL_PrepareExtFunctions
+                                  0000036e         0   none ,g         1
+FILE=fsl_f_init
+                                  00000388  000003ee        67
+  _FSL_Init
+                                  00000388         0   none ,g         1
+  _FSL_Init_Clear_Info_loop
+                                  00000393         0   none ,l         1
+  _FSL_Init_param_err
+                                  000003e4         0   none ,l         3
+  _FSL_Init_exit
+                                  000003e6         0   none ,l         1
+FILE=fsl_f_cr_int
+                                  000003f0  00000404        15
+  _FSL_ChangeInterruptTable
+                                  000003f0         0   none ,g         1
+  _FSL_CR_InterruptTable_common
+                                  000003fa         0   none ,l         1
+  _FSL_RestoreInterruptTable
+                                  00000400         0   none ,g         1
+FILE=fsl_f_gver
+                                  00000406  0000041f        1a
+  _FSL_GetVersionString
+                                  00000406         0   none ,g         1
+  _FSL_GetVersionString_value
+                                  0000040c         0   none ,l         2
+
+SECTION=FSL_FECD
+FILE=fsl_fe_gi_fsw
+                                  00000420  00000434        15
+  _FSL_GetFlashShieldWindow
+                                  00000420         0   none ,g         2
+  _FSL_GetFlashShieldWindow_flow_err
+                                  00000432         0   none ,l         1
+FILE=fsl_fe_gs_flag
+                                  00000436  00000468        33
+  _FSL_GetBootFlag
+                                  00000436         0   none ,g         1
+  _FSL_GetSecurityFlags
+                                  0000043b         0   none ,g         0
+  _FSL_GetSecurity_common
+                                  0000043e         0   none ,l         1
+  _FSL_GetSecurity_common_clear_bitx
+                                  0000045b         0   none ,l         1
+  _FSL_GetSecurity_common_modify_bit_exit
+                                  0000045f         0   none ,l         1
+  _FSL_GetSecurity_common_exit
+                                  00000461         0   none ,l         1
+  _FSL_GetSecurity_flow_err
+                                  00000465         0   none ,l         1
+FILE=fsl_fe_gi_check_flow
+                                  0000046a  00000475         c
+  _ASM_FECD_GI_Check_Flow
+                                  0000046a         0   none ,g         2
+FILE=fsl_fe_gi_common
+                                  00000476  0000049c        27
+  _ASM_FECD_GI_Execute
+                                  00000476         0   none ,g         2
+  _ASM_FECD_GI_Execute_copy_next
+                                  00000490         0   none ,l         1
+  _ASM_FECD_GI_Execute_exit
+                                  00000499         0   none ,l         1
+
+SECTION=FSL_BCD
+FILE=fsl_b_common
+                                  0000049e  0000059d       100
+  _ASM_BCD_Start
+                                  0000049e         0   none ,g         7
+  _ASM_BCD_Entry
+                                  0000049e         0   none ,l         0
+  _ASM_BCD_StatusCheck
+                                  000004af         0   none ,l         1
+  _ASM_BCD_Erase
+                                  000004cf         0   none ,l         1
+  _ASM_BCD_IVerify
+                                  000004d3         0   none ,l         1
+  _ASM_BCD_BlankCheck
+                                  000004d7         0   none ,l         1
+  _ASM_BCD_block_cmd
+                                  000004d9         0   none ,l         2
+  _ASM_BCD_Param_Error
+                                  000004fd         0   none ,l         7
+  _ASM_BCD_Common_Exit
+                                  000004ff         0   none ,l         4
+  _ASM_BCD_Write
+                                  0000050b         0   none ,l         1
+  _ASM_BCD_Write_cmd
+                                  0000050e         0   none ,l         0
+  _ASM_BCD_Execute
+                                  00000562         0   none ,l         1
+  _ASM_BCD_Execute_check
+                                  00000567         0   none ,l         1
+  _ASM_BCD_Execute_retry
+                                  00000582         0   none ,l         1
+  _ASM_BCD_Alignment_Start
+                                  00000588         0   none ,l         0
+  _ASM_BCD_Table_Start
+                                  00000592         0   none ,l         0
+  _ASM_BCD_End
+                                  0000059e         0   none ,g         1
+
+SECTION=FSL_BECD
+FILE=fsl_be_common
+                                  0000059e  0000061d        80
+  _ASM_BECD_Start
+                                  0000059e         0   none ,g         4
+  _ASM_BECD_Entry
+                                  0000059e         0   none ,l         0
+  _ASM_BECD_SI_Security_Flags
+                                  000005af         0   none ,l         1
+  _ASM_BECD_SI_Security_Flags_exit
+                                  000005d2         0   none ,l         1
+  _ASM_BECD_SI_Common_Exit
+                                  000005d6         0   none ,l         2
+  _ASM_BECD_SI_FSW
+                                  000005e2         0   none ,l         1
+  _ASM_BECD_SI_Execute
+                                  000005e4         0   none ,l         1
+  _ASM_BECD_SI_Execute_check
+                                  000005e8         0   none ,l         1
+  _ASM_BECD_SI_Execute_check_cont
+                                  000005f9         0   none ,l         1
+  _ASM_BECD_SI_Execute_retry
+                                  00000608         0   none ,l         1
+  _ASM_BECD_Alignment_Start
+                                  0000060e         0   none ,l         0
+  _ASM_BECD_Table_Start
+                                  00000616         0   none ,l         0
+  _ASM_BECD_End
+                                  0000061e         0   none ,g         1
+
+SECTION=.textf
+FILE=Release\bl_flash.obj
+                                  0000061e  000008e4       2c7
+  _BL_FLASH_Prepare
+                                  0000061e        6e   func ,g         6
+  _BL_FLASH_CleanUp
+                                  0000068c         5   func ,g         6
+  _bl_flash_write_data_to_erased_flash@1
+                                  00000691        5e   func ,l         2
+  _BL_FLASH_BankProgramming
+                                  000006ef       1ca   func ,g         3
+  _BL_FLASH_GetBootFlag
+                                  000008b9        2c   func ,g         0
+FILE=Release\bl_hashing.obj
+                                  000008e5  00000991        ad
+  _BL_HASHING_CalculateOnce
+                                  000008e5        ad   func ,g         1
+FILE=Release\bl_image.obj
+                                  00000992  00000abf       12e
+  _BL_IMAGE_GetBankContent
+                                  00000992        6e   func ,g         0
+  _BL_IMAGE_GetHeaderInfo
+                                  00000a00        4b   func ,g         1
+  _BL_IMAGE_SetSoftwareVersion
+                                  00000a4b        27   func ,g         0
+  _BL_IMAGE_SetTransferTime
+                                  00000a72        27   func ,g         0
+  _BL_IMAGE_SetActivationTime
+                                  00000a99        27   func ,g         0
+FILE=Release\bl_operation.obj
+                                  00000ac0  00000b3e        7f
+  _BL_memcpy_nf
+                                  00000ac0        2f   func ,g         6
+  _BL_memcmp_nf
+                                  00000aef        4c   func ,g         1
+  _BL_OPERATION_RequestUserReset
+                                  00000b3b         4   func ,g         0
+FILE=Release\bl_run_on_ram.obj
+                                  00000b3f  00000ba5        67
+  _BL_RunOnRam_PrepareFunctions
+                                  00000b3f        38   func ,g         1
+  _BL_StopInterruptAndBankSwap
+                                  00000b77        2f   func ,g         0
+FILE=Release\bl_call_linking.obj
+                                  00000ba6  00000bce        29
+  _BL_ForceLinking
+                                  00000ba6        29   func ,g         1
+FILE=Release\bl_stkinit.obj
+                                  00000bcf  00000c17        49
+  _bl_stkinit
+                                  00000bcf         0   none ,g         1
+  LSTINIT1
+                                  00000bdc         0   none ,l         1
+  LSTINIT2
+                                  00000c0a         0   none ,l         2
+  LSTINIT3
+                                  00000c17         0   none ,l         2
+FILE=Release\bl_main.obj
+                                  00000c18  00000df4       1dd
+  _bl_startup
+                                  00000c18        7b   func ,g         1
+  _bl_main
+                                  00000c93        e2   func ,g         1
+  _BL_IncreaseSoftwareVersion
+                                  00000d75        68   func ,g         0
+  _BL_AcknowledgeImageUpdateStatus
+                                  00000ddd         5   func ,g         0
+  _BL_GetImageUpdateStatus
+                                  00000de2        13   func ,g         0
+
+SECTION=BLRamTx_f
+FILE=Release\bl_flash_ram.obj
+                                  00000df5  00000e3b        47
+
+SECTION=.RLIB
+FILE=_COM_memset_f
+                                  00000e3c  00000e50        15
+  __COM_memset_f
+                                  00000e3c         0   none ,g         2
+
+SECTION=.monitor2
+FILE=rlink_generates_02
+                                  0003fe00  0003ffff       200
+
+SECTION=BLNoInit_n
+FILE=Release\bl_main.obj
+                                  000f8300  000f8303         4
+  _g_bl_info
+                                  000f8300         4   data ,g        10
+    struct tagBLInformation {
+                                                   4
+      _g_bl_info.reset_count
+                                  000f8300         1   unsigned char
+      _g_bl_info.is_user_reset
+                                  000f8301         1   unsigned char
+      _g_bl_info.image_update
+                                  000f8302         2
+    union  tagImageUpdateStatus {
+                                                   2
+      _g_bl_info.image_update.value
+                                  000f8302         2   unsigned short
+      _g_bl_info.image_update.details
+                                  000f8302         2
+    struct tagImageUpdateDetails {
+                                                   2
+      _g_bl_info.image_update.details.new_update_info
+                                  000f8302         2   unsigned short:1(7)
+      _g_bl_info.image_update.details.update_sucess
+                                  000f8302         2   unsigned short:1(6)
+      _g_bl_info.image_update.details.update_failed_new_image_not_work
+                                  000f8302         2   unsigned short:1(5)
+      _g_bl_info.image_update.details.reserved
+                                  000f8302         2   unsigned short:d(0)
+    }
+    }
+    }
+
+SECTION=FSL_RCDR
+FILE=fsl_r_reset
+                                  000f8304  000f8304         1
+  _FSL_ForceReset
+                                  000f8304         0   none ,g         1
+FILE=fsl_r_si_fsw
+                                  000f8306  000f8349        44
+  _FSL_SetFlashShieldWindow
+                                  000f8306         0   none ,g         2
+  _FSL_SetFlashShieldWindow_flow_err
+                                  000f8342         0   none ,l         1
+  _FSL_SetFlashShieldWindow_param_err
+                                  000f8345         0   none ,l         2
+FILE=fsl_r_ss_ibf
+                                  000f834a  000f8351         8
+  _FSL_InvertBootFlag
+                                  000f834a         0   none ,g         2
+FILE=fsl_r_ss_swap
+                                  000f8352  000f8387        36
+  _FSL_SwapActiveBootCluster
+                                  000f8352         0   none ,g         2
+  _FSL_SwapActiveBootCluster_flow_err
+                                  000f836c         0   none ,l         1
+  _ASM_RCD_SI_Swap_Cont
+                                  000f836f         0   none ,g         1
+  _ASM_RCD_SI_Swap_Cont_exit
+                                  000f837c         0   none ,l         1
+FILE=fsl_r_std_cmd
+                                  000f8388  000f83a6        1f
+  _FSL_BlankCheck
+                                  000f8388         0   none ,g         0
+  _FSL_Erase
+                                  000f838d         0   none ,g         1
+  _FSL_IVerify
+                                  000f8392         0   none ,g         2
+  _FSL_Write
+                                  000f8397         0   none ,g         1
+  _FSL_std_common
+                                  000f839a         0   none ,l         3
+  _FSL_std_common_flow_err
+                                  000f83a3         0   none ,l         0
+FILE=fsl_r_br_becd
+                                  000f83a8  000f83b4         d
+  _ASM_RCD_Branch_BECD_Entry
+                                  000f83a8         0   none ,g         1
+  _ASM_RCD_Branch_BECD_Entry_flow_err
+                                  000f83b1         0   none ,l         0
+FILE=fsl_r_check_flow
+                                  000f83b6  000f83dd        28
+  _ASM_RCD_Check_Ext_Flow
+                                  000f83b6         0   none ,g         3
+  _ASM_RCD_Check_Status_Flow
+                                  000f83bd         0   none ,g         0
+  _ASM_RCD_Check_StandBy_Flow
+                                  000f83c4         0   none ,g         0
+  _ASM_RCD_Check_WakeUp_Flow
+                                  000f83cb         0   none ,g         0
+  _ASM_RCD_Check_Flow
+                                  000f83d2         0   none ,g         1
+  _ASM_RCD_Check_Flow_common
+                                  000f83d7         0   none ,l         4
+
+SECTION=Prefetch_FSL
+FILE=Release\bl_cstart.obj
+                                  000f83de  000f83e7         a
+
+SECTION=BLRamTxR_n
+FILE=Release\bl_flash_ram.obj
+                                  000f83e8  000f842e        47
+  _BL_FLASH_RAM_SwapBankWithRamIsr
+                                  000f83e8        38   func ,g         1
+  _BL_FLASH_RAM_JumpBankSwapEntry
+                                  000f8420         f   func ,g         2
+
+SECTION=Prefetch
+FILE=Release\bl_cstart.obj
+                                  000f842f  000f8438         a
+
+SECTION=.bss
+FILE=Release\bl_main.obj
+                                  000f843a  000f843c         3
+  _g_bl_resf
+                                  000f843a         1   data ,g         4
+  _g_bl_porsr
+                                  000f843b         1   data ,g         1
+  _g_bl_bankswap_startup
+                                  000f843c         1   data ,g         3
+
+Absolute value symbols
+FILE=rlink_generates_05
+  __s.textf
+                                  0000061e         0   none ,g         0
+  __e.textf
+                                  00000df5         0   none ,g         0
+  __sBLRamTx_f
+                                  00000df5         0   none ,g         0
+  __eBLRamTx_f
+                                  00000e3c         0   none ,g         0
+  __sBLRamTxR_n
+                                  000f83e8         0   none ,g         0
+  __eBLRamTxR_n
+                                  000f842f         0   none ,g         0
+  __sPrefetch
+                                  000f842f         0   none ,g         0
+  __ePrefetch
+                                  000f8439         0   none ,g         0
+  __s.constf
+                                  00000080         0   none ,g         0
+  __e.constf
+                                  0000009e         0   none ,g         0
+  __s.text
+                                  000001d8         0   none ,g         0
+  __e.text
+                                  0000025d         0   none ,g         0
+  __s.data
+                                  00000002         0   none ,g         0
+  __e.data
+                                  00000002         0   none ,g         0
+  __s.bss
+                                  000f843a         0   none ,g         0
+  __e.bss
+                                  000f843d         0   none ,g         0
+  __s.dataR
+                                  000f8300         0   none ,g         0
+  __e.dataR
+                                  000f8300         0   none ,g         0
+  __sPrefetch_FSL
+                                  000f83de         0   none ,g         0
+  __ePrefetch_FSL
+                                  000f83e8         0   none ,g         0
+  __sFSL_RCD
+                                  0000025e         0   none ,g         0
+  __eFSL_RCD
+                                  00000338         0   none ,g         0
+  __sFSL_RCDR
+                                  000f8304         0   none ,g         0
+  __eFSL_RCDR
+                                  000f83de         0   none ,g         0
+  __s.RLIB
+                                  00000e3c         0   none ,g         0
+  __e.RLIB
+                                  00000e51         0   none ,g         0
+  __s.SLIB
+                                  000000c4         0   none ,g         0
+  __e.SLIB
+                                  000000c4         0   none ,g         0
+  __s.vtable_AT0
+                                  00000000         0   none ,g         0
+  __e.vtable_AT0
+                                  00000002         0   none ,g         0
+  __s.vtable_AT4
+                                  00000004         0   none ,g         0
+  __e.vtable_AT4
+                                  00000080         0   none ,g         0
+  __sBLNoInit_n
+                                  000f8300         0   none ,g         0
+  __eBLNoInit_n
+                                  000f8304         0   none ,g         0
+  __s.far_vtable_ATD8
+                                  000000d8         0   none ,g         0
+  __e.far_vtable_ATD8
+                                  000001d8         0   none ,g         0
+  __sFSL_FCD
+                                  00000338         0   none ,g         0
+  __eFSL_FCD
+                                  00000420         0   none ,g         0
+  __sFSL_FECD
+                                  00000420         0   none ,g         0
+  __eFSL_FECD
+                                  0000049d         0   none ,g         0
+  __sFSL_BCD
+                                  0000049e         0   none ,g         0
+  __eFSL_BCD
+                                  0000059e         0   none ,g         0
+  __sFSL_BECD
+                                  0000059e         0   none ,g         0
+  __eFSL_BECD
+                                  0000061e         0   none ,g         0
+  __s.option_byte
+                                  000000c0         0   none ,g         0
+  __e.option_byte
+                                  000000c4         0   none ,g         0
+  __s.monitor1
+                                  000000ce         0   none ,g         0
+  __e.monitor1
+                                  000000d8         0   none ,g         0
+  __s.monitor2
+                                  0003fe00         0   none ,g         0
+  __e.monitor2
+                                  00040000         0   none ,g         0
+  __s.security_id
+                                  000000c4         0   none ,g         0
+  __e.security_id
+                                  000000ce         0   none ,g         0
+  __s.vect2
+                                  00000002         0   none ,g         0
+  __e.vect2
+                                  00000004         0   none ,g         0
+  __RAM_ADDR_START
+                                  000f8300         0   none ,g         0
+  __RAM_ADDR_END
+                                  000f8500         0   none ,g         0
+  __STACK_ADDR_START
+                                  000f8500         0   none ,g         0
+  __STACK_ADDR_END
+                                  000f843e         0   none ,g         0
+
+*** Unfilled Areas ***
+
+AREA                                START    END
+
+*** Delete Symbols ***
+
+SYMBOL                                SIZE    INFO
+
+*** Variable Vector Table List ***
+
+ADDRESS  SYMBOL/ADDRESS
+00       
+02       ffff
+04       
+06       
+08       
+0a       
+0c       
+0e       
+10       
+12       
+14       
+16       
+18       
+1a       
+1c       
+1e       
+20       
+22       
+24       
+26       
+28       
+2a       
+2c       
+2e       
+30       
+32       
+34       
+36       
+38       
+3a       
+3c       
+3e       
+40       
+42       
+44       
+46       
+48       
+4a       
+4c       
+4e       
+50       
+52       
+54       
+56       
+58       
+5a       
+5c       
+5e       
+60       
+62       
+64       
+66       
+68       
+6a       
+6c       
+6e       
+70       
+72       
+74       
+76       
+78       
+7a       
+7c       
+7e       
+
+*** Cross Reference List ***
+
+No   Unit Name   Global.Symbol   Location External Infomation
+---- ----------- --------------- -------- ---------------------
+0001 bl_flash
+     SECTION=.textf
+                 _BL_FLASH_Prepare
+                                 0000061e 0001(00000759:.textf)
+                                          0001(000008c5:.textf)
+                                          0002(000f83ea:BLRamTxR_n)
+                                          0006(00000b7c:.textf)
+                                          0012(00000c1f:.textf)
+                                          0012(00000d1f:.textf)
+                 _BL_FLASH_CleanUp
+                                 0000068c 0001(0000089c:.textf)
+                                          0001(000008de:.textf)
+                                          0002(000f8419:BLRamTxR_n)
+                                          0006(00000b8e:.textf)
+                                          0012(00000c63:.textf)
+                                          0012(00000d2f:.textf)
+                 _BL_FLASH_BankProgramming
+                                 000006ef 0004(00000a69:.textf)
+                                          0004(00000a90:.textf)
+                                          0004(00000ab7:.textf)
+                 _BL_FLASH_GetBootFlag
+                                 000008b9
+0002 bl_flash_ram
+     SECTION=BLRamTxR_n
+                 _BL_FLASH_RAM_SwapBankWithRamIsr
+                                 000f83e8 0007(00000bc7:.textf)
+                 _BL_FLASH_RAM_JumpBankSwapEntry
+                                 000f8420 0006(00000ba0:.textf)
+                                          0007(00000bcb:.textf)
+     SECTION=BLRamTx_f
+0003 bl_hashing
+     SECTION=.textf
+                 _BL_HASHING_CalculateOnce
+                                 000008e5 0012(00000d0d:.textf)
+0004 bl_image
+     SECTION=.textf
+                 _BL_IMAGE_GetBankContent
+                                 00000992
+                 _BL_IMAGE_GetHeaderInfo
+                                 00000a00 0012(00000cd4:.textf)
+                 _BL_IMAGE_SetSoftwareVersion
+                                 00000a4b
+                 _BL_IMAGE_SetTransferTime
+                                 00000a72
+                 _BL_IMAGE_SetActivationTime
+                                 00000a99
+0005 bl_operation
+     SECTION=.textf
+                 _BL_memcpy_nf
+                                 00000ac0 0001(000007f0:.textf)
+                                          0004(000009f8:.textf)
+                                          0004(00000a43:.textf)
+                                          0006(00000b59:.textf)
+                                          0012(00000d9a:.textf)
+                                          0012(00000dd6:.textf)
+                 _BL_memcmp_nf
+                                 00000aef 0001(0000085e:.textf)
+                 _BL_OPERATION_RequestUserReset
+                                 00000b3b
+0006 bl_run_on_ram
+     SECTION=.textf
+                 _BL_RunOnRam_PrepareFunctions
+                                 00000b3f 0006(00000b79:.textf)
+                 _BL_StopInterruptAndBankSwap
+                                 00000b77
+     SECTION=BLRamTx_f
+     SECTION=BLRamTxR_n
+     SECTION=Prefetch
+     SECTION=BLRamTxR_n
+0007 bl_call_linking
+     SECTION=.textf
+                 _BL_ForceLinking
+                                 00000ba6 0009(0000024f:.text)
+     SECTION=.constf
+0008 bl_wrp_properties
+     SECTION=.constf
+                 _g_bl_properties
+                                 00000082 0001(00000722:.textf)
+                                          0001(00000729:.textf)
+                                          0001(00000730:.textf)
+                                          0001(0000073c:.textf)
+                                          0001(0000073f:.textf)
+                                          0001(00000745:.textf)
+                                          0002(000f8421:BLRamTxR_n)
+                                          0002(000f8424:BLRamTxR_n)
+                                          0002(000f842a:BLRamTxR_n)
+                                          0003(0000091d:.textf)
+                                          0003(00000920:.textf)
+                                          0003(00000926:.textf)
+                                          0004(0000099d:.textf)
+                                          0004(000009a4:.textf)
+                                          0004(000009ac:.textf)
+                                          0004(000009da:.textf)
+                                          0004(000009de:.textf)
+                                          0004(000009e7:.textf)
+                                          0004(00000a18:.textf)
+                                          0004(00000a1b:.textf)
+                                          0004(00000a1f:.textf)
+                                          0004(00000a24:.textf)
+                                          0004(00000a27:.textf)
+                                          0004(00000a30:.textf)
+                                          0004(00000a51:.textf)
+                                          0004(00000a57:.textf)
+                                          0004(00000a60:.textf)
+                                          0004(00000a78:.textf)
+                                          0004(00000a7e:.textf)
+                                          0004(00000a87:.textf)
+                                          0004(00000a9f:.textf)
+                                          0004(00000aa5:.textf)
+                                          0004(00000aae:.textf)
+0009 bl_cstart
+     SECTION=.text
+                 _bl_start
+                                 000001d8 0011(00000000:.vtable_AT0)
+                 _bl_bswap_start
+                                 000001f3 0008(0000009a:.constf)
+                                          0008(0000009c:.constf)
+     SECTION=.textf
+     SECTION=.constf
+     SECTION=.data
+     SECTION=.bss
+     SECTION=.dataR
+     SECTION=Prefetch_FSL
+     SECTION=Prefetch
+     SECTION=FSL_RCD
+     SECTION=FSL_RCDR
+     SECTION=.RLIB
+     SECTION=.SLIB
+     SECTION=.dataR
+     SECTION=FSL_RCDR
+0010 bl_stkinit
+     SECTION=.textf
+                 _bl_stkinit
+                                 00000bcf 0009(00000205:.text)
+0011 bl_vtable
+     SECTION=.vtable_AT0
+     SECTION=.vtable_AT4
+0012 bl_main
+     SECTION=.textf
+                 _bl_startup
+                                 00000c18 0009(000001e5:.text)
+                 _bl_main
+                                 00000c93 0009(00000253:.text)
+                 _BL_IncreaseSoftwareVersion
+                                 00000d75
+                 _BL_AcknowledgeImageUpdateStatus
+                                 00000ddd
+                 _BL_GetImageUpdateStatus
+                                 00000de2
+     SECTION=BLNoInit_n
+                 _g_bl_info
+                                 000f8300 0005(00000b3c:.textf)
+                                          0012(00000c72:.textf)
+                                          0012(00000ca4:.textf)
+                                          0012(00000caa:.textf)
+                                          0012(00000cb7:.textf)
+                                          0012(00000cbc:.textf)
+                                          0012(00000cbf:.textf)
+                                          0012(00000d47:.textf)
+                                          0012(00000d4c:.textf)
+                                          0012(00000d4f:.textf)
+                                          0012(00000d63:.textf)
+                                          0012(00000d68:.textf)
+                                          0012(00000d6b:.textf)
+                                          0012(00000d6e:.textf)
+                                          0012(00000ddf:.textf)
+                                          0012(00000de9:.textf)
+     SECTION=.bss
+                 _g_bl_resf
+                                 000f843a 0012(00000c8e:.textf)
+                                          0012(00000c9b:.textf)
+                                          0012(00000d43:.textf)
+                                          0012(00000d5f:.textf)
+                 _g_bl_porsr
+                                 000f843b 0012(00000c6b:.textf)
+                 _g_bl_bankswap_startup
+                                 000f843c 0009(000001ed:.text)
+                                          0009(000001f8:.text)
+                                          0012(00000d3d:.textf)
+0013 bl_far_btable
+     SECTION=.far_vtable_ATD8
+0014 fsl_f_open
+     SECTION=FSL_FCD
+                 _FSL_Open
+                                 00000338 0001(0000067e:.textf)
+0015 fsl_f_close
+     SECTION=FSL_FCD
+                 _FSL_Close
+                                 0000033e 0001(0000068d:.textf)
+0016 fsl_f_pfunc
+     SECTION=FSL_FCD
+                 _FSL_PrepareFunctions
+                                 00000344 0001(00000682:.textf)
+                 _FSL_Prepare_common
+                                 0000035a 0016(00000364:FSL_FCD)
+                                          0017(00000385:FSL_FCD)
+0017 fsl_f_pefunc
+     SECTION=FSL_FCD
+                 _FSL_PrepareExtFunctions
+                                 0000036e 0001(00000686:.textf)
+0018 fsl_f_init
+     SECTION=FSL_FCD
+                 _FSL_Init
+                                 00000388 0001(00000670:.textf)
+0019 fsl_f_cr_int
+     SECTION=FSL_FCD
+                 _FSL_ChangeInterruptTable
+                                 000003f0 0002(000f83f8:BLRamTxR_n)
+                 _FSL_RestoreInterruptTable
+                                 00000400 0002(000f8412:BLRamTxR_n)
+0020 fsl_f_gver
+     SECTION=FSL_FCD
+                 _FSL_GetVersionString
+                                 00000406 0007(00000bb8:.textf)
+0021 fsl_fe_gi_fsw
+     SECTION=FSL_FECD
+                 _FSL_GetFlashShieldWindow
+                                 00000420 0007(00000bbd:.textf)
+                                          0012(00000c33:.textf)
+0022 fsl_fe_gs_flag
+     SECTION=FSL_FECD
+                 _FSL_GetBootFlag
+                                 00000436 0001(000008d1:.textf)
+                 _FSL_GetSecurityFlags
+                                 0000043b
+0023 fsl_r_reset
+     SECTION=FSL_RCDR
+                 _FSL_ForceReset
+                                 000f8304 0007(00000bb0:.textf)
+     SECTION=FSL_RCD
+0024 fsl_r_si_fsw
+     SECTION=FSL_RCDR
+                 _FSL_SetFlashShieldWindow
+                                 000f8306 0007(00000bc2:.textf)
+                                          0012(00000c54:.textf)
+     SECTION=FSL_RCD
+0025 fsl_r_ss_ibf
+     SECTION=FSL_RCDR
+                 _FSL_InvertBootFlag
+                                 000f834a 0007(00000bb4:.textf)
+                                          0012(00000d26:.textf)
+     SECTION=FSL_RCD
+0026 fsl_r_ss_swap
+     SECTION=FSL_RCDR
+                 _FSL_SwapActiveBootCluster
+                                 000f8352 0002(000f83ff:BLRamTxR_n)
+                                          0006(00000b88:.textf)
+                 _ASM_RCD_SI_Swap_Cont
+                                 000f836f 0026(000f835d:FSL_RCDR)
+     SECTION=FSL_RCD
+0027 fsl_r_std_cmd
+     SECTION=FSL_RCDR
+                 _FSL_BlankCheck
+                                 000f8388
+                 _FSL_Erase
+                                 000f838d 0001(00000811:.textf)
+                 _FSL_IVerify
+                                 000f8392 0001(000007ce:.textf)
+                                          0001(00000840:.textf)
+                 _FSL_Write
+                                 000f8397 0001(000006c8:.textf)
+     SECTION=FSL_RCD
+0028 _COM_memset_f
+     SECTION=.RLIB
+                 __COM_memset_f
+                                 00000e3c 0006(00000b70:.textf)
+                                          0012(00000c84:.textf)
+0029 fsl_b_common
+     SECTION=FSL_BCD
+                 _ASM_BCD_Start
+                                 0000049e 0016(00000350:FSL_FCD)
+                                          0016(00000352:FSL_FCD)
+                                          0029(00000592:FSL_BCD)
+                                          0029(00000594:FSL_BCD)
+                                          0029(00000596:FSL_BCD)
+                                          0029(00000598:FSL_BCD)
+                                          0029(0000059a:FSL_BCD)
+                 _ASM_BCD_End
+                                 0000059e 0016(00000355:FSL_FCD)
+0030 fsl_be_common
+     SECTION=FSL_BECD
+                 _ASM_BECD_Start
+                                 0000059e 0017(0000037a:FSL_FCD)
+                                          0017(0000037c:FSL_FCD)
+                                          0030(00000616:FSL_BECD)
+                                          0030(00000618:FSL_BECD)
+                 _ASM_BECD_End
+                                 0000061e 0017(0000037f:FSL_FCD)
+0031 fsl_fe_gi_check_flow
+     SECTION=FSL_FECD
+                 _ASM_FECD_GI_Check_Flow
+                                 0000046a 0021(00000421:FSL_FECD)
+                                          0022(0000043f:FSL_FECD)
+0032 fsl_fe_gi_common
+     SECTION=FSL_FECD
+                 _ASM_FECD_GI_Execute
+                                 00000476 0021(0000042c:FSL_FECD)
+                                          0022(00000449:FSL_FECD)
+0033 fsl_r_br_becd
+     SECTION=FSL_RCDR
+                 _ASM_RCD_Branch_BECD_Entry
+                                 000f83a8 0025(000f8350:FSL_RCDR)
+     SECTION=FSL_RCD
+0034 fsl_r_check_flow
+     SECTION=FSL_RCDR
+                 _ASM_RCD_Check_Ext_Flow
+                                 000f83b6 0024(000f8307:FSL_RCDR)
+                                          0026(000f8353:FSL_RCDR)
+                                          0033(000f83a9:FSL_RCDR)
+                 _ASM_RCD_Check_Status_Flow
+                                 000f83bd
+                 _ASM_RCD_Check_StandBy_Flow
+                                 000f83c4
+                 _ASM_RCD_Check_WakeUp_Flow
+                                 000f83cb
+                 _ASM_RCD_Check_Flow
+                                 000f83d2 0027(000f839b:FSL_RCDR)
+     SECTION=FSL_RCD
+0035 rlink_generates_01
+     SECTION=.option_byte
+0036 rlink_generates_02
+     SECTION=.monitor1
+     SECTION=.monitor2
+0037 rlink_generates_03
+     SECTION=.security_id
+0038 rlink_generates_04
+     SECTION=.vect2
+0039 rlink_generates_05
+     SECTION=
+                 __s.vtable_AT0
+                                 00000000
+                 __s.data
+                                 00000002
+                 __e.data
+                                 00000002
+                 __e.vtable_AT0
+                                 00000002
+                 __s.vect2
+                                 00000002
+                 __s.vtable_AT4
+                                 00000004
+                 __e.vect2
+                                 00000004
+                 __s.constf
+                                 00000080
+                 __e.vtable_AT4
+                                 00000080
+                 __e.constf
+                                 0000009e
+                 __s.option_byte
+                                 000000c0
+                 __s.SLIB
+                                 000000c4
+                 __e.SLIB
+                                 000000c4
+                 __e.option_byte
+                                 000000c4
+                 __s.security_id
+                                 000000c4
+                 __s.monitor1
+                                 000000ce
+                 __e.security_id
+                                 000000ce
+                 __s.far_vtable_ATD8
+                                 000000d8
+                 __e.monitor1
+                                 000000d8
+                 __s.text
+                                 000001d8
+                 __e.far_vtable_ATD8
+                                 000001d8
+                 __e.text
+                                 0000025d
+                 __sFSL_RCD
+                                 0000025e
+                 __eFSL_RCD
+                                 00000338
+                 __sFSL_FCD
+                                 00000338
+                 __eFSL_FCD
+                                 00000420
+                 __sFSL_FECD
+                                 00000420
+                 __eFSL_FECD
+                                 0000049d
+                 __sFSL_BCD
+                                 0000049e
+                 __eFSL_BCD
+                                 0000059e
+                 __sFSL_BECD
+                                 0000059e
+                 __s.textf
+                                 0000061e
+                 __eFSL_BECD
+                                 0000061e
+                 __e.textf
+                                 00000df5
+                 __sBLRamTx_f
+                                 00000df5
+                 __eBLRamTx_f
+                                 00000e3c
+                 __s.RLIB
+                                 00000e3c
+                 __e.RLIB
+                                 00000e51
+                 __s.monitor2
+                                 0003fe00
+                 __e.monitor2
+                                 00040000
+                 __s.dataR
+                                 000f8300
+                 __e.dataR
+                                 000f8300
+                 __sBLNoInit_n
+                                 000f8300
+                 __RAM_ADDR_START
+                                 000f8300
+                 __sFSL_RCDR
+                                 000f8304
+                 __eBLNoInit_n
+                                 000f8304
+                 __sPrefetch_FSL
+                                 000f83de
+                 __eFSL_RCDR
+                                 000f83de
+                 __sBLRamTxR_n
+                                 000f83e8
+                 __ePrefetch_FSL
+                                 000f83e8
+                 __eBLRamTxR_n
+                                 000f842f
+                 __sPrefetch
+                                 000f842f
+                 __ePrefetch
+                                 000f8439
+                 __s.bss
+                                 000f843a
+                 __e.bss
+                                 000f843d
+                 __STACK_ADDR_END
+                                 000f843e
+                 __RAM_ADDR_END
+                                 000f8500
+                 __STACK_ADDR_START
+                                 000f8500

@@ -1,0 +1,2806 @@
+****..\..\rl78i1c\libwrapper\dlms2\r_dlms_udp_wrapper_ethernet_serial_rx65n.c
+v2 
+:1727622098
+#1
+F "__DI" N I!1 T!2 ?18-2 
+T "void" KBV I!2 0x0 
+F "__EI" N I!3 T!2 ?19-2 
+F "__halt" N I!4 T!2 ?20-2 
+F "__stop" N I!5 T!2 ?21-2 
+F "__brk" N I!6 T!2 ?22-2 
+F "__nop" N I!7 T!2 ?23-2 
+F "__rolb" N I!8 T!9 ?25-2 P!10 P!11 
+T "unsigned char" KBU I!9 0x1 
+V "" N I!10 O!8 T!9 .1 0x1 
+V "" N I!11 O!8 T!9 .1 0x1 
+F "__rorb" N I!12 T!9 ?26-2 P!13 P!14 
+V "" N I!13 O!12 T!9 .1 0x1 
+V "" N I!14 O!12 T!9 .1 0x1 
+F "__rolw" N I!15 T!16 ?27-2 P!17 P!18 
+T "unsigned int" KBU I!16 0x2 
+V "" N I!17 O!15 T!16 .2 0x2 
+V "" N I!18 O!15 T!9 .1 0x1 
+F "__rorw" N I!19 T!16 ?28-2 P!20 P!21 
+V "" N I!20 O!19 T!16 .2 0x2 
+V "" N I!21 O!19 T!9 .1 0x1 
+F "__mulu" N I!22 T!16 ?30-2 P!23 P!24 
+V "" N I!23 O!22 T!9 .1 0x1 
+V "" N I!24 O!22 T!9 .1 0x1 
+F "__mului" N I!25 T!26 ?32-2 P!27 P!28 
+T "unsigned long" KBU I!26 0x4 
+V "" N I!27 O!25 T!16 .2 0x2 
+V "" N I!28 O!25 T!16 .2 0x2 
+F "__mulsi" N I!29 T!30 ?33-2 P!31 P!33 
+T "long" KBS I!30 0x4 
+V "" N I!31 O!29 T!32 .2 0x2 
+T "int" KBS I!32 0x2 
+V "" N I!33 O!29 T!32 .2 0x2 
+F "_COM_mulul" F I!34 T!35 ?42-2 P!36 P!37 
+T "unsigned long long" KBU I!35 0x8 
+V "" N I!36 O!34 T!26 .2 0x4 
+V "" N I!37 O!34 T!26 .2 0x4 
+F "_COM_mulsl" F I!38 T!39 ?43-2 P!40 P!41 
+T "long long" KBS I!39 0x8 
+V "" N I!40 O!38 T!30 .2 0x4 
+V "" N I!41 O!38 T!30 .2 0x4 
+F "_COM_divui" F I!42 T!16 ?48-2 P!43 P!44 
+V "" N I!43 O!42 T!16 .2 0x2 
+V "" N I!44 O!42 T!9 .1 0x1 
+F "_COM_divul" F I!45 T!26 ?49-2 P!46 P!47 
+V "" N I!46 O!45 T!26 .2 0x4 
+V "" N I!47 O!45 T!16 .2 0x2 
+F "_COM_remui" F I!48 T!9 ?53-2 P!49 P!50 
+V "" N I!49 O!48 T!16 .2 0x2 
+V "" N I!50 O!48 T!9 .1 0x1 
+F "_COM_remul" F I!51 T!16 ?54-2 P!52 P!53 
+V "" N I!52 O!51 T!26 .2 0x4 
+V "" N I!53 O!51 T!16 .2 0x2 
+F "_COM_macui" F I!54 T!26 ?58-2 P!55 P!56 P!57 
+V "" N I!55 O!54 T!16 .2 0x2 
+V "" N I!56 O!54 T!16 .2 0x2 
+V "" N I!57 O!54 T!26 .2 0x4 
+F "_COM_macsi" F I!58 T!30 ?59-2 P!59 P!60 P!61 
+V "" N I!59 O!58 T!32 .2 0x2 
+V "" N I!60 O!58 T!32 .2 0x2 
+V "" N I!61 O!58 T!30 .2 0x4 
+F "__get_psw" N I!62 T!9 ?63-2 
+F "__set_psw" N I!63 T!2 ?64-2 P!64 
+V "" N I!64 O!63 T!9 .1 0x1 
+F "__set1" N I!65 T!2 ?66-2 P!66 P!68 
+V "" N I!66 O!65 T!67 .2 0x2 
+T "" KP I!67 T!9 0x2 
+V "" N I!68 O!65 T!9 .1 0x1 
+F "__clr1" N I!69 T!2 ?67-2 P!70 P!71 
+V "" N I!70 O!69 T!67 .2 0x2 
+V "" N I!71 O!69 T!9 .1 0x1 
+F "__not1" N I!72 T!2 ?68-2 P!73 P!74 
+V "" N I!73 O!72 T!67 .2 0x2 
+V "" N I!74 O!72 T!9 .1 0x1 
+T "" KS I!75 !38-5 0x1 VM!76 VM!77 VM!78 VM!79 VM!80 VM!81 VM!82 VM!83 
+V "no0" - I!76 O!75 T!9 !39-5 .1 0x1 BO0 BIS1 
+V "no1" - I!77 O!75 T!9 !40-5 .1 0x1 BO1 BIS1 
+V "no2" - I!78 O!75 T!9 !41-5 .1 0x1 BO2 BIS1 
+V "no3" - I!79 O!75 T!9 !42-5 .1 0x1 BO3 BIS1 
+V "no4" - I!80 O!75 T!9 !43-5 .1 0x1 BO4 BIS1 
+V "no5" - I!81 O!75 T!9 !44-5 .1 0x1 BO5 BIS1 
+V "no6" - I!82 O!75 T!9 !45-5 .1 0x1 BO6 BIS1 
+V "no7" - I!83 O!75 T!9 !46-5 .1 0x1 BO7 BIS1 
+T "__bitf_T" KT I!84 T!75 !47-5 0x1 
+T "" KS I!85 !50-5 0x2 VM!86 VM!87 VM!88 VM!89 VM!90 VM!91 VM!92 VM!93 VM!94 VM!95 VM!96 VM!97 VM!98 VM!99 VM!100 VM!101 
+V "no0" - I!86 O!85 T!9 !51-5 .1 0x1 BO0 BIS1 
+V "no1" - I!87 O!85 T!9 !52-5 .1 0x1 BO1 BIS1 
+V "no2" - I!88 O!85 T!9 !53-5 .1 0x1 BO2 BIS1 
+V "no3" - I!89 O!85 T!9 !54-5 .1 0x1 BO3 BIS1 
+V "no4" - I!90 O!85 T!9 !55-5 .1 0x1 BO4 BIS1 
+V "no5" - I!91 O!85 T!9 !56-5 .1 0x1 BO5 BIS1 
+V "no6" - I!92 O!85 T!9 !57-5 .1 0x1 BO6 BIS1 
+V "no7" - I!93 O!85 T!9 !58-5 .1 0x1 BO7 BIS1 
+V "no8" - I!94 O!85 T!9 !59-5 .1 0x1 BO8 BIS1 
+V "no9" - I!95 O!85 T!9 !60-5 .1 0x1 BO9 BIS1 
+V "no10" - I!96 O!85 T!9 !61-5 .1 0x1 BO10 BIS1 
+V "no11" - I!97 O!85 T!9 !62-5 .1 0x1 BO11 BIS1 
+V "no12" - I!98 O!85 T!9 !63-5 .1 0x1 BO12 BIS1 
+V "no13" - I!99 O!85 T!9 !64-5 .1 0x1 BO13 BIS1 
+V "no14" - I!100 O!85 T!9 !65-5 .1 0x1 BO14 BIS1 
+V "no15" - I!101 O!85 T!9 !66-5 .1 0x1 BO15 BIS1 
+T "__bitf_T2" KT I!102 T!85 !67-5 0x2 
+T "int8_t" KT I!103 T!104 !26-6 0x1 
+T "signed char" KBS I!104 0x1 
+T "uint8_t" KT I!105 T!9 !27-6 0x1 
+T "int16_t" KT I!106 T!107 !28-6 0x2 
+T "short" KBS I!107 0x2 
+T "uint16_t" KT I!108 T!109 !29-6 0x2 
+T "unsigned short" KBU I!109 0x2 
+T "int32_t" KT I!110 T!30 !30-6 0x4 
+T "uint32_t" KT I!111 T!26 !31-6 0x4 
+T "int64_t" KT I!112 T!39 !36-6 0x8 
+T "uint64_t" KT I!113 T!35 !37-6 0x8 
+T "double64_t" KT I!114 T!35 !42-6 0x8 
+T "float32_t" KT I!115 T!116 !43-6 0x4 
+T "float" KBF I!116 0x4 
+T "MD_STATUS" KT I!117 T!109 !67-3 0x2 
+T "tagStdUartBaudRate" KE I!118 T!119 !320-7 0x1 EM0:"SAU_STD_BAUD_RATE_300" EM1:"SAU_STD_BAUD_RATE_600" EM2:"SAU_STD_BAUD_RATE_1200" EM3:"SAU_STD_BAUD_RATE_2400" EM4:"SAU_STD_BAUD_RATE_4800" EM5:"SAU_STD_BAUD_RATE_9600" EM6:"SAU_STD_BAUD_RATE_19200" EM7:"SAU_STD_BAUD_RATE_38400" EM8:"SAU_STD_BAUD_RATE_57600" EM9:"SAU_STD_BAUD_RATE_115200" 
+T "char" KBCS I!119 0x1 
+T "sau_std_baud_rate_t" KT I!120 T!118 !333-7 0x1 
+T "tagStdUartLength" KE I!121 T!119 !335-7 0x1 EM2:"SAU_STD_LENGTH_7" EM3:"SAU_STD_LENGTH_8" EM1:"SAU_STD_LENGTH_9" 
+T "sau_std_length_t" KT I!122 T!121 !340-7 0x1 
+T "tagStdUartParity" KE I!123 T!107 !342-7 0x2 EM0:"SAU_STD_PARITY_NONE" EM768:"SAU_STD_PARITY_ODD" EM512:"SAU_STD_PARITY_EVEN" 
+T "sau_std_parity_t" KT I!124 T!123 !347-7 0x2 
+T "tagStdUartStopBits" KE I!125 T!119 !349-7 0x1 EM16:"SAU_STD_STOPBITS_1" EM32:"SAU_STD_STOPBITS_2" 
+T "sau_std_stopbits_t" KT I!126 T!125 !353-7 0x1 
+F "R_SAU0_Create" F I!127 T!2 ?358-7 
+F "R_UART0_Create" F I!128 T!2 ?359-7 
+F "R_UART0_Start" F I!129 T!2 ?360-7 
+F "R_UART0_Stop" F I!130 T!2 ?361-7 
+F "R_UART0_Start_Reception" F I!131 T!2 ?362-7 
+F "R_UART0_Stop_Reception" F I!132 T!2 ?363-7 
+F "R_UART0_Send" F I!133 T!117 ?364-7 P!134 P!136 
+V "" ON I!134 O!133 T!135 .2 0x2 
+T "" KP I!135 T!105 0x2 
+V "" N I!136 O!133 T!108 .2 0x2 
+F "R_UART0_Receive" F I!137 T!117 ?365-7 P!138 P!139 
+V "" ON I!138 O!137 T!135 .2 0x2 
+V "" N I!139 O!137 T!108 .2 0x2 
+F "R_SAU1_Create" F I!140 T!2 ?366-7 
+F "R_UART2_Create" F I!141 T!2 ?367-7 
+F "R_UART2_Start" F I!142 T!2 ?368-7 
+F "R_UART2_Stop" F I!143 T!2 ?369-7 
+F "R_UART2_Start_Reception" F I!144 T!2 ?370-7 
+F "R_UART2_Stop_Reception" F I!145 T!2 ?371-7 
+F "R_UART2_Send" F I!146 T!117 ?372-7 P!147 P!148 
+V "" ON I!147 O!146 T!135 .2 0x2 
+V "" N I!148 O!146 T!108 .2 0x2 
+F "R_UART2_Receive" F I!149 T!117 ?373-7 P!150 P!151 
+V "" ON I!150 O!149 T!135 .2 0x2 
+V "" N I!151 O!149 T!108 .2 0x2 
+F "R_CSI30_Create" F I!152 T!2 ?375-7 
+F "R_CSI30_Start" F I!153 T!2 ?376-7 
+F "R_CSI30_Stop" F I!154 T!2 ?377-7 
+F "R_CSI30_Send_Receive" F I!155 T!117 ?378-7 P!156 P!157 P!158 
+V "" ON I!156 O!155 T!135 .2 0x2 
+V "" N I!157 O!155 T!108 .2 0x2 
+V "" ON I!158 O!155 T!135 .2 0x2 
+F "r_uart0_callback_receiveend" SF I!159 T!2 ?380-7 
+F "r_uart0_callback_sendend" SF I!160 T!2 ?381-7 
+F "r_uart0_callback_error" SF I!161 T!2 ?382-7 P!162 
+V "" N I!162 O!161 T!105 .1 0x1 
+F "r_uart0_callback_softwareoverrun" SF I!163 T!2 ?383-7 P!164 
+V "" N I!164 O!163 T!108 .2 0x2 
+F "r_uart2_callback_receiveend" SF I!165 T!2 ?384-7 
+F "r_uart2_callback_sendend" SF I!166 T!2 ?385-7 
+F "r_uart2_callback_error" SF I!167 T!2 ?386-7 P!168 
+V "" N I!168 O!167 T!105 .1 0x1 
+F "r_uart2_callback_softwareoverrun" SF I!169 T!2 ?387-7 P!170 
+V "" N I!170 O!169 T!108 .2 0x2 
+F "r_csi30_callback_receiveend" SF I!171 T!2 ?388-7 
+F "r_csi30_callback_error" SF I!172 T!2 ?389-7 P!173 
+V "" N I!173 O!172 T!105 .1 0x1 
+F "r_csi30_callback_sendend" SF I!174 T!2 ?390-7 
+F "R_UART0_CheckOperating" F I!175 T!105 ?393-7 
+F "R_UART0_SetBaudRate" F I!176 T!2 ?394-7 P!177 
+V "" N I!177 O!176 T!120 .1 0x1 
+F "R_UART0_OnHocoChanged" F I!178 T!2 ?395-7 
+F "R_UART0_SetConfig" F I!179 T!2 ?396-7 P!180 P!181 P!182 
+V "" N I!180 O!179 T!122 .1 0x1 
+V "" N I!181 O!179 T!124 .2 0x2 
+V "" N I!182 O!179 T!126 .1 0x1 
+F "R_UART2_CheckOperating" F I!183 T!105 ?398-7 
+F "R_UART2_SetBaudRate" F I!184 T!2 ?399-7 P!185 
+V "" N I!185 O!184 T!120 .1 0x1 
+F "R_UART2_OnHocoChanged" F I!186 T!2 ?400-7 
+F "R_UART2_SetConfig" F I!187 T!2 ?401-7 P!188 P!189 P!190 
+V "" N I!188 O!187 T!122 .1 0x1 
+V "" N I!189 O!187 T!124 .2 0x2 
+V "" N I!190 O!187 T!126 .1 0x1 
+F "R_WDT_Create" F I!191 T!2 ?46-8 
+F "R_WDT_Restart" F I!192 T!2 ?47-8 
+F "MCU_Delay" F I!193 T!2 ?35-9 P!194 
+V "" N I!194 O!193 T!108 .2 0x2 
+F "MCU_MultipleInterruptEnable" F I!195 T!2 ?36-9 P!196 
+V "" N I!196 O!195 T!105 .1 0x1 
+T "tagWrpUartBaudRate" KE I!197 T!119 !23-10 0x1 EM0:"WRP_UART_BAUD_RATE_300" EM1:"WRP_UART_BAUD_RATE_600" EM2:"WRP_UART_BAUD_RATE_1200" EM3:"WRP_UART_BAUD_RATE_2400" EM4:"WRP_UART_BAUD_RATE_4800" EM5:"WRP_UART_BAUD_RATE_9600" EM6:"WRP_UART_BAUD_RATE_19200" EM7:"WRP_UART_BAUD_RATE_38400" EM8:"WRP_UART_BAUD_RATE_57600" EM9:"WRP_UART_BAUD_RATE_115200" 
+T "wrp_uart_baud_rate_t" KT I!198 T!197 !36-10 0x1 
+T "tagWrpUartLength" KE I!199 T!119 !38-10 0x1 EM2:"WRP_UART_LENGTH_7" EM3:"WRP_UART_LENGTH_8" EM1:"WRP_UART_LENGTH_9" 
+T "wrp_uart_length_t" KT I!200 T!199 !43-10 0x1 
+T "tagWrpUartParity" KE I!201 T!107 !45-10 0x2 EM0:"WRP_UART_PARITY_NONE" EM768:"WRP_UART_PARITY_ODD" EM512:"WRP_UART_PARITY_EVEN" 
+T "wrp_uart_parity_t" KT I!202 T!201 !50-10 0x2 
+T "tagWrpUartStopBits" KE I!203 T!119 !52-10 0x1 EM16:"WRP_UART_STOPBITS_1" EM32:"WRP_UART_STOPBITS_2" 
+T "wrp_uart_stopbits_t" KT I!204 T!203 !56-10 0x1 
+F "WRP_UART_Init" F I!205 T!2 ?97-10 
+F "WRP_UART_Start" F I!206 T!2 ?98-10 
+F "WRP_UART_Stop" F I!207 T!2 ?99-10 
+F "WRP_UART_SendData" F I!208 T!105 ?100-10 P!209 P!210 
+V "" N I!209 O!208 T!135 .2 0x2 
+V "" N I!210 O!208 T!108 .2 0x2 
+F "WRP_UART_ReceiveData" F I!211 T!105 ?101-10 P!212 P!213 
+V "" N I!212 O!211 T!135 .2 0x2 
+V "" N I!213 O!211 T!108 .2 0x2 
+F "WRP_UART_CheckOperating" F I!214 T!105 ?102-10 
+F "WRP_UART_SetBaudRate" F I!215 T!2 ?103-10 P!216 
+V "" N I!216 O!215 T!198 .1 0x1 
+F "WRP_UART_SetConfig" F I!217 T!2 ?104-10 P!218 P!219 P!220 
+V "" N I!218 O!217 T!200 .1 0x1 
+V "" N I!219 O!217 T!202 .2 0x2 
+V "" N I!220 O!217 T!204 .1 0x1 
+F "WRP_UART_ConfigIECProtocol" F I!221 T!2 ?105-10 
+F "WRP_UART_ConfigHDLCProtocol" F I!222 T!2 ?106-10 
+F "WRP_UART0_Init" F I!223 T!2 ?108-10 
+F "WRP_UART0_Start" F I!224 T!2 ?109-10 
+F "WRP_UART0_Stop" F I!225 T!2 ?110-10 
+F "WRP_UART0_SendData" F I!226 T!105 ?111-10 P!227 P!228 
+V "" N I!227 O!226 T!135 .2 0x2 
+V "" N I!228 O!226 T!108 .2 0x2 
+F "WRP_UART0_ReceiveData" F I!229 T!105 ?112-10 P!230 P!231 
+V "" N I!230 O!229 T!135 .2 0x2 
+V "" N I!231 O!229 T!108 .2 0x2 
+F "WRP_UART0_CheckOperating" F I!232 T!105 ?113-10 
+F "WRP_UART0_SetBaudRate" F I!233 T!2 ?114-10 P!234 
+V "" N I!234 O!233 T!198 .1 0x1 
+F "WRP_UART0_SetConfig" F I!235 T!2 ?115-10 P!236 P!237 P!238 
+V "" N I!236 O!235 T!200 .1 0x1 
+V "" N I!237 O!235 T!202 .2 0x2 
+V "" N I!238 O!235 T!204 .1 0x1 
+F "WRP_UART0_ConfigIECProtocol" F I!239 T!2 ?116-10 
+F "WRP_UART0_ConfigHDLCProtocol" F I!240 T!2 ?117-10 
+F "WRP_UART_SendEndCallback" F I!241 T!2 ?125-10 
+F "WRP_UART_ReceiveEndCallback" F I!242 T!2 ?126-10 
+F "WRP_UART0_SendEndCallback" F I!243 T!2 ?128-10 
+F "WRP_UART0_ReceiveEndCallback" F I!244 T!2 ?129-10 
+V "g_dlms_diag_callback_max_usage" GN I!245 T!105 ?219-14 .1 0x1 
+T "" KE I!246 T!9 0x1 EM48:"BAUDRATE_300" EM49:"BAUDRATE_600" EM50:"BAUDRATE_1200" EM51:"BAUDRATE_2400" EM52:"BAUDRATE_4800" EM53:"BAUDRATE_9600" EM54:"BAUDRATE_19200" EM55:"BAUDRATE_38400" EM56:"BAUDRATE_57600" EM57:"BAUDRATE_115200" EM255:"BAUDRATE_NOT_SPECIFIED" 
+T "uart_baudrate_t" KT I!247 T!246 !41-16 0x1 
+T "PhyChannel" KT I!248 T!105 !43-16 0x1 
+F "R_PHY_DEVICE_Init" F I!249 T!2 ?54-16 P!250 
+V "" N I!250 O!249 T!248 .1 0x1 
+F "R_PHY_DEVICE_Start" F I!251 T!2 ?55-16 P!252 
+V "" N I!252 O!251 T!248 .1 0x1 
+F "R_PHY_DEVICE_Stop" F I!253 T!2 ?56-16 P!254 
+V "" N I!254 O!253 T!248 .1 0x1 
+F "R_PHY_DEVICE_ChangeBaudrate" F I!255 T!2 ?57-16 P!256 P!257 
+V "" N I!256 O!255 T!248 .1 0x1 
+V "" N I!257 O!255 T!247 .1 0x1 
+F "R_PHY_DEVICE_ChangeSetting7E1" F I!258 T!2 ?58-16 P!259 
+V "" N I!259 O!258 T!248 .1 0x1 
+F "R_PHY_DEVICE_ChangeSetting8N1" F I!260 T!2 ?59-16 P!261 
+V "" N I!261 O!260 T!248 .1 0x1 
+F "R_PHY_DEVICE_SendData" F I!262 T!105 ?60-16 P!263 P!264 P!265 
+V "" N I!263 O!262 T!248 .1 0x1 
+V "" N I!264 O!262 T!135 .2 0x2 
+V "" N I!265 O!262 T!108 .2 0x2 
+F "R_PHY_DeviceSendEnd" F I!266 T!2 ?63-16 ?93-15 P!267 
+V "" N I!267 O!266 T!248 .1 0x1 
+F "R_PHY_DeviceReceiveEnd" F I!268 T!2 ?64-16 ?94-15 P!269 P!270 
+V "" N I!269 O!268 T!248 .1 0x1 
+V "" N I!270 O!268 T!105 .1 0x1 
+F "R_PHY_DeviceReceiveError" F I!271 T!2 ?65-16 ?95-15 P!272 
+V "" N I!272 O!271 T!248 .1 0x1 
+F "R_PHY_DeviceTimeOutCount" F I!273 T!2 ?66-16 ?96-15 
+T "" KE I!274 T!9 0x1 EM48:"PHY_BAUDRATE_300" EM49:"PHY_BAUDRATE_600" EM50:"PHY_BAUDRATE_1200" EM51:"PHY_BAUDRATE_2400" EM52:"PHY_BAUDRATE_4800" EM53:"PHY_BAUDRATE_9600" EM54:"PHY_BAUDRATE_19200" EM55:"PHY_BAUDRATE_38400" EM255:"PHY_BAUDRATE_NOT_SPECIFIED" 
+T "PhBaudrate" KT I!275 T!274 !40-15 0x1 
+T "" KE I!276 T!119 0x1 EM0:"PHY_DISCONNECTED" EM1:"PHY_CONNECTED" 
+T "PhStatus" KT I!277 T!276 !46-15 0x1 
+T "" KE I!278 T!119 0x1 EM0:"PHY_OK" EM1:"PHY_ERROR" 
+T "PhResult" KT I!279 T!278 !52-15 0x1 
+T "tagIecDeviceInfo" KS I!280 !54-15 0x6 VM!281 VM!282 VM!283 
+V "device_address" - I!281 O!280 T!135 !56-15 .2 0x2 BO0 BIS16 
+V "device_id" - I!282 O!280 T!135 !57-15 .2 0x2 BO16 BIS16 
+V "manufacture_id" - I!283 O!280 T!135 !58-15 .2 0x2 BO32 BIS16 
+T "iec_device_info" KT I!284 T!280 !59-15 0x6 
+T "R_PHY_CONNECT_INDICATION_FUNC" KT I!285 T!286 !61-15 0x4 
+T "" KP I!286 T!287 0x4 
+T "" KF I!287 T!2 0x0 P!288 
+V "" N I!288 O!287 T!248 .1 0x1 
+T "R_PHY_DATA_INDICATION_FUNC" KT I!289 T!290 !62-15 0x4 
+T "" KP I!290 T!291 0x4 
+T "" KF I!291 T!2 0x0 P!292 P!293 
+V "" N I!292 O!291 T!248 .1 0x1 
+V "" N I!293 O!291 T!105 .1 0x1 
+T "R_PHY_ABORT_INDICATION_FUNC" KT I!294 T!295 !63-15 0x4 
+T "" KP I!295 T!296 0x4 
+T "" KF I!296 T!2 0x0 P!297 
+V "" N I!297 O!296 T!248 .1 0x1 
+F "R_PHY_Init" F I!298 T!2 ?74-15 
+F "R_PHY_PollingProcessing" F I!299 T!2 ?75-15 
+F "R_PHY_ConfigChannel" F I!300 T!105 ?76-15 P!301 P!302 P!303 P!304 
+V "" N I!301 O!300 T!248 .1 0x1 
+V "" N I!302 O!300 T!275 .1 0x1 
+V "" N I!303 O!300 T!105 .1 0x1 
+V "" N I!304 O!300 T!305 .2 0x2 
+T "" KP I!305 T!284 0x2 
+F "R_PHY_ResetChannel" F I!306 T!105 ?77-15 P!307 
+V "" N I!307 O!306 T!248 .1 0x1 
+F "R_PHY_GetStatus" F I!308 T!277 ?79-15 P!309 
+V "" N I!309 O!308 T!248 .1 0x1 
+F "R_PHY_ActivateChannel" F I!310 T!105 ?80-15 P!311 
+V "" N I!311 O!310 T!248 .1 0x1 
+F "R_PHY_DeactivateChannel" F I!312 T!105 ?81-15 P!313 
+V "" N I!313 O!312 T!248 .1 0x1 
+F "R_PHY_GetChannelActivationStatus" F I!314 T!105 ?82-15 ?240-24 P!315 
+V "" N I!315 O!314 T!248 .1 0x1 
+F "R_PHY_RegisterConnectIndication" F I!316 T!2 ?85-15 P!317 
+V "" N I!317 O!316 T!285 .2 0x4 
+F "R_PHY_RegisterDataIndication" F I!318 T!2 ?86-15 P!319 
+V "" N I!319 O!318 T!289 .2 0x4 
+F "R_PHY_RegisterAbortIndication" F I!320 T!2 ?87-15 P!321 
+V "" N I!321 O!320 T!294 .2 0x4 
+F "R_PHY_DATA_Request" F I!322 T!105 ?90-15 P!323 P!324 P!325 
+V "" N I!323 O!322 T!248 .1 0x1 
+V "" N I!324 O!322 T!135 .2 0x2 
+V "" N I!325 O!322 T!108 .2 0x2 
+F "TIMEOUT_DEVICE_Init" F I!326 T!2 ?37-17 
+F "TIMEOUT_DEVICE_Start" F I!327 T!2 ?38-17 
+F "TIMEOUT_DEVICE_Stop" F I!328 T!2 ?39-17 
+F "TIMEOUT_DEVICE_WdtRestart" F I!329 T!2 ?40-17 
+F "R_DLMS_HdlcTimeoutMilisecondTimerCallback" F I!330 T!2 ?43-17 
+F "R_DLMS_UdpTimeoutMilisecondTimerCallback" F I!331 T!2 ?44-17 
+F "R_DLMS_TcpTimeoutMilisecondTimerCallback" F I!332 T!2 ?45-17 
+T "ptrdiff_t" KT I!333 T!32 !18-21 0x2 
+T "size_t" KT I!334 T!16 !19-21 0x2 
+F "memcpy" F I!335 T!336 ?24-20 P!337 P!338 P!340 
+T "" KP I!336 T!2 0x2 
+V "" N I!337 O!335 T!336 .2 0x2 
+V "" N I!338 O!335 T!339 .2 0x2 
+T "" MOD"C" KP I!339 T!2 0x2 
+V "" N I!340 O!335 T!334 .2 0x2 
+F "_COM_memcpy_ff" F I!341 T!342 ?25-20 P!343 P!344 P!346 
+T "" KP I!342 T!2 0x4 
+V "" N I!343 O!341 T!342 .2 0x4 
+V "" N I!344 O!341 T!345 .2 0x4 
+T "" MOD"C" KP I!345 T!2 0x4 
+V "" N I!346 O!341 T!334 .2 0x2 
+F "memmove" F I!347 T!336 ?28-20 P!348 P!349 P!350 
+V "" N I!348 O!347 T!336 .2 0x2 
+V "" N I!349 O!347 T!339 .2 0x2 
+V "" N I!350 O!347 T!334 .2 0x2 
+F "_COM_memmove_ff" F I!351 T!342 ?29-20 P!352 P!353 P!354 
+V "" N I!352 O!351 T!342 .2 0x4 
+V "" N I!353 O!351 T!345 .2 0x4 
+V "" N I!354 O!351 T!334 .2 0x2 
+F "strcpy" F I!355 T!356 ?44-20 P!357 P!358 
+T "" KP I!356 T!119 0x2 
+V "" N I!357 O!355 T!356 .2 0x2 
+V "" N I!358 O!355 T!359 .2 0x2 
+T "" MOD"C" KP I!359 T!119 0x2 
+F "_COM_strcpy_ff" F I!360 T!361 ?45-20 P!362 P!363 
+T "" KP I!361 T!119 0x4 
+V "" N I!362 O!360 T!361 .2 0x4 
+V "" N I!363 O!360 T!364 .2 0x4 
+T "" MOD"C" KP I!364 T!119 0x4 
+F "strncpy" F I!365 T!356 ?47-20 P!366 P!367 P!368 
+V "" N I!366 O!365 T!356 .2 0x2 
+V "" N I!367 O!365 T!359 .2 0x2 
+V "" N I!368 O!365 T!334 .2 0x2 
+F "_COM_strncpy_ff" F I!369 T!361 ?48-20 P!370 P!371 P!372 
+V "" N I!370 O!369 T!361 .2 0x4 
+V "" N I!371 O!369 T!364 .2 0x4 
+V "" N I!372 O!369 T!334 .2 0x2 
+F "strcat" F I!373 T!356 ?50-20 P!374 P!375 
+V "" N I!374 O!373 T!356 .2 0x2 
+V "" N I!375 O!373 T!359 .2 0x2 
+F "_COM_strcat_ff" F I!376 T!361 ?51-20 P!377 P!378 
+V "" N I!377 O!376 T!361 .2 0x4 
+V "" N I!378 O!376 T!364 .2 0x4 
+F "strncat" F I!379 T!356 ?53-20 P!380 P!381 P!382 
+V "" N I!380 O!379 T!356 .2 0x2 
+V "" N I!381 O!379 T!359 .2 0x2 
+V "" N I!382 O!379 T!334 .2 0x2 
+F "_COM_strncat_ff" F I!383 T!361 ?54-20 P!384 P!385 P!386 
+V "" N I!384 O!383 T!361 .2 0x4 
+V "" N I!385 O!383 T!364 .2 0x4 
+V "" N I!386 O!383 T!334 .2 0x2 
+F "memcmp" F I!387 T!32 ?57-20 P!388 P!389 P!390 
+V "" N I!388 O!387 T!339 .2 0x2 
+V "" N I!389 O!387 T!339 .2 0x2 
+V "" N I!390 O!387 T!334 .2 0x2 
+F "_COM_memcmp_ff" F I!391 T!32 ?58-20 P!392 P!393 P!394 
+V "" N I!392 O!391 T!345 .2 0x4 
+V "" N I!393 O!391 T!345 .2 0x4 
+V "" N I!394 O!391 T!334 .2 0x2 
+F "strcmp" F I!395 T!32 ?60-20 P!396 P!397 
+V "" N I!396 O!395 T!359 .2 0x2 
+V "" N I!397 O!395 T!359 .2 0x2 
+F "_COM_strcmp_ff" F I!398 T!32 ?61-20 P!399 P!400 
+V "" N I!399 O!398 T!364 .2 0x4 
+V "" N I!400 O!398 T!364 .2 0x4 
+F "strncmp" F I!401 T!32 ?63-20 P!402 P!403 P!404 
+V "" N I!402 O!401 T!359 .2 0x2 
+V "" N I!403 O!401 T!359 .2 0x2 
+V "" N I!404 O!401 T!334 .2 0x2 
+F "_COM_strncmp_ff" F I!405 T!32 ?64-20 P!406 P!407 P!408 
+V "" N I!406 O!405 T!364 .2 0x4 
+V "" N I!407 O!405 T!364 .2 0x4 
+V "" N I!408 O!405 T!334 .2 0x2 
+F "memchr" F I!409 T!336 ?66-20 P!410 P!411 P!412 
+V "" N I!410 O!409 T!339 .2 0x2 
+V "" N I!411 O!409 T!32 .2 0x2 
+V "" N I!412 O!409 T!334 .2 0x2 
+F "_COM_memchr_f" F I!413 T!342 ?67-20 P!414 P!415 P!416 
+V "" N I!414 O!413 T!345 .2 0x4 
+V "" N I!415 O!413 T!32 .2 0x2 
+V "" N I!416 O!413 T!334 .2 0x2 
+F "strchr" F I!417 T!356 ?69-20 P!418 P!419 
+V "" N I!418 O!417 T!359 .2 0x2 
+V "" N I!419 O!417 T!32 .2 0x2 
+F "_COM_strchr_f" F I!420 T!361 ?70-20 P!421 P!422 
+V "" N I!421 O!420 T!364 .2 0x4 
+V "" N I!422 O!420 T!32 .2 0x2 
+F "strcspn" F I!423 T!334 ?72-20 P!424 P!425 
+V "" N I!424 O!423 T!359 .2 0x2 
+V "" N I!425 O!423 T!359 .2 0x2 
+F "_COM_strcspn_ff" F I!426 T!334 ?73-20 P!427 P!428 
+V "" N I!427 O!426 T!364 .2 0x4 
+V "" N I!428 O!426 T!364 .2 0x4 
+F "strpbrk" F I!429 T!356 ?75-20 P!430 P!431 
+V "" N I!430 O!429 T!359 .2 0x2 
+V "" N I!431 O!429 T!359 .2 0x2 
+F "_COM_strpbrk_ff" F I!432 T!361 ?76-20 P!433 P!434 
+V "" N I!433 O!432 T!364 .2 0x4 
+V "" N I!434 O!432 T!364 .2 0x4 
+F "strrchr" F I!435 T!356 ?78-20 P!436 P!437 
+V "" N I!436 O!435 T!359 .2 0x2 
+V "" N I!437 O!435 T!32 .2 0x2 
+F "_COM_strrchr_f" F I!438 T!361 ?79-20 P!439 P!440 
+V "" N I!439 O!438 T!364 .2 0x4 
+V "" N I!440 O!438 T!32 .2 0x2 
+F "strspn" F I!441 T!334 ?81-20 P!442 P!443 
+V "" N I!442 O!441 T!359 .2 0x2 
+V "" N I!443 O!441 T!359 .2 0x2 
+F "_COM_strspn_ff" F I!444 T!334 ?82-20 P!445 P!446 
+V "" N I!445 O!444 T!364 .2 0x4 
+V "" N I!446 O!444 T!364 .2 0x4 
+F "strstr" F I!447 T!356 ?84-20 P!448 P!449 
+V "" N I!448 O!447 T!359 .2 0x2 
+V "" N I!449 O!447 T!359 .2 0x2 
+F "_COM_strstr_ff" F I!450 T!361 ?85-20 P!451 P!452 
+V "" N I!451 O!450 T!364 .2 0x4 
+V "" N I!452 O!450 T!364 .2 0x4 
+F "strtok" F I!453 T!361 ?90-20 P!454 P!455 
+V "" N I!454 O!453 T!361 .2 0x4 
+V "" N I!455 O!453 T!364 .2 0x4 
+F "memset" F I!456 T!336 ?93-20 P!457 P!458 P!459 
+V "" N I!457 O!456 T!336 .2 0x2 
+V "" N I!458 O!456 T!32 .2 0x2 
+V "" N I!459 O!456 T!334 .2 0x2 
+F "_COM_memset_f" F I!460 T!342 ?94-20 P!461 P!462 P!463 
+V "" N I!461 O!460 T!342 .2 0x4 
+V "" N I!462 O!460 T!32 .2 0x2 
+V "" N I!463 O!460 T!334 .2 0x2 
+F "strerror" F I!464 T!361 ?96-20 P!465 
+V "" N I!465 O!464 T!32 .2 0x2 
+F "strlen" F I!466 T!334 ?98-20 P!467 
+V "" N I!467 O!466 T!359 .2 0x2 
+F "_COM_strlen_f" F I!468 T!334 ?99-20 P!469 
+V "" N I!469 O!468 T!364 .2 0x4 
+T "" KS I!470 !41-19 0x4 VM!471 VM!472 
+V "p_addr" - I!471 O!470 T!135 !42-19 .2 0x2 BO0 BIS16 
+V "size" - I!472 O!470 T!108 !43-19 .2 0x2 BO16 BIS16 
+T "IpAddress" KT I!473 T!470 !44-19 0x4 
+T "IpAddressPtr" KT I!474 T!475 !46-19 0x2 
+T "" KP I!475 T!473 0x2 
+T "UdpPort" KT I!476 T!108 !28-18 0x2 
+T "UdpChannel" KT I!477 T!105 !29-18 0x1 
+T "tagUdpPortConfig" KS I!478 !31-18 0x4 VM!479 VM!480 
+V "local_udp_port" - I!479 O!478 T!476 !33-18 .2 0x2 BO0 BIS16 
+V "local_ip_address" - I!480 O!478 T!474 !34-18 .2 0x2 BO16 BIS16 
+T "UdpPortConfig" KT I!481 T!478 !35-18 0x4 
+F "R_UDP_DEVICE_Init" F I!482 T!2 ?46-18 P!483 
+V "" N I!483 O!482 T!477 .1 0x1 
+F "R_UDP_DEVICE_Start" F I!484 T!2 ?47-18 P!485 
+V "" N I!485 O!484 T!477 .1 0x1 
+F "R_UDP_DEVICE_Stop" F I!486 T!2 ?48-18 P!487 
+V "" N I!487 O!486 T!477 .1 0x1 
+F "R_UDP_DEVICE_PollingProcess" F I!488 T!2 ?49-18 P!489 
+V "" N I!489 O!488 T!477 .1 0x1 
+F "R_UDP_DEVICE_GetConfig" F I!490 T!105 ?50-18 P!491 P!492 
+V "" N I!491 O!490 T!477 .1 0x1 
+V "" N I!492 O!490 T!493 .2 0x2 
+T "" KP I!493 T!481 0x2 
+F "R_UDP_DEVICE_SetConfig" F I!494 T!105 ?51-18 P!495 P!496 
+V "" N I!495 O!494 T!477 .1 0x1 
+V "" N I!496 O!494 T!493 .2 0x2 
+F "R_UDP_DEVICE_SendData" F I!497 T!105 ?52-18 P!498 P!499 P!500 P!501 P!502 
+V "" N I!498 O!497 T!477 .1 0x1 
+V "" N I!499 O!497 T!476 .2 0x2 
+V "" N I!500 O!497 T!474 .2 0x2 
+V "" N I!501 O!497 T!135 .2 0x2 
+V "" N I!502 O!497 T!108 .2 0x2 
+F "R_UDP_DeviceSendEnd" F I!503 T!2 ?55-18 P!504 
+V "" N I!504 O!503 T!477 .1 0x1 
+F "R_UDP_DeviceReceiveEnd" F I!505 T!2 ?56-18 P!506 P!507 P!508 P!509 P!510 
+V "" N I!506 O!505 T!477 .1 0x1 
+V "" N I!507 O!505 T!476 .2 0x2 
+V "" N I!508 O!505 T!474 .2 0x2 
+V "" N I!509 O!505 T!135 .2 0x2 
+V "" N I!510 O!505 T!108 .2 0x2 
+F "R_UDP_DeviceReceiveError" F I!511 T!2 ?63-18 P!512 
+V "" N I!512 O!511 T!477 .1 0x1 
+T "TcpPort" KT I!513 T!108 !28-22 0x2 
+T "TcpChannel" KT I!514 T!105 !29-22 0x1 
+T "tagTcpPortConfig" KS I!515 !31-22 0x4 VM!516 VM!517 
+V "local_tcp_port" - I!516 O!515 T!513 !33-22 .2 0x2 BO0 BIS16 
+V "local_ip_address" - I!517 O!515 T!474 !34-22 .2 0x2 BO16 BIS16 
+T "TcpPortConfig" KT I!518 T!515 !35-22 0x4 
+T "tagTcpDisconnectReason" KE I!519 T!119 !37-22 0x1 EM0:"TCP_DISCONNECT_REMOTE_REQ" EM1:"TCP_DISCONNECT_ABORT" 
+T "TcpDisconnectReason" KT I!520 T!519 !41-22 0x1 
+F "R_TCP_DEVICE_Init" F I!521 T!2 ?52-22 P!522 
+V "" N I!522 O!521 T!514 .1 0x1 
+F "R_TCP_DEVICE_Start" F I!523 T!2 ?53-22 P!524 
+V "" N I!524 O!523 T!514 .1 0x1 
+F "R_TCP_DEVICE_Stop" F I!525 T!2 ?54-22 P!526 
+V "" N I!526 O!525 T!514 .1 0x1 
+F "R_TCP_DEVICE_PollingProcess" F I!527 T!2 ?55-22 P!528 
+V "" N I!528 O!527 T!514 .1 0x1 
+F "R_TCP_DEVICE_GetConfig" F I!529 T!105 ?56-22 P!530 P!531 
+V "" N I!530 O!529 T!514 .1 0x1 
+V "" N I!531 O!529 T!532 .2 0x2 
+T "" KP I!532 T!518 0x2 
+F "R_TCP_DEVICE_SetConfig" F I!533 T!105 ?57-22 P!534 P!535 
+V "" N I!534 O!533 T!514 .1 0x1 
+V "" N I!535 O!533 T!532 .2 0x2 
+F "R_TCP_DEVICE_ConnectRequest" F I!536 T!105 ?60-22 P!537 P!538 P!539 
+V "" N I!537 O!536 T!514 .1 0x1 
+V "" N I!538 O!536 T!513 .2 0x2 
+V "" N I!539 O!536 T!474 .2 0x2 
+F "R_TCP_DEVICE_ConnectResponse" F I!540 T!105 ?61-22 P!541 P!542 P!543 P!544 
+V "" N I!541 O!540 T!514 .1 0x1 
+V "" N I!542 O!540 T!513 .2 0x2 
+V "" N I!543 O!540 T!474 .2 0x2 
+V "" N I!544 O!540 T!105 .1 0x1 
+F "R_TCP_DEVICE_DisconnectRequest" F I!545 T!105 ?62-22 P!546 P!547 P!548 
+V "" N I!546 O!545 T!514 .1 0x1 
+V "" N I!547 O!545 T!513 .2 0x2 
+V "" N I!548 O!545 T!474 .2 0x2 
+F "R_TCP_DEVICE_DisconnectResponse" F I!549 T!105 ?63-22 P!550 P!551 P!552 P!553 
+V "" N I!550 O!549 T!514 .1 0x1 
+V "" N I!551 O!549 T!513 .2 0x2 
+V "" N I!552 O!549 T!474 .2 0x2 
+V "" N I!553 O!549 T!105 .1 0x1 
+F "R_TCP_DEVICE_DataRequest" F I!554 T!105 ?64-22 P!555 P!556 P!557 P!558 P!559 
+V "" N I!555 O!554 T!514 .1 0x1 
+V "" N I!556 O!554 T!513 .2 0x2 
+V "" N I!557 O!554 T!474 .2 0x2 
+V "" N I!558 O!554 T!135 .2 0x2 
+V "" N I!559 O!554 T!108 .2 0x2 
+F "R_TCP_DEVICE_ConnectConfirm" F I!560 T!2 ?67-22 P!561 P!562 P!563 P!564 
+V "" N I!561 O!560 T!514 .1 0x1 
+V "" N I!562 O!560 T!105 .1 0x1 
+V "" N I!563 O!560 T!135 .2 0x2 
+V "" N I!564 O!560 T!108 .2 0x2 
+F "R_TCP_DEVICE_ConnectIndication" F I!565 T!2 ?68-22 P!566 P!567 P!568 
+V "" N I!566 O!565 T!514 .1 0x1 
+V "" N I!567 O!565 T!513 .2 0x2 
+V "" N I!568 O!565 T!474 .2 0x2 
+F "R_TCP_DEVICE_DisconnectConfirm" F I!569 T!2 ?69-22 P!570 P!571 P!572 P!573 
+V "" N I!570 O!569 T!514 .1 0x1 
+V "" N I!571 O!569 T!105 .1 0x1 
+V "" N I!572 O!569 T!135 .2 0x2 
+V "" N I!573 O!569 T!108 .2 0x2 
+F "R_TCP_DEVICE_DisconnectIndication" F I!574 T!2 ?70-22 P!575 P!576 P!577 P!578 
+V "" N I!575 O!574 T!514 .1 0x1 
+V "" N I!576 O!574 T!513 .2 0x2 
+V "" N I!577 O!574 T!474 .2 0x2 
+V "" N I!578 O!574 T!520 .1 0x1 
+F "R_TCP_DEVICE_AbortIndication" F I!579 T!2 ?71-22 P!580 P!581 P!582 P!583 P!584 
+V "" N I!580 O!579 T!514 .1 0x1 
+V "" N I!581 O!579 T!513 .2 0x2 
+V "" N I!582 O!579 T!474 .2 0x2 
+V "" N I!583 O!579 T!135 .2 0x2 
+V "" N I!584 O!579 T!108 .2 0x2 
+F "R_TCP_DEVICE_DataConfirm" F I!585 T!2 ?72-22 P!586 P!587 
+V "" N I!586 O!585 T!514 .1 0x1 
+V "" N I!587 O!585 T!105 .1 0x1 
+F "R_TCP_DEVICE_DataIndication" F I!588 T!2 ?73-22 P!589 P!590 P!591 P!592 P!593 
+V "" N I!589 O!588 T!514 .1 0x1 
+V "" N I!590 O!588 T!513 .2 0x2 
+V "" N I!591 O!588 T!474 .2 0x2 
+V "" N I!592 O!588 T!135 .2 0x2 
+V "" N I!593 O!588 T!108 .2 0x2 
+F "R_TCP_DEVICE_DataErrorIndication" F I!594 T!2 ?74-22 P!595 
+V "" N I!595 O!594 T!514 .1 0x1 
+F "R_DLMS_AES_GCM_Encrypt" F I!596 T!108 ?36-23 P!597 P!598 P!599 P!600 P!601 P!602 P!603 P!604 P!605 P!606 
+V "" N I!597 O!596 T!135 .2 0x2 
+V "" N I!598 O!596 T!135 .2 0x2 
+V "" N I!599 O!596 T!111 .2 0x4 
+V "" N I!600 O!596 T!135 .2 0x2 
+V "" N I!601 O!596 T!135 .2 0x2 
+V "" N I!602 O!596 T!111 .2 0x4 
+V "" N I!603 O!596 T!135 .2 0x2 
+V "" N I!604 O!596 T!111 .2 0x4 
+V "" N I!605 O!596 T!135 .2 0x2 
+V "" N I!606 O!596 T!111 .2 0x4 
+F "R_DLMS_AES_GCM_Decrypt" F I!607 T!108 ?49-23 P!608 P!609 P!610 P!611 P!612 P!613 P!614 P!615 P!616 P!617 
+V "" N I!608 O!607 T!135 .2 0x2 
+V "" N I!609 O!607 T!135 .2 0x2 
+V "" N I!610 O!607 T!111 .2 0x4 
+V "" N I!611 O!607 T!135 .2 0x2 
+V "" N I!612 O!607 T!135 .2 0x2 
+V "" N I!613 O!607 T!111 .2 0x4 
+V "" N I!614 O!607 T!135 .2 0x2 
+V "" N I!615 O!607 T!111 .2 0x4 
+V "" N I!616 O!607 T!135 .2 0x2 
+V "" N I!617 O!607 T!111 .2 0x4 
+T "" KE I!618 T!119 0x1 EM0:"HDLC_ADDR_NONE" EM1:"HDLC_ADDR_1_BYTE" EM2:"HDLC_ADDR_2_BYTE" EM4:"HDLC_ADDR_4_BYTE" 
+T "HdlcAddressScheme" KT I!619 T!618 !47-25 0x1 
+T "" KS I!620 !50-25 0x6 VM!621 VM!622 VM!623 
+V "scheme" - I!621 O!620 T!619 !51-25 .1 0x1 BO0 BIS8 
+V "upper" - I!622 O!620 T!108 !52-25 .2 0x2 BO16 BIS16 
+V "lower" - I!623 O!620 T!108 !53-25 .2 0x2 BO32 BIS16 
+T "HdlcAddress" KT I!624 T!620 !54-25 0x6 
+T "" KE I!625 T!119 0x1 EM0:"HDLC_FRAME_NONE" EM1:"HDLC_FRAME_I" EM2:"HDLC_FRAME_RR" EM3:"HDLC_FRAME_RNR" EM4:"HDLC_FRAME_SNRM" EM5:"HDLC_FRAME_DISC" EM6:"HDLC_FRAME_UA" EM7:"HDLC_FRAME_DM" EM8:"HDLC_FRAME_FRMR" EM9:"HDLC_FRAME_UI" 
+T "HdlcFrameType" KT I!626 T!625 !69-25 0x1 
+T "" KS I!627 !72-25 0x4 VM!628 VM!629 VM!630 VM!631 
+V "frame_type" - I!628 O!627 T!626 !73-25 .1 0x1 BO0 BIS8 
+V "nr" - I!629 O!627 T!105 !74-25 .1 0x1 BO8 BIS8 
+V "pf" - I!630 O!627 T!105 !75-25 .1 0x1 BO16 BIS8 
+V "ns" - I!631 O!627 T!105 !76-25 .1 0x1 BO24 BIS8 
+T "HdlcControlByteInfo" KT I!632 T!627 !77-25 0x4 
+T "" KS I!633 !80-25 0x4 VM!634 VM!635 VM!636 
+V "type" - I!634 O!633 T!105 !81-25 .1 0x1 BO0 BIS8 
+V "segment" - I!635 O!633 T!105 !82-25 .1 0x1 BO8 BIS8 
+V "length" - I!636 O!633 T!108 !83-25 .2 0x2 BO16 BIS16 
+T "HdlcFrameFormat" KT I!637 T!633 !84-25 0x4 
+T "" KS I!638 !87-25 0x20 VM!639 VM!640 VM!641 VM!642 VM!646 VM!647 VM!648 VM!649 VM!650 
+V "valid" - I!639 O!638 T!105 !88-25 .1 0x1 BO0 BIS8 
+V "frame_format" - I!640 O!638 T!637 !89-25 .2 0x4 BO16 BIS32 
+V "dest_addr" - I!641 O!638 T!624 !90-25 .2 0x6 BO48 BIS48 
+V "src_addr" - I!642 O!638 T!624 !91-25 .2 0x6 BO96 BIS48 
+T "" KS I!643 !93-25 0x5 VM!644 VM!645 
+V "byte" - I!644 O!643 T!105 !94-25 .1 0x1 BO0 BIS8 
+V "info" - I!645 O!643 T!632 !95-25 .1 0x4 BO8 BIS32 
+V "control" - I!646 O!638 T!643 !96-25 .1 0x5 BO144 BIS40 
+V "hcs" - I!647 O!638 T!108 !97-25 .2 0x2 BO192 BIS16 
+V "info" - I!648 O!638 T!135 !98-25 .2 0x2 BO208 BIS16 
+V "info_length" - I!649 O!638 T!108 !99-25 .2 0x2 BO224 BIS16 
+V "fcs" - I!650 O!638 T!108 !100-25 .2 0x2 BO240 BIS16 
+T "HdlcFrame" KT I!651 T!638 !101-25 0x20 
+F "R_HDLC_IsAddrEqual" F I!652 T!105 ?111-25 P!653 P!654 
+V "" N I!653 O!652 T!624 .2 0x6 
+V "" N I!654 O!652 T!624 .2 0x6 
+F "R_HDLC_MakeControlCode" F I!655 T!105 ?113-25 P!656 P!657 P!658 P!659 
+V "" N I!656 O!655 T!626 .1 0x1 
+V "" N I!657 O!655 T!105 .1 0x1 
+V "" N I!658 O!655 T!105 .1 0x1 
+V "" N I!659 O!655 T!105 .1 0x1 
+F "R_HDLC_Encode" F I!660 T!108 ?120-25 P!661 P!662 P!663 P!664 P!665 P!666 P!667 
+V "" N I!661 O!660 T!135 .2 0x2 
+V "" N I!662 O!660 T!105 .1 0x1 
+V "" N I!663 O!660 T!624 .2 0x6 
+V "" N I!664 O!660 T!624 .2 0x6 
+V "" N I!665 O!660 T!105 .1 0x1 
+V "" N I!666 O!660 T!135 .2 0x2 
+V "" N I!667 O!660 T!108 .2 0x2 
+F "R_HDLC_Decode" F I!668 T!135 ?130-25 P!669 P!670 P!671 
+V "" N I!669 O!668 T!135 .2 0x2 
+V "" N I!670 O!668 T!108 .2 0x2 
+V "" N I!671 O!668 T!672 .2 0x2 
+T "" KP I!672 T!651 0x2 
+F "R_HDLC_ConfigFrameReceiverBuffer" F I!673 T!2 ?132-25 P!674 P!675 P!676 P!677 P!678 
+V "" N I!674 O!673 T!248 .1 0x1 
+V "" N I!675 O!673 T!135 .2 0x2 
+V "" N I!676 O!673 T!108 .2 0x2 
+V "" N I!677 O!673 T!135 .2 0x2 
+V "" N I!678 O!673 T!108 .2 0x2 
+F "R_HDLC_ResetFrameReceiver" F I!679 T!2 ?133-25 P!680 
+V "" N I!680 O!679 T!248 .1 0x1 
+F "R_HDLC_GetFrameReceiverApduBuffer" F I!681 T!135 ?134-25 P!682 
+V "" N I!682 O!681 T!248 .1 0x1 
+F "R_HDLC_GetFrameReceiverApduBufferUsage" F I!683 T!108 ?135-25 P!684 
+V "" N I!684 O!683 T!248 .1 0x1 
+F "R_HDLC_GetFrameReceiverApduBufferLength" F I!685 T!108 ?136-25 P!686 
+V "" N I!686 O!685 T!248 .1 0x1 
+F "R_HDLC_GetFrameReceiverBuffer" F I!687 T!135 ?137-25 P!688 
+V "" N I!688 O!687 T!248 .1 0x1 
+F "R_HDLC_GetFrameReceiverBufferUsage" F I!689 T!108 ?138-25 P!690 
+V "" N I!690 O!689 T!248 .1 0x1 
+F "R_HDLC_GetFrameReceiverSegmentUsage" F I!691 T!105 ?139-25 P!692 
+V "" N I!692 O!691 T!248 .1 0x1 
+F "R_HDLC_FrameReceiver" F I!693 T!672 ?140-25 P!694 P!695 
+V "" N I!694 O!693 T!248 .1 0x1 
+V "" N I!695 O!693 T!105 .1 0x1 
+T "HdlcChannel" KT I!696 T!105 !59-24 0x1 
+T "" KE I!697 T!119 0x1 EM0:"MAC_CONNECT_OK" EM1:"MAC_CONNECT_NOK_REMOTE" 
+T "MacConnectResult" KT I!698 T!697 !66-24 0x1 
+T "" KE I!699 T!119 0x1 EM0:"MAC_DISCONNECT_OK" EM1:"MAC_DISCONNECT_NOK" 
+T "MacDisconnectResult" KT I!700 T!699 !73-24 0x1 
+T "" KE I!701 T!119 0x1 EM0:"MAC_DISCONNECT_REMOTE" EM1:"MAC_DISCONNECT_LOCAL_DATALINK" EM2:"MAC_DISCONNECT_PHY" 
+T "MacDisconnectReason" KT I!702 T!701 !81-24 0x1 
+T "" KE I!703 T!119 0x1 EM0:"MAC_FRAME_I_COMPLETE" EM1:"MAC_FRAME_I_FIRST_FRAGMENT" EM2:"MAC_FRAME_I_FRAGMENT" EM3:"MAC_FRAME_I_LAST_FRAGMENT" EM4:"MAC_FRAME_UI" 
+T "MacFrameType" KT I!704 T!703 !91-24 0x1 
+T "" KE I!705 T!119 0x1 EM0:"MAC_NDM" EM1:"MAC_NRM" 
+T "MacConnectionState" KT I!706 T!705 !97-24 0x1 
+T "" KE I!707 T!119 0x1 EM0:"MAC_EVENT_NONE" EM1:"MAC_EVENT_INVALID_FRAME" EM2:"MAC_EVENT_ADDRESS_ERROR" EM3:"MAC_EVENT_RECEIVE_BUFFER_TOO_BIG" EM4:"MAC_EVENT_I_FRAME_SEQUENCE_ERROR" EM5:"MAC_EVENT_I_FRAME_INFO_TOO_LONG" EM6:"MAC_EVENT_UI_FRAME_ERROR" EM7:"MAC_EVENT_RR_FRAME_SEGMENT" EM8:"MAC_EVENT_RR_FRAME_SEQUENCE_ERROR" EM9:"MAC_EVENT_I_SEGMENT_TRANSMIT_ERROR" EM10:"MAC_EVENT_RNR_FRAME_SEGMENT" EM11:"MAC_EVENT_RNR_SEQUENCE_ERROR" EM12:"MAC_EVENT_FRAME_NOT_SUPPORT" EM13:"MAC_EVENT_SNRM_FRAME_SEGMENT" EM14:"MAC_EVENT_UA_FRAME_SEGMENT" EM15:"MAC_EVENT_DM_FRAME_SEGMENT" EM16:"MAC_EVENT_UI_FRAME_SEGMENT" 
+T "MacLmEvent" KT I!708 T!707 !118-24 0x1 
+T "MacAddress" KT I!709 T!624 !121-24 0x6 
+T "" KS I!710 !125-24 0xc VM!711 VM!712 VM!713 VM!714 
+V "max_info_field_length_transmit" - I!711 O!710 T!108 !127-24 .2 0x2 BO0 BIS16 
+V "max_info_field_length_receive" - I!712 O!710 T!108 !128-24 .2 0x2 BO16 BIS16 
+V "window_size_transmit" - I!713 O!710 T!111 !129-24 .2 0x4 BO32 BIS32 
+V "window_size_receive" - I!714 O!710 T!111 !130-24 .2 0x4 BO64 BIS32 
+T "MacParameter" KT I!715 T!710 !132-24 0xc 
+T "" KE I!716 T!119 0x1 EM0:"MAC_OK" EM1:"MAC_ERROR" 
+T "MacResult" KT I!717 T!716 !139-24 0x1 
+T "R_MAC_CONNECT_INDICATION_FUNC" KT I!718 T!719 !146-24 0x4 
+T "" KP I!719 T!720 0x4 
+T "" KF I!720 T!2 0x0 P!721 P!722 P!723 P!724 P!725 
+V "" N I!721 O!720 T!696 .1 0x1 
+V "" N I!722 O!720 T!709 .2 0x6 
+V "" N I!723 O!720 T!709 .2 0x6 
+V "" N I!724 O!720 T!135 .2 0x2 
+V "" N I!725 O!720 T!108 .2 0x2 
+T "R_MAC_DISCONNECT_INDICATION_FUNC" KT I!726 T!727 !155-24 0x4 
+T "" KP I!727 T!728 0x4 
+T "" KF I!728 T!2 0x0 P!729 P!730 P!731 P!732 P!733 P!734 P!735 
+V "" N I!729 O!728 T!696 .1 0x1 
+V "" N I!730 O!728 T!709 .2 0x6 
+V "" N I!731 O!728 T!709 .2 0x6 
+V "" N I!732 O!728 T!702 .1 0x1 
+V "" N I!733 O!728 T!105 .1 0x1 
+V "" N I!734 O!728 T!135 .2 0x2 
+V "" N I!735 O!728 T!108 .2 0x2 
+T "R_MAC_DATA_INDICATION_FUNC" KT I!736 T!737 !166-24 0x4 
+T "" KP I!737 T!738 0x4 
+T "" KF I!738 T!2 0x0 P!739 P!740 P!741 P!742 P!743 P!744 
+V "" N I!739 O!738 T!696 .1 0x1 
+V "" N I!740 O!738 T!709 .2 0x6 
+V "" N I!741 O!738 T!709 .2 0x6 
+V "" N I!742 O!738 T!704 .1 0x1 
+V "" N I!743 O!738 T!135 .2 0x2 
+V "" N I!744 O!738 T!108 .2 0x2 
+T "R_MAC_DATA_CONFIRM_FUNC" KT I!745 T!746 !176-24 0x4 
+T "" KP I!746 T!747 0x4 
+T "" KF I!747 T!2 0x0 P!748 P!749 P!750 P!751 P!752 
+V "" N I!748 O!747 T!696 .1 0x1 
+V "" N I!749 O!747 T!709 .2 0x6 
+V "" N I!750 O!747 T!709 .2 0x6 
+V "" N I!751 O!747 T!704 .1 0x1 
+V "" N I!752 O!747 T!717 .1 0x1 
+T "R_MAC_LM_EVENT_OCCURRED" KT I!753 T!754 !185-24 0x4 
+T "" KP I!754 T!755 0x4 
+T "" KF I!755 T!2 0x0 P!756 P!757 P!758 P!759 
+V "" N I!756 O!755 T!696 .1 0x1 
+V "" N I!757 O!755 T!708 .1 0x1 
+V "" N I!758 O!755 T!135 .2 0x2 
+V "" N I!759 O!755 T!108 .2 0x2 
+T "R_MAC_DEBUG_HDLC_MSG_SEND" KT I!760 T!761 !193-24 0x4 
+T "" KP I!761 T!762 0x4 
+T "" KF I!762 T!2 0x0 P!763 P!764 P!765 
+V "" N I!763 O!762 T!696 .1 0x1 
+V "" N I!764 O!762 T!135 .2 0x2 
+V "" N I!765 O!762 T!108 .2 0x2 
+T "R_MAC_DEBUG_HDLC_MSG_RECEIVE" KT I!766 T!767 !200-24 0x4 
+T "" KP I!767 T!768 0x4 
+T "" KF I!768 T!2 0x0 P!769 P!770 P!771 
+V "" N I!769 O!768 T!696 .1 0x1 
+V "" N I!770 O!768 T!135 .2 0x2 
+V "" N I!771 O!768 T!108 .2 0x2 
+F "R_MAC_Init" F I!772 T!2 ?215-24 
+F "R_MAC_PollingProcessing" F I!773 T!2 ?216-24 
+F "R_MAC_ConfigChannel" F I!774 T!717 ?217-24 P!775 P!776 P!777 P!778 P!779 P!780 P!781 P!782 
+V "" N I!775 O!774 T!696 .1 0x1 
+V "" N I!776 O!774 T!709 .2 0x6 
+V "" N I!777 O!774 T!715 .2 0xc 
+V "" N I!778 O!774 T!108 .2 0x2 
+V "" N I!779 O!774 T!135 .2 0x2 
+V "" N I!780 O!774 T!108 .2 0x2 
+V "" N I!781 O!774 T!135 .2 0x2 
+V "" N I!782 O!774 T!108 .2 0x2 
+F "R_MAC_ConfigPhyChannelReceiver" F I!783 T!717 ?227-24 P!784 P!785 P!786 P!787 P!788 P!789 
+V "" N I!784 O!783 T!248 .1 0x1 
+V "" N I!785 O!783 T!108 .2 0x2 
+V "" N I!786 O!783 T!135 .2 0x2 
+V "" N I!787 O!783 T!108 .2 0x2 
+V "" N I!788 O!783 T!135 .2 0x2 
+V "" N I!789 O!783 T!108 .2 0x2 
+F "R_MAC_ActivateChannel" F I!790 T!717 ?235-24 P!791 
+V "" N I!791 O!790 T!696 .1 0x1 
+F "R_MAC_DeactivateChannel" F I!792 T!717 ?236-24 P!793 
+V "" N I!793 O!792 T!696 .1 0x1 
+F "R_MAC_ResetChannel" F I!794 T!717 ?237-24 P!795 
+V "" N I!795 O!794 T!696 .1 0x1 
+F "R_MAC_GetConnectionState" F I!796 T!706 ?241-24 P!797 
+V "" N I!797 O!796 T!696 .1 0x1 
+F "R_MAC_GetNegotiatedParameter" F I!798 T!799 ?242-24 P!800 
+T "" MOD"C" KP I!799 T!715 0x2 
+V "" N I!800 O!798 T!696 .1 0x1 
+F "R_MAC_GetUnnumberedSendStatus" F I!801 T!105 ?243-24 P!802 
+V "" N I!802 O!801 T!696 .1 0x1 
+F "R_MAC_GetReceivedApduBuffer" F I!803 T!135 ?244-24 P!804 
+V "" N I!804 O!803 T!696 .1 0x1 
+F "R_MAC_GetReceivedApduBufferLength" F I!805 T!108 ?245-24 P!806 
+V "" N I!806 O!805 T!696 .1 0x1 
+F "R_MAC_RegisterDisconnectIndication" F I!807 T!2 ?248-24 P!808 
+V "" N I!808 O!807 T!726 .2 0x4 
+F "R_MAC_RegisterConnectIndication" F I!809 T!2 ?249-24 P!810 
+V "" N I!810 O!809 T!718 .2 0x4 
+F "R_MAC_RegisterDataConfirm" F I!811 T!2 ?250-24 P!812 
+V "" N I!812 O!811 T!745 .2 0x4 
+F "R_MAC_RegisterDataIndication" F I!813 T!2 ?251-24 P!814 
+V "" N I!814 O!813 T!736 .2 0x4 
+F "R_MAC_RegisterLmEventOccurred" F I!815 T!2 ?253-24 P!816 
+V "" N I!816 O!815 T!753 .2 0x4 
+F "R_MAC_RegisterDebugHdlcMsgSend" F I!817 T!2 ?254-24 P!818 
+V "" N I!818 O!817 T!760 .2 0x4 
+F "R_MAC_RegisterDebugHdlcMsgReceive" F I!819 T!2 ?255-24 P!820 
+V "" N I!820 O!819 T!766 .2 0x4 
+F "R_MAC_CONNECT_Response" F I!821 T!717 ?258-24 P!822 P!823 P!824 P!825 P!826 P!827 
+V "" N I!822 O!821 T!696 .1 0x1 
+V "" N I!823 O!821 T!709 .2 0x6 
+V "" N I!824 O!821 T!709 .2 0x6 
+V "" N I!825 O!821 T!698 .1 0x1 
+V "" N I!826 O!821 T!135 .2 0x2 
+V "" N I!827 O!821 T!108 .2 0x2 
+F "R_MAC_DISCONNECT_Response" F I!828 T!717 ?268-24 P!829 P!830 P!831 P!832 
+V "" N I!829 O!828 T!696 .1 0x1 
+V "" N I!830 O!828 T!709 .2 0x6 
+V "" N I!831 O!828 T!709 .2 0x6 
+V "" N I!832 O!828 T!700 .1 0x1 
+F "R_MAC_DATA_Request" F I!833 T!717 ?276-24 P!834 P!835 P!836 P!837 P!838 P!839 
+V "" N I!834 O!833 T!696 .1 0x1 
+V "" N I!835 O!833 T!709 .2 0x6 
+V "" N I!836 O!833 T!709 .2 0x6 
+V "" N I!837 O!833 T!704 .1 0x1 
+V "" N I!838 O!833 T!135 .2 0x2 
+V "" N I!839 O!833 T!108 .2 0x2 
+T "" KE I!840 T!119 0x1 EM0:"DL_OK" EM1:"DL_ERROR" 
+T "DlResult" KT I!841 T!840 !45-26 0x1 
+T "DlChannel" KT I!842 T!696 !48-26 0x1 
+T "DlAddress" KT I!843 T!105 !51-26 0x1 
+T "R_DL_DATA_INDICATION_FUNC" KT I!844 T!845 !54-26 0x4 
+T "" KP I!845 T!846 0x4 
+T "" KF I!846 T!2 0x0 P!847 P!848 P!849 P!850 P!851 P!852 P!853 P!854 P!855 
+V "" N I!847 O!846 T!842 .1 0x1 
+V "" N I!848 O!846 T!843 .1 0x1 
+V "" N I!849 O!846 T!843 .1 0x1 
+V "" N I!850 O!846 T!105 .1 0x1 
+V "" N I!851 O!846 T!709 .2 0x6 
+V "" N I!852 O!846 T!709 .2 0x6 
+V "" N I!853 O!846 T!704 .1 0x1 
+V "" N I!854 O!846 T!135 .2 0x2 
+V "" N I!855 O!846 T!108 .2 0x2 
+F "R_DL_Init" F I!856 T!2 ?74-26 
+F "R_DL_GetNegotiatedTransmitSize" F I!857 T!108 ?75-26 P!858 
+V "" N I!858 O!857 T!842 .1 0x1 
+F "R_DL_RegisterDataIndication" F I!859 T!2 ?76-26 P!860 
+V "" N I!860 O!859 T!844 .2 0x4 
+F "R_DL_DATA_Request" F I!861 T!841 ?79-26 P!862 P!863 P!864 P!865 P!866 P!867 P!868 P!869 P!870 
+V "" N I!862 O!861 T!842 .1 0x1 
+V "" N I!863 O!861 T!843 .1 0x1 
+V "" N I!864 O!861 T!843 .1 0x1 
+V "" N I!865 O!861 T!105 .1 0x1 
+V "" N I!866 O!861 T!709 .2 0x6 
+V "" N I!867 O!861 T!709 .2 0x6 
+V "" N I!868 O!861 T!704 .1 0x1 
+V "" N I!869 O!861 T!135 .2 0x2 
+V "" N I!870 O!861 T!108 .2 0x2 
+T "WPort" KT I!871 T!108 !29-28 0x2 
+T "tagWpduFrame" KS I!872 !31-28 0xe VM!873 VM!874 VM!875 VM!876 VM!877 VM!878 VM!879 
+V "valid" - I!873 O!872 T!105 !33-28 .1 0x1 BO0 BIS8 
+V "version" - I!874 O!872 T!108 !35-28 .2 0x2 BO16 BIS16 
+V "src_wport" - I!875 O!872 T!871 !36-28 .2 0x2 BO32 BIS16 
+V "dest_wport" - I!876 O!872 T!871 !37-28 .2 0x2 BO48 BIS16 
+V "length" - I!877 O!872 T!108 !38-28 .2 0x2 BO64 BIS16 
+V "info" - I!878 O!872 T!135 !40-28 .2 0x2 BO80 BIS16 
+V "info_length" - I!879 O!872 T!108 !41-28 .2 0x2 BO96 BIS16 
+T "WpduFrame" KT I!880 T!872 !43-28 0xe 
+T "WpduChannel" KT I!881 T!105 !45-28 0x1 
+F "R_WPDU_Encode" F I!882 T!108 ?55-28 P!883 P!884 P!885 P!886 P!887 
+V "" N I!883 O!882 T!108 .2 0x2 
+V "" N I!884 O!882 T!871 .2 0x2 
+V "" N I!885 O!882 T!871 .2 0x2 
+V "" N I!886 O!882 T!135 .2 0x2 
+V "" N I!887 O!882 T!108 .2 0x2 
+F "R_WPDU_ConfigFrameReceiverBuffer" F I!888 T!2 ?63-28 P!889 P!890 P!891 
+V "" N I!889 O!888 T!881 .1 0x1 
+V "" N I!890 O!888 T!135 .2 0x2 
+V "" N I!891 O!888 T!108 .2 0x2 
+F "R_WPDU_ResetFrameReceiver" F I!892 T!2 ?64-28 P!893 
+V "" N I!893 O!892 T!881 .1 0x1 
+F "R_WPDU_GetFrameReceiverBuffer" F I!894 T!135 ?65-28 P!895 
+V "" N I!895 O!894 T!881 .1 0x1 
+F "R_WPDU_GetFrameReceiverBufferUsage" F I!896 T!108 ?66-28 P!897 
+V "" N I!897 O!896 T!881 .1 0x1 
+F "R_WPDU_FrameReceiver" F I!898 T!899 ?67-28 P!900 P!901 
+T "" KP I!899 T!880 0x2 
+V "" N I!900 O!898 T!881 .1 0x1 
+V "" N I!901 O!898 T!105 .1 0x1 
+T "" KE I!902 T!119 0x1 EM0:"UDP_OK" EM1:"UDP_ERROR" 
+T "UdpResult" KT I!903 T!902 !36-27 0x1 
+T "R_UDP_DATA_CONFIRM_FUNC" KT I!904 T!905 !43-27 0x4 
+T "" KP I!905 T!906 0x4 
+T "" KF I!906 T!2 0x0 P!907 P!908 P!909 P!910 P!911 P!912 P!913 P!914 
+V "" N I!907 O!906 T!477 .1 0x1 
+V "" N I!908 O!906 T!871 .2 0x2 
+V "" N I!909 O!906 T!871 .2 0x2 
+V "" N I!910 O!906 T!476 .2 0x2 
+V "" N I!911 O!906 T!476 .2 0x2 
+V "" N I!912 O!906 T!474 .2 0x2 
+V "" N I!913 O!906 T!474 .2 0x2 
+V "" N I!914 O!906 T!903 .1 0x1 
+T "R_UDP_DATA_INDICATION_FUNC" KT I!915 T!916 !55-27 0x4 
+T "" KP I!916 T!917 0x4 
+T "" KF I!917 T!2 0x0 P!918 P!919 P!920 P!921 P!922 P!923 P!924 P!925 P!926 
+V "" N I!918 O!917 T!477 .1 0x1 
+V "" N I!919 O!917 T!871 .2 0x2 
+V "" N I!920 O!917 T!871 .2 0x2 
+V "" N I!921 O!917 T!476 .2 0x2 
+V "" N I!922 O!917 T!476 .2 0x2 
+V "" N I!923 O!917 T!474 .2 0x2 
+V "" N I!924 O!917 T!474 .2 0x2 
+V "" N I!925 O!917 T!108 .2 0x2 
+V "" N I!926 O!917 T!135 .2 0x2 
+T "R_UDP_DATA_SESSION_TIMEOUT_FUNC" KT I!927 T!928 !68-27 0x4 
+T "" KP I!928 T!929 0x4 
+T "" KF I!929 T!2 0x0 P!930 P!931 P!932 P!933 
+V "" N I!930 O!929 T!477 .1 0x1 
+V "" N I!931 O!929 T!871 .2 0x2 
+V "" N I!932 O!929 T!476 .2 0x2 
+V "" N I!933 O!929 T!474 .2 0x2 
+F "R_UDP_Init" F I!934 T!2 ?84-27 
+F "R_UDP_PollingProcessing" F I!935 T!2 ?85-27 
+F "R_UDP_ConfigChannel" F I!936 T!903 ?86-27 P!937 P!938 P!939 P!940 P!941 P!942 P!943 P!944 
+V "" N I!937 O!936 T!477 .1 0x1 
+V "" N I!938 O!936 T!871 .2 0x2 
+V "" N I!939 O!936 T!105 .1 0x1 
+V "" N I!940 O!936 T!493 .2 0x2 
+V "" N I!941 O!936 T!135 .2 0x2 
+V "" N I!942 O!936 T!108 .2 0x2 
+V "" N I!943 O!936 T!108 .2 0x2 
+V "" N I!944 O!936 T!108 .2 0x2 
+F "R_UDP_GetSrcWPort" F I!945 T!871 ?97-27 P!946 
+V "" N I!946 O!945 T!477 .1 0x1 
+F "R_UDP_GetSrcUdpPort" F I!947 T!476 ?98-27 P!948 
+V "" N I!948 O!947 T!477 .1 0x1 
+F "R_UDP_GetSrcIpAddress" F I!949 T!474 ?99-27 P!950 
+V "" N I!950 O!949 T!477 .1 0x1 
+F "R_UDP_GetConnectedWPort" F I!951 T!871 ?100-27 P!952 
+V "" N I!952 O!951 T!477 .1 0x1 
+F "R_UDP_GetConnectedUdpPort" F I!953 T!476 ?101-27 P!954 
+V "" N I!954 O!953 T!477 .1 0x1 
+F "R_UDP_GetConnectedIpAddress" F I!955 T!474 ?102-27 P!956 
+V "" N I!956 O!955 T!477 .1 0x1 
+F "R_UDP_GetReceivedApduBuffer" F I!957 T!135 ?103-27 P!958 
+V "" N I!958 O!957 T!477 .1 0x1 
+F "R_UDP_GetReceivedApduBufferLength" F I!959 T!108 ?104-27 P!960 
+V "" N I!960 O!959 T!477 .1 0x1 
+F "R_UDP_ActivateChannel" F I!961 T!903 ?105-27 P!962 
+V "" N I!962 O!961 T!477 .1 0x1 
+F "R_UDP_DeactivateChannel" F I!963 T!903 ?106-27 P!964 
+V "" N I!964 O!963 T!477 .1 0x1 
+F "R_UDP_RegisterDataConfirm" F I!965 T!2 ?109-27 P!966 
+V "" N I!966 O!965 T!904 .2 0x4 
+F "R_UDP_RegisterDataIndication" F I!967 T!2 ?110-27 P!968 
+V "" N I!968 O!967 T!915 .2 0x4 
+F "R_UDP_RegisterDataSessionTimeout" F I!969 T!2 ?111-27 P!970 
+V "" N I!970 O!969 T!927 .2 0x4 
+F "R_UDP_DATA_Request" F I!971 T!903 ?114-27 P!972 P!973 P!974 P!975 P!976 P!977 P!978 P!979 P!980 
+V "" N I!972 O!971 T!477 .1 0x1 
+V "" N I!973 O!971 T!871 .2 0x2 
+V "" N I!974 O!971 T!871 .2 0x2 
+V "" N I!975 O!971 T!476 .2 0x2 
+V "" N I!976 O!971 T!476 .2 0x2 
+V "" N I!977 O!971 T!474 .2 0x2 
+V "" N I!978 O!971 T!474 .2 0x2 
+V "" N I!979 O!971 T!108 .2 0x2 
+V "" N I!980 O!971 T!135 .2 0x2 
+T "" KE I!981 T!119 0x1 EM0:"TCP_OK" EM1:"TCP_ERROR" 
+T "TcpResult" KT I!982 T!981 !36-29 0x1 
+T "" KE I!983 T!119 0x1 EM0:"TCP_DISCONNECTED" EM1:"TCP_CONNECTED" 
+T "TcpState" KT I!984 T!983 !42-29 0x1 
+T "R_TCP_DATA_CONFIRM_FUNC" KT I!985 T!986 !49-29 0x4 
+T "" KP I!986 T!987 0x4 
+T "" KF I!987 T!2 0x0 P!988 P!989 P!990 P!991 P!992 P!993 P!994 P!995 
+V "" N I!988 O!987 T!514 .1 0x1 
+V "" N I!989 O!987 T!871 .2 0x2 
+V "" N I!990 O!987 T!871 .2 0x2 
+V "" N I!991 O!987 T!513 .2 0x2 
+V "" N I!992 O!987 T!513 .2 0x2 
+V "" N I!993 O!987 T!474 .2 0x2 
+V "" N I!994 O!987 T!474 .2 0x2 
+V "" N I!995 O!987 T!982 .1 0x1 
+T "R_TCP_DATA_INDICATION_FUNC" KT I!996 T!997 !61-29 0x4 
+T "" KP I!997 T!998 0x4 
+T "" KF I!998 T!2 0x0 P!999 P!1000 P!1001 P!1002 P!1003 P!1004 P!1005 P!1006 P!1007 
+V "" N I!999 O!998 T!514 .1 0x1 
+V "" N I!1000 O!998 T!871 .2 0x2 
+V "" N I!1001 O!998 T!871 .2 0x2 
+V "" N I!1002 O!998 T!513 .2 0x2 
+V "" N I!1003 O!998 T!513 .2 0x2 
+V "" N I!1004 O!998 T!474 .2 0x2 
+V "" N I!1005 O!998 T!474 .2 0x2 
+V "" N I!1006 O!998 T!108 .2 0x2 
+V "" N I!1007 O!998 T!135 .2 0x2 
+T "R_TCP_ABORT_INDICATION_FUNC" KT I!1008 T!1009 !74-29 0x4 
+T "" KP I!1009 T!1010 0x4 
+T "" KF I!1010 T!2 0x0 P!1011 P!1012 P!1013 P!1014 P!1015 P!1016 P!1017 P!1018 P!1019 
+V "" N I!1011 O!1010 T!514 .1 0x1 
+V "" N I!1012 O!1010 T!871 .2 0x2 
+V "" N I!1013 O!1010 T!871 .2 0x2 
+V "" N I!1014 O!1010 T!513 .2 0x2 
+V "" N I!1015 O!1010 T!513 .2 0x2 
+V "" N I!1016 O!1010 T!474 .2 0x2 
+V "" N I!1017 O!1010 T!474 .2 0x2 
+V "" N I!1018 O!1010 T!108 .2 0x2 
+V "" N I!1019 O!1010 T!135 .2 0x2 
+T "R_TCP_DATA_SESSION_TIMEOUT_FUNC" KT I!1020 T!1021 !87-29 0x4 
+T "" KP I!1021 T!1022 0x4 
+T "" KF I!1022 T!2 0x0 P!1023 P!1024 P!1025 P!1026 
+V "" N I!1023 O!1022 T!514 .1 0x1 
+V "" N I!1024 O!1022 T!871 .2 0x2 
+V "" N I!1025 O!1022 T!513 .2 0x2 
+V "" N I!1026 O!1022 T!474 .2 0x2 
+F "R_TCP_Init" F I!1027 T!2 ?103-29 
+F "R_TCP_PollingProcessing" F I!1028 T!2 ?104-29 
+F "R_TCP_ConfigChannel" F I!1029 T!982 ?105-29 P!1030 P!1031 P!1032 P!1033 P!1034 P!1035 P!1036 P!1037 
+V "" N I!1030 O!1029 T!514 .1 0x1 
+V "" N I!1031 O!1029 T!871 .2 0x2 
+V "" N I!1032 O!1029 T!105 .1 0x1 
+V "" N I!1033 O!1029 T!532 .2 0x2 
+V "" N I!1034 O!1029 T!135 .2 0x2 
+V "" N I!1035 O!1029 T!108 .2 0x2 
+V "" N I!1036 O!1029 T!108 .2 0x2 
+V "" N I!1037 O!1029 T!108 .2 0x2 
+F "R_TCP_GetSrcWPort" F I!1038 T!871 ?116-29 P!1039 
+V "" N I!1039 O!1038 T!514 .1 0x1 
+F "R_TCP_GetSrcTcpPort" F I!1040 T!513 ?117-29 P!1041 
+V "" N I!1041 O!1040 T!514 .1 0x1 
+F "R_TCP_GetSrcIpAddress" F I!1042 T!474 ?118-29 P!1043 
+V "" N I!1043 O!1042 T!514 .1 0x1 
+F "R_TCP_GetConnectedWPort" F I!1044 T!871 ?119-29 P!1045 
+V "" N I!1045 O!1044 T!514 .1 0x1 
+F "R_TCP_GetConnectedTcpPort" F I!1046 T!513 ?120-29 P!1047 
+V "" N I!1047 O!1046 T!514 .1 0x1 
+F "R_TCP_GetConnectedIpAddress" F I!1048 T!474 ?121-29 P!1049 
+V "" N I!1049 O!1048 T!514 .1 0x1 
+F "R_TCP_GetReceivedApduBuffer" F I!1050 T!135 ?122-29 P!1051 
+V "" N I!1051 O!1050 T!514 .1 0x1 
+F "R_TCP_GetReceivedApduBufferLength" F I!1052 T!108 ?123-29 P!1053 
+V "" N I!1053 O!1052 T!514 .1 0x1 
+F "R_TCP_ActivateChannel" F I!1054 T!982 ?124-29 P!1055 
+V "" N I!1055 O!1054 T!514 .1 0x1 
+F "R_TCP_DeactivateChannel" F I!1056 T!982 ?125-29 P!1057 
+V "" N I!1057 O!1056 T!514 .1 0x1 
+F "R_TCP_GetConnectionState" F I!1058 T!984 ?126-29 P!1059 
+V "" N I!1059 O!1058 T!514 .1 0x1 
+F "R_TCP_Connect" F I!1060 T!982 ?127-29 P!1061 P!1062 P!1063 
+V "" N I!1061 O!1060 T!514 .1 0x1 
+V "" N I!1062 O!1060 T!513 .2 0x2 
+V "" N I!1063 O!1060 T!474 .2 0x2 
+F "R_TCP_Disconnect" F I!1064 T!982 ?128-29 P!1065 P!1066 P!1067 
+V "" N I!1065 O!1064 T!514 .1 0x1 
+V "" N I!1066 O!1064 T!513 .2 0x2 
+V "" N I!1067 O!1064 T!474 .2 0x2 
+F "R_TCP_RegisterDataConfirm" F I!1068 T!2 ?131-29 P!1069 
+V "" N I!1069 O!1068 T!985 .2 0x4 
+F "R_TCP_RegisterDataIndication" F I!1070 T!2 ?132-29 P!1071 
+V "" N I!1071 O!1070 T!996 .2 0x4 
+F "R_TCP_RegisterDataSessionTimeout" F I!1072 T!2 ?133-29 P!1073 
+V "" N I!1073 O!1072 T!1020 .2 0x4 
+F "R_TCP_RegisterAbortIndication" F I!1074 T!2 ?134-29 P!1075 
+V "" N I!1075 O!1074 T!1008 .2 0x4 
+F "R_TCP_DATA_Request" F I!1076 T!982 ?137-29 P!1077 P!1078 P!1079 P!1080 P!1081 P!1082 P!1083 P!1084 P!1085 
+V "" N I!1077 O!1076 T!514 .1 0x1 
+V "" N I!1078 O!1076 T!871 .2 0x2 
+V "" N I!1079 O!1076 T!871 .2 0x2 
+V "" N I!1080 O!1076 T!513 .2 0x2 
+V "" N I!1081 O!1076 T!513 .2 0x2 
+V "" N I!1082 O!1076 T!474 .2 0x2 
+V "" N I!1083 O!1076 T!474 .2 0x2 
+V "" N I!1084 O!1076 T!108 .2 0x2 
+V "" N I!1085 O!1076 T!135 .2 0x2 
+T "MgmtChannel" KT I!1086 T!105 !38-30 0x1 
+T "tagChannelType" KE I!1087 T!119 !40-30 0x1 EM0:"CHANNEL_TYPE_NONE" EM1:"CHANNEL_TYPE_HDLC" EM2:"CHANNEL_TYPE_UDP" EM3:"CHANNEL_TYPE_TCP" 
+T "ChannelType" KT I!1088 T!1087 !46-30 0x1 
+F "R_MGMT_Init" F I!1089 T!2 ?56-30 
+F "R_MGMT_PollingProcessing" F I!1090 T!2 ?57-30 
+F "R_MGMT_GetChannelType" F I!1091 T!1088 ?58-30 P!1092 
+V "" N I!1092 O!1091 T!1086 .1 0x1 
+T "" KE I!1093 T!9 0x1 EM1:"TAG_INITIATEREQUEST" EM5:"TAG_READREQUEST" EM6:"TAG_WRITEREQUEST" EM8:"TAG_INITIATERESPONSE" EM12:"TAG_READRESPONSE" EM13:"TAG_WRITERESPONSE" EM14:"TAG_CONFIRMEDSERVICEERROR" EM15:"TAG_DATA_NOTIFICATION" EM22:"TAG_UNCONFIRMEDWRITEREQUEST" EM24:"TAG_INFORMATIONREPORTREQUEST" EM33:"TAG_GLO_INITIATEREQUEST" EM37:"TAG_GLO_READREQUEST" EM38:"TAG_GLO_WRITEREQUEST" EM40:"TAG_GLO_INITIATERESPONSE" EM44:"TAG_GLO_READRESPONSE" EM45:"TAG_GLO_WRITERESPONSE" EM46:"TAG_GLO_CONFIRMEDSERVICEERROR" EM54:"TAG_GLO_UNCONFIRMEDWRITEREQUEST" EM56:"TAG_GLO_INFORMATIONREPORTREQUEST" EM96:"TAG_AARQ" EM97:"TAG_AARE" EM98:"TAG_RLRQ" EM99:"TAG_RLRE" EM192:"TAG_GET_REQUEST" EM193:"TAG_SET_REQUEST" EM194:"TAG_EVENT_NOTIFICATION_REQUEST" EM195:"TAG_ACTION_REQUEST" EM196:"TAG_GET_RESPONSE" EM197:"TAG_SET_RESPONSE" EM199:"TAG_ACTION_RESPONSE" EM200:"TAG_GLO_GET_REQUEST" EM201:"TAG_GLO_SET_REQUEST" EM202:"TAG_GLO_EVENT_NOTIFICATION_REQUEST" EM203:"TAG_GLO_ACTION_REQUEST" EM204:"TAG_GLO_GET_RESPONSE" EM205:"TAG_GLO_SET_RESPONSE" EM207:"TAG_GLO_ACTION_RESPONSE" EM65:"TAG_DED_INITIATEREQUEST" EM208:"TAG_DED_GET_REQUEST" EM209:"TAG_DED_SET_REQUEST" EM210:"TAG_DED_EVENT_NOTIFICATION_REQUEST" EM211:"TAG_DED_ACTION_REQUEST" EM212:"TAG_DED_GET_RESPONSE" EM213:"TAG_DED_SET_RESPONSE" EM215:"TAG_DED_ACTION_RESPONSE" EM216:"TAG_EXCEPTION_RESPONSE" EM217:"TAG_ACCESS_REQUEST" EM218:"TAG_ACCESS_RESPONSE" EM219:"TAG_GENERAL_GLO_CIPHERING" EM220:"TAG_GENERAL_DED_CIPHERING" EM221:"TAG_GENERAL_CIPHERING" EM223:"TAG_GENERAL_SIGNING" EM224:"TAG_GENERAL_BLOCK_TRANSFER" EM230:"TAG_RESERVED1" EM231:"TAG_RESERVED2" 
+T "xDLMS_Tag" KT I!1094 T!1093 !107-32 0x1 
+T "" KE I!1095 T!119 0x1 EM0:"TAG_AARQ_PROTOCOLVER" EM1:"TAG_AARQ_APPCONTEXT" EM2:"TAG_AARQ_CALLED_AP_TITLE" EM3:"TAG_AARQ_CALLED_AE_QUALIFIER" EM4:"TAG_AARQ_CALLED_AP_INVOCATION" EM5:"TAG_AARQ_CALLED_AE_INVOCATION" EM6:"TAG_AARQ_CALLING_AP_TITLE" EM7:"TAG_AARQ_CALLING_AE_QUALIFIER" EM8:"TAG_AARQ_CALLING_AP_INVOCATION" EM9:"TAG_AARQ_CALLING_AE_INVOCATION" EM10:"TAG_AARQ_SENDER_ACSE" EM11:"TAG_AARQ_MECHANISMNAME" EM12:"TAG_AARQ_CALLING_AUTHENTICATION" EM29:"TAG_AARQ_IMPLEMENTATIONINFO" EM30:"TAG_AARQ_USERINFO" 
+T "AARQ_Tag" KT I!1096 T!1095 !127-32 0x1 
+T "" KE I!1097 T!119 0x1 EM0:"TAG_AARE_PROTOCOLVER" EM1:"TAG_AARE_APPCONTEXT" EM2:"TAG_AARE_RESULT" EM3:"TAG_AARE_RESULT_SOURCE_DIAGNOSTIC" EM4:"TAG_AARE_RESPONDING_AP_TITLE" EM5:"TAG_AARE_RESPONDING_AE_QUALIFIER" EM6:"TAG_AARE_RESPONDING_AP_INVOCATION_ID" EM7:"TAG_AARE_RESPONDING_AE_INVOCATION_ID" EM8:"TAG_AARE_RESPONDER_ACSE_REQUIREMENTS" EM9:"TAG_AARE_MECHANISM_NAME" EM10:"TAG_AARE_RESPONDING_AUTHENTICATION_VALUE" EM29:"TAG_AARE_IMPLEMENTATION_INFORMATION" EM30:"TAG_AARE_USER_INFORMATION" 
+T "AARE_Tag" KT I!1098 T!1097 !145-32 0x1 
+T "" KE I!1099 T!119 0x1 EM0:"TAG_RLRQ_REASON" EM30:"TAG_RLRQ_USER_INFORMATION" 
+T "RLRQ_Tag" KT I!1100 T!1099 !151-32 0x1 
+T "" KE I!1101 T!119 0x1 EM0:"TAG_RLRE_REASON" EM30:"TAG_RLRE_USER_INFORMATION" 
+T "RLRE_Tag" KT I!1102 T!1101 !157-32 0x1 
+T "" KE I!1103 T!119 0x1 EM0:"TAG_AUTHENTICATION_CHARSTRING" EM1:"TAG_AUTHENTICATION_BITSTRING" EM2:"TAG_AUTHENTICATION_EXTERNAL" EM3:"TAG_AUTHENTICATION_OTHER" 
+T "AuthenticationValue_Tag" KT I!1104 T!1103 !165-32 0x1 
+T "" KE I!1105 T!119 0x1 EM0:"VAL_ASSOCIATION_RESULT_ACCEPTED" EM1:"VAL_ASSOCIATION_RESULT_REJECTEDPERMANENT" EM2:"VAL_ASSOCIATION_RESULT_REJECTEDTRANSIENT" 
+T "AssociationResult_Value" KT I!1106 T!1105 !172-32 0x1 
+T "" KE I!1107 T!119 0x1 EM1:"TAG_ACSE_SERVICE_USER" EM2:"TAG_ACSE_SERVICE_PROVIDER" 
+T "AssociateSourceDiag_Tag" KT I!1108 T!1107 !178-32 0x1 
+T "" KE I!1109 T!119 0x1 EM0:"VAL_ASCE_SERVICE_USER_NULL" EM1:"VAL_ASCE_SERVICE_USER_NOREASON" EM2:"VAL_ASCE_SERVICE_USER_APPCONTEXTNOTSUPPORT" EM3:"VAL_ASCE_SERVICE_USER_CALLINGAPTITLENOTREG" EM4:"VAL_ASCE_SERVICE_USER_CALLINGAPINVOCATIONNOTREG" EM5:"VAL_ASCE_SERVICE_USER_CALLINGAEQUALIFIERNOTREG" EM6:"VAL_ASCE_SERVICE_USER_CALLINGAEINVOCATIONNOTREG" EM7:"VAL_ASCE_SERVICE_USER_CALLEDAPTITLENOTREG" EM8:"VAL_ASCE_SERVICE_USER_CALLEDAPINVOCATIONNOTREG" EM9:"VAL_ASCE_SERVICE_USER_CALLEDAEQUALIFIERNOTREG" EM10:"VAL_ASCE_SERVICE_USER_CALLEDAEINVOCATIONNOTREG" EM11:"VAL_ASCE_SERVICE_USER_MECHANISMNAMENOTSUPPORTED" EM12:"VAL_ASCE_SERVICE_USER_MECHANISMNAMEREQUIRED" EM13:"VAL_ASCE_SERVICE_USER_AUTHENTICATIONFAILURE" EM14:"VAL_ASCE_SERVICE_USER_AUTHENTICATIONREQUIRED" 
+T "AsceServiceUser_Value" KT I!1110 T!1109 !197-32 0x1 
+T "" KE I!1111 T!119 0x1 EM0:"VAL_ASCE_SERVICE_PROVIDER_NULL" EM1:"VAL_ASCE_SERVICE_PROVIDER_NOREASON" EM2:"VAL_ASCE_SERVICE_PROVIDER_NOCOMMONACSEVERSION" 
+T "AsceServiceProvider_Value" KT I!1112 T!1111 !204-32 0x1 
+T "" KE I!1113 T!119 0x1 EM0:"VAL_RELEASE_REQ_REASON_NORMAL" EM1:"VAL_RELEASE_REQ_REASON_URGENT" EM30:"VAL_RELEASE_REQ_REASON_USER_DEFINED" 
+T "ReleaseRequestReason_Value" KT I!1114 T!1113 !211-32 0x1 
+T "" KE I!1115 T!119 0x1 EM0:"VAL_RELEASE_RESP_REASON_NORMAL" EM1:"VAL_RELEASE_RESP_REASON_NOT_FINISHED" EM30:"VAL_RELEASE_RESP_REASON_USER_DEFINED" 
+T "ReleaseResponseReason_Value" KT I!1116 T!1115 !218-32 0x1 
+T "" KE I!1117 T!119 0x1 EM1:"TAG_CONFIRM_SERVICE_ERR_INITIATEERROR" EM2:"TAG_CONFIRM_SERVICE_ERR_GETSTATUS" EM3:"TAG_CONFIRM_SERVICE_ERR_GETNAMELIST" EM4:"TAG_CONFIRM_SERVICE_ERR_GETVARIABLEATTRIBUTE" EM5:"TAG_CONFIRM_SERVICE_ERR_READ" EM6:"TAG_CONFIRM_SERVICE_ERR_WRITE" EM7:"TAG_CONFIRM_SERVICE_ERR_GETDATASETATTRIBUTE" EM8:"TAG_CONFIRM_SERVICE_ERR_GETTIATTRIBUTE" EM9:"TAG_CONFIRM_SERVICE_ERR_CHANGESCOPE" EM10:"TAG_CONFIRM_SERVICE_ERR_START" EM11:"TAG_CONFIRM_SERVICE_ERR_STOP" EM12:"TAG_CONFIRM_SERVICE_ERR_RESUME" EM13:"TAG_CONFIRM_SERVICE_ERR_MAKEUSABLE" EM14:"TAG_CONFIRM_SERVICE_ERR_INITIATELOAD" EM15:"TAG_CONFIRM_SERVICE_ERR_LOADSEGMENT" EM16:"TAG_CONFIRM_SERVICE_ERR_TERMINATELOAD" EM17:"TAG_CONFIRM_SERVICE_ERR_INITIATEUPLOAD" EM18:"TAG_CONFIRM_SERVICE_ERR_UPLOADSEGMENT" EM19:"TAG_CONFIRM_SERVICE_ERR_TERMINATEUPLOAD" 
+T "ConfirmServiceError_Tag" KT I!1118 T!1117 !241-32 0x1 
+T "" KE I!1119 T!119 0x1 EM0:"TAG_SERVICE_ERR_APPLICATION_REFERENCE" EM1:"TAG_SERVICE_ERR_HARDWARE_RESOURCE" EM2:"TAG_SERVICE_ERR_VDE_STATE_ERROR" EM3:"TAG_SERVICE_ERR_SERVICE" EM4:"TAG_SERVICE_ERR_DEFINITION" EM5:"TAG_SERVICE_ERR_ACCESS" EM6:"TAG_SERVICE_ERR_INITIATE" EM7:"TAG_SERVICE_ERR_LOAD_DATA_SET" EM8:"TAG_SERVICE_ERR_CHANGE_SCOPE" EM9:"TAG_SERVICE_ERR_TASK" EM10:"TAG_SERVICE_ERR_OTHER" 
+T "ServiceError_Tag" KT I!1120 T!1119 !256-32 0x1 
+T "" KE I!1121 T!119 0x1 EM0:"VAL_APP_REF_OTHER" EM1:"VAL_APP_REF_TIME_ELAPSED" EM2:"VAL_APP_REF_APPLICATION_UNREACHABLE" EM3:"VAL_APP_REF_APPLICATION_REFERENCE_INVALID" EM4:"VAL_APP_REF_APPLICATION_CONTEXT_UNSUPPORTED" EM5:"VAL_APP_REF_PROVIDER_COMMUNICATION_ERROR" EM6:"VAL_APP_REF_DECIPHERING_ERROR" 
+T "ApplicationReference_Value" KT I!1122 T!1121 !267-32 0x1 
+T "" KE I!1123 T!119 0x1 EM0:"VAL_HW_RESOURCE_OTHER" EM1:"VAL_HW_RESOURCE_MEMORY_UNAVAILABLE" EM2:"VAL_HW_RESOURCE_PROCESSOR_RESOURCE_UNAVAILABLE" EM3:"VAL_HW_RESOURCE_MASS_STORAGE_UNAVAILABLE" EM4:"VAL_HW_RESOURCE_OTHER_RESOURCE_UNAVAILABLE" 
+T "HardwareResource_Value" KT I!1124 T!1123 !276-32 0x1 
+T "" KE I!1125 T!119 0x1 EM0:"VAL_VDE_STATE_ERR_OTHER" EM1:"VAL_VDE_STATE_ERR_NO_DLMS_CONTEXT" EM2:"VAL_VDE_STATE_ERR_LOADING_DATA_SET" EM3:"VAL_VDE_STATE_ERR_STATUS_NOCHANGE" EM4:"VAL_VDE_STATE_ERR_STATUS_INOPERABLE" 
+T "VdeStateError_Value" KT I!1126 T!1125 !285-32 0x1 
+T "" KE I!1127 T!119 0x1 EM0:"VAL_SERVICE_OTHER" EM1:"VAL_SERVICE_PDU_SIZE" EM2:"VAL_SERVICE_SERVICE_UNSUPPORTED" 
+T "Service_Value" KT I!1128 T!1127 !292-32 0x1 
+T "" KE I!1129 T!119 0x1 EM0:"VAL_DEFINITION_OTHER" EM1:"VAL_DEFINITION_OBJECT_UNDEFINED" EM2:"VAL_DEFINITION_OBJECT_CLASS_INCONSISTENT" EM3:"VAL_DEFINITION_OBJECT_ATTRIBUTE_INCONSISTENT" 
+T "Definition_Value" KT I!1130 T!1129 !300-32 0x1 
+T "" KE I!1131 T!119 0x1 EM0:"VAL_ACCESS_OTHER" EM1:"VAL_ACCESS_SCOPE_OF_ACCESS_VIOLATED" EM2:"VAL_ACCESS_OBJECT_ACCESS_VIOLATED" EM3:"VAL_ACCESS_HARDWARE_FAULT" EM4:"VAL_ACCESS_OBJECT_UNAVAILABLE" 
+T "Access_Value" KT I!1132 T!1131 !309-32 0x1 
+T "" KE I!1133 T!119 0x1 EM0:"VAL_INITIATE_OTHER" EM1:"VAL_INITIATE_DLMS_VERSION_TOO_LOW" EM2:"VAL_INITIATE_INCOMPATIBLE_CONFORMANCE" EM3:"VAL_INITIATE_PDU_SIZE_TOO_SHORT" EM4:"VAL_INITIATE_REFUSED_BY_THE_VDE_HANDLER" 
+T "Initiate_Value" KT I!1134 T!1133 !318-32 0x1 
+T "" KE I!1135 T!119 0x1 EM0:"VAL_LOAD_DATA_SET_OTHER" EM1:"VAL_LOAD_DATA_SET_PRIMITIVE_OUT_OF_SEQUENCE" EM2:"VAL_LOAD_DATA_SET_NOT_LOADABLE" EM3:"VAL_LOAD_DATA_SET_DATASET_SIZE_TOO_LARGE" EM4:"VAL_LOAD_DATA_SET_NOT_AWAITED_SEGMENT" EM5:"VAL_LOAD_DATA_SET_INTERPRETATION_FAILURE" EM6:"VAL_LOAD_DATA_SET_STORAGE_FAILURE" EM7:"VAL_LOAD_DATA_SET_DATA_SET_NOT_READY" 
+T "LoadDataSet_Value" KT I!1136 T!1135 !330-32 0x1 
+T "" KE I!1137 T!119 0x1 EM0:"VAL_TASK_OTHER" EM1:"VAL_TASK_NO_REMOTE_CONTROL" EM2:"VAL_TASK_TI_STOPPED" EM3:"VAL_TASK_TI_RUNNING" EM4:"VAL_TASK_TI_UNUSABLE" 
+T "Task_Value" KT I!1138 T!1137 !339-32 0x1 
+T "" KE I!1139 T!119 0x1 EM1:"TAG_GET_REQUEST_NORMAL" EM2:"TAG_GET_REQUEST_NEXT" EM3:"TAG_GET_REQUEST_WITH_LIST" 
+T "GetRequest_Tag" KT I!1140 T!1139 !346-32 0x1 
+T "" KE I!1141 T!119 0x1 EM1:"TAG_GET_RESPONSE_NORMAL" EM2:"TAG_GET_RESPONSE_WITH_DATABLOCK" EM3:"TAG_GET_RESPONSE_WITH_LIST" 
+T "GetResponse_Tag" KT I!1142 T!1141 !353-32 0x1 
+T "" KE I!1143 T!119 0x1 EM1:"TAG_SET_REQUEST_NORMAL" EM2:"TAG_SET_REQUEST_WITH_FIRST_DATABLOCK" EM3:"TAG_SET_REQUEST_WITH_DATABLOCK" EM4:"TAG_SET_REQUEST_WITH_LIST" EM5:"TAG_SET_REQUEST_WITH_LIST_AND_FIRST_DATABLOCK" 
+T "SetRequest_Tag" KT I!1144 T!1143 !362-32 0x1 
+T "" KE I!1145 T!119 0x1 EM1:"TAG_SET_RESPONSE_NORMAL" EM2:"TAG_SET_RESPONSE_DATABLOCK" EM3:"TAG_SET_RESPONSE_LAST_DATABLOCK" EM4:"TAG_SET_RESPONSE_LAST_DATABLOCK_WITH_LIST" EM5:"TAG_SET_RESPONSE_WITH_LIST" 
+T "SetResponse_Tag" KT I!1146 T!1145 !371-32 0x1 
+T "" KE I!1147 T!119 0x1 EM1:"TAG_ACTION_REQUEST_NORMAL" EM2:"TAG_ACTION_REQUEST_NEXT_PBLOCK" EM3:"TAG_ACTION_REQUEST_WITH_LIST" EM4:"TAG_ACTION_REQUEST_WITH_FIRST_PBLOCK" EM5:"TAG_ACTION_REQUEST_WITH_LIST_AND_FIRST_PBLOCK" EM6:"TAG_ACTION_REQUEST_WITH_PBLOCK" 
+T "ActionRequest_Tag" KT I!1148 T!1147 !381-32 0x1 
+T "" KE I!1149 T!119 0x1 EM1:"TAG_ACTION_RESPONSE_NORMAL" EM2:"TAG_ACTION_RESPONSE_WITH_PBLOCK" EM3:"TAG_ACTION_RESPONSE_WITH_LIST" EM4:"TAG_ACTION_RESPONSE_NEXT_PBLOCK" 
+T "ActionResponse_Tag" KT I!1150 T!1149 !389-32 0x1 
+T "" KE I!1151 T!119 0x1 EM0:"TAG_EXCEPTION_RESPONSE_STATE_ERROR" EM1:"TAG_EXCEPTION_RESPONSE_SERVICE_ERROR" 
+T "ExceptionResponse_Tag" KT I!1152 T!1151 !395-32 0x1 
+T "" KE I!1153 T!119 0x1 EM1:"VAL_EXCEPTION_RESPONSE_SERVICE_NOT_ALLOWED" EM2:"VAL_EXCEPTION_RESPONSE_SERVICE_UNKNOWN" 
+T "ExceptionResponseStateError_Value" KT I!1154 T!1153 !401-32 0x1 
+T "" KE I!1155 T!119 0x1 EM1:"VAL_EXCEPTION_RESPONSE_OPERATION_NOT_POSSIBLE" EM2:"VAL_EXCEPTION_RESPONSE_SERVICE_NOT_SUPPORTED" EM3:"VAL_EXCEPTION_RESPONSE_OTHER_REASON" EM4:"VAL_EXCEPTION_PDU_TOO_LONG" EM5:"VAL_EXCEPTION_DECIPHERING_ERROR" EM6:"VAL_EXCEPTION_INVOCATION_COUNTER_ERROR" 
+T "ExceptionResponseServiceError_Value" KT I!1156 T!1155 !411-32 0x1 
+T "" KE I!1157 T!9 0x1 EM0:"TAG_DATA_NULL_DATA" EM1:"TAG_DATA_ARRAY" EM2:"TAG_DATA_STRUCTURE" EM3:"TAG_DATA_BOOLEAN" EM4:"TAG_DATA_BIT_STRING" EM5:"TAG_DATA_DOUBLE_LONG" EM6:"TAG_DATA_DOUBLE_LONG_UNSIGNED" EM7:"TAG_DATA_FLOATING_POINT" EM9:"TAG_DATA_OCTET_STRING" EM10:"TAG_DATA_VISIBLE_STRING" EM12:"TAG_DATA_UTF8_STRING" EM13:"TAG_DATA_BCD" EM15:"TAG_DATA_INTEGER" EM16:"TAG_DATA_LONG" EM17:"TAG_DATA_UNSIGNED" EM18:"TAG_DATA_LONG_UNSIGNED" EM19:"TAG_DATA_COMPACT_ARRAY" EM20:"TAG_DATA_LONG64" EM21:"TAG_DATA_LONG64_UNSIGNED" EM22:"TAG_DATA_ENUM" EM23:"TAG_DATA_FLOAT32" EM24:"TAG_DATA_FLOAT64" EM25:"TAG_DATA_DATE_TIME" EM26:"TAG_DATA_DATE" EM27:"TAG_DATA_TIME" EM255:"TAG_DATA_DONT_CARE" 
+T "Data_Tag" KT I!1158 T!1157 !441-32 0x1 
+T "TypeDescription_Tag" KT I!1159 T!1158 !443-32 0x1 
+T "" KE I!1160 T!9 0x1 EM0:"VAL_DATA_ACCESS_RESULT_SUCCESS" EM1:"VAL_DATA_ACCESS_RESULT_HARDWARE_FAULT" EM2:"VAL_DATA_ACCESS_RESULT_TEMPORARY_FAILURE" EM3:"VAL_DATA_ACCESS_RESULT_READ_WRITE_DENIED" EM4:"VAL_DATA_ACCESS_RESULT_OBJECT_UNDEFINED" EM9:"VAL_DATA_ACCESS_RESULT_OBJECT_CLASS_INCONSISTENT" EM11:"VAL_DATA_ACCESS_RESULT_OBJECT_UNAVAILABLE" EM12:"VAL_DATA_ACCESS_RESULT_TYPE_UNMATCHED" EM13:"VAL_DATA_ACCESS_RESULT_SCOPE_OF_ACCESS_VIOLATED" EM14:"VAL_DATA_ACCESS_RESULT_DATA_BLOCK_UNAVAILABLE" EM15:"VAL_DATA_ACCESS_RESULT_LONG_GET_ABORTED" EM16:"VAL_DATA_ACCESS_RESULT_NO_LONG_GET_IN_PROGRESS" EM17:"VAL_DATA_ACCESS_RESULT_LONG_SET_ABORTED" EM18:"VAL_DATA_ACCESS_RESULT_NO_LONG_SET_IN_PROGRESS" EM19:"VAL_DATA_ACCESS_RESULT_DATA_BLOCK_NUMBER_INVALID" EM250:"VAL_DATA_ACCESS_RESULT_OTHER_REASON" 
+T "DataAccessResult_Value" KT I!1161 T!1160 !463-32 0x1 
+T "" KE I!1162 T!9 0x1 EM0:"VAL_ACTION_RESULT_SUCCESS" EM1:"VAL_ACTION_RESULT_HARDWARE_FAULT" EM2:"VAL_ACTION_RESULT_TEMPORARY_FAILURE" EM3:"VAL_ACTION_RESULT_READ_WRITE_DENIED" EM4:"VAL_ACTION_RESULT_OBJECT_UNDEFINED" EM9:"VAL_ACTION_RESULT_OBJECT_CLASS_INCONSISTENT" EM11:"VAL_ACTION_RESULT_OBJECT_UNAVAILABLE" EM12:"VAL_ACTION_RESULT_TYPE_UNMATCHED" EM13:"VAL_ACTION_RESULT_SCOPE_OF_ACCESS_VIOLATED" EM14:"VAL_ACTION_RESULT_DATA_BLOCK_UNAVAILABLE" EM15:"VAL_ACTION_RESULT_LONG_ACTION_ABORTED" EM16:"VAL_ACTION_RESULT_NO_LONG_ACTION_IN_PROGRESS" EM250:"VAL_ACTION_RESULT_OTHER_REASON" 
+T "ActionResult_Value" KT I!1163 T!1162 !480-32 0x1 
+T "" KE I!1164 T!119 0x1 EM0:"TAG_GET_ACCESS_RESULT_DATA" EM1:"TAG_GET_ACCESS_RESULT_DATA_ACCESS_RESULT" 
+T "GetDataResult_Tag" KT I!1165 T!1164 !486-32 0x1 
+T "" KE I!1166 T!119 0x1 EM0:"TAG_DATABLOCK_G_RESULT_RAW_DATA" EM1:"TAG_DATABLOCK_G_RESULT_DATA_ACCESS_RESULT" 
+T "DataBlockGResult_Tag" KT I!1167 T!1166 !492-32 0x1 
+T "" KE I!1168 T!119 0x1 EM0:"TAG_IDENTIFIED_KEY" EM1:"TAG_WRAPPED_KEY" EM2:"TAG_AGREED_KEY" 
+T "KeyInfo_Tag" KT I!1169 T!1168 !499-32 0x1 
+T "" KE I!1170 T!119 0x1 EM0:"KEY_ID_GLOBAL_UNICAST_ENCRYPTION_KEY" EM1:"KEY_ID_GLOBAL_BROADCAST_ENCRYPTION_KEY" 
+T "KeyId_Value" KT I!1171 T!1170 !505-32 0x1 
+T "" KE I!1172 T!119 0x1 EM0:"KEK_ID_MASTER_KEY" 
+T "KekId_Value" KT I!1173 T!1172 !510-32 0x1 
+T "" KU I!1174 !513-32 0x1 VM!1179 VM!1180 
+T "" KS I!1175 !515-32 0x1 VM!1176 VM!1177 VM!1178 
+V "Tag" - I!1176 O!1175 T!105 !516-32 .1 0x1 BO0 BIS5 
+V "Constructed" - I!1177 O!1175 T!105 !517-32 .1 0x1 BO5 BIS1 
+V "Class" - I!1178 O!1175 T!105 !518-32 .1 0x1 BO6 BIS2 
+V "Bits" - I!1179 O!1174 T!1175 !519-32 .1 0x1 BO0 BIS8 
+V "Byte" - I!1180 O!1174 T!105 !520-32 .1 0x1 BO0 BIS8 
+T "BER_Identifier" KT I!1181 T!1174 !521-32 0x1 
+T "" KS I!1182 !524-32 0x5 VM!1183 VM!1184 VM!1185 VM!1186 VM!1187 
+V "Identifier" - I!1183 O!1182 T!1181 !525-32 .1 0x1 BO0 BIS8 
+V "Length0" - I!1184 O!1182 T!105 !526-32 .1 0x1 BO8 BIS8 
+V "Length1" - I!1185 O!1182 T!105 !527-32 .1 0x1 BO16 BIS8 
+V "Length2" - I!1186 O!1182 T!105 !528-32 .1 0x1 BO24 BIS8 
+V "Tail" - I!1187 O!1182 T!105 !529-32 .1 0x1 BO32 BIS8 
+T "BER_ApduTag" KT I!1188 T!1182 !530-32 0x5 
+T "" KE I!1189 T!119 0x1 EM0:"BER_EOC" EM1:"BER_BOOLEAN" EM2:"BER_INTEGER" EM3:"BER_BITSTRING" EM4:"BER_OCTETSTRING" EM5:"BER_NULL" EM6:"BER_OBJECTIDENTIFIER" EM7:"BER_OBJECTDESCRIPTOR" EM8:"BER_EXTERNAL" EM9:"BER_REAL" EM10:"BER_ENUMERATED" EM11:"BER_EMBEDDEDPDV" EM12:"BER_UTF8" EM13:"BER_RELATIVEOID" EM16:"BER_SEQUENCEOF" EM17:"BER_SETOF" EM18:"BER_NUMERICSTRING" EM19:"BER_PRINTABLESTRING" EM20:"BER_T61STRING" EM21:"BER_VIDEOSTRING" EM22:"BER_IA5STRING" EM23:"BER_UTCTIME" EM24:"BER_GENERALTIME" EM25:"BER_GRAPHICSSTRING" EM26:"BER_VISIBLESTRING" EM27:"BER_GENERALSTRING" EM28:"BER_UNIVERSALSTRING" EM29:"BER_CHARACTERSTRING" EM30:"BER_BMPSTRING" 
+T "BER_UniversalClassTag" KT I!1190 T!1189 !563-32 0x1 
+T "" KE I!1191 T!119 0x1 EM0:"PRIMITIVE" EM1:"CONTRUCTED" 
+T "BER_EncodeMode" KT I!1192 T!1191 !569-32 0x1 
+T "" KE I!1193 T!119 0x1 EM0:"UNIVERSAL" EM1:"APPLICATION" EM2:"CONTEXTSPECIFIC" EM3:"PRIVATE" 
+T "BER_ClassType" KT I!1194 T!1193 !577-32 0x1 
+T "" KS I!1195 !108-31 0x4 VM!1196 VM!1197 
+V "p_content" - I!1196 O!1195 T!135 !109-31 .2 0x2 BO0 BIS16 
+V "length" - I!1197 O!1195 T!108 !110-31 .2 0x2 BO16 BIS16 
+T "MandatoryString" KT I!1198 T!1195 !111-31 0x4 
+T "" KS I!1199 !115-31 0x6 VM!1200 VM!1201 VM!1202 
+V "use" - I!1200 O!1199 T!105 !116-31 .1 0x1 BO0 BIS8 
+V "p_content" - I!1201 O!1199 T!135 !117-31 .2 0x2 BO16 BIS16 
+V "length" - I!1202 O!1199 T!108 !118-31 .2 0x2 BO32 BIS16 
+T "OptionalString" KT I!1203 T!1199 !119-31 0x6 
+T "" KS I!1204 !123-31 0x2 VM!1205 VM!1206 
+V "use" - I!1205 O!1204 T!105 !124-31 .1 0x1 BO0 BIS8 
+V "value" - I!1206 O!1204 T!105 !125-31 .1 0x1 BO8 BIS8 
+T "OptionalInteger" KT I!1207 T!1204 !126-31 0x2 
+T "" KE I!1208 T!9 0x1 EM0:"SECURITY_NONE" EM1:"SECURITY_AUTHENTICATED" EM2:"SECURITY_ENCRYPTED" EM3:"SECURITY_AUTHENTICATED_ENCRYPTED" EM0:"SECURITY_V1_NONE" EM4:"SECURITY_V1_BIT2_AUTHENTICATED_REQUEST" EM8:"SECURITY_V1_BIT3_ENCRYPTED_REQUEST" EM16:"SECURITY_V1_BIT4_DIGITAL_SIGNED_REQUEST" EM32:"SECURITY_V1_BIT5_AUTHENTICATED_RESPONSE" EM64:"SECURITY_V1_BIT6_ENCRYPTED_RESPONSE" EM128:"SECURITY_V1_BIT7_DIGITAL_SIGNED_RESPONSE" 
+T "SecurityPolicy" KT I!1209 T!1208 !149-31 0x1 
+T "" KS I!1210 !152-31 0x1 VM!1211 VM!1212 VM!1213 VM!1214 VM!1215 VM!1216 VM!1217 VM!1218 
+V "v0_authentication" - I!1211 O!1210 T!105 !153-31 .1 0x1 BO0 BIS1 
+V "v0_encryption" - I!1212 O!1210 T!105 !154-31 .1 0x1 BO1 BIS1 
+V "v1_authenticated_request" - I!1213 O!1210 T!105 !155-31 .1 0x1 BO2 BIS1 
+V "v1_encrypted_request" - I!1214 O!1210 T!105 !156-31 .1 0x1 BO3 BIS1 
+V "v1_digital_signed_request" - I!1215 O!1210 T!105 !157-31 .1 0x1 BO4 BIS1 
+V "v1_authenticated_response" - I!1216 O!1210 T!105 !158-31 .1 0x1 BO5 BIS1 
+V "v1_encrypted_response" - I!1217 O!1210 T!105 !159-31 .1 0x1 BO6 BIS1 
+V "v1_digital_signed_response" - I!1218 O!1210 T!105 !160-31 .1 0x1 BO7 BIS1 
+T "SecurityPolicyBits" KT I!1219 T!1210 !161-31 0x1 
+T "" KU I!1220 !168-31 0x1 VM!1221 VM!1226 VM!1232 VM!1242 
+V "byte" - I!1221 O!1220 T!105 !169-31 .1 0x1 BO0 BIS8 
+T "" KS I!1222 !171-31 0x1 VM!1223 VM!1224 VM!1225 
+V "read" - I!1223 O!1222 T!105 !172-31 .1 0x1 BO0 BIS1 
+V "write" - I!1224 O!1222 T!105 !173-31 .1 0x1 BO1 BIS1 
+V "reserved" - I!1225 O!1222 T!105 !174-31 .1 0x1 BO2 BIS6 
+V "class15_v0" - I!1226 O!1220 T!1222 !175-31 .1 0x1 BO0 BIS8 
+T "" KS I!1227 !177-31 0x1 VM!1228 VM!1229 VM!1230 VM!1231 
+V "read" - I!1228 O!1227 T!105 !178-31 .1 0x1 BO0 BIS1 
+V "write" - I!1229 O!1227 T!105 !179-31 .1 0x1 BO1 BIS1 
+V "authenticated" - I!1230 O!1227 T!105 !180-31 .1 0x1 BO2 BIS1 
+V "reserved" - I!1231 O!1227 T!105 !181-31 .1 0x1 BO3 BIS5 
+V "class15_v1_v2" - I!1232 O!1220 T!1227 !182-31 .1 0x1 BO0 BIS8 
+T "" KS I!1233 !184-31 0x1 VM!1234 VM!1235 VM!1236 VM!1237 VM!1238 VM!1239 VM!1240 VM!1241 
+V "read_access" - I!1234 O!1233 T!105 !185-31 .1 0x1 BO0 BIS1 
+V "write_access" - I!1235 O!1233 T!105 !186-31 .1 0x1 BO1 BIS1 
+V "authenticated_request" - I!1236 O!1233 T!105 !187-31 .1 0x1 BO2 BIS1 
+V "encrypted_request" - I!1237 O!1233 T!105 !188-31 .1 0x1 BO3 BIS1 
+V "digital_signed_request" - I!1238 O!1233 T!105 !189-31 .1 0x1 BO4 BIS1 
+V "authenticated_response" - I!1239 O!1233 T!105 !190-31 .1 0x1 BO5 BIS1 
+V "encrypted_response" - I!1240 O!1233 T!105 !191-31 .1 0x1 BO6 BIS1 
+V "digital_signed_response" - I!1241 O!1233 T!105 !192-31 .1 0x1 BO7 BIS1 
+V "class15_v3" - I!1242 O!1220 T!1233 !193-31 .1 0x1 BO0 BIS8 
+T "AttributeAccessRights" KT I!1243 T!1220 !195-31 0x1 
+T "" KU I!1244 !198-31 0x1 VM!1245 VM!1249 VM!1255 VM!1265 
+V "byte" - I!1245 O!1244 T!105 !199-31 .1 0x1 BO0 BIS8 
+T "" KS I!1246 !201-31 0x1 VM!1247 VM!1248 
+V "access" - I!1247 O!1246 T!105 !202-31 .1 0x1 BO0 BIS1 
+V "reserved" - I!1248 O!1246 T!105 !203-31 .1 0x1 BO1 BIS7 
+V "class15_v0" - I!1249 O!1244 T!1246 !204-31 .1 0x1 BO0 BIS8 
+T "" KS I!1250 !206-31 0x1 VM!1251 VM!1252 VM!1253 VM!1254 
+V "access" - I!1251 O!1250 T!105 !207-31 .1 0x1 BO0 BIS1 
+V "no_use0" - I!1252 O!1250 T!105 !208-31 .1 0x1 BO1 BIS1 
+V "authenticated" - I!1253 O!1250 T!105 !209-31 .1 0x1 BO2 BIS1 
+V "reserved" - I!1254 O!1250 T!105 !210-31 .1 0x1 BO3 BIS5 
+V "class15_v1_v2" - I!1255 O!1244 T!1250 !211-31 .1 0x1 BO0 BIS8 
+T "" KS I!1256 !213-31 0x1 VM!1257 VM!1258 VM!1259 VM!1260 VM!1261 VM!1262 VM!1263 VM!1264 
+V "access" - I!1257 O!1256 T!105 !214-31 .1 0x1 BO0 BIS1 
+V "no_use" - I!1258 O!1256 T!105 !215-31 .1 0x1 BO1 BIS1 
+V "authenticated_request" - I!1259 O!1256 T!105 !216-31 .1 0x1 BO2 BIS1 
+V "encrypted_request" - I!1260 O!1256 T!105 !217-31 .1 0x1 BO3 BIS1 
+V "digital_signed_request" - I!1261 O!1256 T!105 !218-31 .1 0x1 BO4 BIS1 
+V "authenticated_response" - I!1262 O!1256 T!105 !219-31 .1 0x1 BO5 BIS1 
+V "encrypted_response" - I!1263 O!1256 T!105 !220-31 .1 0x1 BO6 BIS1 
+V "digital_signed_response" - I!1264 O!1256 T!105 !221-31 .1 0x1 BO7 BIS1 
+V "class15_v3" - I!1265 O!1244 T!1256 !222-31 .1 0x1 BO0 BIS8 
+T "MethodAccessRights" KT I!1266 T!1244 !224-31 0x1 
+T "" KE I!1267 T!119 0x1 EM0:"SECURITY_AES_SUIT" EM1:"SECURITY_AES_SUIT_1" EM2:"SECURITY_AES_SUIT_2" 
+T "SecuritySuit" KT I!1268 T!1267 !232-31 0x1 
+T "" KS I!1269 !236-31 0x8 VM!1270 VM!1271 
+V "encryption" - I!1270 O!1269 T!111 !237-31 .2 0x4 BO0 BIS32 
+V "decryption" - I!1271 O!1269 T!111 !238-31 .2 0x4 BO32 BIS32 
+T "AesGcmInvocationCounters" KT I!1272 T!1269 !239-31 0x8 
+T "" KS I!1273 !243-31 0x6 VM!1274 VM!1275 
+V "key" - I!1274 O!1273 T!1198 !244-31 .2 0x4 BO0 BIS32 
+V "p_invocation_counters" - I!1275 O!1273 T!1276 !245-31 .2 0x2 BO32 BIS16 
+T "" KP I!1276 T!1272 0x2 
+T "AesGcmEkWithCounters" KT I!1277 T!1273 !246-31 0x6 
+T "" KS I!1278 !250-31 0x26 VM!1279 VM!1280 VM!1281 VM!1282 VM!1283 VM!1284 VM!1285 VM!1286 VM!1287 VM!1288 VM!1289 
+V "security_policy" - I!1279 O!1278 T!1209 !251-31 .1 0x1 BO0 BIS8 
+V "security_suit" - I!1280 O!1278 T!1268 !252-31 .1 0x1 BO8 BIS8 
+V "client_title" - I!1281 O!1278 T!1198 !253-31 .2 0x4 BO16 BIS32 
+V "server_title" - I!1282 O!1278 T!1198 !254-31 .2 0x4 BO48 BIS32 
+V "master_key" - I!1283 O!1278 T!1198 !256-31 .2 0x4 BO80 BIS32 
+V "use_dedicated_key" - I!1284 O!1278 T!105 !257-31 .1 0x1 BO112 BIS8 
+V "use_broadcast_key" - I!1285 O!1278 T!105 !258-31 .1 0x1 BO120 BIS8 
+V "global_unicast_key" - I!1286 O!1278 T!1277 !259-31 .2 0x6 BO128 BIS48 
+V "global_broadcast_key" - I!1287 O!1278 T!1277 !260-31 .2 0x6 BO176 BIS48 
+V "dedicated_unicast_key" - I!1288 O!1278 T!1277 !261-31 .2 0x6 BO224 BIS48 
+V "authentication_key" - I!1289 O!1278 T!1198 !262-31 .2 0x4 BO272 BIS32 
+T "SecurityContext" KT I!1290 T!1278 !263-31 0x26 
+T "" KU I!1291 !267-31 0x1 VM!1292 VM!1299 
+V "byte" - I!1292 O!1291 T!105 !268-31 .1 0x1 BO0 BIS8 
+T "" KS I!1293 !269-31 0x1 VM!1294 VM!1295 VM!1296 VM!1297 VM!1298 
+V "suite_id" - I!1294 O!1293 T!105 !270-31 .1 0x1 BO0 BIS4 
+V "authentication" - I!1295 O!1293 T!105 !271-31 .1 0x1 BO4 BIS1 
+V "encryption" - I!1296 O!1293 T!105 !272-31 .1 0x1 BO5 BIS1 
+V "keyset" - I!1297 O!1293 T!105 !273-31 .1 0x1 BO6 BIS1 
+V "compression" - I!1298 O!1293 T!105 !274-31 .1 0x1 BO7 BIS1 
+V "bits" - I!1299 O!1291 T!1293 !275-31 .1 0x1 BO0 BIS8 
+T "SCByte" KT I!1300 T!1291 !276-31 0x1 
+T "" KU I!1301 !281-31 0x3 VM!1306 VM!1332 
+T "" KS I!1302 !283-31 0x3 VM!1303 VM!1304 VM!1305 
+V "bytes0" - I!1303 O!1302 T!105 !284-31 .1 0x1 BO0 BIS8 
+V "bytes1" - I!1304 O!1302 T!105 !285-31 .1 0x1 BO8 BIS8 
+V "bytes2" - I!1305 O!1302 T!105 !286-31 .1 0x1 BO16 BIS8 
+V "bytes" - I!1306 O!1301 T!1302 !287-31 .1 0x3 BO0 BIS24 
+T "" KS I!1307 !290-31 0x3 VM!1308 VM!1309 VM!1310 VM!1311 VM!1312 VM!1313 VM!1314 VM!1315 VM!1316 VM!1317 VM!1318 VM!1319 VM!1320 VM!1321 VM!1322 VM!1323 VM!1324 VM!1325 VM!1326 VM!1327 VM!1328 VM!1329 VM!1330 VM!1331 
+V "reserved7" - I!1308 O!1307 T!105 !291-31 .1 0x1 BO0 BIS1 
+V "reserved6" - I!1309 O!1307 T!105 !292-31 .1 0x1 BO1 BIS1 
+V "unconfirmed_write" - I!1310 O!1307 T!105 !293-31 .1 0x1 BO2 BIS1 
+V "write" - I!1311 O!1307 T!105 !294-31 .1 0x1 BO3 BIS1 
+V "read" - I!1312 O!1307 T!105 !295-31 .1 0x1 BO4 BIS1 
+V "general_block_transfer" - I!1313 O!1307 T!105 !296-31 .1 0x1 BO5 BIS1 
+V "general_protection" - I!1314 O!1307 T!105 !297-31 .1 0x1 BO6 BIS1 
+V "reserved0" - I!1315 O!1307 T!105 !298-31 .1 0x1 BO7 BIS1 
+V "information_report" - I!1316 O!1307 T!105 !300-31 .1 0x1 BO8 BIS1 
+V "multiple_references" - I!1317 O!1307 T!105 !301-31 .1 0x1 BO9 BIS1 
+V "block_transfer_with_action" - I!1318 O!1307 T!105 !302-31 .1 0x1 BO10 BIS1 
+V "block_transfer_with_set" - I!1319 O!1307 T!105 !303-31 .1 0x1 BO11 BIS1 
+V "block_transfer_with_get" - I!1320 O!1307 T!105 !304-31 .1 0x1 BO12 BIS1 
+V "attribute0_supported_with_get" - I!1321 O!1307 T!105 !305-31 .1 0x1 BO13 BIS1 
+V "priority_mgmt_supported" - I!1322 O!1307 T!105 !306-31 .1 0x1 BO14 BIS1 
+V "attribute0_supported_with_set" - I!1323 O!1307 T!105 !307-31 .1 0x1 BO15 BIS1 
+V "action" - I!1324 O!1307 T!105 !309-31 .1 0x1 BO16 BIS1 
+V "event_notification" - I!1325 O!1307 T!105 !310-31 .1 0x1 BO17 BIS1 
+V "selective_access" - I!1326 O!1307 T!105 !311-31 .1 0x1 BO18 BIS1 
+V "set" - I!1327 O!1307 T!105 !312-31 .1 0x1 BO19 BIS1 
+V "get" - I!1328 O!1307 T!105 !313-31 .1 0x1 BO20 BIS1 
+V "parameterized_access" - I!1329 O!1307 T!105 !314-31 .1 0x1 BO21 BIS1 
+V "access" - I!1330 O!1307 T!105 !315-31 .1 0x1 BO22 BIS1 
+V "data_notification" - I!1331 O!1307 T!105 !316-31 .1 0x1 BO23 BIS1 
+V "bits" - I!1332 O!1301 T!1307 !317-31 .1 0x3 BO0 BIS24 
+T "ConformanceBits" KT I!1333 T!1301 !318-31 0x3 
+T "" KS I!1334 !321-31 0x10 VM!1335 VM!1336 VM!1337 VM!1338 VM!1339 VM!1340 
+V "dedicated_key" - I!1335 O!1334 T!1203 !322-31 .2 0x6 BO0 BIS48 
+V "response_allowed" - I!1336 O!1334 T!105 !323-31 .1 0x1 BO48 BIS8 
+V "proposed_quality_of_service" - I!1337 O!1334 T!1207 !324-31 .1 0x2 BO56 BIS16 
+V "proposed_dlms_version_number" - I!1338 O!1334 T!105 !325-31 .1 0x1 BO72 BIS8 
+V "proposed_conformance" - I!1339 O!1334 T!1333 !326-31 .1 0x3 BO80 BIS24 
+V "client_max_receive_pdu_size" - I!1340 O!1334 T!108 !327-31 .2 0x2 BO112 BIS16 
+T "InitiateRequest" KT I!1341 T!1334 !328-31 0x10 
+T "" KS I!1342 !335-31 0x4a VM!1343 VM!1344 VM!1345 VM!1346 VM!1347 VM!1348 VM!1349 VM!1350 VM!1351 VM!1352 VM!1353 VM!1354 VM!1355 VM!1356 VM!1357 
+V "protocol_version" - I!1343 O!1342 T!105 !338-31 .1 0x1 BO0 BIS8 
+V "application_context_name" - I!1344 O!1342 T!1198 !339-31 .2 0x4 BO16 BIS32 
+V "called_AP_title" - I!1345 O!1342 T!1203 !341-31 .2 0x6 BO48 BIS48 
+V "called_AE_qualifier" - I!1346 O!1342 T!1203 !342-31 .2 0x6 BO96 BIS48 
+V "called_AP_invocation_id" - I!1347 O!1342 T!1207 !343-31 .1 0x2 BO144 BIS16 
+V "called_AE_invocation_id" - I!1348 O!1342 T!1207 !344-31 .1 0x2 BO160 BIS16 
+V "calling_AP_title" - I!1349 O!1342 T!1203 !346-31 .2 0x6 BO176 BIS48 
+V "calling_AE_qualifier" - I!1350 O!1342 T!1203 !347-31 .2 0x6 BO224 BIS48 
+V "calling_AP_invocation_id" - I!1351 O!1342 T!1207 !348-31 .1 0x2 BO272 BIS16 
+V "calling_AE_invocation_id" - I!1352 O!1342 T!1207 !349-31 .1 0x2 BO288 BIS16 
+V "sender_acse_requirements" - I!1353 O!1342 T!1207 !352-31 .1 0x2 BO304 BIS16 
+V "mechanism_name" - I!1354 O!1342 T!1203 !355-31 .2 0x6 BO320 BIS48 
+V "calling_authentication_value" - I!1355 O!1342 T!1203 !358-31 .2 0x6 BO368 BIS48 
+V "implementation_information" - I!1356 O!1342 T!1203 !359-31 .2 0x6 BO416 BIS48 
+V "user_information" - I!1357 O!1342 T!1341 !362-31 .2 0x10 BO464 BIS128 
+T "AARQ_Apdu" KT I!1358 T!1342 !364-31 0x4a 
+T "" KS I!1359 !367-31 0xa VM!1360 VM!1361 VM!1362 VM!1363 VM!1364 
+V "negotiated_quality_of_service" - I!1360 O!1359 T!1207 !368-31 .1 0x2 BO0 BIS16 
+V "negotiated_dlms_version_number" - I!1361 O!1359 T!105 !369-31 .1 0x1 BO16 BIS8 
+V "negotiated_conformance" - I!1362 O!1359 T!1333 !370-31 .1 0x3 BO24 BIS24 
+V "server_max_receive_pdu_size" - I!1363 O!1359 T!108 !371-31 .2 0x2 BO48 BIS16 
+V "vaa_name" - I!1364 O!1359 T!108 !372-31 .2 0x2 BO64 BIS16 
+T "InitiateResponse" KT I!1365 T!1359 !373-31 0xa 
+T "" KS I!1366 !376-31 0x3 VM!1367 VM!1368 VM!1369 
+V "confirm_service_error_choice_tag" - I!1367 O!1366 T!1118 !377-31 .1 0x1 BO0 BIS8 
+V "service_error_choice_tag" - I!1368 O!1366 T!1120 !378-31 .1 0x1 BO8 BIS8 
+V "error_detail_code" - I!1369 O!1366 T!105 !379-31 .1 0x1 BO16 BIS8 
+T "ConfirmServiceError" KT I!1370 T!1366 !380-31 0x3 
+T "AssociationResult" KT I!1371 T!105 !382-31 0x1 
+T "" KS I!1372 !385-31 0x2 VM!1373 VM!1374 
+V "associate_source_diag_choice_tag" - I!1373 O!1372 T!1108 !386-31 .1 0x1 BO0 BIS8 
+V "diag_detail_code" - I!1374 O!1372 T!105 !387-31 .1 0x1 BO8 BIS8 
+T "AssociateSourceDiag" KT I!1375 T!1372 !388-31 0x2 
+T "" KS I!1376 !391-31 0x3a VM!1377 VM!1378 VM!1379 VM!1380 VM!1381 VM!1382 VM!1383 VM!1384 VM!1385 VM!1386 VM!1387 VM!1388 VM!1389 VM!1393 
+V "protocol_version" - I!1377 O!1376 T!105 !394-31 .1 0x1 BO0 BIS8 
+V "application_context_name" - I!1378 O!1376 T!1198 !395-31 .2 0x4 BO16 BIS32 
+V "result" - I!1379 O!1376 T!1371 !396-31 .1 0x1 BO48 BIS8 
+V "result_source_diagnostic" - I!1380 O!1376 T!1375 !397-31 .1 0x2 BO56 BIS16 
+V "responding_AP_title" - I!1381 O!1376 T!1203 !398-31 .2 0x6 BO80 BIS48 
+V "responding_AE_qualifier" - I!1382 O!1376 T!1203 !399-31 .2 0x6 BO128 BIS48 
+V "responding_AP_invocation_id" - I!1383 O!1376 T!1207 !400-31 .1 0x2 BO176 BIS16 
+V "responding_AE_invocation_id" - I!1384 O!1376 T!1207 !401-31 .1 0x2 BO192 BIS16 
+V "responder_acse_requirements" - I!1385 O!1376 T!1207 !404-31 .1 0x2 BO208 BIS16 
+V "mechanism_name" - I!1386 O!1376 T!1203 !407-31 .2 0x6 BO224 BIS48 
+V "responding_authentication_value" - I!1387 O!1376 T!1203 !410-31 .2 0x6 BO272 BIS48 
+V "implementation_information" - I!1388 O!1376 T!1203 !411-31 .2 0x6 BO320 BIS48 
+V "user_information_tag" - I!1389 O!1376 T!1094 !418-31 .1 0x1 BO368 BIS8 
+T "" KU I!1390 !420-31 0xa VM!1391 VM!1392 
+V "initiate_response" - I!1391 O!1390 T!1365 !421-31 .2 0xa BO0 BIS80 
+V "confirm_service_error" - I!1392 O!1390 T!1370 !422-31 .1 0x3 BO0 BIS24 
+V "user_information" - I!1393 O!1376 T!1390 !423-31 .2 0xa BO384 BIS80 
+T "AARE_Apdu" KT I!1394 T!1376 !425-31 0x3a 
+T "" KS I!1395 !431-31 0x2 VM!1396 VM!1397 
+V "use" - I!1396 O!1395 T!105 !432-31 .1 0x1 BO0 BIS8 
+V "value" - I!1397 O!1395 T!1114 !433-31 .1 0x1 BO8 BIS8 
+T "OptionalReleaseRequestReason" KT I!1398 T!1395 !434-31 0x2 
+T "" KS I!1399 !437-31 0x2 VM!1400 VM!1401 
+V "use" - I!1400 O!1399 T!105 !438-31 .1 0x1 BO0 BIS8 
+V "value" - I!1401 O!1399 T!1116 !439-31 .1 0x1 BO8 BIS8 
+T "OptionalReleaseResponseReason" KT I!1402 T!1399 !440-31 0x2 
+T "" KS I!1403 !443-31 0x14 VM!1404 VM!1408 
+V "reason" - I!1404 O!1403 T!1398 !444-31 .1 0x2 BO0 BIS16 
+T "" KS I!1405 !447-31 0x12 VM!1406 VM!1407 
+V "use" - I!1406 O!1405 T!105 !448-31 .1 0x1 BO0 BIS8 
+V "initiate_request" - I!1407 O!1405 T!1341 !449-31 .2 0x10 BO16 BIS128 
+V "user_information" - I!1408 O!1403 T!1405 !450-31 .2 0x12 BO16 BIS144 
+T "RLRQ_Apdu" KT I!1409 T!1403 !451-31 0x14 
+T "" KS I!1410 !454-31 0xe VM!1411 VM!1415 
+V "reason" - I!1411 O!1410 T!1402 !455-31 .1 0x2 BO0 BIS16 
+T "" KS I!1412 !458-31 0xc VM!1413 VM!1414 
+V "use" - I!1413 O!1412 T!105 !459-31 .1 0x1 BO0 BIS8 
+V "initiate_response" - I!1414 O!1412 T!1365 !460-31 .2 0xa BO16 BIS80 
+V "user_information" - I!1415 O!1410 T!1412 !461-31 .2 0xc BO16 BIS96 
+T "RLRE_Apdu" KT I!1416 T!1410 !462-31 0xe 
+T "" KU I!1417 !470-31 0x1 VM!1418 VM!1424 
+V "byte" - I!1418 O!1417 T!105 !471-31 .1 0x1 BO0 BIS8 
+T "" KS I!1419 !473-31 0x1 VM!1420 VM!1421 VM!1422 VM!1423 
+V "invoke_id" - I!1420 O!1419 T!105 !474-31 .1 0x1 BO0 BIS4 
+V "reserved" - I!1421 O!1419 T!105 !475-31 .1 0x1 BO4 BIS2 
+V "service_class" - I!1422 O!1419 T!105 !476-31 .1 0x1 BO6 BIS1 
+V "priority" - I!1423 O!1419 T!105 !477-31 .1 0x1 BO7 BIS1 
+V "bits" - I!1424 O!1417 T!1419 !478-31 .1 0x1 BO0 BIS8 
+T "InvokeIdAndPriority" KT I!1425 T!1417 !479-31 0x1 
+T "" KU I!1426 !483-31 0x4 VM!1427 VM!1435 
+V "u32" - I!1427 O!1426 T!111 !484-31 .2 0x4 BO0 BIS32 
+T "" KS I!1428 !486-31 0x4 VM!1429 VM!1430 VM!1431 VM!1432 VM!1433 VM!1434 
+V "invoke_id" - I!1429 O!1428 T!111 !487-31 .2 0x4 BO0 BIS24 
+V "reserved" - I!1430 O!1428 T!111 !488-31 .2 0x4 BO24 BIS4 
+V "self_descriptive" - I!1431 O!1428 T!111 !489-31 .2 0x4 BO28 BIS1 
+V "processing_option" - I!1432 O!1428 T!111 !490-31 .2 0x4 BO29 BIS1 
+V "service_class" - I!1433 O!1428 T!111 !491-31 .2 0x4 BO30 BIS1 
+V "priority" - I!1434 O!1428 T!111 !492-31 .2 0x4 BO31 BIS1 
+V "bits" - I!1435 O!1426 T!1428 !493-31 .2 0x4 BO0 BIS32 
+T "LongInvokeIdAndPriority" KT I!1436 T!1426 !494-31 0x4 
+T "" KS I!1437 !497-31 0xa VM!1438 VM!1439 VM!1441 
+V "class_id" - I!1438 O!1437 T!108 !498-31 .2 0x2 BO0 BIS16 
+V "instance_id" - I!1439 O!1437 T!1440 !499-31 .1 0x6 BO16 BIS48 
+T "" KA6 I!1440 T!105 0x6 
+V "attribute_id" - I!1441 O!1437 T!105 !500-31 .1 0x1 BO64 BIS8 
+T "CosemAttributeDescriptor" KT I!1442 T!1437 !501-31 0xa 
+T "" KS I!1443 !504-31 0x6 VM!1444 VM!1445 VM!1446 
+V "use" - I!1444 O!1443 T!105 !505-31 .1 0x1 BO0 BIS8 
+V "access_selector" - I!1445 O!1443 T!105 !506-31 .1 0x1 BO8 BIS8 
+V "raw_access_parameters" - I!1446 O!1443 T!1198 !507-31 .2 0x4 BO16 BIS32 
+T "OptionalSelectiveAccessDescriptor" KT I!1447 T!1443 !508-31 0x6 
+T "" KS I!1448 !511-31 0x12 VM!1449 VM!1450 VM!1451 
+V "invoke_id_and_priority" - I!1449 O!1448 T!1425 !512-31 .1 0x1 BO0 BIS8 
+V "cosem_attribute_descriptor" - I!1450 O!1448 T!1442 !513-31 .2 0xa BO16 BIS80 
+V "access_selection" - I!1451 O!1448 T!1447 !514-31 .2 0x6 BO96 BIS48 
+T "GetRequestNormal" KT I!1452 T!1448 !515-31 0x12 
+T "" KS I!1453 !518-31 0x6 VM!1454 VM!1455 
+V "invoke_id_and_priority" - I!1454 O!1453 T!1425 !519-31 .1 0x1 BO0 BIS8 
+V "block_number" - I!1455 O!1453 T!111 !520-31 .2 0x4 BO16 BIS32 
+T "GetRequestNext" KT I!1456 T!1453 !521-31 0x6 
+T "" KS I!1457 !524-31 0x10 VM!1458 VM!1459 
+V "cosem_attribute_descriptor" - I!1458 O!1457 T!1442 !525-31 .2 0xa BO0 BIS80 
+V "access_selection" - I!1459 O!1457 T!1447 !526-31 .2 0x6 BO80 BIS48 
+T "CosemAttributeDescriptorWithSelection" KT I!1460 T!1457 !527-31 0x10 
+T "" KS I!1461 !530-31 0xa4 VM!1462 VM!1463 VM!1465 
+V "invoke_id_and_priority" - I!1462 O!1461 T!1425 !531-31 .1 0x1 BO0 BIS8 
+V "attribute_descriptor_list" - I!1463 O!1461 T!1464 !532-31 .2 0xa0 BO16 BIS1280 
+T "" KA10 I!1464 T!1460 0xa0 
+V "attribute_descriptor_list_length" - I!1465 O!1461 T!108 !533-31 .2 0x2 BO1296 BIS16 
+T "GetRequestWithList" KT I!1466 T!1461 !534-31 0xa4 
+T "" KS I!1467 !537-31 0xa6 VM!1468 VM!1473 
+V "request_tag" - I!1468 O!1467 T!1140 !538-31 .1 0x1 BO0 BIS8 
+T "" KU I!1469 !540-31 0xa4 VM!1470 VM!1471 VM!1472 
+V "normal" - I!1470 O!1469 T!1452 !541-31 .2 0x12 BO0 BIS144 
+V "next" - I!1471 O!1469 T!1456 !542-31 .2 0x6 BO0 BIS48 
+V "with_list" - I!1472 O!1469 T!1466 !543-31 .2 0xa4 BO0 BIS1312 
+V "request" - I!1473 O!1467 T!1469 !544-31 .2 0xa4 BO16 BIS1312 
+T "GetRequest_Apdu" KT I!1474 T!1467 !545-31 0xa6 
+T "" KS I!1475 !548-31 0x6 VM!1476 VM!1480 
+V "result_tag" - I!1476 O!1475 T!1165 !549-31 .1 0x1 BO0 BIS8 
+T "" KU I!1477 !551-31 0x4 VM!1478 VM!1479 
+V "data" - I!1478 O!1477 T!1198 !552-31 .2 0x4 BO0 BIS32 
+V "data_access_result" - I!1479 O!1477 T!1161 !553-31 .1 0x1 BO0 BIS8 
+V "result" - I!1480 O!1475 T!1477 !554-31 .2 0x4 BO16 BIS32 
+T "GetDataResult" KT I!1481 T!1475 !555-31 0x6 
+T "" KS I!1482 !558-31 0x8 VM!1483 VM!1484 
+V "invoke_id_and_priority" - I!1483 O!1482 T!1425 !559-31 .1 0x1 BO0 BIS8 
+V "result" - I!1484 O!1482 T!1481 !560-31 .2 0x6 BO16 BIS48 
+T "GetResponseNormal" KT I!1485 T!1482 !561-31 0x8 
+T "" KS I!1486 !564-31 0xc VM!1487 VM!1488 VM!1489 VM!1493 
+V "last_block" - I!1487 O!1486 T!105 !565-31 .1 0x1 BO0 BIS8 
+V "block_number" - I!1488 O!1486 T!111 !566-31 .2 0x4 BO16 BIS32 
+V "result_tag" - I!1489 O!1486 T!1167 !567-31 .1 0x1 BO48 BIS8 
+T "" KU I!1490 !569-31 0x4 VM!1491 VM!1492 
+V "raw_data" - I!1491 O!1490 T!1198 !570-31 .2 0x4 BO0 BIS32 
+V "data_access_result" - I!1492 O!1490 T!1161 !571-31 .1 0x1 BO0 BIS8 
+V "result" - I!1493 O!1486 T!1490 !572-31 .2 0x4 BO64 BIS32 
+T "DataBlockG" KT I!1494 T!1486 !573-31 0xc 
+T "" KS I!1495 !576-31 0xe VM!1496 VM!1497 
+V "invoke_id_and_priority" - I!1496 O!1495 T!1425 !577-31 .1 0x1 BO0 BIS8 
+V "result" - I!1497 O!1495 T!1494 !578-31 .2 0xc BO16 BIS96 
+T "GetResponseWithDataBlock" KT I!1498 T!1495 !579-31 0xe 
+T "" KS I!1499 !582-31 0x40 VM!1500 VM!1501 VM!1503 
+V "invoke_id_and_priority" - I!1500 O!1499 T!1425 !583-31 .1 0x1 BO0 BIS8 
+V "result_list" - I!1501 O!1499 T!1502 !584-31 .2 0x3c BO16 BIS480 
+T "" KA10 I!1502 T!1481 0x3c 
+V "result_list_length" - I!1503 O!1499 T!108 !585-31 .2 0x2 BO496 BIS16 
+T "GetResponseWithList" KT I!1504 T!1499 !586-31 0x40 
+T "" KS I!1505 !589-31 0x42 VM!1506 VM!1511 
+V "response_tag" - I!1506 O!1505 T!1142 !590-31 .1 0x1 BO0 BIS8 
+T "" KU I!1507 !592-31 0x40 VM!1508 VM!1509 VM!1510 
+V "normal" - I!1508 O!1507 T!1485 !593-31 .2 0x8 BO0 BIS64 
+V "with_datablock" - I!1509 O!1507 T!1498 !594-31 .2 0xe BO0 BIS112 
+V "with_list" - I!1510 O!1507 T!1504 !595-31 .2 0x40 BO0 BIS512 
+V "response" - I!1511 O!1505 T!1507 !596-31 .2 0x40 BO16 BIS512 
+T "GetResponse_Apdu" KT I!1512 T!1505 !597-31 0x42 
+T "" KS I!1513 !604-31 0xa VM!1514 VM!1515 VM!1516 
+V "last_block" - I!1514 O!1513 T!105 !605-31 .1 0x1 BO0 BIS8 
+V "block_number" - I!1515 O!1513 T!111 !606-31 .2 0x4 BO16 BIS32 
+V "raw_data" - I!1516 O!1513 T!1198 !607-31 .2 0x4 BO48 BIS32 
+T "DataBlockSA" KT I!1517 T!1513 !608-31 0xa 
+T "" KS I!1518 !611-31 0x16 VM!1519 VM!1520 VM!1521 VM!1522 
+V "invoke_id_and_priority" - I!1519 O!1518 T!1425 !612-31 .1 0x1 BO0 BIS8 
+V "cosem_attribute_descriptor" - I!1520 O!1518 T!1442 !613-31 .2 0xa BO16 BIS80 
+V "access_selection" - I!1521 O!1518 T!1447 !614-31 .2 0x6 BO96 BIS48 
+V "value" - I!1522 O!1518 T!1198 !615-31 .2 0x4 BO144 BIS32 
+T "SetRequestNormal" KT I!1523 T!1518 !616-31 0x16 
+T "" KS I!1524 !619-31 0x1c VM!1525 VM!1526 VM!1527 VM!1528 
+V "invoke_id_and_priority" - I!1525 O!1524 T!1425 !620-31 .1 0x1 BO0 BIS8 
+V "cosem_attribute_descriptor" - I!1526 O!1524 T!1442 !621-31 .2 0xa BO16 BIS80 
+V "access_selection" - I!1527 O!1524 T!1447 !622-31 .2 0x6 BO96 BIS48 
+V "data_block" - I!1528 O!1524 T!1517 !623-31 .2 0xa BO144 BIS80 
+T "SetRequestWithFirstDataBlock" KT I!1529 T!1524 !624-31 0x1c 
+T "" KS I!1530 !627-31 0xc VM!1531 VM!1532 
+V "invoke_id_and_priority" - I!1531 O!1530 T!1425 !628-31 .1 0x1 BO0 BIS8 
+V "data_block" - I!1532 O!1530 T!1517 !629-31 .2 0xa BO16 BIS80 
+T "SetRequestWithDataBlock" KT I!1533 T!1530 !630-31 0xc 
+T "" KS I!1534 !633-31 0xce VM!1535 VM!1536 VM!1538 VM!1539 VM!1541 
+V "invoke_id_and_priority" - I!1535 O!1534 T!1425 !634-31 .1 0x1 BO0 BIS8 
+V "attribute_descriptor_list" - I!1536 O!1534 T!1537 !635-31 .2 0xa0 BO16 BIS1280 
+T "" KA10 I!1537 T!1460 0xa0 
+V "attribute_descriptor_list_length" - I!1538 O!1534 T!108 !636-31 .2 0x2 BO1296 BIS16 
+V "value_list" - I!1539 O!1534 T!1540 !637-31 .2 0x28 BO1312 BIS320 
+T "" KA10 I!1540 T!1198 0x28 
+V "value_list_length" - I!1541 O!1534 T!108 !638-31 .2 0x2 BO1632 BIS16 
+T "SetRequestWithList" KT I!1542 T!1534 !639-31 0xce 
+T "" KS I!1543 !642-31 0xae VM!1544 VM!1545 VM!1547 VM!1548 
+V "invoke_id_and_priority" - I!1544 O!1543 T!1425 !643-31 .1 0x1 BO0 BIS8 
+V "attribute_descriptor_list" - I!1545 O!1543 T!1546 !644-31 .2 0xa0 BO16 BIS1280 
+T "" KA10 I!1546 T!1460 0xa0 
+V "attribute_descriptor_list_length" - I!1547 O!1543 T!108 !645-31 .2 0x2 BO1296 BIS16 
+V "data_block" - I!1548 O!1543 T!1517 !646-31 .2 0xa BO1312 BIS80 
+T "SetRequestWithListAndFirstDataBlock" KT I!1549 T!1543 !647-31 0xae 
+T "" KS I!1550 !650-31 0xd0 VM!1551 VM!1558 
+V "request_tag" - I!1551 O!1550 T!1144 !651-31 .1 0x1 BO0 BIS8 
+T "" KU I!1552 !653-31 0xce VM!1553 VM!1554 VM!1555 VM!1556 VM!1557 
+V "normal" - I!1553 O!1552 T!1523 !654-31 .2 0x16 BO0 BIS176 
+V "first_data_block" - I!1554 O!1552 T!1529 !655-31 .2 0x1c BO0 BIS224 
+V "data_block" - I!1555 O!1552 T!1533 !656-31 .2 0xc BO0 BIS96 
+V "with_list" - I!1556 O!1552 T!1542 !657-31 .2 0xce BO0 BIS1648 
+V "with_list_first_data_block" - I!1557 O!1552 T!1549 !658-31 .2 0xae BO0 BIS1392 
+V "request" - I!1558 O!1550 T!1552 !659-31 .2 0xce BO16 BIS1648 
+T "SetRequest_Apdu" KT I!1559 T!1550 !660-31 0xd0 
+T "" KS I!1560 !663-31 0x2 VM!1561 VM!1562 
+V "invoke_id_and_priority" - I!1561 O!1560 T!1425 !664-31 .1 0x1 BO0 BIS8 
+V "result" - I!1562 O!1560 T!1161 !665-31 .1 0x1 BO8 BIS8 
+T "SetResponseNormal" KT I!1563 T!1560 !666-31 0x2 
+T "" KS I!1564 !669-31 0x6 VM!1565 VM!1566 
+V "invoke_id_and_priority" - I!1565 O!1564 T!1425 !670-31 .1 0x1 BO0 BIS8 
+V "block_number" - I!1566 O!1564 T!111 !671-31 .2 0x4 BO16 BIS32 
+T "SetResponseDataBlock" KT I!1567 T!1564 !672-31 0x6 
+T "" KS I!1568 !675-31 0x6 VM!1569 VM!1570 VM!1571 
+V "invoke_id_and_priority" - I!1569 O!1568 T!1425 !676-31 .1 0x1 BO0 BIS8 
+V "result" - I!1570 O!1568 T!1161 !677-31 .1 0x1 BO8 BIS8 
+V "block_number" - I!1571 O!1568 T!111 !678-31 .2 0x4 BO16 BIS32 
+T "SetResponseLastDataBlock" KT I!1572 T!1568 !679-31 0x6 
+T "" KS I!1573 !682-31 0x12 VM!1574 VM!1575 VM!1577 VM!1578 
+V "invoke_id_and_priority" - I!1574 O!1573 T!1425 !683-31 .1 0x1 BO0 BIS8 
+V "result_list" - I!1575 O!1573 T!1576 !684-31 .1 0xa BO8 BIS80 
+T "" KA10 I!1576 T!1161 0xa 
+V "result_list_length" - I!1577 O!1573 T!108 !685-31 .2 0x2 BO96 BIS16 
+V "block_number" - I!1578 O!1573 T!111 !686-31 .2 0x4 BO112 BIS32 
+T "SetResponseLastDataBlockWithList" KT I!1579 T!1573 !687-31 0x12 
+T "" KS I!1580 !690-31 0xe VM!1581 VM!1582 VM!1584 
+V "invoke_id_and_priority" - I!1581 O!1580 T!1425 !691-31 .1 0x1 BO0 BIS8 
+V "result_list" - I!1582 O!1580 T!1583 !692-31 .1 0xa BO8 BIS80 
+T "" KA10 I!1583 T!1161 0xa 
+V "result_list_length" - I!1584 O!1580 T!108 !693-31 .2 0x2 BO96 BIS16 
+T "SetResponseWithList" KT I!1585 T!1580 !694-31 0xe 
+T "" KS I!1586 !697-31 0x14 VM!1587 VM!1594 
+V "response_tag" - I!1587 O!1586 T!1146 !698-31 .1 0x1 BO0 BIS8 
+T "" KU I!1588 !700-31 0x12 VM!1589 VM!1590 VM!1591 VM!1592 VM!1593 
+V "normal" - I!1589 O!1588 T!1563 !701-31 .1 0x2 BO0 BIS16 
+V "data_block" - I!1590 O!1588 T!1567 !702-31 .2 0x6 BO0 BIS48 
+V "last_data_block" - I!1591 O!1588 T!1572 !703-31 .2 0x6 BO0 BIS48 
+V "last_data_block_with_list" - I!1592 O!1588 T!1579 !704-31 .2 0x12 BO0 BIS144 
+V "with_list" - I!1593 O!1588 T!1585 !705-31 .2 0xe BO0 BIS112 
+V "response" - I!1594 O!1586 T!1588 !706-31 .2 0x12 BO16 BIS144 
+T "SetResponse_Apdu" KT I!1595 T!1586 !707-31 0x14 
+T "" KS I!1596 !714-31 0xa VM!1597 VM!1598 VM!1600 
+V "class_id" - I!1597 O!1596 T!108 !715-31 .2 0x2 BO0 BIS16 
+V "instance_id" - I!1598 O!1596 T!1599 !716-31 .1 0x6 BO16 BIS48 
+T "" KA6 I!1599 T!105 0x6 
+V "method_id" - I!1600 O!1596 T!105 !717-31 .1 0x1 BO64 BIS8 
+T "CosemMethodDescriptor" KT I!1601 T!1596 !718-31 0xa 
+T "" KS I!1602 !721-31 0x12 VM!1603 VM!1604 VM!1605 
+V "invoke_id_and_priority" - I!1603 O!1602 T!1425 !722-31 .1 0x1 BO0 BIS8 
+V "cosem_method_descriptor" - I!1604 O!1602 T!1601 !723-31 .2 0xa BO16 BIS80 
+V "method_invocation_parameters" - I!1605 O!1602 T!1203 !724-31 .2 0x6 BO96 BIS48 
+T "ActionRequestNormal" KT I!1606 T!1602 !725-31 0x12 
+T "" KS I!1607 !728-31 0x6 VM!1608 VM!1609 
+V "invoke_id_and_priority" - I!1608 O!1607 T!1425 !729-31 .1 0x1 BO0 BIS8 
+V "block_number" - I!1609 O!1607 T!111 !730-31 .2 0x4 BO16 BIS32 
+T "ActionRequestNextPBlock" KT I!1610 T!1607 !731-31 0x6 
+T "" KS I!1611 !734-31 0x92 VM!1612 VM!1613 VM!1615 VM!1616 VM!1618 
+V "invoke_id_and_priority" - I!1612 O!1611 T!1425 !735-31 .1 0x1 BO0 BIS8 
+V "cosem_method_descriptor_list" - I!1613 O!1611 T!1614 !736-31 .2 0x64 BO16 BIS800 
+T "" KA10 I!1614 T!1601 0x64 
+V "cosem_method_descriptor_list_length" - I!1615 O!1611 T!108 !737-31 .2 0x2 BO816 BIS16 
+V "method_invocation_parameters_list" - I!1616 O!1611 T!1617 !738-31 .2 0x28 BO832 BIS320 
+T "" KA10 I!1617 T!1198 0x28 
+V "method_invocation_parameters_list_length" - I!1618 O!1611 T!108 !739-31 .2 0x2 BO1152 BIS16 
+T "ActionRequestWithList" KT I!1619 T!1611 !740-31 0x92 
+T "" KS I!1620 !743-31 0x16 VM!1621 VM!1622 VM!1623 
+V "invoke_id_and_priority" - I!1621 O!1620 T!1425 !744-31 .1 0x1 BO0 BIS8 
+V "cosem_method_descriptor" - I!1622 O!1620 T!1601 !745-31 .2 0xa BO16 BIS80 
+V "pblock" - I!1623 O!1620 T!1517 !746-31 .2 0xa BO96 BIS80 
+T "ActionRequestWithFirstPBlock" KT I!1624 T!1620 !747-31 0x16 
+T "" KS I!1625 !750-31 0x72 VM!1626 VM!1627 VM!1629 VM!1630 
+V "invoke_id_and_priority" - I!1626 O!1625 T!1425 !751-31 .1 0x1 BO0 BIS8 
+V "cosem_method_descriptor_list" - I!1627 O!1625 T!1628 !752-31 .2 0x64 BO16 BIS800 
+T "" KA10 I!1628 T!1601 0x64 
+V "cosem_method_descriptor_list_length" - I!1629 O!1625 T!108 !753-31 .2 0x2 BO816 BIS16 
+V "pblock" - I!1630 O!1625 T!1517 !754-31 .2 0xa BO832 BIS80 
+T "ActionRequestWithListAndFirstPBlock" KT I!1631 T!1625 !755-31 0x72 
+T "" KS I!1632 !758-31 0xc VM!1633 VM!1634 
+V "invoke_id_and_priority" - I!1633 O!1632 T!1425 !759-31 .1 0x1 BO0 BIS8 
+V "pblock" - I!1634 O!1632 T!1517 !760-31 .2 0xa BO16 BIS80 
+T "ActionRequestWithPBlock" KT I!1635 T!1632 !761-31 0xc 
+T "" KS I!1636 !764-31 0x94 VM!1637 VM!1645 
+V "request_tag" - I!1637 O!1636 T!1148 !765-31 .1 0x1 BO0 BIS8 
+T "" KU I!1638 !767-31 0x92 VM!1639 VM!1640 VM!1641 VM!1642 VM!1643 VM!1644 
+V "normal" - I!1639 O!1638 T!1606 !768-31 .2 0x12 BO0 BIS144 
+V "next_pblock" - I!1640 O!1638 T!1610 !769-31 .2 0x6 BO0 BIS48 
+V "with_list" - I!1641 O!1638 T!1619 !770-31 .2 0x92 BO0 BIS1168 
+V "first_pblock" - I!1642 O!1638 T!1624 !771-31 .2 0x16 BO0 BIS176 
+V "with_list_first_pblock" - I!1643 O!1638 T!1631 !772-31 .2 0x72 BO0 BIS912 
+V "pblock" - I!1644 O!1638 T!1635 !773-31 .2 0xc BO0 BIS96 
+V "request" - I!1645 O!1636 T!1638 !774-31 .2 0x92 BO16 BIS1168 
+T "ActionRequest_Apdu" KT I!1646 T!1636 !775-31 0x94 
+T "" KS I!1647 !778-31 0x8 VM!1648 VM!1649 
+V "use" - I!1648 O!1647 T!105 !779-31 .1 0x1 BO0 BIS8 
+V "get_data_result" - I!1649 O!1647 T!1481 !780-31 .2 0x6 BO16 BIS48 
+T "OptionalGetDataResult" KT I!1650 T!1647 !781-31 0x8 
+T "" KS I!1651 !784-31 0xa VM!1652 VM!1653 
+V "result" - I!1652 O!1651 T!1163 !785-31 .1 0x1 BO0 BIS8 
+V "return_parameters" - I!1653 O!1651 T!1650 !786-31 .2 0x8 BO16 BIS64 
+T "ActionResponseWithOptionalData" KT I!1654 T!1651 !787-31 0xa 
+T "" KS I!1655 !790-31 0xc VM!1656 VM!1657 
+V "invoke_id_and_priority" - I!1656 O!1655 T!1425 !791-31 .1 0x1 BO0 BIS8 
+V "single_response" - I!1657 O!1655 T!1654 !792-31 .2 0xa BO16 BIS80 
+T "ActionResponseNormal" KT I!1658 T!1655 !793-31 0xc 
+T "" KS I!1659 !796-31 0xc VM!1660 VM!1661 
+V "invoke_id_and_priority" - I!1660 O!1659 T!1425 !797-31 .1 0x1 BO0 BIS8 
+V "pblock" - I!1661 O!1659 T!1517 !798-31 .2 0xa BO16 BIS80 
+T "ActionResponseWithPBlock" KT I!1662 T!1659 !799-31 0xc 
+T "" KS I!1663 !802-31 0x68 VM!1664 VM!1665 VM!1667 
+V "invoke_id_and_priority" - I!1664 O!1663 T!1425 !803-31 .1 0x1 BO0 BIS8 
+V "list_of_responses_list" - I!1665 O!1663 T!1666 !804-31 .2 0x64 BO16 BIS800 
+T "" KA10 I!1666 T!1654 0x64 
+V "list_of_responses_list_length" - I!1667 O!1663 T!108 !805-31 .2 0x2 BO816 BIS16 
+T "ActionResponseWithList" KT I!1668 T!1663 !806-31 0x68 
+T "" KS I!1669 !809-31 0x6 VM!1670 VM!1671 
+V "invoke_id_and_priority" - I!1670 O!1669 T!1425 !810-31 .1 0x1 BO0 BIS8 
+V "block_number" - I!1671 O!1669 T!111 !811-31 .2 0x4 BO16 BIS32 
+T "ActionResponseNextPBlock" KT I!1672 T!1669 !812-31 0x6 
+T "" KS I!1673 !815-31 0x6a VM!1674 VM!1680 
+V "response_tag" - I!1674 O!1673 T!1150 !816-31 .1 0x1 BO0 BIS8 
+T "" KU I!1675 !818-31 0x68 VM!1676 VM!1677 VM!1678 VM!1679 
+V "normal" - I!1676 O!1675 T!1658 !819-31 .2 0xc BO0 BIS96 
+V "with_pblock" - I!1677 O!1675 T!1662 !820-31 .2 0xc BO0 BIS96 
+V "with_list" - I!1678 O!1675 T!1668 !821-31 .2 0x68 BO0 BIS832 
+V "next_pblock" - I!1679 O!1675 T!1672 !822-31 .2 0x6 BO0 BIS48 
+V "response" - I!1680 O!1673 T!1675 !823-31 .2 0x68 BO16 BIS832 
+T "ActionResponse_Apdu" KT I!1681 T!1673 !824-31 0x6a 
+T "" KS I!1682 !831-31 0x14 VM!1683 VM!1684 VM!1685 
+V "time" - I!1683 O!1682 T!1203 !832-31 .2 0x6 BO0 BIS48 
+V "cosem_attribute_descriptor" - I!1684 O!1682 T!1442 !833-31 .2 0xa BO48 BIS80 
+V "attribute_value" - I!1685 O!1682 T!1198 !834-31 .2 0x4 BO128 BIS32 
+T "EventNotificationRequest" KT I!1686 T!1682 !835-31 0x14 
+T "" KS I!1687 !838-31 0xc VM!1688 VM!1689 VM!1690 
+V "long_invoke_id_and_priority" - I!1688 O!1687 T!1436 !839-31 .2 0x4 BO0 BIS32 
+V "date_time" - I!1689 O!1687 T!1198 !840-31 .2 0x4 BO32 BIS32 
+V "notification_body" - I!1690 O!1687 T!1198 !841-31 .2 0x4 BO64 BIS32 
+T "DataNotification" KT I!1691 T!1687 !842-31 0xc 
+T "" KS I!1692 !849-31 0x6 VM!1693 VM!1694 VM!1695 
+V "state_error" - I!1693 O!1692 T!1154 !850-31 .1 0x1 BO0 BIS8 
+V "service_error" - I!1694 O!1692 T!1156 !851-31 .1 0x1 BO8 BIS8 
+V "invocation_counter_error" - I!1695 O!1692 T!111 !852-31 .2 0x4 BO16 BIS32 
+T "ExceptionResponse" KT I!1696 T!1692 !853-31 0x6 
+T "" KS I!1697 !859-31 0x8 VM!1698 VM!1699 
+V "system_title" - I!1698 O!1697 T!1198 !860-31 .2 0x4 BO0 BIS32 
+V "ciphered_content" - I!1699 O!1697 T!1198 !861-31 .2 0x4 BO32 BIS32 
+T "GeneralGloCiphering" KT I!1700 T!1697 !862-31 0x8 
+T "" KS I!1701 !865-31 0x8 VM!1702 VM!1703 
+V "system_title" - I!1702 O!1701 T!1198 !866-31 .2 0x4 BO0 BIS32 
+V "ciphered_content" - I!1703 O!1701 T!1198 !867-31 .2 0x4 BO32 BIS32 
+T "GeneralDedCiphering" KT I!1704 T!1701 !868-31 0x8 
+T "" KS I!1705 !871-31 0x1 VM!1706 
+V "key_id" - I!1706 O!1705 T!1171 !872-31 .1 0x1 BO0 BIS8 
+T "IdentifiedKey" KT I!1707 T!1705 !873-31 0x1 
+T "" KS I!1708 !876-31 0x6 VM!1709 VM!1710 
+V "kek_id" - I!1709 O!1708 T!1173 !877-31 .1 0x1 BO0 BIS8 
+V "key_ciphered_data" - I!1710 O!1708 T!1198 !878-31 .2 0x4 BO16 BIS32 
+T "WrappedKey" KT I!1711 T!1708 !879-31 0x6 
+T "" KS I!1712 !882-31 0x8 VM!1713 VM!1714 
+V "key_parameters" - I!1713 O!1712 T!1198 !883-31 .2 0x4 BO0 BIS32 
+V "key_ciphered_data" - I!1714 O!1712 T!1198 !884-31 .2 0x4 BO32 BIS32 
+T "AgreedKey" KT I!1715 T!1712 !885-31 0x8 
+T "" KS I!1716 !888-31 0xa VM!1717 VM!1722 
+V "tag" - I!1717 O!1716 T!1169 !889-31 .1 0x1 BO0 BIS8 
+T "" KU I!1718 !890-31 0x8 VM!1719 VM!1720 VM!1721 
+V "identified_key" - I!1719 O!1718 T!1707 !891-31 .1 0x1 BO0 BIS8 
+V "wrapped_key" - I!1720 O!1718 T!1711 !892-31 .2 0x6 BO0 BIS48 
+V "agreed_key" - I!1721 O!1718 T!1715 !893-31 .2 0x8 BO0 BIS64 
+V "key" - I!1722 O!1716 T!1718 !894-31 .2 0x8 BO16 BIS64 
+T "KeyInfo" KT I!1723 T!1716 !895-31 0xa 
+T "" KS I!1724 !898-31 0xc VM!1725 VM!1726 
+V "use" - I!1725 O!1724 T!105 !899-31 .1 0x1 BO0 BIS8 
+V "key_info" - I!1726 O!1724 T!1723 !900-31 .2 0xa BO16 BIS80 
+T "OptionalKeyInfo" KT I!1727 T!1724 !901-31 0xc 
+T "" KS I!1728 !904-31 0x24 VM!1729 VM!1730 VM!1731 VM!1732 VM!1733 VM!1734 VM!1735 
+V "transaction_id" - I!1729 O!1728 T!1198 !905-31 .2 0x4 BO0 BIS32 
+V "originator_system_title" - I!1730 O!1728 T!1198 !906-31 .2 0x4 BO32 BIS32 
+V "recipient_system_title" - I!1731 O!1728 T!1198 !907-31 .2 0x4 BO64 BIS32 
+V "date_time" - I!1732 O!1728 T!1198 !908-31 .2 0x4 BO96 BIS32 
+V "other_information" - I!1733 O!1728 T!1198 !909-31 .2 0x4 BO128 BIS32 
+V "optional_key_info" - I!1734 O!1728 T!1727 !910-31 .2 0xc BO160 BIS96 
+V "ciphered_content" - I!1735 O!1728 T!1198 !911-31 .2 0x4 BO256 BIS32 
+T "GeneralCiphering" KT I!1736 T!1728 !912-31 0x24 
+T "" KS I!1737 !915-31 0x1c VM!1738 VM!1739 VM!1740 VM!1741 VM!1742 VM!1743 VM!1744 
+V "transaction_id" - I!1738 O!1737 T!1198 !916-31 .2 0x4 BO0 BIS32 
+V "originator_system_title" - I!1739 O!1737 T!1198 !917-31 .2 0x4 BO32 BIS32 
+V "recipient_system_title" - I!1740 O!1737 T!1198 !918-31 .2 0x4 BO64 BIS32 
+V "date_time" - I!1741 O!1737 T!1198 !919-31 .2 0x4 BO96 BIS32 
+V "other_information" - I!1742 O!1737 T!1198 !920-31 .2 0x4 BO128 BIS32 
+V "content" - I!1743 O!1737 T!1198 !921-31 .2 0x4 BO160 BIS32 
+V "signature" - I!1744 O!1737 T!1198 !922-31 .2 0x4 BO192 BIS32 
+T "GeneralSigning" KT I!1745 T!1737 !923-31 0x1c 
+T "" KU I!1746 !926-31 0x1 VM!1747 VM!1752 
+V "byte" - I!1747 O!1746 T!105 !927-31 .1 0x1 BO0 BIS8 
+T "" KS I!1748 !929-31 0x1 VM!1749 VM!1750 VM!1751 
+V "window" - I!1749 O!1748 T!105 !930-31 .1 0x1 BO0 BIS6 
+V "streaming" - I!1750 O!1748 T!105 !931-31 .1 0x1 BO6 BIS1 
+V "last_block" - I!1751 O!1748 T!105 !932-31 .1 0x1 BO7 BIS1 
+V "bits" - I!1752 O!1746 T!1748 !933-31 .1 0x1 BO0 BIS8 
+T "BlockControl" KT I!1753 T!1746 !934-31 0x1 
+T "" KS I!1754 !937-31 0xa VM!1755 VM!1756 VM!1757 VM!1758 
+V "block_control" - I!1755 O!1754 T!1753 !938-31 .1 0x1 BO0 BIS8 
+V "block_number" - I!1756 O!1754 T!108 !939-31 .2 0x2 BO16 BIS16 
+V "block_number_ack" - I!1757 O!1754 T!108 !940-31 .2 0x2 BO32 BIS16 
+V "block_data" - I!1758 O!1754 T!1198 !941-31 .2 0x4 BO48 BIS32 
+T "GeneralBlockTransfer" KT I!1759 T!1754 !942-31 0xa 
+T "" KE I!1760 T!119 0x1 EM0:"INVOCATION_COMPLETE" EM1:"INVOCATION_FIRST_PART" EM2:"INVOCATION_ONE_PART" EM3:"INVOCATION_LAST_PART" 
+T "InvocationType" KT I!1761 T!1760 !951-31 0x1 
+T "" KE I!1762 T!119 0x1 EM0:"PROTECTION_GLO_CIPHERING" EM1:"PROTECTION_DED_CIPHERING" EM2:"PROTECTION_GENERAL_GLO_CIPHERING" EM3:"PROTECTION_GENERAL_DED_CIPHERING" EM4:"PROTECTION_GENERAL_CIPHERING" EM5:"PROTECTION_GENERAL_SIGNING" 
+T "ProtectionType" KT I!1763 T!1762 !962-31 0x1 
+T "" KS I!1764 !966-31 0x28 VM!1765 VM!1766 VM!1767 VM!1768 VM!1769 VM!1770 VM!1771 VM!1772 VM!1773 
+V "protection_type" - I!1765 O!1764 T!1763 !967-31 .1 0x1 BO0 BIS8 
+V "system_title" - I!1766 O!1764 T!1198 !970-31 .2 0x4 BO16 BIS32 
+V "transaction_id" - I!1767 O!1764 T!1198 !973-31 .2 0x4 BO48 BIS32 
+V "originator_system_title" - I!1768 O!1764 T!1198 !974-31 .2 0x4 BO80 BIS32 
+V "recipient_system_title" - I!1769 O!1764 T!1198 !975-31 .2 0x4 BO112 BIS32 
+V "date_time" - I!1770 O!1764 T!1198 !976-31 .2 0x4 BO144 BIS32 
+V "other_information" - I!1771 O!1764 T!1198 !977-31 .2 0x4 BO176 BIS32 
+V "optional_key_info" - I!1772 O!1764 T!1727 !980-31 .2 0xc BO208 BIS96 
+V "security_control" - I!1773 O!1764 T!1300 !983-31 .1 0x1 BO304 BIS8 
+T "SecurityOptionElement" KT I!1774 T!1764 !985-31 0x28 
+T "" KS I!1775 !989-31 0xc VM!1776 VM!1777 VM!1778 
+V "invocation_counter" - I!1776 O!1775 T!111 !990-31 .2 0x4 BO0 BIS32 
+V "authen_tag" - I!1777 O!1775 T!1198 !991-31 .2 0x4 BO32 BIS32 
+V "signature" - I!1778 O!1775 T!1198 !992-31 .2 0x4 BO64 BIS32 
+T "ProtectionElement" KT I!1779 T!1775 !993-31 0xc 
+T "" KS I!1780 !997-31 0x2 VM!1781 VM!1782 
+V "block_transfer_streaming" - I!1781 O!1780 T!105 !998-31 .1 0x1 BO0 BIS8 
+V "block_transfer_window" - I!1782 O!1780 T!105 !999-31 .1 0x1 BO8 BIS8 
+T "GeneralBlockTransferParams" KT I!1783 T!1780 !1000-31 0x2 
+T "" KS I!1784 !1004-31 0x7a VM!1785 VM!1787 
+V "elements" - I!1785 O!1784 T!1786 !1005-31 .2 0x78 BO0 BIS960 
+T "" KA3 I!1786 T!1774 0x78 
+V "usage" - I!1787 O!1784 T!108 !1006-31 .2 0x2 BO960 BIS16 
+T "SecurityOptionList" KT I!1788 T!1784 !1007-31 0x7a 
+T "" KS I!1789 !1011-31 0x26 VM!1790 VM!1792 
+V "elements" - I!1790 O!1789 T!1791 !1012-31 .2 0x24 BO0 BIS288 
+T "" KA3 I!1791 T!1779 0x24 
+V "usage" - I!1792 O!1789 T!108 !1013-31 .2 0x2 BO288 BIS16 
+T "ProtectionOutputList" KT I!1793 T!1789 !1014-31 0x26 
+T "" KS I!1794 !1018-31 0xa4 VM!1795 VM!1796 VM!1797 VM!1798 
+V "invocation_type" - I!1795 O!1794 T!1761 !1019-31 .1 0x1 BO0 BIS8 
+V "security_options" - I!1796 O!1794 T!1788 !1020-31 .2 0x7a BO16 BIS976 
+V "block_transfer_params" - I!1797 O!1794 T!1783 !1021-31 .1 0x2 BO992 BIS16 
+V "protections" - I!1798 O!1794 T!1793 !1022-31 .2 0x26 BO1008 BIS304 
+T "AdditionalServiceParams" KT I!1799 T!1794 !1023-31 0xa4 
+T "" KS I!1800 !1027-31 0x12 VM!1801 VM!1802 VM!1803 VM!1804 VM!1805 VM!1806 VM!1807 VM!1809 VM!1811 
+V "except" - I!1801 O!1800 T!105 !1028-31 .1 0x1 BO0 BIS8 
+V "pre_established" - I!1802 O!1800 T!105 !1029-31 .1 0x1 BO8 BIS8 
+V "attribute_access_right" - I!1803 O!1800 T!105 !1030-31 .1 0x1 BO16 BIS8 
+V "method_access_right" - I!1804 O!1800 T!105 !1031-31 .1 0x1 BO24 BIS8 
+V "apdu" - I!1805 O!1800 T!1198 !1032-31 .2 0x4 BO32 BIS32 
+V "tbuf" - I!1806 O!1800 T!1198 !1033-31 .2 0x4 BO64 BIS32 
+V "p_except_pdu" - I!1807 O!1800 T!1808 !1034-31 .2 0x2 BO96 BIS16 
+T "" KP I!1808 T!1696 0x2 
+V "p_security_context" - I!1809 O!1800 T!1810 !1035-31 .2 0x2 BO112 BIS16 
+T "" KP I!1810 T!1290 0x2 
+V "p_additional_params" - I!1811 O!1800 T!1812 !1036-31 .2 0x2 BO128 BIS16 
+T "" KP I!1812 T!1799 0x2 
+T "ApduDispatchContext" KT I!1813 T!1800 !1037-31 0x12 
+F "R_BER_LengthEncode" F I!1814 T!105 ?1048-31 P!1815 P!1816 
+V "" N I!1815 O!1814 T!135 .2 0x2 
+V "" N I!1816 O!1814 T!108 .2 0x2 
+F "R_BER_LengthDecode" F I!1817 T!105 ?1049-31 P!1818 P!1819 
+V "" N I!1818 O!1817 T!135 .2 0x2 
+V "" N I!1819 O!1817 T!1820 .2 0x2 
+T "" KP I!1820 T!108 0x2 
+F "R_BER_EncodeLengthAndContent" F I!1821 T!108 ?1050-31 P!1822 P!1823 P!1824 
+V "" N I!1822 O!1821 T!135 .2 0x2 
+V "" N I!1823 O!1821 T!135 .2 0x2 
+V "" N I!1824 O!1821 T!108 .2 0x2 
+F "R_BER_DecodeLengthAndContent" F I!1825 T!108 ?1051-31 P!1826 P!1827 P!1829 
+V "" N I!1826 O!1825 T!135 .2 0x2 
+V "" N I!1827 O!1825 T!1828 .2 0x2 
+T "" KP I!1828 T!135 0x2 
+V "" N I!1829 O!1825 T!1820 .2 0x2 
+F "R_APDU_GetDataSize" F I!1830 T!108 ?1053-31 P!1831 P!1832 P!1833 
+V "" N I!1831 O!1830 T!1158 .1 0x1 
+V "" N I!1832 O!1830 T!135 .2 0x2 
+V "" N I!1833 O!1830 T!108 .2 0x2 
+F "R_APDU_EncodeCommonType" F I!1834 T!108 ?1059-31 P!1835 P!1836 P!1837 P!1838 P!1839 
+V "" N I!1835 O!1834 T!135 .2 0x2 
+V "" N I!1836 O!1834 T!108 .2 0x2 
+V "" N I!1837 O!1834 T!1158 .1 0x1 
+V "" N I!1838 O!1834 T!135 .2 0x2 
+V "" N I!1839 O!1834 T!108 .2 0x2 
+F "R_APDU_DecodeCommonType" F I!1840 T!108 ?1067-31 P!1841 P!1842 P!1843 P!1844 P!1845 
+V "" N I!1841 O!1840 T!135 .2 0x2 
+V "" N I!1842 O!1840 T!108 .2 0x2 
+V "" N I!1843 O!1840 T!1158 .1 0x1 
+V "" N I!1844 O!1840 T!135 .2 0x2 
+V "" N I!1845 O!1840 T!108 .2 0x2 
+F "R_APDU_GetRelativeServiceCipheringTag" F I!1846 T!1094 ?1075-31 P!1847 P!1848 
+V "" N I!1847 O!1846 T!105 .1 0x1 
+V "" N I!1848 O!1846 T!1094 .1 0x1 
+F "R_APDU_DecodeInitiateRequest" F I!1849 T!108 ?1081-31 P!1850 P!1851 P!1853 P!1854 P!1855 
+V "" N I!1850 O!1849 T!1094 .1 0x1 
+V "" N I!1851 O!1849 T!1852 .2 0x2 
+T "" KP I!1852 T!1341 0x2 
+V "" N I!1853 O!1849 T!135 .2 0x2 
+V "" N I!1854 O!1849 T!108 .2 0x2 
+V "" N I!1855 O!1849 T!1856 .2 0x2 
+T "" KP I!1856 T!1813 0x2 
+F "R_APDU_DecodeAARQ" F I!1857 T!108 ?1082-31 P!1858 P!1860 P!1861 
+V "" N I!1858 O!1857 T!1859 .2 0x2 
+T "" KP I!1859 T!1358 0x2 
+V "" N I!1860 O!1857 T!135 .2 0x2 
+V "" N I!1861 O!1857 T!1856 .2 0x2 
+F "R_APDU_EncodeInitiateResponse" F I!1862 T!108 ?1088-31 P!1863 P!1864 
+V "" N I!1863 O!1862 T!135 .2 0x2 
+V "" N I!1864 O!1862 T!1865 .2 0x2 
+T "" KP I!1865 T!1365 0x2 
+F "R_APDU_EncodeConfirmServiceError" F I!1866 T!108 ?1089-31 P!1867 P!1868 
+V "" N I!1867 O!1866 T!135 .2 0x2 
+V "" N I!1868 O!1866 T!1869 .2 0x2 
+T "" KP I!1869 T!1370 0x2 
+F "R_APDU_EncodeAARE" F I!1870 T!108 ?1090-31 P!1871 P!1872 P!1874 
+V "" N I!1871 O!1870 T!135 .2 0x2 
+V "" N I!1872 O!1870 T!1873 .2 0x2 
+T "" KP I!1873 T!1394 0x2 
+V "" N I!1874 O!1870 T!1856 .2 0x2 
+F "R_APDU_DecodeRLRQ" F I!1875 T!108 ?1095-31 P!1876 P!1878 P!1879 
+V "" N I!1876 O!1875 T!1877 .2 0x2 
+T "" KP I!1877 T!1409 0x2 
+V "" N I!1878 O!1875 T!135 .2 0x2 
+V "" N I!1879 O!1875 T!1856 .2 0x2 
+F "R_APDU_EncodeRLRE" F I!1880 T!108 ?1100-31 P!1881 P!1882 P!1884 
+V "" N I!1881 O!1880 T!135 .2 0x2 
+V "" N I!1882 O!1880 T!1883 .2 0x2 
+T "" KP I!1883 T!1416 0x2 
+V "" N I!1884 O!1880 T!1856 .2 0x2 
+F "R_APDU_DecodeGetRequestNormal" F I!1885 T!108 ?1105-31 P!1886 P!1888 P!1889 
+V "" N I!1886 O!1885 T!1887 .2 0x2 
+T "" KP I!1887 T!1452 0x2 
+V "" N I!1888 O!1885 T!135 .2 0x2 
+V "" N I!1889 O!1885 T!108 .2 0x2 
+F "R_APDU_DecodeGetRequestNext" F I!1890 T!108 ?1106-31 P!1891 P!1893 P!1894 
+V "" N I!1891 O!1890 T!1892 .2 0x2 
+T "" KP I!1892 T!1456 0x2 
+V "" N I!1893 O!1890 T!135 .2 0x2 
+V "" N I!1894 O!1890 T!108 .2 0x2 
+F "R_APDU_DecodeGetRequestWithList" F I!1895 T!108 ?1107-31 P!1896 P!1898 P!1899 
+V "" N I!1896 O!1895 T!1897 .2 0x2 
+T "" KP I!1897 T!1466 0x2 
+V "" N I!1898 O!1895 T!135 .2 0x2 
+V "" N I!1899 O!1895 T!108 .2 0x2 
+F "R_APDU_DecodeGetRequest" F I!1900 T!108 ?1108-31 P!1901 P!1903 P!1904 
+V "" N I!1901 O!1900 T!1902 .2 0x2 
+T "" KP I!1902 T!1474 0x2 
+V "" N I!1903 O!1900 T!135 .2 0x2 
+V "" N I!1904 O!1900 T!108 .2 0x2 
+F "R_APDU_EncodeGetResponseNormal" F I!1905 T!108 ?1110-31 P!1906 P!1907 
+V "" N I!1906 O!1905 T!135 .2 0x2 
+V "" N I!1907 O!1905 T!1908 .2 0x2 
+T "" KP I!1908 T!1485 0x2 
+F "R_APDU_EncodeGetResponseWithDataBlock" F I!1909 T!108 ?1111-31 P!1910 P!1911 
+V "" N I!1910 O!1909 T!135 .2 0x2 
+V "" N I!1911 O!1909 T!1912 .2 0x2 
+T "" KP I!1912 T!1498 0x2 
+F "R_APDU_EncodeGetResponseWithList" F I!1913 T!108 ?1112-31 P!1914 P!1915 
+V "" N I!1914 O!1913 T!135 .2 0x2 
+V "" N I!1915 O!1913 T!1916 .2 0x2 
+T "" KP I!1916 T!1504 0x2 
+F "R_APDU_EncodeGetResponse" F I!1917 T!108 ?1113-31 P!1918 P!1919 
+V "" N I!1918 O!1917 T!135 .2 0x2 
+V "" N I!1919 O!1917 T!1920 .2 0x2 
+T "" KP I!1920 T!1512 0x2 
+F "R_APDU_DecodeSetRequestNormal" F I!1921 T!108 ?1118-31 P!1922 P!1924 P!1925 
+V "" N I!1922 O!1921 T!1923 .2 0x2 
+T "" KP I!1923 T!1523 0x2 
+V "" N I!1924 O!1921 T!135 .2 0x2 
+V "" N I!1925 O!1921 T!108 .2 0x2 
+F "R_APDU_DecodeSetRequestWithFirstDataBlock" F I!1926 T!108 ?1119-31 P!1927 P!1929 P!1930 
+V "" N I!1927 O!1926 T!1928 .2 0x2 
+T "" KP I!1928 T!1529 0x2 
+V "" N I!1929 O!1926 T!135 .2 0x2 
+V "" N I!1930 O!1926 T!108 .2 0x2 
+F "R_APDU_DecodeSetRequestWithDataBlock" F I!1931 T!108 ?1120-31 P!1932 P!1934 P!1935 
+V "" N I!1932 O!1931 T!1933 .2 0x2 
+T "" KP I!1933 T!1533 0x2 
+V "" N I!1934 O!1931 T!135 .2 0x2 
+V "" N I!1935 O!1931 T!108 .2 0x2 
+F "R_APDU_DecodeSetRequestWithList" F I!1936 T!108 ?1121-31 P!1937 P!1939 P!1940 
+V "" N I!1937 O!1936 T!1938 .2 0x2 
+T "" KP I!1938 T!1542 0x2 
+V "" N I!1939 O!1936 T!135 .2 0x2 
+V "" N I!1940 O!1936 T!108 .2 0x2 
+F "R_APDU_DecodeSetRequestWithListAndFirstDataBlock" F I!1941 T!108 ?1122-31 P!1942 P!1944 P!1945 
+V "" N I!1942 O!1941 T!1943 .2 0x2 
+T "" KP I!1943 T!1549 0x2 
+V "" N I!1944 O!1941 T!135 .2 0x2 
+V "" N I!1945 O!1941 T!108 .2 0x2 
+F "R_APDU_DecodeSetRequest" F I!1946 T!108 ?1123-31 P!1947 P!1949 P!1950 
+V "" N I!1947 O!1946 T!1948 .2 0x2 
+T "" KP I!1948 T!1559 0x2 
+V "" N I!1949 O!1946 T!135 .2 0x2 
+V "" N I!1950 O!1946 T!108 .2 0x2 
+F "R_APDU_EncodeSetResponseNormal" F I!1951 T!108 ?1125-31 P!1952 P!1953 
+V "" N I!1952 O!1951 T!135 .2 0x2 
+V "" N I!1953 O!1951 T!1954 .2 0x2 
+T "" KP I!1954 T!1563 0x2 
+F "R_APDU_EncodeSetResponseDataBlock" F I!1955 T!108 ?1126-31 P!1956 P!1957 
+V "" N I!1956 O!1955 T!135 .2 0x2 
+V "" N I!1957 O!1955 T!1958 .2 0x2 
+T "" KP I!1958 T!1567 0x2 
+F "R_APDU_EncodeSetResponseLastDataBlock" F I!1959 T!108 ?1127-31 P!1960 P!1961 
+V "" N I!1960 O!1959 T!135 .2 0x2 
+V "" N I!1961 O!1959 T!1962 .2 0x2 
+T "" KP I!1962 T!1572 0x2 
+F "R_APDU_EncodeSetResponseLastDataBlockWithList" F I!1963 T!108 ?1128-31 P!1964 P!1965 
+V "" N I!1964 O!1963 T!135 .2 0x2 
+V "" N I!1965 O!1963 T!1966 .2 0x2 
+T "" KP I!1966 T!1579 0x2 
+F "R_APDU_EncodeSetResponseWithList" F I!1967 T!108 ?1129-31 P!1968 P!1969 
+V "" N I!1968 O!1967 T!135 .2 0x2 
+V "" N I!1969 O!1967 T!1970 .2 0x2 
+T "" KP I!1970 T!1585 0x2 
+F "R_APDU_EncodeSetResponse" F I!1971 T!108 ?1130-31 P!1972 P!1973 
+V "" N I!1972 O!1971 T!135 .2 0x2 
+V "" N I!1973 O!1971 T!1974 .2 0x2 
+T "" KP I!1974 T!1595 0x2 
+F "R_APDU_DecodeActionRequestNormal" F I!1975 T!108 ?1135-31 P!1976 P!1978 P!1979 
+V "" N I!1976 O!1975 T!1977 .2 0x2 
+T "" KP I!1977 T!1606 0x2 
+V "" N I!1978 O!1975 T!135 .2 0x2 
+V "" N I!1979 O!1975 T!108 .2 0x2 
+F "R_APDU_DecodeActionRequestNextPBlock" F I!1980 T!108 ?1136-31 P!1981 P!1983 P!1984 
+V "" N I!1981 O!1980 T!1982 .2 0x2 
+T "" KP I!1982 T!1610 0x2 
+V "" N I!1983 O!1980 T!135 .2 0x2 
+V "" N I!1984 O!1980 T!108 .2 0x2 
+F "R_APDU_DecodeActionRequestWithList" F I!1985 T!108 ?1137-31 P!1986 P!1988 P!1989 
+V "" N I!1986 O!1985 T!1987 .2 0x2 
+T "" KP I!1987 T!1619 0x2 
+V "" N I!1988 O!1985 T!135 .2 0x2 
+V "" N I!1989 O!1985 T!108 .2 0x2 
+F "R_APDU_DecodeActionRequestWithFirstPBlock" F I!1990 T!108 ?1138-31 P!1991 P!1993 P!1994 
+V "" N I!1991 O!1990 T!1992 .2 0x2 
+T "" KP I!1992 T!1624 0x2 
+V "" N I!1993 O!1990 T!135 .2 0x2 
+V "" N I!1994 O!1990 T!108 .2 0x2 
+F "R_APDU_DecodeActionRequestWithListAndFirstPBlock" F I!1995 T!108 ?1139-31 P!1996 P!1998 P!1999 
+V "" N I!1996 O!1995 T!1997 .2 0x2 
+T "" KP I!1997 T!1631 0x2 
+V "" N I!1998 O!1995 T!135 .2 0x2 
+V "" N I!1999 O!1995 T!108 .2 0x2 
+F "R_APDU_DecodeActionRequestWithPBlock" F I!2000 T!108 ?1140-31 P!2001 P!2003 P!2004 
+V "" N I!2001 O!2000 T!2002 .2 0x2 
+T "" KP I!2002 T!1635 0x2 
+V "" N I!2003 O!2000 T!135 .2 0x2 
+V "" N I!2004 O!2000 T!108 .2 0x2 
+F "R_APDU_DecodeActionRequest" F I!2005 T!108 ?1141-31 P!2006 P!2008 P!2009 
+V "" N I!2006 O!2005 T!2007 .2 0x2 
+T "" KP I!2007 T!1646 0x2 
+V "" N I!2008 O!2005 T!135 .2 0x2 
+V "" N I!2009 O!2005 T!108 .2 0x2 
+F "R_APDU_EncodeActionResponseWithOptionalData" F I!2010 T!108 ?1143-31 P!2011 P!2012 
+V "" N I!2011 O!2010 T!135 .2 0x2 
+V "" N I!2012 O!2010 T!2013 .2 0x2 
+T "" KP I!2013 T!1654 0x2 
+F "R_APDU_EncodeActionResponseNormal" F I!2014 T!108 ?1144-31 P!2015 P!2016 
+V "" N I!2015 O!2014 T!135 .2 0x2 
+V "" N I!2016 O!2014 T!2017 .2 0x2 
+T "" KP I!2017 T!1658 0x2 
+F "R_APDU_EncodeActionResponseWithPBlock" F I!2018 T!108 ?1145-31 P!2019 P!2020 
+V "" N I!2019 O!2018 T!135 .2 0x2 
+V "" N I!2020 O!2018 T!2021 .2 0x2 
+T "" KP I!2021 T!1662 0x2 
+F "R_APDU_EncodeActionResponseWithList" F I!2022 T!108 ?1146-31 P!2023 P!2024 
+V "" N I!2023 O!2022 T!135 .2 0x2 
+V "" N I!2024 O!2022 T!2025 .2 0x2 
+T "" KP I!2025 T!1668 0x2 
+F "R_APDU_EncodeActionResponseNextPBlock" F I!2026 T!108 ?1147-31 P!2027 P!2028 
+V "" N I!2027 O!2026 T!135 .2 0x2 
+V "" N I!2028 O!2026 T!2029 .2 0x2 
+T "" KP I!2029 T!1672 0x2 
+F "R_APDU_EncodeActionResponse" F I!2030 T!108 ?1148-31 P!2031 P!2032 
+V "" N I!2031 O!2030 T!135 .2 0x2 
+V "" N I!2032 O!2030 T!2033 .2 0x2 
+T "" KP I!2033 T!1681 0x2 
+F "R_APDU_EncodeEventNotificationRequest" F I!2034 T!108 ?1153-31 P!2035 P!2036 
+V "" N I!2035 O!2034 T!135 .2 0x2 
+V "" N I!2036 O!2034 T!2037 .2 0x2 
+T "" KP I!2037 T!1686 0x2 
+F "R_APDU_EncodeDataNotification" F I!2038 T!108 ?1158-31 P!2039 P!2040 
+V "" N I!2039 O!2038 T!135 .2 0x2 
+V "" N I!2040 O!2038 T!2041 .2 0x2 
+T "" KP I!2041 T!1691 0x2 
+F "R_APDU_EncodeExceptionResponse" F I!2042 T!108 ?1163-31 P!2043 P!2044 
+V "" N I!2043 O!2042 T!135 .2 0x2 
+V "" N I!2044 O!2042 T!1808 .2 0x2 
+F "R_APDU_EncodeGeneralGloCiphering" F I!2045 T!108 ?1170-31 P!2046 P!2047 
+V "" N I!2046 O!2045 T!135 .2 0x2 
+V "" N I!2047 O!2045 T!2048 .2 0x2 
+T "" KP I!2048 T!1700 0x2 
+F "R_APDU_DecodeGeneralGloCiphering" F I!2049 T!108 ?1171-31 P!2050 P!2051 P!2052 
+V "" N I!2050 O!2049 T!2048 .2 0x2 
+V "" N I!2051 O!2049 T!135 .2 0x2 
+V "" N I!2052 O!2049 T!108 .2 0x2 
+F "R_APDU_EncodeGeneralDedCiphering" F I!2053 T!108 ?1174-31 P!2054 P!2055 
+V "" N I!2054 O!2053 T!135 .2 0x2 
+V "" N I!2055 O!2053 T!2056 .2 0x2 
+T "" KP I!2056 T!1704 0x2 
+F "R_APDU_DecodeGeneralDedCiphering" F I!2057 T!108 ?1175-31 P!2058 P!2059 P!2060 
+V "" N I!2058 O!2057 T!2056 .2 0x2 
+V "" N I!2059 O!2057 T!135 .2 0x2 
+V "" N I!2060 O!2057 T!108 .2 0x2 
+F "R_APDU_EncodeGeneralBlockTransfer" F I!2061 T!108 ?1178-31 P!2062 P!2063 
+V "" N I!2062 O!2061 T!135 .2 0x2 
+V "" N I!2063 O!2061 T!2064 .2 0x2 
+T "" KP I!2064 T!1759 0x2 
+F "R_APDU_AesGcmEncrypt" F I!2065 T!105 ?51-33 P!2066 P!2067 P!2069 P!2070 P!2071 P!2072 P!2073 P!2074 
+V "" N I!2066 O!2065 T!1300 .1 0x1 
+V "" N I!2067 O!2065 T!2068 .2 0x2 
+T "" KP I!2068 T!1198 0x2 
+V "" N I!2069 O!2065 T!2068 .2 0x2 
+V "" N I!2070 O!2065 T!2068 .2 0x2 
+V "" N I!2071 O!2065 T!2068 .2 0x2 
+V "" N I!2072 O!2065 T!2068 .2 0x2 
+V "" N I!2073 O!2065 T!111 .2 0x4 
+V "" N I!2074 O!2065 T!2068 .2 0x2 
+F "R_APDU_AesGcmDecrypt" F I!2075 T!105 ?62-33 P!2076 P!2077 P!2078 P!2079 P!2080 P!2081 P!2082 P!2084 
+V "" N I!2076 O!2075 T!2068 .2 0x2 
+V "" N I!2077 O!2075 T!2068 .2 0x2 
+V "" N I!2078 O!2075 T!2068 .2 0x2 
+V "" N I!2079 O!2075 T!2068 .2 0x2 
+V "" N I!2080 O!2075 T!2068 .2 0x2 
+V "" N I!2081 O!2075 T!2068 .2 0x2 
+V "" N I!2082 O!2075 T!2083 .2 0x2 
+T "" KP I!2083 T!111 0x2 
+V "" N I!2084 O!2075 T!2068 .2 0x2 
+F "R_APDU_RebuildProtectionlayers" F I!2085 T!105 ?73-33 P!2086 
+V "" N I!2086 O!2085 T!1856 .2 0x2 
+F "R_APDU_BuildSecurityControlByte" F I!2087 T!1300 ?74-33 P!2088 P!2089 P!2090 
+V "" N I!2088 O!2087 T!1810 .2 0x2 
+V "" N I!2089 O!2087 T!105 .1 0x1 
+V "" N I!2090 O!2087 T!105 .1 0x1 
+F "R_APDU_PushProtectionLayer" F I!2091 T!2092 ?75-33 P!2093 
+T "" KP I!2092 T!1774 0x2 
+V "" N I!2093 O!2091 T!2094 .2 0x2 
+T "" KP I!2094 T!1788 0x2 
+F "R_APDU_PopProtectionLayer" F I!2095 T!2092 ?76-33 P!2096 
+V "" N I!2096 O!2095 T!2094 .2 0x2 
+F "R_APDU_GetTopProtectionLayer" F I!2097 T!2092 ?77-33 P!2098 
+V "" N I!2098 O!2097 T!2094 .2 0x2 
+F "R_APDU_IsCipheringOrSigingNeeded" F I!2099 T!105 ?78-33 P!2100 
+V "" N I!2100 O!2099 T!1856 .2 0x2 
+F "R_APDU_CipherOrSign" F I!2101 T!108 ?79-33 P!2102 P!2103 P!2104 
+V "" N I!2102 O!2101 T!2068 .2 0x2 
+V "" N I!2103 O!2101 T!2068 .2 0x2 
+V "" N I!2104 O!2101 T!1856 .2 0x2 
+F "R_APDU_DecipherOrVerifySignature" F I!2105 T!108 ?80-33 P!2106 P!2107 P!2108 
+V "" N I!2106 O!2105 T!2068 .2 0x2 
+V "" N I!2107 O!2105 T!2068 .2 0x2 
+V "" N I!2108 O!2105 T!1856 .2 0x2 
+T "" KE I!2109 T!119 0x1 EM0:"COSEM_CF_STATE_INACTIVE" EM1:"COSEM_CF_STATE_IDLE" EM2:"COSEM_CF_STATE_ASSOCIATION_PENDING" EM3:"COSEM_CF_STATE_ASSOCIATED" EM4:"COSEM_CF_STATE_ASSOCIATION_RELEASE_PENDING" 
+T "CosemCfState" KT I!2110 T!2109 !41-34 0x1 
+T "" KE I!2111 T!119 0x1 EM0:"SERVICE_CLASS_CONFIRMED" EM1:"SERVICE_CLASS_UNCONFIRMED" 
+T "ServiceClass" KT I!2112 T!2111 !48-34 0x1 
+T "" KE I!2113 T!119 0x1 EM0:"COSEM_REMOTE" EM1:"COSEM_LOCAL" 
+T "CosemLocalOrRemote" KT I!2114 T!2113 !54-34 0x1 
+T "" KE I!2115 T!119 0x1 EM0:"COSEM_SUCCESS" EM1:"COSEM_ERROR" 
+T "CosemResult" KT I!2116 T!2115 !60-34 0x1 
+T "" KE I!2117 T!119 0x1 EM0:"COSEM_LAYER_FAILURE_NONE" EM1:"COSEM_LAYER_FAILURE_PHY" EM2:"COSEM_LAYER_FAILURE_DATALINK" EM3:"COSEM_LAYER_FAILURE_APPLICATION" 
+T "CosemLayerOfFailure" KT I!2118 T!2117 !68-34 0x1 
+T "" KS I!2119 !72-34 0x6 VM!2120 
+V "exception_pdu" - I!2120 O!2119 T!1696 !73-34 .2 0x6 BO0 BIS48 
+T "CosemExceptionRequest_Params" KT I!2121 T!2119 !74-34 0x6 
+T "" KS I!2122 !78-34 0x52 VM!2123 VM!2124 VM!2125 VM!2126 VM!2127 VM!2128 VM!2129 VM!2130 VM!2131 VM!2132 VM!2133 VM!2134 VM!2135 VM!2136 VM!2143 VM!2144 VM!2145 VM!2146 
+V "protocol_version" - I!2123 O!2122 T!105 !79-34 .1 0x1 BO0 BIS8 
+V "application_context_name" - I!2124 O!2122 T!1198 !80-34 .2 0x4 BO16 BIS32 
+V "called_AP_title" - I!2125 O!2122 T!1203 !83-34 .2 0x6 BO48 BIS48 
+V "called_AE_qualifier" - I!2126 O!2122 T!1203 !84-34 .2 0x6 BO96 BIS48 
+V "called_AP_invocation_id" - I!2127 O!2122 T!1207 !85-34 .1 0x2 BO144 BIS16 
+V "called_AE_invocation_id" - I!2128 O!2122 T!1207 !86-34 .1 0x2 BO160 BIS16 
+V "calling_AP_title" - I!2129 O!2122 T!1203 !89-34 .2 0x6 BO176 BIS48 
+V "calling_AE_qualifier" - I!2130 O!2122 T!1203 !90-34 .2 0x6 BO224 BIS48 
+V "calling_AP_invocation_id" - I!2131 O!2122 T!1207 !91-34 .1 0x2 BO272 BIS16 
+V "calling_AE_invocation_id" - I!2132 O!2122 T!1207 !92-34 .1 0x2 BO288 BIS16 
+V "sender_acse_requirements" - I!2133 O!2122 T!1207 !95-34 .1 0x2 BO304 BIS16 
+V "mechanism_name" - I!2134 O!2122 T!1203 !98-34 .2 0x6 BO320 BIS48 
+V "calling_authentication_value" - I!2135 O!2122 T!1203 !101-34 .2 0x6 BO368 BIS48 
+V "implementation_information" - I!2136 O!2122 T!1203 !102-34 .2 0x6 BO416 BIS48 
+T "" KS I!2137 !106-34 0xe VM!2138 VM!2139 VM!2140 VM!2141 VM!2142 
+V "dedicated_key" - I!2138 O!2137 T!1203 !107-34 .2 0x6 BO0 BIS48 
+V "response_allowed" - I!2139 O!2137 T!105 !108-34 .1 0x1 BO48 BIS8 
+V "proposed_dlms_version_number" - I!2140 O!2137 T!105 !109-34 .1 0x1 BO56 BIS8 
+V "proposed_conformance" - I!2141 O!2137 T!1333 !110-34 .1 0x3 BO64 BIS24 
+V "client_max_receive_pdu_size" - I!2142 O!2137 T!108 !111-34 .2 0x2 BO96 BIS16 
+V "proposed_xdlms_context" - I!2143 O!2122 T!2137 !112-34 .2 0xe BO464 BIS112 
+V "user_information" - I!2144 O!2122 T!1203 !114-34 .2 0x6 BO576 BIS48 
+V "service_class" - I!2145 O!2122 T!2112 !115-34 .1 0x1 BO624 BIS8 
+V "p_dispatch_context" - I!2146 O!2122 T!1856 !117-34 .2 0x2 BO640 BIS16 
+T "CosemOpenIndication_Params" KT I!2147 T!2122 !119-34 0x52 
+T "R_COSEM_OPEN_INDICATION_FUNC" KT I!2148 T!2149 !122-34 0x4 
+T "" KP I!2149 T!2150 0x4 
+T "" KF I!2150 T!2 0x0 P!2151 P!2152 
+V "" N I!2151 O!2150 T!1086 .1 0x1 
+V "" N I!2152 O!2150 T!2153 .2 0x2 
+T "" KP I!2153 T!2147 0x2 
+T "" KS I!2154 !126-34 0x3c VM!2155 VM!2156 VM!2157 VM!2158 VM!2159 VM!2160 VM!2161 VM!2162 VM!2163 VM!2164 VM!2165 VM!2166 VM!2172 VM!2173 VM!2174 
+V "protocol_version" - I!2155 O!2154 T!105 !127-34 .1 0x1 BO0 BIS8 
+V "application_context_name" - I!2156 O!2154 T!1198 !128-34 .2 0x4 BO16 BIS32 
+V "result" - I!2157 O!2154 T!1371 !129-34 .1 0x1 BO48 BIS8 
+V "failure_type" - I!2158 O!2154 T!1375 !130-34 .1 0x2 BO56 BIS16 
+V "responding_AP_title" - I!2159 O!2154 T!1203 !131-34 .2 0x6 BO80 BIS48 
+V "responding_AE_qualifier" - I!2160 O!2154 T!1203 !132-34 .2 0x6 BO128 BIS48 
+V "responding_AP_invocation_id" - I!2161 O!2154 T!1207 !133-34 .1 0x2 BO176 BIS16 
+V "responding_AE_invocation_id" - I!2162 O!2154 T!1207 !134-34 .1 0x2 BO192 BIS16 
+V "responder_acse_requirements" - I!2163 O!2154 T!1207 !137-34 .1 0x2 BO208 BIS16 
+V "mechanism_name" - I!2164 O!2154 T!1203 !140-34 .2 0x6 BO224 BIS48 
+V "responding_authentication_value" - I!2165 O!2154 T!1203 !143-34 .2 0x6 BO272 BIS48 
+V "implementation_information" - I!2166 O!2154 T!1203 !144-34 .2 0x6 BO320 BIS48 
+T "" KS I!2167 !148-34 0x8 VM!2168 VM!2169 VM!2170 VM!2171 
+V "negotiated_dlms_version_number" - I!2168 O!2167 T!105 !149-34 .1 0x1 BO0 BIS8 
+V "negotiated_conformance" - I!2169 O!2167 T!1333 !150-34 .1 0x3 BO8 BIS24 
+V "server_max_receive_pdu_size" - I!2170 O!2167 T!108 !151-34 .2 0x2 BO32 BIS16 
+V "vaa_name" - I!2171 O!2167 T!108 !152-34 .2 0x2 BO48 BIS16 
+V "negotiated_xdlms_context" - I!2172 O!2154 T!2167 !153-34 .2 0x8 BO368 BIS64 
+V "xdlms_initiate_error" - I!2173 O!2154 T!1370 !156-34 .1 0x3 BO432 BIS24 
+V "p_dispatch_context" - I!2174 O!2154 T!1856 !158-34 .2 0x2 BO464 BIS16 
+T "CosemOpenResponse_Params" KT I!2175 T!2154 !160-34 0x3c 
+T "" KS I!2176 !164-34 0x18 VM!2177 VM!2178 VM!2185 VM!2186 VM!2187 
+V "use_rlrq_rlre" - I!2177 O!2176 T!105 !165-34 .1 0x1 BO0 BIS8 
+V "reason" - I!2178 O!2176 T!1114 !166-34 .1 0x1 BO8 BIS8 
+T "" KS I!2179 !170-34 0xe VM!2180 VM!2181 VM!2182 VM!2183 VM!2184 
+V "dedicated_key" - I!2180 O!2179 T!1203 !171-34 .2 0x6 BO0 BIS48 
+V "response_allowed" - I!2181 O!2179 T!105 !172-34 .1 0x1 BO48 BIS8 
+V "proposed_dlms_version_number" - I!2182 O!2179 T!105 !173-34 .1 0x1 BO56 BIS8 
+V "proposed_conformance" - I!2183 O!2179 T!1333 !174-34 .1 0x3 BO64 BIS24 
+V "client_max_receive_pdu_size" - I!2184 O!2179 T!108 !175-34 .2 0x2 BO96 BIS16 
+V "proposed_xdlms_context" - I!2185 O!2176 T!2179 !176-34 .2 0xe BO16 BIS112 
+V "user_information" - I!2186 O!2176 T!1203 !178-34 .2 0x6 BO128 BIS48 
+V "p_dispatch_context" - I!2187 O!2176 T!1856 !179-34 .2 0x2 BO176 BIS16 
+T "CosemReleaseIndication_Params" KT I!2188 T!2176 !181-34 0x18 
+T "R_COSEM_RELEASE_INDICATION_FUNC" KT I!2189 T!2190 !184-34 0x4 
+T "" KP I!2190 T!2191 0x4 
+T "" KF I!2191 T!2 0x0 P!2192 P!2193 
+V "" N I!2192 O!2191 T!1086 .1 0x1 
+V "" N I!2193 O!2191 T!2194 .2 0x2 
+T "" KP I!2194 T!2188 0x2 
+T "" KS I!2195 !188-34 0x18 VM!2196 VM!2200 VM!2207 VM!2208 VM!2209 VM!2210 
+V "use_rlrq_rlre" - I!2196 O!2195 T!105 !189-34 .1 0x1 BO0 BIS8 
+T "" KS I!2197 !192-34 0x2 VM!2198 VM!2199 
+V "use" - I!2198 O!2197 T!105 !193-34 .1 0x1 BO0 BIS8 
+V "value" - I!2199 O!2197 T!1116 !194-34 .1 0x1 BO8 BIS8 
+V "reason" - I!2200 O!2195 T!2197 !195-34 .1 0x2 BO8 BIS16 
+T "" KS I!2201 !198-34 0xa VM!2202 VM!2203 VM!2204 VM!2205 VM!2206 
+V "use" - I!2202 O!2201 T!105 !199-34 .1 0x1 BO0 BIS8 
+V "negotiated_dlms_version_number" - I!2203 O!2201 T!105 !200-34 .1 0x1 BO8 BIS8 
+V "negotiated_conformance" - I!2204 O!2201 T!1333 !201-34 .1 0x3 BO16 BIS24 
+V "server_max_receive_pdu_size" - I!2205 O!2201 T!108 !202-34 .2 0x2 BO48 BIS16 
+V "vaa_name" - I!2206 O!2201 T!108 !203-34 .2 0x2 BO64 BIS16 
+V "negotiated_xdlms_context" - I!2207 O!2195 T!2201 !204-34 .2 0xa BO32 BIS80 
+V "result" - I!2208 O!2195 T!2116 !205-34 .1 0x1 BO112 BIS8 
+V "user_information" - I!2209 O!2195 T!1203 !206-34 .2 0x6 BO128 BIS48 
+V "p_dispatch_context" - I!2210 O!2195 T!1856 !207-34 .2 0x2 BO176 BIS16 
+T "CosemReleaseResponse_Params" KT I!2211 T!2195 !209-34 0x18 
+T "" KS I!2212 !212-34 0x6 VM!2213 
+V "diagnostics" - I!2213 O!2212 T!1203 !213-34 .2 0x6 BO0 BIS48 
+T "CosemAbortIndication_Params" KT I!2214 T!2212 !214-34 0x6 
+T "R_COSEM_ABORT_INDICATION_FUNC" KT I!2215 T!2216 !217-34 0x4 
+T "" KP I!2216 T!2217 0x4 
+T "" KF I!2217 T!2 0x0 P!2218 P!2219 
+V "" N I!2218 O!2217 T!1086 .1 0x1 
+V "" N I!2219 O!2217 T!2220 .2 0x2 
+T "" KP I!2220 T!2214 0x2 
+T "" KE I!2221 T!119 0x1 EM0:"COSEM_GET_REQUEST_NORMAL" EM1:"COSEM_GET_REQUEST_NEXT" EM2:"COSEM_GET_REQUEST_WITH_LIST" 
+T "CosemGetRequestType" KT I!2222 T!2221 !225-34 0x1 
+T "" KS I!2223 !228-34 0xe VM!2224 VM!2225 VM!2226 VM!2227 VM!2232 VM!2233 VM!2234 
+V "invoke_id" - I!2224 O!2223 T!105 !229-34 .1 0x1 BO0 BIS8 
+V "priority" - I!2225 O!2223 T!105 !230-34 .1 0x1 BO8 BIS8 
+V "service_class" - I!2226 O!2223 T!2112 !231-34 .1 0x1 BO16 BIS8 
+V "request_type" - I!2227 O!2223 T!2222 !232-34 .1 0x1 BO24 BIS8 
+T "" KS I!2228 !234-34 0x4 VM!2229 VM!2231 
+V "p_list" - I!2229 O!2228 T!2230 !235-34 .2 0x2 BO0 BIS16 
+T "" KP I!2230 T!1460 0x2 
+V "length" - I!2231 O!2228 T!108 !236-34 .2 0x2 BO16 BIS16 
+V "cosem_attr_descriptor" - I!2232 O!2223 T!2228 !237-34 .2 0x4 BO32 BIS32 
+V "block_number" - I!2233 O!2223 T!111 !238-34 .2 0x4 BO64 BIS32 
+V "p_dispatch_context" - I!2234 O!2223 T!1856 !239-34 .2 0x2 BO96 BIS16 
+T "CosemGetIndication_Params" KT I!2235 T!2223 !240-34 0xe 
+T "R_COSEM_GET_INDICATION_FUNC" KT I!2236 T!2237 !243-34 0x4 
+T "" KP I!2237 T!2238 0x4 
+T "" KF I!2238 T!2 0x0 P!2239 P!2240 
+V "" N I!2239 O!2238 T!1086 .1 0x1 
+V "" N I!2240 O!2238 T!2241 .2 0x2 
+T "" KP I!2241 T!2235 0x2 
+T "" KE I!2242 T!119 0x1 EM0:"COSEM_GET_RESPONSE_NORMAL" EM1:"COSEM_GET_RESPONSE_ONE_BLOCK" EM2:"COSEM_GET_RESPONSE_LAST_BLOCK" EM3:"COSEM_GET_RESPONSE_WITH_LIST" 
+T "CosemGetResponseType" KT I!2243 T!2242 !251-34 0x1 
+T "" KS I!2244 !254-34 0x12 VM!2245 VM!2246 VM!2247 VM!2248 VM!2256 VM!2257 
+V "invoke_id" - I!2245 O!2244 T!105 !255-34 .1 0x1 BO0 BIS8 
+V "priority" - I!2246 O!2244 T!105 !256-34 .1 0x1 BO8 BIS8 
+V "service_class" - I!2247 O!2244 T!2112 !257-34 .1 0x1 BO16 BIS8 
+V "response_type" - I!2248 O!2244 T!2243 !258-34 .1 0x1 BO24 BIS8 
+T "" KU I!2249 !260-34 0xc VM!2254 VM!2255 
+T "" KS I!2250 !262-34 0x4 VM!2251 VM!2253 
+V "p_list" - I!2251 O!2250 T!2252 !263-34 .2 0x2 BO0 BIS16 
+T "" KP I!2252 T!1481 0x2 
+V "length" - I!2253 O!2250 T!108 !264-34 .2 0x2 BO16 BIS16 
+V "get_data_result" - I!2254 O!2249 T!2250 !265-34 .2 0x4 BO0 BIS32 
+V "data_block_g" - I!2255 O!2249 T!1494 !267-34 .2 0xc BO0 BIS96 
+V "result" - I!2256 O!2244 T!2249 !269-34 .2 0xc BO32 BIS96 
+V "p_dispatch_context" - I!2257 O!2244 T!1856 !270-34 .2 0x2 BO128 BIS16 
+T "CosemGetResponse_Params" KT I!2258 T!2244 !271-34 0x12 
+T "" KE I!2259 T!119 0x1 EM0:"COSEM_SET_REQUEST_NORMAL" EM1:"COSEM_SET_REQUEST_FIRST_BLOCK" EM2:"COSEM_SET_REQUEST_ONE_BLOCK" EM3:"COSEM_SET_REQUEST_LAST_BLOCK" EM4:"COSEM_SET_REQUEST_WITH_LIST" EM5:"COSEM_SET_REQUEST_FIRST_BLOCK_WITH_LIST" 
+T "CosemSetRequestType" KT I!2260 T!2259 !282-34 0x1 
+T "" KS I!2261 !285-34 0x18 VM!2262 VM!2263 VM!2264 VM!2265 VM!2269 VM!2273 VM!2274 VM!2275 
+V "invoke_id" - I!2262 O!2261 T!105 !286-34 .1 0x1 BO0 BIS8 
+V "priority" - I!2263 O!2261 T!105 !287-34 .1 0x1 BO8 BIS8 
+V "service_class" - I!2264 O!2261 T!2112 !288-34 .1 0x1 BO16 BIS8 
+V "request_type" - I!2265 O!2261 T!2260 !289-34 .1 0x1 BO24 BIS8 
+T "" KS I!2266 !291-34 0x4 VM!2267 VM!2268 
+V "p_list" - I!2267 O!2266 T!2230 !292-34 .2 0x2 BO0 BIS16 
+V "length" - I!2268 O!2266 T!108 !293-34 .2 0x2 BO16 BIS16 
+V "cosem_attr_descriptor" - I!2269 O!2261 T!2266 !294-34 .2 0x4 BO32 BIS32 
+T "" KS I!2270 !296-34 0x4 VM!2271 VM!2272 
+V "p_list" - I!2271 O!2270 T!2068 !297-34 .2 0x2 BO0 BIS16 
+V "length" - I!2272 O!2270 T!108 !298-34 .2 0x2 BO16 BIS16 
+V "data" - I!2273 O!2261 T!2270 !299-34 .2 0x4 BO64 BIS32 
+V "data_block_sa" - I!2274 O!2261 T!1517 !300-34 .2 0xa BO96 BIS80 
+V "p_dispatch_context" - I!2275 O!2261 T!1856 !301-34 .2 0x2 BO176 BIS16 
+T "CosemSetIndication_Params" KT I!2276 T!2261 !302-34 0x18 
+T "R_COSEM_SET_INDICATION_FUNC" KT I!2277 T!2278 !305-34 0x4 
+T "" KP I!2278 T!2279 0x4 
+T "" KF I!2279 T!2 0x0 P!2280 P!2281 
+V "" N I!2280 O!2279 T!1086 .1 0x1 
+V "" N I!2281 O!2279 T!2282 .2 0x2 
+T "" KP I!2282 T!2276 0x2 
+T "" KE I!2283 T!119 0x1 EM0:"COSEM_SET_RESPONSE_NORMAL" EM1:"COSEM_SET_RESPONSE_ACK_BLOCK" EM2:"COSEM_SET_RESPONSE_LAST_BLOCK" EM3:"COSEM_SET_RESPONSE_LAST_BLOCK_WITH_LIST" EM4:"COSEM_SET_RESPONSE_WITH_LIST" 
+T "CosemSetResponseType" KT I!2284 T!2283 !314-34 0x1 
+T "" KS I!2285 !317-34 0xe VM!2286 VM!2287 VM!2288 VM!2289 VM!2294 VM!2295 VM!2296 
+V "invoke_id" - I!2286 O!2285 T!105 !318-34 .1 0x1 BO0 BIS8 
+V "priority" - I!2287 O!2285 T!105 !319-34 .1 0x1 BO8 BIS8 
+V "service_class" - I!2288 O!2285 T!2112 !320-34 .1 0x1 BO16 BIS8 
+V "response_type" - I!2289 O!2285 T!2284 !321-34 .1 0x1 BO24 BIS8 
+T "" KS I!2290 !323-34 0x4 VM!2291 VM!2293 
+V "p_list" - I!2291 O!2290 T!2292 !324-34 .2 0x2 BO0 BIS16 
+T "" KP I!2292 T!1161 0x2 
+V "length" - I!2293 O!2290 T!108 !325-34 .2 0x2 BO16 BIS16 
+V "result" - I!2294 O!2285 T!2290 !326-34 .2 0x4 BO32 BIS32 
+V "block_number" - I!2295 O!2285 T!111 !327-34 .2 0x4 BO64 BIS32 
+V "p_dispatch_context" - I!2296 O!2285 T!1856 !328-34 .2 0x2 BO96 BIS16 
+T "CosemSetResponse_Params" KT I!2297 T!2285 !329-34 0xe 
+T "" KE I!2298 T!119 0x1 EM0:"COSEM_ACTION_REQUEST_NORMAL" EM1:"COSEM_ACTION_REQUEST_NEXT" EM2:"COSEM_ACTION_REQUEST_FIRST_BLOCK" EM3:"COSEM_ACTION_REQUEST_ONE_BLOCK" EM4:"COSEM_ACTION_REQUEST_LAST_BLOCK" EM5:"COSEM_ACTION_REQUEST_WITH_LIST" EM6:"COSEM_ACTION_REQUEST_WITH_LIST_AND_FIRST_BLOCK" 
+T "CosemActionRequestType" KT I!2299 T!2298 !341-34 0x1 
+T "" KS I!2300 !344-34 0x1c VM!2301 VM!2302 VM!2303 VM!2304 VM!2309 VM!2313 VM!2314 VM!2315 VM!2316 
+V "invoke_id" - I!2301 O!2300 T!105 !345-34 .1 0x1 BO0 BIS8 
+V "priority" - I!2302 O!2300 T!105 !346-34 .1 0x1 BO8 BIS8 
+V "service_class" - I!2303 O!2300 T!2112 !347-34 .1 0x1 BO16 BIS8 
+V "request_type" - I!2304 O!2300 T!2299 !348-34 .1 0x1 BO24 BIS8 
+T "" KS I!2305 !350-34 0x4 VM!2306 VM!2308 
+V "p_list" - I!2306 O!2305 T!2307 !351-34 .2 0x2 BO0 BIS16 
+T "" KP I!2307 T!1601 0x2 
+V "length" - I!2308 O!2305 T!108 !352-34 .2 0x2 BO16 BIS16 
+V "cosem_method_descriptor" - I!2309 O!2300 T!2305 !353-34 .2 0x4 BO32 BIS32 
+T "" KS I!2310 !355-34 0x4 VM!2311 VM!2312 
+V "p_list" - I!2311 O!2310 T!2068 !356-34 .2 0x2 BO0 BIS16 
+V "length" - I!2312 O!2310 T!108 !357-34 .2 0x2 BO16 BIS16 
+V "method_invocation_parameters" - I!2313 O!2300 T!2310 !358-34 .2 0x4 BO64 BIS32 
+V "data_block_sa" - I!2314 O!2300 T!1517 !359-34 .2 0xa BO96 BIS80 
+V "block_number" - I!2315 O!2300 T!111 !360-34 .2 0x4 BO176 BIS32 
+V "p_dispatch_context" - I!2316 O!2300 T!1856 !361-34 .2 0x2 BO208 BIS16 
+T "CosemActionIndication_Params" KT I!2317 T!2300 !362-34 0x1c 
+T "R_COSEM_ACTION_INDICATION_FUNC" KT I!2318 T!2319 !365-34 0x4 
+T "" KP I!2319 T!2320 0x4 
+T "" KF I!2320 T!2 0x0 P!2321 P!2322 
+V "" N I!2321 O!2320 T!1086 .1 0x1 
+V "" N I!2322 O!2320 T!2323 .2 0x2 
+T "" KP I!2323 T!2317 0x2 
+T "" KE I!2324 T!119 0x1 EM0:"COSEM_ACTION_RESPONSE_NORMAL" EM1:"COSEM_ACTION_RESPONSE_ONE_BLOCK" EM2:"COSEM_ACTION_RESPONSE_LAST_BLOCK" EM3:"COSEM_ACTION_RESPONSE_NEXT" EM4:"COSEM_ACTION_RESPONSE_WITH_LIST" 
+T "CosemActionResponseType" KT I!2325 T!2324 !374-34 0x1 
+T "" KS I!2326 !377-34 0x18 VM!2327 VM!2328 VM!2329 VM!2330 VM!2334 VM!2335 VM!2336 VM!2337 
+V "invoke_id" - I!2327 O!2326 T!105 !378-34 .1 0x1 BO0 BIS8 
+V "priority" - I!2328 O!2326 T!105 !379-34 .1 0x1 BO8 BIS8 
+V "service_class" - I!2329 O!2326 T!2112 !380-34 .1 0x1 BO16 BIS8 
+V "response_type" - I!2330 O!2326 T!2325 !381-34 .1 0x1 BO24 BIS8 
+T "" KS I!2331 !383-34 0x4 VM!2332 VM!2333 
+V "p_list" - I!2332 O!2331 T!2013 !384-34 .2 0x2 BO0 BIS16 
+V "length" - I!2333 O!2331 T!108 !385-34 .2 0x2 BO16 BIS16 
+V "action_response" - I!2334 O!2326 T!2331 !386-34 .2 0x4 BO32 BIS32 
+V "data_block_sa" - I!2335 O!2326 T!1517 !387-34 .2 0xa BO64 BIS80 
+V "block_number" - I!2336 O!2326 T!111 !388-34 .2 0x4 BO144 BIS32 
+V "p_dispatch_context" - I!2337 O!2326 T!1856 !389-34 .2 0x2 BO176 BIS16 
+T "CosemActionResponse_Params" KT I!2338 T!2326 !390-34 0x18 
+T "" KS I!2339 !393-34 0x1c VM!2340 VM!2341 VM!2342 VM!2343 VM!2344 
+V "time" - I!2340 O!2339 T!1203 !394-34 .2 0x6 BO0 BIS48 
+V "app_addresses" - I!2341 O!2339 T!1203 !395-34 .2 0x6 BO48 BIS48 
+V "cosem_attribute_descriptor" - I!2342 O!2339 T!1442 !396-34 .2 0xa BO96 BIS80 
+V "attribute_value" - I!2343 O!2339 T!1198 !397-34 .2 0x4 BO176 BIS32 
+V "p_dispatch_context" - I!2344 O!2339 T!1856 !398-34 .2 0x2 BO208 BIS16 
+T "CosemEventNotificationRequest_Params" KT I!2345 T!2339 !399-34 0x1c 
+T "" KS I!2346 !402-34 0x12 VM!2347 VM!2348 VM!2349 VM!2350 VM!2351 
+V "long_invoke_id" - I!2347 O!2346 T!111 !403-34 .2 0x4 BO0 BIS32 
+V "priority" - I!2348 O!2346 T!105 !404-34 .1 0x1 BO32 BIS8 
+V "time" - I!2349 O!2346 T!1203 !405-34 .2 0x6 BO48 BIS48 
+V "notification_body" - I!2350 O!2346 T!1198 !406-34 .2 0x4 BO96 BIS32 
+V "p_dispatch_context" - I!2351 O!2346 T!1856 !407-34 .2 0x2 BO128 BIS16 
+T "CosemDataNotificationRequest_Params" KT I!2352 T!2346 !408-34 0x12 
+T "tagCosemApplicationServiceData" KS I!2353 !411-34 0x1e VM!2354 VM!2355 VM!2356 VM!2357 VM!2358 VM!2359 VM!2360 VM!2361 VM!2362 VM!2363 VM!2396 
+V "req_mgmt_channel" - I!2354 O!2353 T!1086 !413-34 .1 0x1 BO0 BIS8 
+V "req_channel_type" - I!2355 O!2353 T!1088 !414-34 .1 0x1 BO8 BIS8 
+V "req_event_mgmt_channel" - I!2356 O!2353 T!1086 !415-34 .1 0x1 BO16 BIS8 
+V "req_event_channel_type" - I!2357 O!2353 T!1088 !416-34 .1 0x1 BO24 BIS8 
+V "cnf_mgmt_channel" - I!2358 O!2353 T!1086 !418-34 .1 0x1 BO32 BIS8 
+V "cnf_channel_type" - I!2359 O!2353 T!1088 !419-34 .1 0x1 BO40 BIS8 
+V "cnf_result" - I!2360 O!2353 T!717 !420-34 .1 0x1 BO48 BIS8 
+V "state" - I!2361 O!2353 T!2110 !422-34 .1 0x1 BO56 BIS8 
+V "p_security_context" - I!2362 O!2353 T!1810 !424-34 .2 0x2 BO64 BIS16 
+V "p_dispatch_context" - I!2363 O!2353 T!1856 !425-34 .2 0x2 BO80 BIS16 
+T "" KU I!2364 !428-34 0x12 VM!2369 VM!2382 VM!2395 
+T "" KS I!2365 !429-34 0xe VM!2366 VM!2367 VM!2368 
+V "dest_msap" - I!2366 O!2365 T!709 !430-34 .2 0x6 BO0 BIS48 
+V "src_msap" - I!2367 O!2365 T!709 !431-34 .2 0x6 BO48 BIS48 
+V "frame_type" - I!2368 O!2365 T!704 !432-34 .1 0x1 BO96 BIS8 
+V "hdlc" - I!2369 O!2364 T!2365 !433-34 .2 0xe BO0 BIS112 
+T "" KS I!2370 !435-34 0x12 VM!2371 VM!2372 VM!2373 VM!2374 VM!2375 VM!2376 VM!2381 
+V "local_wport" - I!2371 O!2370 T!871 !436-34 .2 0x2 BO0 BIS16 
+V "remote_wport" - I!2372 O!2370 T!871 !437-34 .2 0x2 BO16 BIS16 
+V "local_udp_port" - I!2373 O!2370 T!476 !438-34 .2 0x2 BO32 BIS16 
+V "remote_udp_port" - I!2374 O!2370 T!476 !439-34 .2 0x2 BO48 BIS16 
+V "local_ip_address" - I!2375 O!2370 T!474 !440-34 .2 0x2 BO64 BIS16 
+V "remote_ip_address" - I!2376 O!2370 T!474 !441-34 .2 0x2 BO80 BIS16 
+T "" KS I!2377 !443-34 0x6 VM!2378 VM!2379 VM!2380 
+V "remote_wport" - I!2378 O!2377 T!871 !444-34 .2 0x2 BO0 BIS16 
+V "remote_udp_port" - I!2379 O!2377 T!476 !445-34 .2 0x2 BO16 BIS16 
+V "remote_ip_address" - I!2380 O!2377 T!474 !446-34 .2 0x2 BO32 BIS16 
+V "event" - I!2381 O!2370 T!2377 !447-34 .2 0x6 BO96 BIS48 
+V "udp" - I!2382 O!2364 T!2370 !449-34 .2 0x12 BO0 BIS144 
+T "" KS I!2383 !451-34 0x12 VM!2384 VM!2385 VM!2386 VM!2387 VM!2388 VM!2389 VM!2394 
+V "local_wport" - I!2384 O!2383 T!871 !452-34 .2 0x2 BO0 BIS16 
+V "remote_wport" - I!2385 O!2383 T!871 !453-34 .2 0x2 BO16 BIS16 
+V "local_tcp_port" - I!2386 O!2383 T!513 !454-34 .2 0x2 BO32 BIS16 
+V "remote_tcp_port" - I!2387 O!2383 T!513 !455-34 .2 0x2 BO48 BIS16 
+V "local_ip_address" - I!2388 O!2383 T!474 !456-34 .2 0x2 BO64 BIS16 
+V "remote_ip_address" - I!2389 O!2383 T!474 !457-34 .2 0x2 BO80 BIS16 
+T "" KS I!2390 !459-34 0x6 VM!2391 VM!2392 VM!2393 
+V "remote_wport" - I!2391 O!2390 T!871 !460-34 .2 0x2 BO0 BIS16 
+V "remote_tcp_port" - I!2392 O!2390 T!513 !461-34 .2 0x2 BO16 BIS16 
+V "remote_ip_address" - I!2393 O!2390 T!474 !462-34 .2 0x2 BO32 BIS16 
+V "event" - I!2394 O!2383 T!2390 !463-34 .2 0x6 BO96 BIS48 
+V "tcp" - I!2395 O!2364 T!2383 !465-34 .2 0x12 BO0 BIS144 
+V "addr" - I!2396 O!2353 T!2364 !467-34 .2 0x12 BO96 BIS144 
+T "CosemApplicationServiceData" KT I!2397 T!2353 !469-34 0x1e 
+T "AsscChannel" KT I!2398 T!105 !471-34 0x1 
+F "R_COSEM_Init" F I!2399 T!2 ?481-34 
+F "R_COSEM_GetState" F I!2400 T!2110 ?482-34 P!2401 
+V "" N I!2401 O!2400 T!1086 .1 0x1 
+F "R_COSEM_PollingProcessing" F I!2402 T!2 ?483-34 
+F "R_COSEM_OPEN_RegisterIndicationCallback" F I!2403 T!2 ?486-34 P!2404 
+V "" N I!2404 O!2403 T!2148 .2 0x4 
+F "R_COSEM_OPEN_Response" F I!2405 T!105 ?487-34 P!2406 P!2407 
+V "" N I!2406 O!2405 T!1086 .1 0x1 
+V "" N I!2407 O!2405 T!2408 .2 0x2 
+T "" KP I!2408 T!2175 0x2 
+F "R_COSEM_RELEASE_RegisterIndicationCallback" F I!2409 T!2 ?490-34 P!2410 
+V "" N I!2410 O!2409 T!2189 .2 0x4 
+F "R_COSEM_RELEASE_Response" F I!2411 T!105 ?491-34 P!2412 P!2413 
+V "" N I!2412 O!2411 T!1086 .1 0x1 
+V "" N I!2413 O!2411 T!2414 .2 0x2 
+T "" KP I!2414 T!2211 0x2 
+F "R_COSEM_ABORT_RegisterIndicationCallback" F I!2415 T!2 ?494-34 P!2416 
+V "" N I!2416 O!2415 T!2215 .2 0x4 
+F "R_COSEM_GET_RegisterIndicationCallback" F I!2417 T!2 ?497-34 P!2418 
+V "" N I!2418 O!2417 T!2236 .2 0x4 
+F "R_COSEM_GET_Response" F I!2419 T!105 ?498-34 P!2420 P!2421 
+V "" N I!2420 O!2419 T!1086 .1 0x1 
+V "" N I!2421 O!2419 T!2422 .2 0x2 
+T "" KP I!2422 T!2258 0x2 
+F "R_COSEM_SET_RegisterIndicationCallback" F I!2423 T!2 ?501-34 P!2424 
+V "" N I!2424 O!2423 T!2277 .2 0x4 
+F "R_COSEM_SET_Response" F I!2425 T!105 ?502-34 P!2426 P!2427 
+V "" N I!2426 O!2425 T!1086 .1 0x1 
+V "" N I!2427 O!2425 T!2428 .2 0x2 
+T "" KP I!2428 T!2297 0x2 
+F "R_COSEM_ACTION_RegisterIndicationCallback" F I!2429 T!2 ?505-34 P!2430 
+V "" N I!2430 O!2429 T!2318 .2 0x4 
+F "R_COSEM_ACTION_Response" F I!2431 T!105 ?506-34 P!2432 P!2433 
+V "" N I!2432 O!2431 T!1086 .1 0x1 
+V "" N I!2433 O!2431 T!2434 .2 0x2 
+T "" KP I!2434 T!2338 0x2 
+F "R_COSEM_EVENT_NOTIFICATION_Request" F I!2435 T!105 ?509-34 P!2436 P!2437 
+V "" N I!2436 O!2435 T!1086 .1 0x1 
+V "" N I!2437 O!2435 T!2438 .2 0x2 
+T "" KP I!2438 T!2345 0x2 
+F "R_COSEM_EVENT_NOTIFICATION_SetUdpDestination" F I!2439 T!105 ?510-34 P!2440 P!2441 P!2442 P!2443 
+V "" N I!2440 O!2439 T!1086 .1 0x1 
+V "" N I!2441 O!2439 T!871 .2 0x2 
+V "" N I!2442 O!2439 T!476 .2 0x2 
+V "" N I!2443 O!2439 T!474 .2 0x2 
+F "R_COSEM_EVENT_NOTIFICATION_SetTcpDestination" F I!2444 T!105 ?516-34 P!2445 P!2446 P!2447 P!2448 
+V "" N I!2445 O!2444 T!1086 .1 0x1 
+V "" N I!2446 O!2444 T!871 .2 0x2 
+V "" N I!2447 O!2444 T!513 .2 0x2 
+V "" N I!2448 O!2444 T!474 .2 0x2 
+F "R_COSEM_DATA_NOTIFICATION_Request" F I!2449 T!105 ?524-34 P!2450 P!2451 
+V "" N I!2450 O!2449 T!1086 .1 0x1 
+V "" N I!2451 O!2449 T!2452 .2 0x2 
+T "" KP I!2452 T!2352 0x2 
+F "R_COSEM_EXCEPT_Request" F I!2453 T!105 ?529-34 P!2454 P!2455 
+V "" N I!2454 O!2453 T!1086 .1 0x1 
+V "" N I!2455 O!2453 T!2456 .2 0x2 
+T "" KP I!2456 T!2121 0x2 
+T "tagHdlcChannelCfg" KS I!2457 !56-12 0x1c VM!2458 VM!2459 VM!2460 VM!2461 VM!2462 VM!2463 VM!2464 
+V "src_addr" - I!2458 O!2457 T!709 !58-12 .2 0x6 BO0 BIS48 
+V "mac_parameters" - I!2459 O!2457 T!715 !59-12 .2 0xc BO48 BIS96 
+V "inactivity_ms" - I!2460 O!2457 T!108 !60-12 .2 0x2 BO144 BIS16 
+V "tx_buffer" - I!2461 O!2457 T!135 !61-12 .2 0x2 BO160 BIS16 
+V "tx_buffer_size" - I!2462 O!2457 T!108 !62-12 .2 0x2 BO176 BIS16 
+V "unnumbered_buffer" - I!2463 O!2457 T!135 !63-12 .2 0x2 BO192 BIS16 
+V "unnumbered_buffer_size" - I!2464 O!2457 T!108 !64-12 .2 0x2 BO208 BIS16 
+T "HdlcChannelCfg" KT I!2465 T!2457 !65-12 0x1c 
+T "tagPhyChannelCfg" KS I!2466 !67-12 0x12 VM!2467 VM!2468 VM!2469 VM!2470 VM!2471 VM!2472 VM!2473 VM!2474 
+V "baudrate" - I!2467 O!2466 T!275 !69-12 .1 0x1 BO0 BIS8 
+V "use_iec" - I!2468 O!2466 T!105 !70-12 .1 0x1 BO8 BIS8 
+V "iec_device_info" - I!2469 O!2466 T!284 !71-12 .2 0x6 BO16 BIS48 
+V "interframe_ms" - I!2470 O!2466 T!108 !72-12 .2 0x2 BO64 BIS16 
+V "rx_buffer" - I!2471 O!2466 T!135 !73-12 .2 0x2 BO80 BIS16 
+V "rx_buffer_size" - I!2472 O!2466 T!108 !74-12 .2 0x2 BO96 BIS16 
+V "apdu_buffer" - I!2473 O!2466 T!135 !75-12 .2 0x2 BO112 BIS16 
+V "apdu_buffer_size" - I!2474 O!2466 T!108 !76-12 .2 0x2 BO128 BIS16 
+T "PhyChannelCfg" KT I!2475 T!2466 !77-12 0x12 
+T "tagUdpChannelCfg" KS I!2476 !79-12 0xe VM!2477 VM!2478 VM!2479 VM!2480 VM!2481 VM!2482 VM!2483 
+V "local_wport" - I!2477 O!2476 T!871 !81-12 .2 0x2 BO0 BIS16 
+V "auto_update_config" - I!2478 O!2476 T!105 !82-12 .1 0x1 BO16 BIS8 
+V "p_udp_port_config" - I!2479 O!2476 T!493 !83-12 .2 0x2 BO32 BIS16 
+V "udp_receive_buff" - I!2480 O!2476 T!135 !84-12 .2 0x2 BO48 BIS16 
+V "udp_receive_buff_length" - I!2481 O!2476 T!108 !85-12 .2 0x2 BO64 BIS16 
+V "inactivity_ms" - I!2482 O!2476 T!108 !86-12 .2 0x2 BO80 BIS16 
+V "interframe_ms" - I!2483 O!2476 T!108 !87-12 .2 0x2 BO96 BIS16 
+T "UdpChannelCfg" KT I!2484 T!2476 !88-12 0xe 
+T "tagTcpChannelCfg" KS I!2485 !90-12 0xe VM!2486 VM!2487 VM!2488 VM!2489 VM!2490 VM!2491 VM!2492 
+V "local_wport" - I!2486 O!2485 T!871 !92-12 .2 0x2 BO0 BIS16 
+V "auto_update_config" - I!2487 O!2485 T!105 !93-12 .1 0x1 BO16 BIS8 
+V "p_tcp_port_config" - I!2488 O!2485 T!532 !94-12 .2 0x2 BO32 BIS16 
+V "tcp_receive_buff" - I!2489 O!2485 T!135 !95-12 .2 0x2 BO48 BIS16 
+V "tcp_receive_buff_length" - I!2490 O!2485 T!108 !96-12 .2 0x2 BO64 BIS16 
+V "inactivity_ms" - I!2491 O!2485 T!108 !97-12 .2 0x2 BO80 BIS16 
+V "interframe_ms" - I!2492 O!2485 T!108 !98-12 .2 0x2 BO96 BIS16 
+T "TcpChannelCfg" KT I!2493 T!2485 !99-12 0xe 
+T "tagAssociationCfg" KS I!2494 !101-12 0x18 VM!2495 VM!2496 VM!2497 VM!2498 VM!2499 VM!2500 VM!2501 VM!2502 VM!2503 VM!2504 VM!2505 VM!2506 VM!2507 
+V "pre_established" - I!2495 O!2494 T!105 !103-12 .1 0x1 BO0 BIS8 
+V "remote_mac_addr" - I!2496 O!2494 T!105 !104-12 .1 0x1 BO8 BIS8 
+V "remote_wport" - I!2497 O!2494 T!871 !105-12 .2 0x2 BO16 BIS16 
+V "context_id" - I!2498 O!2494 T!105 !106-12 .1 0x1 BO32 BIS8 
+V "p_security_context" - I!2499 O!2494 T!1810 !107-12 .2 0x2 BO48 BIS16 
+V "mechanism_id" - I!2500 O!2494 T!105 !108-12 .1 0x1 BO64 BIS8 
+V "authentication_value" - I!2501 O!2494 T!1198 !109-12 .2 0x4 BO80 BIS32 
+V "StoC" - I!2502 O!2494 T!1198 !110-12 .2 0x4 BO112 BIS32 
+V "dlms_version_number" - I!2503 O!2494 T!105 !111-12 .1 0x1 BO144 BIS8 
+V "conformance_byte0" - I!2504 O!2494 T!105 !112-12 .1 0x1 BO152 BIS8 
+V "conformance_byte1" - I!2505 O!2494 T!105 !113-12 .1 0x1 BO160 BIS8 
+V "conformance_byte2" - I!2506 O!2494 T!105 !114-12 .1 0x1 BO168 BIS8 
+V "vaa_name" - I!2507 O!2494 T!108 !115-12 .2 0x2 BO176 BIS16 
+T "AssociationCfg" KT I!2508 T!2494 !117-12 0x18 
+T "tagDlmsLibraryConfig" KS I!2509 !119-12 0x1 VM!2510 
+V "HDLC_PHY_one_one" V I!2510 O!2509 T!105 !130-12 .1 0x1 BO0 BIS8 
+T "DlmsLibraryConfig" KT I!2511 T!2509 !132-12 0x1 
+T "R_DLMS_LP_ASSOCIATION_OPENING_INDICATION_FUNC" KT I!2512 T!2513 !135-12 0x4 
+T "" KP I!2513 T!2514 0x4 
+T "" KF I!2514 T!2 0x0 P!2515 P!2516 P!2517 P!2519 P!2520 
+V "" N I!2515 O!2514 T!2398 .1 0x1 
+V "" N I!2516 O!2514 T!135 .2 0x2 
+V "" N I!2517 O!2514 T!2518 .2 0x2 
+T "" MOD"C" KP I!2518 T!2508 0x2 
+V "" N I!2519 O!2514 T!2153 .2 0x2 
+V "" N I!2520 O!2514 T!2408 .2 0x2 
+T "R_DLMS_LP_ASSOCIATION_OPEN_INDICATION_FUNC" KT I!2521 T!2522 !144-12 0x4 
+T "" KP I!2522 T!2523 0x4 
+T "" KF I!2523 T!2 0x0 P!2524 P!2525 P!2526 P!2527 P!2528 P!2529 P!2530 P!2531 P!2532 
+V "" N I!2524 O!2523 T!2398 .1 0x1 
+V "" N I!2525 O!2523 T!108 .2 0x2 
+V "" N I!2526 O!2523 T!108 .2 0x2 
+V "" N I!2527 O!2523 T!2518 .2 0x2 
+V "" N I!2528 O!2523 T!1086 .1 0x1 
+V "" N I!2529 O!2523 T!1333 .1 0x3 
+V "" N I!2530 O!2523 T!108 .2 0x2 
+V "" N I!2531 O!2523 T!1198 .2 0x4 
+V "" N I!2532 O!2523 T!1198 .2 0x4 
+T "R_DLMS_LP_ASSOCIATION_GET_INDICATION_FUNC" KT I!2533 T!2534 !157-12 0x4 
+T "" KP I!2534 T!2535 0x4 
+T "" KF I!2535 T!2 0x0 P!2536 P!2537 
+V "" N I!2536 O!2535 T!1086 .1 0x1 
+V "" N I!2537 O!2535 T!2241 .2 0x2 
+T "R_DLMS_LP_ASSOCIATION_SET_INDICATION_FUNC" KT I!2538 T!2539 !160-12 0x4 
+T "" KP I!2539 T!2540 0x4 
+T "" KF I!2540 T!2 0x0 P!2541 P!2542 
+V "" N I!2541 O!2540 T!1086 .1 0x1 
+V "" N I!2542 O!2540 T!2282 .2 0x2 
+T "R_DLMS_LP_ASSOCIATION_ACTION_INDICATION_FUNC" KT I!2543 T!2544 !163-12 0x4 
+T "" KP I!2544 T!2545 0x4 
+T "" KF I!2545 T!2 0x0 P!2546 P!2547 
+V "" N I!2546 O!2545 T!1086 .1 0x1 
+V "" N I!2547 O!2545 T!2323 .2 0x2 
+T "R_DLMS_LP_ASSOCIATION_CLOSE_INDICATION_FUNC" KT I!2548 T!2549 !166-12 0x4 
+T "" KP I!2549 T!2550 0x4 
+T "" KF I!2550 T!2 0x0 P!2551 P!2552 P!2553 
+V "" N I!2551 O!2550 T!2398 .1 0x1 
+V "" N I!2552 O!2550 T!2518 .2 0x2 
+V "" N I!2553 O!2550 T!1086 .1 0x1 
+V "gp_dlms_process_share_buffer" GN I!2554 T!135 ?180-12 .2 0x2 
+F "R_DLMS_Init" F I!2555 T!2 ?185-12 
+F "R_DLMS_PollingProcessing" F I!2556 T!2 ?186-12 
+F "R_DLMS_ConfigPhyChannel" F I!2557 T!105 ?189-12 P!2558 P!2559 
+V "" N I!2558 O!2557 T!248 .1 0x1 
+V "" N I!2559 O!2557 T!2560 .2 0x2 
+T "" KP I!2560 T!2475 0x2 
+F "R_DLMS_ConfigHdlcChannel" F I!2561 T!105 ?190-12 P!2562 P!2563 
+V "" N I!2562 O!2561 T!696 .1 0x1 
+V "" N I!2563 O!2561 T!2564 .2 0x2 
+T "" KP I!2564 T!2465 0x2 
+F "R_DLMS_ConfigUdpChannel" F I!2565 T!105 ?191-12 P!2566 P!2567 
+V "" N I!2566 O!2565 T!477 .1 0x1 
+V "" N I!2567 O!2565 T!2568 .2 0x2 
+T "" KP I!2568 T!2484 0x2 
+F "R_DLMS_ConfigTcpChannel" F I!2569 T!105 ?192-12 P!2570 P!2571 
+V "" N I!2570 O!2569 T!514 .1 0x1 
+V "" N I!2571 O!2569 T!2572 .2 0x2 
+T "" KP I!2572 T!2493 0x2 
+F "R_DLMS_ActivatePhyChannel" F I!2573 T!105 ?193-12 P!2574 
+V "" N I!2574 O!2573 T!248 .1 0x1 
+F "R_DLMS_DeactivatePhyChannel" F I!2575 T!105 ?194-12 P!2576 
+V "" N I!2576 O!2575 T!248 .1 0x1 
+F "R_DLMS_ActivateChannel" F I!2577 T!105 ?195-12 P!2578 
+V "" N I!2578 O!2577 T!1086 .1 0x1 
+F "R_DLMS_DeactivateChannel" F I!2579 T!105 ?196-12 P!2580 
+V "" N I!2580 O!2579 T!1086 .1 0x1 
+F "R_DLMS_RegisterAsscOpeningIndication" F I!2581 T!2 ?199-12 P!2582 
+V "" N I!2582 O!2581 T!2512 .2 0x4 
+F "R_DLMS_RegisterAsscOpenIndication" F I!2583 T!2 ?200-12 P!2584 
+V "" N I!2584 O!2583 T!2521 .2 0x4 
+F "R_DLMS_RegisterAsscGetIndication" F I!2585 T!2 ?201-12 P!2586 
+V "" N I!2586 O!2585 T!2533 .2 0x4 
+F "R_DLMS_RegisterAsscSetIndication" F I!2587 T!2 ?202-12 P!2588 
+V "" N I!2588 O!2587 T!2538 .2 0x4 
+F "R_DLMS_RegisterAsscActionIndication" F I!2589 T!2 ?203-12 P!2590 
+V "" N I!2590 O!2589 T!2543 .2 0x4 
+F "R_DLMS_RegisterAsscCloseIndication" F I!2591 T!2 ?204-12 P!2592 
+V "" N I!2592 O!2591 T!2548 .2 0x4 
+F "R_DLMS_ConfigAssociation" F I!2593 T!105 ?205-12 P!2594 P!2595 
+V "" N I!2594 O!2593 T!2398 .1 0x1 
+V "" N I!2595 O!2593 T!2518 .2 0x2 
+F "R_DLMS_GetCurrentRequestAsscId" F I!2596 T!106 ?206-12 P!2597 
+V "" N I!2597 O!2596 T!1086 .1 0x1 
+F "R_DLMS_GetPreEstablishedAsscBeingCall" F I!2598 T!106 ?207-12 P!2599 
+V "" N I!2599 O!2598 T!1086 .1 0x1 
+F "R_DLMS_OpenPreEstablishedAssc" F I!2600 T!105 ?208-12 P!2601 P!2602 
+V "" N I!2601 O!2600 T!1086 .1 0x1 
+V "" N I!2602 O!2600 T!2398 .1 0x1 
+F "R_DLMS_ClosePreEstablishedAssc" F I!2603 T!105 ?209-12 P!2604 P!2605 
+V "" N I!2604 O!2603 T!1086 .1 0x1 
+V "" N I!2605 O!2603 T!2398 .1 0x1 
+F "R_DLMS_GetCurrentRequestSecurityContext" F I!2606 T!1810 ?210-12 P!2607 
+V "" N I!2607 O!2606 T!1086 .1 0x1 
+F "R_DLMS_GetConnectedAsscId" F I!2608 T!106 ?211-12 P!2609 
+V "" N I!2609 O!2608 T!1086 .1 0x1 
+F "R_DLMS_IsAsscConnected" F I!2610 T!105 ?212-12 P!2611 
+V "" N I!2611 O!2610 T!2398 .1 0x1 
+V "g_hdlc_ch0" GON I!2612 T!2465 ?74-11 .2 0x1c 
+V "g_phy_ch0" GON I!2613 T!2475 ?75-11 .2 0x12 
+V "g_tcp_ch0_port_config" GN I!2614 T!518 ?110-11 .2 0x4 
+V "g_tcp_ch0" GON I!2615 T!2493 ?111-11 .2 0xe 
+V "g_tcp_ch0_port_config_ip_addr_buffer" GN I!2616 T!2617 ?112-11 .1 0x0 
+T "" KA0 I!2617 T!105 0x0 
+T "tag_association_id_t" KE I!2618 T!119 !175-11 0x1 EM0:"ASSOCIATION_ID_SAS_10H" EM1:"ASSOCIATION_ID_SAS_20H" EM2:"ASSOCIATION_ID_SAS_30H" EM3:"ASSOCIATION_ID_SAS_40H" EM4:"ASSOCIATION_ID_SAS_50H" 
+T "association_id_t" KT I!2619 T!2618 !183-11 0x1 
+V "g_assc0" GON I!2620 T!2508 ?186-11 .2 0x18 
+V "g_assc1" GON I!2621 T!2508 ?187-11 .2 0x18 
+V "g_assc2" GON I!2622 T!2508 ?188-11 .2 0x18 
+V "g_assc3" GON I!2623 T!2508 ?189-11 .2 0x18 
+V "g_assc4" GON I!2624 T!2508 ?190-11 .2 0x18 
+V "gp_asscs" GN I!2625 T!2626 ?193-11 .2 0x0 
+T "" KA0 I!2626 T!2518 0x0 
+V "gp_asscs_size" GON I!2627 T!108 ?194-11 .2 0x2 
+V "g_assc0_security_context" GN I!2628 T!1290 ?199-11 .2 0x26 
+V "g_assc1_security_context" GN I!2629 T!1290 ?200-11 .2 0x26 
+V "g_assc2_security_context" GN I!2630 T!1290 ?201-11 .2 0x26 
+V "g_assc3_security_context" GN I!2631 T!1290 ?202-11 .2 0x26 
+V "g_assc_shared_master_key" GN I!2632 T!2633 ?208-11 .1 0x0 
+T "" KA0 I!2633 T!105 0x0 
+V "g_assc_shared_global_unicast_key" GN I!2634 T!2635 ?209-11 .1 0x0 
+T "" KA0 I!2635 T!105 0x0 
+V "g_assc_shared_global_unicast_key_counter" GN I!2636 T!1272 ?210-11 .2 0x8 
+V "g_assc_shared_global_broadcast_key" GN I!2637 T!2638 ?211-11 .1 0x0 
+T "" KA0 I!2638 T!105 0x0 
+V "g_assc_shared_global_broadcast_key_counter" GN I!2639 T!1272 ?212-11 .2 0x8 
+V "g_server_system_title" GN I!2640 T!2641 ?213-11 .1 0x0 
+T "" KA0 I!2641 T!105 0x0 
+V "g_assc1_secret" GN I!2642 T!2643 ?214-11 .1 0x0 
+T "" KA0 I!2643 T!105 0x0 
+V "g_assc2_secret" GN I!2644 T!2645 ?215-11 .1 0x0 
+T "" KA0 I!2645 T!105 0x0 
+V "g_Challeng_Ass2" GN I!2646 T!2647 ?216-11 .1 0x0 
+T "" KA0 I!2647 T!105 0x0 
+V "g_assc3_secret" GN I!2648 T!2649 ?217-11 .1 0x0 
+T "" KA0 I!2649 T!105 0x0 
+V "g_assc4_secret" GN I!2650 T!2651 ?218-11 .1 0x0 
+T "" KA0 I!2651 T!105 0x0 
+V "g_assc4_client_system_title" GN I!2652 T!2653 ?219-11 .1 0x0 
+T "" KA0 I!2653 T!105 0x0 
+F "R_DLMS_CONFIG_Init" F I!2654 T!2 ?234-11 
+F "R_DLMS_CONFIG_PollingProcessing" F I!2655 T!2 ?235-11 
+F "R_UDP_WRP_UartPhyReceiveData" F I!2656 T!2 ?38-35 P!2657 P!2658 
+V "" N I!2657 O!2656 T!477 .1 0x1 
+V "" N I!2658 O!2656 T!105 .1 0x1 
+F "R_UDP_WRP_UartPhySendEnd" F I!2659 T!2 ?39-35 P!2660 
+V "" N I!2660 O!2659 T!477 .1 0x1 
+F "R_UDP_WRP_ReceiverTimeoutMilisecond" F I!2661 T!2 ?40-35 
+F "R_UDP_WRP_IsConnected" F I!2662 T!105 ?41-35 
+****%CxSystemPath%\inc\builtin.h
+v2 
+:1727622098
+#2
+****..\..\rl78i1c\driver\r_cg_macrodriver.h
+v2 
+:1727622098
+#3
+****..\..\shared\Compiler\CCRL\compiler.h
+v2 
+:1727622098
+#4
+****..\..\shared\Compiler\CCRL\iodefine.h
+v2 
+:1727622098
+#5
+****..\..\shared\Compiler\CCRL\typedef.h
+v2 
+:1727622098
+#6
+****..\..\rl78i1c\driver\r_cg_sau.h
+v2 
+:1727622098
+#7
+****..\..\rl78i1c\driver\r_cg_wdt.h
+v2 
+:1727622098
+#8
+****..\..\rl78i1c\appwrapper\wrp_app_mcu.h
+v2 
+:1727622098
+#9
+****..\..\rl78i1c\appwrapper\wrp_app_uart.h
+v2 
+:1727622098
+#10
+****..\..\rl78i1c\application\dlms2\codegen\r_dlms_config.h
+v2 
+:1727622098
+#11
+****..\..\shared\dlms2\dlmslibrary\header\r_dlms_library_process.h
+v2 
+:1727622098
+#12
+****..\..\shared\dlms2\dlmslibrary\header\r_dlms_library_config.h
+v2 
+:1727622098
+#13
+****..\..\shared\dlms2\dlmslibrary\header\r_dlms_callback.h
+v2 
+:1727622098
+#14
+****..\..\shared\dlms2\dlmslibrary\header\r_dlms_physical.h
+v2 
+:1727622098
+#15
+****..\..\shared\dlms2\dlmslibrary\header\r_dlms_physical_wrapper.h
+v2 
+:1727622098
+#16
+****..\..\shared\dlms2\dlmslibrary\header\r_dlms_timeout_wrapper.h
+v2 
+:1727622098
+#17
+****..\..\shared\dlms2\dlmslibrary\header\r_dlms_udp_wrapper.h
+v2 
+:1727622098
+#18
+****..\..\shared\dlms2\dlmslibrary\header\r_dlms_ip.h
+v2 
+:1727622098
+#19
+****%CxSystemPath%\inc\string.h
+v2 
+:1727622098
+#20
+****%CxSystemPath%\inc\stddef.h
+v2 
+:1727622098
+#21
+****..\..\shared\dlms2\dlmslibrary\header\r_dlms_tcp_wrapper.h
+v2 
+:1727622098
+#22
+****..\..\shared\dlms2\dlmslibrary\header\r_dlms_cosem_aes_gcm_wrapper.h
+v2 
+:1727622098
+#23
+****..\..\shared\dlms2\dlmslibrary\header\r_dlms_mac.h
+v2 
+:1727622098
+#24
+****..\..\shared\dlms2\dlmslibrary\header\r_dlms_hdlc.h
+v2 
+:1727622098
+#25
+****..\..\shared\dlms2\dlmslibrary\header\r_dlms_llc.h
+v2 
+:1727622098
+#26
+****..\..\shared\dlms2\dlmslibrary\header\r_dlms_udp.h
+v2 
+:1727622098
+#27
+****..\..\shared\dlms2\dlmslibrary\header\r_dlms_wpdu.h
+v2 
+:1727622098
+#28
+****..\..\shared\dlms2\dlmslibrary\header\r_dlms_tcp.h
+v2 
+:1727622098
+#29
+****..\..\shared\dlms2\dlmslibrary\header\r_dlms_mgmt.h
+v2 
+:1727622098
+#30
+****..\..\shared\dlms2\dlmslibrary\header\r_dlms_cosem_apdu.h
+v2 
+:1727622098
+#31
+****..\..\shared\dlms2\dlmslibrary\header\r_dlms_cosem_apdutag.h
+v2 
+:1727622098
+#32
+****..\..\shared\dlms2\dlmslibrary\header\r_dlms_cosem_apdu_security.h
+v2 
+:1727622098
+#33
+****..\..\shared\dlms2\dlmslibrary\header\r_dlms_cosem_application.h
+v2 
+:1727622098
+#34
+****..\..\rl78i1c\libwrapper\dlms2\r_dlms_udp_wrapper_interface.h
+v2 
+:1727622098
+#35
+****..\..\rl78i1c\libwrapper\dlms2\r_dlms_com_wrapper_config.h
+v2 
+:1727622098
+#36
